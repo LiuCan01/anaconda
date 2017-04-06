@@ -494,7 +494,7 @@ reposdir=%s
     def mirrorEnabled(self):
         with _yum_lock:
             # we just skip this on CentOS since we cant support it yet
-            if productName.startswith("CentOS"):
+            if productName.startswith("CentOS") or productName.startswith("ESCore"):
               return False
             else:
               # yum initializes with plugins disabled, and when plugins are disabled
