@@ -177,7 +177,7 @@ Requires: keybinder3
 Requires: NetworkManager-wifi
 %endif
 Requires: yelp
-Requires: anaconda-user-help >= %{helpver}
+
 
 # Needed to compile the gsettings files
 BuildRequires: gsettings-desktop-schemas
