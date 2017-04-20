@@ -1,22 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Dimitris Glezos <glezos@transifex.com>, 2011
+# George Machitidze <giomac@gmail.com>, 2006-2007,2012
+# Jan Silhan <jsilhan@redhat.com>, 2015. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-17 09:17-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Georgian (http://www.transifex.com/projects/p/anaconda/"
+"language/ka/)\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -78,10 +82,12 @@ msgstr ""
 msgid "%(desc)s must be within the first %(max_end)s of the disk."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/bootloader.py:515
 #, python-format
 msgid "%s must be on a primary partition."
-msgstr ""
+msgstr "%s უნდა იყოს პირველადი დანაყოფი."
 
 #: pyanaconda/bootloader.py:651 pyanaconda/bootloader.py:751
 #, python-format
@@ -123,19 +129,23 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "VNC-ის გაშვება"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "გამოიყენე ტექსტური რეჟიმი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
-msgstr ""
+msgstr "პაროლი ცარიელია"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:140
 msgid "The passwords do not match."
-msgstr ""
+msgstr "პაროლები არ ემთხვევა"
 
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
@@ -170,30 +180,38 @@ msgstr ""
 msgid "You will have to press Done twice to confirm it."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:149
 msgid "Empty"
-msgstr ""
+msgstr "ცარიელი"
 
 #: pyanaconda/constants.py:150
 msgid "Too short"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:151 pyanaconda/ui/gui/spokes/lib/passphrase.py:124
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:7
 msgid "Weak"
-msgstr ""
+msgstr "სუსტი"
 
 #: pyanaconda/constants.py:152 pyanaconda/ui/gui/spokes/lib/passphrase.py:127
 msgid "Fair"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:153 pyanaconda/ui/gui/spokes/lib/passphrase.py:130
 msgid "Good"
-msgstr ""
+msgstr "კარგი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:154 pyanaconda/ui/gui/spokes/lib/passphrase.py:133
 msgid "Strong"
-msgstr ""
+msgstr "ძლიერი"
 
 #: pyanaconda/errors.py:109
 #, python-format
@@ -225,7 +243,7 @@ msgstr ""
 
 #: pyanaconda/errors.py:133 pyanaconda/ui/gui/main.glade.h:1
 msgid "_Exit Installer"
-msgstr ""
+msgstr "ჩადგმიდან გამო_სვლა"
 
 #: pyanaconda/errors.py:133
 msgid "_Retry"
@@ -416,39 +434,49 @@ msgstr ""
 msgid "Writing network configuration"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:95
 msgid "Creating users"
-msgstr ""
+msgstr "მომხმარებლების შექმნა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:103
 msgid "Configuring addons"
-msgstr ""
+msgstr "დამატებების დაკონფიგურირება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:106
 msgid "Generating initramfs"
-msgstr ""
+msgstr "initramfs-ის დაგენერირება"
 
 #: pyanaconda/install.py:110
 #, python-format
 msgid "Joining realm: %s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:113
 msgid "Running post-installation scripts"
-msgstr ""
+msgstr "ინსტალაციისშემდგომი სცენარების გაშვება"
 
 #: pyanaconda/install.py:166
 #, python-format
 msgid "Waiting for %s threads to finish"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:172
 msgid "Setting up the installation environment"
-msgstr ""
+msgstr "ჩადგმის გარემოს გამართვა"
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "ჩადგმისწინა სცენარების გაშვება"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
@@ -480,6 +508,8 @@ msgstr ""
 msgid "Escrow certificate %s requires the network."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/kickstart.py:173
 #, python-format
 msgid ""
@@ -488,6 +518,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Escrow სერტიფიკატის მიღებისას მოხდა შეცდომა:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:247
 #, python-format
@@ -815,25 +848,31 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
-msgstr ""
+msgstr "დაკავშირება..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/network.py:1438
 msgid "Disconnecting..."
-msgstr ""
+msgstr "კავშირის გაწყვეტა..."
 
 #: pyanaconda/network.py:1459
 #, python-format
 msgid "Wired (%(interface_name)s) connected"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/network.py:1462
 #, python-format
 msgid "Wireless connected to %(access_point)s"
-msgstr ""
+msgstr "უმავთულო კავშირი წეტილთან %(access_point)s"
 
 #: pyanaconda/network.py:1465
 #, python-format
@@ -862,16 +901,20 @@ msgstr ""
 
 #: pyanaconda/network.py:1499
 msgid "Not connected"
-msgstr ""
+msgstr "არაა დაკავშირებული"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/network.py:1502 pyanaconda/ui/gui/spokes/network.glade.h:45
 msgid "No network devices available"
-msgstr ""
+msgstr "ქსელური მოწყობილობები არაა ხელმისაწვდომი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/product.py:53
 #, python-format
 msgid "%(productName)s %(productVersion)s INSTALLATION"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s-ის ჩადგმა"
 
 #: pyanaconda/product.py:57
 #, python-format
@@ -903,11 +946,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "შველა"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "გაგრძელება"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1001,9 +1044,11 @@ msgid ""
 "\n"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "თქვენ არ გაქვთ Linux-ის დანაყოფები.  სისტემა გადაიტვირთება.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1018,34 +1063,42 @@ msgstr ""
 msgid "Please press <return> to get a shell. "
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/storage_utils.py:53 pyanaconda/storage_utils.py:85
 #: pyanaconda/ui/gui/spokes/custom.glade.h:3
 msgid "LVM"
-msgstr ""
+msgstr "LVM"
 
 #: pyanaconda/storage_utils.py:54 pyanaconda/storage_utils.py:86
 #: pyanaconda/ui/gui/spokes/custom.glade.h:5
 msgid "LVM Thin Provisioning"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/storage_utils.py:55 pyanaconda/ui/gui/spokes/custom.glade.h:4
 msgid "RAID"
-msgstr ""
+msgstr "RAID"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/storage_utils.py:56 pyanaconda/storage_utils.py:83
 #: pyanaconda/ui/gui/spokes/custom.glade.h:1
 msgid "Standard Partition"
-msgstr ""
+msgstr "სტანდარტული დანაყოფი"
 
 #: pyanaconda/storage_utils.py:57 pyanaconda/storage_utils.py:84
 #: pyanaconda/ui/gui/spokes/custom.glade.h:2
 msgid "Btrfs"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/storage_utils.py:58
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:5
 msgid "Disk"
-msgstr ""
+msgstr "დისკი"
 
 #: pyanaconda/storage_utils.py:69
 msgid ""
@@ -1188,44 +1241,53 @@ msgstr ""
 msgid "User name must be shorter than 33 characters"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/vnc.py:74
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s ჩადგმა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s-ის ჩადგმა ჰოსტზე %(name)s"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "%s ჰოსტზე vnc კლიენტით დაკავშირების მცდელობა..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "დაკავშირებულია!"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "დაკავშირების მცდელობა განმეორდება 15 წამში..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d წარუმატებელი ცდის შემდეგ თავს ვანებებ დაკავშირების მცდელობას\n"
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "ჩადგმის დასაწყებად დაუკავშირეთ VNC კლიენტი %s -ს"
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1299,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "VNC-ის გაშვება..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC სერვერი გაშვებულია."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1298,16 +1360,20 @@ msgstr ""
 msgid "No installation source available"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/packaging/livepayload.py:98
 #: pyanaconda/packaging/livepayload.py:119
 msgid "Installing software"
-msgstr ""
+msgstr "პროგრამული უზრუნველყოფის ჩადგმა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/packaging/livepayload.py:220
 #: pyanaconda/packaging/livepayload.py:229
 #, python-format
 msgid "Downloading %(url)s (%(pct)d%%)"
-msgstr ""
+msgstr "ჩამოტვირთვა %(url)s (%(pct)d%%)"
 
 #: pyanaconda/packaging/livepayload.py:358
 msgid "Checking image checksum"
@@ -1318,9 +1384,11 @@ msgstr ""
 msgid "CmdlineError: Missing package: %s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/packaging/yumpayload.py:1426
 msgid "Starting package installation process"
-msgstr ""
+msgstr "პაკეტების ჩადგმის დაწყება"
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
@@ -1328,7 +1396,7 @@ msgstr ""
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "ჩადგმა"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
@@ -1352,11 +1420,11 @@ msgstr ""
 
 #: pyanaconda/ui/helpers.py:95 pyanaconda/ui/tui/spokes/storage.py:431
 msgid "Checking storage configuration..."
-msgstr ""
+msgstr "საცავის კონფიგურაციის შემოწმება..."
 
 #: pyanaconda/ui/categories/__init__.py:48
 msgid "DEFAULT TITLE"
-msgstr ""
+msgstr "ნაგულისხმები სათაური"
 
 #: pyanaconda/ui/categories/customization.py:32
 msgid "CUSTOMIZATION"
@@ -1364,20 +1432,24 @@ msgstr ""
 
 #: pyanaconda/ui/categories/localization.py:31
 msgid "LOCALIZATION"
-msgstr ""
+msgstr "ლოკალიზაცია"
 
 #: pyanaconda/ui/categories/software.py:31
 msgid "SOFTWARE"
-msgstr ""
+msgstr "პროგრამული უზრუნველყოფა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/categories/system.py:32
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:166
 msgid "SYSTEM"
-msgstr ""
+msgstr "სისტემა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/categories/user_settings.py:32
 msgid "USER SETTINGS"
-msgstr ""
+msgstr "მომხმარებლის პარამეტრები"
 
 #: pyanaconda/ui/lib/space.py:37
 #, python-format
@@ -1413,7 +1485,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,11 +1512,12 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
-msgstr ""
+msgstr "ჩადგმა"
 
 #: pyanaconda/ui/tui/hubs/summary.py:51
 msgid "Starting automated install"
@@ -1516,17 +1588,19 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "შეცდომა"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/tuiobject.py:64 pyanaconda/ui/tui/spokes/password.py:70
 #: pyanaconda/ui/gui/spokes/password.glade.h:4
 #: pyanaconda/ui/gui/spokes/user.glade.h:8
 msgid "Password"
-msgstr ""
+msgstr "პაროლი"
 
 #: pyanaconda/ui/tui/tuiobject.py:85
 msgid "Passphrase: "
@@ -1534,32 +1608,38 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:111
 msgid "Question"
-msgstr ""
+msgstr "კითხვა"
 
 #: pyanaconda/ui/tui/tuiobject.py:134
 #, python-format
 msgid "Please respond '%(yes)s' or '%(no)s': "
 msgstr ""
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #. TRANSLATORS: 'yes' as positive reply
 #: pyanaconda/ui/tui/tuiobject.py:136 pyanaconda/ui/tui/tuiobject.py:143
 msgctxt "TUI|Spoke Navigation"
 msgid "yes"
-msgstr ""
+msgstr "კი"
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #. TRANSLATORS: 'no' as negative reply
 #: pyanaconda/ui/tui/tuiobject.py:138 pyanaconda/ui/tui/tuiobject.py:149
 msgctxt "TUI|Spoke Navigation"
 msgid "no"
-msgstr ""
+msgstr "არა"
 
 #: pyanaconda/ui/tui/simpleline/base.py:90
 msgid "Do you really want to quit?"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/simpleline/base.py:581 anaconda:526
 msgid "Press ENTER to continue"
-msgstr ""
+msgstr "გაგრძელებისთვის დააჭირეთ ENTER-ს"
 
 #: pyanaconda/ui/tui/simpleline/base.py:632
 #, python-format
@@ -1569,9 +1649,11 @@ msgid ""
 "  '%(refresh)s' to refresh]: "
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/askvnc.py:40
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:56
 msgid ""
@@ -1584,9 +1666,11 @@ msgstr ""
 msgid "q"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/askvnc.py:120
 msgid "VNC Password"
-msgstr ""
+msgstr "VNC-ის პაროლი"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:128
 msgid ""
@@ -1594,22 +1678,28 @@ msgid ""
 "You will have to type it twice. Leave blank for no password"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/askvnc.py:147
 #: pyanaconda/ui/gui/spokes/network.py:1404
 msgid "Password: "
-msgstr ""
+msgstr "პაროლი:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/askvnc.py:148
 msgid "Password (confirm): "
-msgstr ""
+msgstr "პაროლი (დადასტურება):"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/askvnc.py:151
 msgid "Passwords do not match!"
-msgstr ""
+msgstr "პაროლები არ ემთხვევა"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "პაროლი უნდა შეიცავდეს მინიმუმ ექვს სიმბოლოს."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -1660,7 +1750,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:47
 msgid "Network configuration"
-msgstr ""
+msgstr "ქსელის კონფიგურაცია"
 
 #: pyanaconda/ui/tui/spokes/network.py:111
 #, python-format
@@ -1677,10 +1767,12 @@ msgstr ""
 msgid " IPv4 Address: %(addr)s Netmask: %(netmask)s Gateway: %(gateway)s\n"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/network.py:130
 #, python-format
 msgid " DNS: %s\n"
-msgstr ""
+msgstr " DNS: %s\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:137
 #, python-format
@@ -1733,18 +1825,24 @@ msgstr ""
 msgid "Device configuration"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/network.py:314
 #, python-format
 msgid "IPv4 address or %s for DHCP"
-msgstr ""
+msgstr "IPv4 მისამართი ან %s DHCP-თვის"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/network.py:316
 msgid "IPv4 netmask"
-msgstr ""
+msgstr "IPv4 ქსელის ნიღაბი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/network.py:317
 msgid "IPv4 gateway"
-msgstr ""
+msgstr "IPv4 gateway"
 
 #: pyanaconda/ui/tui/spokes/network.py:318
 #, python-format
@@ -1784,11 +1882,13 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/password.py:32
 msgid "Root password"
-msgstr ""
+msgstr "Root-ის პაროლი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/password.py:55
 msgid "Password is set."
-msgstr ""
+msgstr "პაროლი დაყენებულია."
 
 #: pyanaconda/ui/tui/spokes/password.py:57
 msgid "Root account is disabled."
@@ -1802,17 +1902,23 @@ msgstr ""
 msgid "Please select new root password. You will have to type it twice."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:55
 msgid "Use All Space"
-msgstr ""
+msgstr "სრული სივრცის გამოყენება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:56
 msgid "Replace Existing Linux system(s)"
-msgstr ""
+msgstr "არსებული Linux სისტემ(ებ)ის შეცვლა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:57
 msgid "Use Free Space"
-msgstr ""
+msgstr "თავისუფალი ადგილის გამოყენება"
 
 #: pyanaconda/ui/tui/spokes/storage.py:67
 msgid "Installation Destination"
@@ -1833,10 +1939,12 @@ msgstr ""
 msgid "Warning checking storage configuration"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:134
 #: pyanaconda/ui/gui/spokes/storage.py:443
 msgid "Automatic partitioning selected"
-msgstr ""
+msgstr "არჩეულია ავტომატური დაყოფა"
 
 #: pyanaconda/ui/tui/spokes/storage.py:136
 #: pyanaconda/ui/gui/spokes/storage.py:445
@@ -1864,7 +1972,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:210
 msgid "Select all"
-msgstr ""
+msgstr "ყველას მონიშვნა"
 
 #: pyanaconda/ui/tui/spokes/storage.py:337
 msgid ""
@@ -1898,9 +2006,11 @@ msgstr ""
 msgid "storage configuration failed: %s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:474
 msgid "Autopartitioning Options"
-msgstr ""
+msgstr "ავტოდაყოფის პარამეტრები"
 
 #: pyanaconda/ui/tui/spokes/storage.py:500
 msgid ""
@@ -1908,9 +2018,11 @@ msgid ""
 "use for the install target."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:540
 msgid "Partition Scheme Options"
-msgstr ""
+msgstr "დაყოფის სქემის პარამეტრები"
 
 #: pyanaconda/ui/tui/spokes/storage.py:564
 msgid "Select a partition scheme configuration."
@@ -1932,16 +2044,20 @@ msgstr ""
 msgid "Time settings"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/time_spoke.py:184
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:517
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:523
 #, python-format
 msgid "%s timezone"
-msgstr ""
+msgstr "დროის სარტყელი %s"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/time_spoke.py:186
 msgid "Timezone is not set."
-msgstr ""
+msgstr "დროის სარტყელი დაყენებული არაა"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:196
 msgid "not set"
@@ -1973,18 +2089,22 @@ msgstr ""
 msgid "Configure NTP servers"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/time_spoke.py:271
 msgid "Timezone settings"
-msgstr ""
+msgstr "დროის სარტყელის პარამეტრები"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:298
 #, python-format
 msgid "Available timezones in region %s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/time_spoke.py:301
 msgid "Available regions"
-msgstr ""
+msgstr "ხელმისაწვდომი რეგიონები"
 
 #. TRANSLATORS: 'b' to go back
 #: pyanaconda/ui/tui/spokes/time_spoke.py:340
@@ -2052,22 +2172,24 @@ msgstr ""
 msgid "Exit the shell to continue"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:54
 msgid "Installation source"
-msgstr ""
+msgstr "ჩადგმის წყარო"
 
 #: pyanaconda/ui/tui/spokes/source.py:57
 #: pyanaconda/ui/tui/spokes/source.py:117
 #: pyanaconda/ui/gui/spokes/source.py:569
 #: pyanaconda/ui/gui/spokes/source.glade.h:24
 msgid "Closest mirror"
-msgstr ""
+msgstr "უახლოესი სარკე"
 
 #: pyanaconda/ui/tui/spokes/source.py:109
 #: pyanaconda/ui/gui/spokes/source.py:561
 #, python-format
 msgid "NFS server %s"
-msgstr ""
+msgstr "NFS სერვერი %s"
 
 #: pyanaconda/ui/tui/spokes/source.py:111
 #: pyanaconda/ui/gui/spokes/source.py:563
@@ -2078,7 +2200,7 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/source.py:128
 #: pyanaconda/ui/gui/spokes/source.py:557
 msgid "Error setting up software source"
-msgstr ""
+msgstr "შეცდომა პროგრამული უზრუნველყოფის წყაროს გამართვისას"
 
 #: pyanaconda/ui/tui/spokes/source.py:119
 #: pyanaconda/ui/tui/spokes/software.py:87
@@ -2089,10 +2211,12 @@ msgstr ""
 msgid "Nothing selected"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:130
 #: pyanaconda/ui/tui/spokes/software.py:67
 msgid "Processing..."
-msgstr ""
+msgstr "დამუშავება..."
 
 #: pyanaconda/ui/tui/spokes/source.py:148
 #: pyanaconda/ui/gui/spokes/source.py:887
@@ -2100,30 +2224,38 @@ msgid ""
 "The installation source is in use by the installer and cannot be changed."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "CD/DVD"
-msgstr ""
+msgstr "CD/DVD"
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "local ISO file"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "Network"
-msgstr ""
+msgstr "ქსელი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:156
 msgid "Choose an installation source type."
-msgstr ""
+msgstr "ჩადგმის წყაროს ტიპის არჩევა."
 
 #: pyanaconda/ui/tui/spokes/source.py:253
 #: pyanaconda/ui/tui/spokes/source.py:291
 msgid "Specify Repo Options"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:257
 msgid "Repo URL"
-msgstr ""
+msgstr "რეპოზიტორიის URL"
 
 #: pyanaconda/ui/tui/spokes/source.py:295
 msgid "<server>:/<path>"
@@ -2149,9 +2281,11 @@ msgstr ""
 msgid "No *.iso files found in device root folder"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/software.py:39
 msgid "Software selection"
-msgstr ""
+msgstr "პროგრამული უზრუნველყოფის არჩევა"
 
 #: pyanaconda/ui/tui/spokes/software.py:65
 #: pyanaconda/ui/gui/spokes/software.py:262
@@ -2177,10 +2311,12 @@ msgstr ""
 msgid "Installation source needs to be set up first."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/software.py:121
 #: pyanaconda/ui/tui/spokes/software.py:131
 msgid "Base environment"
-msgstr ""
+msgstr "საბაზო გარემო"
 
 #: pyanaconda/ui/tui/spokes/software.py:208
 msgid "Checking software selection"
@@ -2188,25 +2324,31 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/user.py:37
 msgid "User creation"
-msgstr ""
+msgstr "მომხმარებლის შექმნა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/user.py:121 pyanaconda/ui/gui/spokes/user.py:356
 msgid "No user will be created"
-msgstr ""
+msgstr "მომხმარებელი არ შეიქმნება"
 
 #: pyanaconda/ui/tui/spokes/user.py:123
 msgid "You must set a password"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/user.py:125 pyanaconda/ui/gui/spokes/user.py:358
 #, python-format
 msgid "Administrator %s will be created"
-msgstr ""
+msgstr "შექმნება ადმინისტრატორი %s"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/user.py:127 pyanaconda/ui/gui/spokes/user.py:360
 #, python-format
 msgid "User %s will be created"
-msgstr ""
+msgstr "შეიქმნება მომხმარებელი %s"
 
 #: pyanaconda/ui/tui/spokes/user.py:137
 msgid "Full name can't contain the ':' character"
@@ -2237,9 +2379,11 @@ msgid ""
 "com/hardware."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/progress.py:37
 msgid "Progress"
-msgstr ""
+msgstr "მიმდინარეობა"
 
 #: pyanaconda/ui/tui/spokes/progress.py:139
 #, python-format
@@ -2257,19 +2401,25 @@ msgstr ""
 msgid "testing status..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/__init__.py:106
 msgid "New value"
-msgstr ""
+msgstr "ახალი მნიშვნელობა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/__init__.py:134
 #, python-format
 msgid "%s: "
-msgstr ""
+msgstr "%s: "
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/__init__.py:135
 #, python-format
 msgid "%s (confirm): "
-msgstr ""
+msgstr "%s (დადასტურება): "
 
 #: pyanaconda/ui/tui/spokes/__init__.py:138
 msgid ""
@@ -2298,9 +2448,11 @@ msgstr ""
 msgid "You have provided an invalid value\n"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/__init__.py:317
 msgid "Password set."
-msgstr ""
+msgstr "პაროლი დაყენებულია."
 
 #: pyanaconda/ui/gui/__init__.py:383 widgets/src/BaseWindow.c:157
 msgid "Help!"
@@ -2308,15 +2460,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/__init__.py:862 widgets/src/StandaloneWindow.c:49
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_No"
-msgstr ""
+msgstr "_არა"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_Yes"
-msgstr ""
+msgstr "_დიახ"
 
 #: pyanaconda/ui/gui/hubs/__init__.py:242
 msgid ""
@@ -2326,7 +2478,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/progress.py:112
 msgid "Complete!"
-msgstr ""
+msgstr "დასრულებულია!"
 
 #: pyanaconda/ui/gui/hubs/progress.py:140
 #, python-format
@@ -2340,10 +2492,12 @@ msgid ""
 "When you are ready, reboot your system to start using it!"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/hubs/progress.py:219
 msgctxt "GUI|Progress"
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/hubs/progress.py:227
 #, python-format
@@ -2360,10 +2514,12 @@ msgid ""
 "Go ahead and reboot to start using it!"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.py:110
 #, python-format
 msgid "Create a new %(container_type)s ..."
-msgstr ""
+msgstr "ახალი %(container_type)s-ის შექმნა ..."
 
 #: pyanaconda/ui/gui/spokes/custom.py:111
 #, python-format
@@ -2380,10 +2536,12 @@ msgid ""
 "for details.</a>"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.py:139
 #: pyanaconda/ui/gui/spokes/custom.glade.h:12
 msgid "MANUAL PARTITIONING"
-msgstr ""
+msgstr "ხელით დაყოფა"
 
 #: pyanaconda/ui/gui/spokes/custom.py:356
 #, python-format
@@ -2391,7 +2549,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2411,11 +2568,13 @@ msgstr ""
 msgid "%(fs)s must be on a device of type %(type)s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.py:669
 #: pyanaconda/ui/gui/spokes/custom.py:671
 #, python-format
 msgid "%s cannot be encrypted"
-msgstr ""
+msgstr "%s ვერ დაიშიფრება"
 
 #: pyanaconda/ui/gui/spokes/custom.py:673
 msgid "You must create a new file system on the root device."
@@ -2449,7 +2608,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2567,23 +2725,29 @@ msgstr ""
 msgid "Restoring hardware time..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:519
 msgid "Invalid timezone"
-msgstr ""
+msgstr "დროის სარტყელი არასწორია"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:690
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:704
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:886
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:27
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:692
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:701
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:885
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:888
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1035
 msgid "You need to set up networking first if you want to use NTP"
@@ -2596,7 +2760,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/filter.py:484
 msgctxt "GUI|Spoke"
 msgid "_INSTALLATION DESTINATION"
-msgstr ""
+msgstr "ჩადგმის დანი_შნულება"
 
 #: pyanaconda/ui/gui/spokes/filter.py:592
 #, python-format
@@ -2604,7 +2768,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2614,7 +2777,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/keyboard.py:272
 msgctxt "GUI|Spoke"
 msgid "_KEYBOARD"
-msgstr ""
+msgstr "_კლავიატურა"
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:369
 msgid "Testing layouts configuration not available."
@@ -2637,7 +2800,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/langsupport.py:54
 msgctxt "GUI|Spoke"
 msgid "_LANGUAGE SUPPORT"
-msgstr ""
+msgstr "_ენის მხარდაჭერა"
 
 #: pyanaconda/ui/gui/spokes/network.py:87
 msgid "Status unknown (missing)"
@@ -2654,7 +2817,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:95
 #: pyanaconda/ui/gui/spokes/network.py:99
 msgid "Unavailable"
-msgstr ""
+msgstr "მიუწვდომელი"
 
 #: pyanaconda/ui/gui/spokes/network.py:97
 msgid "Firmware missing"
@@ -2666,35 +2829,35 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.py:105
 msgid "Disconnected"
-msgstr ""
+msgstr "გამოერთებული"
 
 #: pyanaconda/ui/gui/spokes/network.py:110
 msgid "Connecting"
-msgstr ""
+msgstr "დაკავშირება"
 
 #: pyanaconda/ui/gui/spokes/network.py:112
 msgid "Authentication required"
-msgstr ""
+msgstr "ავთენტიფიკაცია აუცილებელია"
 
 #: pyanaconda/ui/gui/spokes/network.py:114
 msgid "Connected"
-msgstr ""
+msgstr "დაკავშირებული"
 
 #: pyanaconda/ui/gui/spokes/network.py:116
 msgid "Disconnecting"
-msgstr ""
+msgstr "გათიშვა"
 
 #: pyanaconda/ui/gui/spokes/network.py:118
 msgid "Connection failed"
-msgstr ""
+msgstr "დაკავშირება ვერ მოხერხდა"
 
 #: pyanaconda/ui/gui/spokes/network.py:307
 msgid "Ethernet"
-msgstr ""
+msgstr "Ethernet"
 
 #: pyanaconda/ui/gui/spokes/network.py:308
 msgid "Wireless"
-msgstr ""
+msgstr "უსადენო"
 
 #: pyanaconda/ui/gui/spokes/network.py:309
 #: pyanaconda/ui/gui/spokes/network.glade.h:1
@@ -2706,10 +2869,12 @@ msgstr ""
 msgid "VLAN"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:311
 #: pyanaconda/ui/gui/spokes/network.glade.h:3
 msgid "Team"
-msgstr ""
+msgstr "გუნდი"
 
 #: pyanaconda/ui/gui/spokes/network.py:312
 #: pyanaconda/ui/gui/spokes/network.glade.h:2
@@ -2719,50 +2884,52 @@ msgstr ""
 #. TRANSLATORS: ethernet cable is unplugged
 #: pyanaconda/ui/gui/spokes/network.py:799
 msgid "unplugged"
-msgstr ""
+msgstr "გამოერთებული"
 
 #: pyanaconda/ui/gui/spokes/network.py:895
 #: pyanaconda/ui/gui/spokes/network.glade.h:16
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 მისამართი"
 
 #: pyanaconda/ui/gui/spokes/network.py:896
 #: pyanaconda/ui/gui/spokes/network.glade.h:15
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 მისამართი"
 
 #: pyanaconda/ui/gui/spokes/network.py:898
 #: pyanaconda/ui/gui/spokes/network.py:900
 #: pyanaconda/ui/gui/spokes/network.glade.h:31
 msgid "IP Address"
-msgstr ""
+msgstr "IP მისამართი"
 
 #: pyanaconda/ui/gui/spokes/network.py:990
 #, python-format
 msgid "%d Mb/s"
-msgstr ""
+msgstr "%d მბ/წმ"
 
 #: pyanaconda/ui/gui/spokes/network.py:1210
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: pyanaconda/ui/gui/spokes/network.py:1213
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 #: pyanaconda/ui/gui/spokes/network.py:1216
 msgid "WPA2"
-msgstr ""
+msgstr "WPA2"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1220
 msgid "Enterprise"
-msgstr ""
+msgstr "კორპორაციული"
 
 #: pyanaconda/ui/gui/spokes/network.py:1225 widgets/src/SpokeSelector.c:82
 #: pyanaconda/ui/gui/spokes/filter.glade.h:3
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:21
 msgid "None"
-msgstr ""
+msgstr "არაა"
 
 #: pyanaconda/ui/gui/spokes/network.py:1366
 #: pyanaconda/ui/gui/spokes/network.glade.h:61
@@ -2779,12 +2946,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:1381
 msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Password:"
-msgstr ""
+msgstr "_პაროლი:"
 
 #: pyanaconda/ui/gui/spokes/network.py:1389
 msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Key:"
-msgstr ""
+msgstr "_გასარები:"
 
 #: pyanaconda/ui/gui/spokes/network.py:1399
 msgid "User name: "
@@ -2806,47 +2973,63 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/password.py:55
 msgctxt "GUI|Spoke"
 msgid "_ROOT PASSWORD"
-msgstr ""
+msgstr "_ROOT-ის პაროლი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:102
 #: pyanaconda/ui/gui/spokes/password.py:103
 msgid "The password is set."
-msgstr ""
+msgstr "პაროლი დაყენებულია."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:130
 msgid "Root password is set"
-msgstr ""
+msgstr "root-ის პაროლი დაყენებულია"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:132
 msgid "Root account is disabled"
-msgstr ""
+msgstr "root ანგარიში გათიშულია"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:134
 msgid "Root password is not set"
-msgstr ""
+msgstr "root-ის პაროლი არ აყენია"
 
 #: pyanaconda/ui/gui/spokes/software.py:52
 msgctxt "GUI|Spoke"
 msgid "_SOFTWARE SELECTION"
-msgstr ""
+msgstr "_პროგრამული უზრუნველყოფის არჩევა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.py:102
 #: pyanaconda/ui/gui/spokes/source.py:56
 msgid "Downloading package metadata..."
-msgstr ""
+msgstr "პაკეტების მეტამონაცემების ჩამოტვირთვა..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.py:105
 msgid "Downloading group metadata..."
-msgstr ""
+msgstr "ჯგუფების მეტამონაცემების ჩამოტვირთვა..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.py:188
 #: pyanaconda/ui/gui/spokes/source.py:551
 msgid "Checking software dependencies..."
-msgstr ""
+msgstr "პროგრამული უზრუნველყოფის ურთიერთდამოკიდებულების შემოწმება..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.py:193
 msgid "Error checking software dependencies"
-msgstr ""
+msgstr "შეცდომა პროგრამული უზრუნველყოფის ურთიერთდამოკიდებულების შემოწმებისას"
 
 #: pyanaconda/ui/gui/spokes/software.py:278
 msgid "Invalid environment specified in kickstart"
@@ -2869,10 +3052,12 @@ msgid ""
 "installer, change your software source, or change your software selections."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/software.py:540
 msgctxt "GUI|Software Selection|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/spokes/software.py:541
 msgctxt "GUI|Software Selection|Error Dialog"
@@ -2916,7 +3101,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.py:358
 msgctxt "GUI|Spoke"
 msgid "_INSTALLATION SOURCE"
-msgstr ""
+msgstr "_ჩადგმის წყარო"
 
 #: pyanaconda/ui/gui/spokes/source.py:480
 #: pyanaconda/ui/gui/spokes/source.py:695
@@ -2936,10 +3121,12 @@ msgid ""
 "Failed to set up installation source; check the repo url and proxy settings"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.py:726
 #, python-format
 msgid "Device: %s"
-msgstr ""
+msgstr "მოწყობილობა: %s"
 
 #: pyanaconda/ui/gui/spokes/source.py:727
 #, python-format
@@ -3034,7 +3221,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:229
 msgctxt "GUI|Spoke"
 msgid "INSTALLATION _DESTINATION"
-msgstr ""
+msgstr "ჩადგმის დანი_შნულება"
 
 #: pyanaconda/ui/gui/spokes/storage.py:347
 msgid "Saving storage configuration..."
@@ -3073,17 +3260,18 @@ msgid ""
 "LUN %(lun)s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/storage.py:637
 #, python-format
 msgid "%s free"
-msgstr ""
+msgstr "თავისუფალია %s"
 
 #: pyanaconda/ui/gui/spokes/storage.py:684
 #, python-format
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3105,11 +3293,13 @@ msgid ""
 "can modify your selection or quit the installer."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/storage.py:1099
 #: pyanaconda/ui/gui/spokes/storage.py:1120
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1100
 msgctxt "GUI|Storage|Error Dialog"
@@ -3134,9 +3324,11 @@ msgid ""
 "your storage layout."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/storage.py:1139
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/user.py:70
 #, python-format
@@ -3146,7 +3338,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/user.py:213
 msgctxt "GUI|Spoke"
 msgid "_USER CREATION"
-msgstr ""
+msgstr "მომ_ხმარების შექმნა"
 
 #: pyanaconda/ui/gui/spokes/user.py:289 pyanaconda/ui/gui/spokes/user.py:290
 msgid "The password was set by kickstart."
@@ -3160,10 +3352,12 @@ msgstr ""
 msgid "Invalid user name"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/welcome.py:209
 #, python-format
 msgid "WELCOME TO %(name)s %(version)s."
-msgstr ""
+msgstr "მოგესალმებათ %(name)s %(version)s."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.py:271
 #, python-format
@@ -3173,9 +3367,11 @@ msgid ""
 "Please select which nodes you wish to log into:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:157
 msgid "DATA"
-msgstr ""
+msgstr "მონაცემები"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:278
 #, python-format
@@ -3211,7 +3407,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3231,10 +3426,12 @@ msgid ""
 "than you currently have selected (%(count)d)."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:66
 #, python-format
 msgid "CONFIGURE %(container_type)s"
-msgstr ""
+msgstr "%(container_type)s-ის გამართვა"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:67
 #, python-format
@@ -3243,14 +3440,18 @@ msgid ""
 "disk below."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:70
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:71
 msgid "Volume Group"
-msgstr ""
+msgstr "ტომების ჯგუფი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:72
 msgid "Volume"
-msgstr ""
+msgstr "ტომი"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:112
 msgid "Cannot relabel already existing file system."
@@ -3277,9 +3478,11 @@ msgstr ""
 msgid "That mount point is invalid. Try something else?"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:286
 msgid "container"
-msgstr ""
+msgstr "კონტეინერი"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:358
 #, python-format
@@ -3303,40 +3506,52 @@ msgstr ""
 msgid "Invalid container name"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:49
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:59
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:34
 #, python-format
 msgid "You have provided a weak passphrase: %s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:35
 msgid "Passphrases do not match."
-msgstr ""
+msgstr "პაროლები არ ემთხვევა."
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:164
 msgid "Passphrase contains non-ASCII characters"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.py:54
 msgid "Preserve"
-msgstr ""
+msgstr "შენარჩუნება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.py:55
 msgid "Shrink"
-msgstr ""
+msgstr "შემჭირდროება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.py:56
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:83
 #, python-format
@@ -3347,10 +3562,12 @@ msgstr ""
 msgid "This device contains the installation source."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.py:162
 #, python-format
 msgid "%(freeSize)s of %(devSize)s"
-msgstr ""
+msgstr "%(devSize)s-დან %(freeSize)s"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:169
 msgid "Not resizeable"
@@ -3358,7 +3575,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:193
 msgid "Free space"
-msgstr ""
+msgstr "თავისუფალი სივრცე"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:215
 msgid ""
@@ -3380,7 +3597,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3392,48 +3608,54 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:13
 msgctxt "GUI|Reclaim Dialog"
 msgid "Delete _all"
-msgstr ""
+msgstr "ყველ_ას წაშლა"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:455
 msgctxt "GUI|Reclaim Dialog"
 msgid "Preserve _all"
-msgstr ""
+msgstr "ყველ_ას შენარჩუნება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: widgets/src/BaseWindow.c:153
 msgid "DISTRIBUTION INSTALLATION"
-msgstr ""
+msgstr "დისტრიბუციის ჩადგმა"
 
 #: widgets/src/BaseWindow.c:154
 msgid "SPOKE NAME"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: widgets/src/BaseWindow.c:155
 msgid "PRE-RELEASE / TESTING"
-msgstr ""
+msgstr "წინასწარი რელიზი / სატესტო"
 
 #: widgets/src/DiskOverview.c:101
 msgid "New Device"
-msgstr ""
+msgstr "ახალი მოწყობილობა"
 
 #: widgets/src/DiskOverview.c:103 widgets/src/DiskOverview.c:104
 msgid "0 MB"
-msgstr ""
+msgstr "0 მბტ"
 
 #: widgets/src/MountpointSelector.c:84
 msgid "0 GB"
-msgstr ""
+msgstr "0 გბტ"
 
 #: widgets/src/SpokeSelector.c:83
 msgid "New Selector"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: widgets/src/SpokeWindow.c:57
 msgid "_Done"
-msgstr ""
+msgstr "_დასრულება"
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "_გაგრძელება"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3445,15 +3667,17 @@ msgstr ""
 msgid "Current layout: '%s'. Add more layouts to enable switching."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:1
 msgctxt "GUI|Advanced User"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:2
 msgctxt "GUI|Advanced User"
 msgid "_Save Changes"
-msgstr ""
+msgstr "ცვლილებების _შენახვა"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:3
 msgid "ADVANCED USER CONFIGURATION"
@@ -3462,11 +3686,13 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:4
 msgctxt "GUI|Advanced User"
 msgid "Home _directory:"
-msgstr ""
+msgstr "საშინაო _დირექტორია:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:5
 msgid "User and Group IDs"
-msgstr ""
+msgstr "მომხმარებლის და ჯგუფის ID-ები"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:6
 msgctxt "GUI|Advanced User"
@@ -3478,22 +3704,28 @@ msgctxt "GUI|Advanced User"
 msgid "Specify a _group ID manually:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:8
 msgid "Group Membership"
-msgstr ""
+msgstr "ჯგუფის წევრობა"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:9
 msgctxt "GUI|Advanced User"
 msgid "_Add user to the following groups:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:10
 msgid "Example:"
-msgstr ""
+msgstr "მაგალითი:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:11
 msgid "wheel, my-team (1245), project-x (29935)"
-msgstr ""
+msgstr "wheel, my-team (1245), project-x (29935)"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:12
 msgid "Tip:"
@@ -3506,15 +3738,17 @@ msgid ""
 "parentheses. "
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:1
 msgctxt "GUI|Date and Time|NTP"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:2
 msgctxt "GUI|Date and Time|NTP"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:3
 msgid "Add and mark for usage NTP servers"
@@ -3532,9 +3766,11 @@ msgstr ""
 msgid "Working"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:8
 msgid "Use"
-msgstr ""
+msgstr "გამოიყენე"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:9
 msgid "Configure NTP"
@@ -3547,16 +3783,18 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:11
 msgctxt "GUI|Date and Time"
 msgid "_Region:"
-msgstr ""
+msgstr "_რეგიონი:"
 
+# translation auto-copied from project Fedora Websites, version
+# fedoraproject.org, document po/fedora-web
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:12
 msgid "Region"
-msgstr ""
+msgstr "რეგიონი"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:13
 msgctxt "GUI|Date and Time"
 msgid "_City:"
-msgstr ""
+msgstr "_ქალაქი:"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:14
 msgid "City"
@@ -3565,7 +3803,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:15
 msgctxt "GUI|Date and Time"
 msgid "_Network Time"
-msgstr ""
+msgstr "ქ_სელური დრო"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:16
 msgid "Use Network Time"
@@ -3575,10 +3813,12 @@ msgstr ""
 msgid "Hours"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #. TRANSLATORS: This is the separator between hours and minutes, like in HH:MM
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:19
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:20
 msgid "Minutes"
@@ -3611,21 +3851,23 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:28
 msgctxt "GUI|Date and Time"
 msgid "24-_hour"
-msgstr ""
+msgstr "24-საა_თიანი"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:29
 msgctxt "GUI|Date and Time"
 msgid "_AM/PM"
-msgstr ""
+msgstr "_AM/PM"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:30
 msgid "Set Date & Time"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:1
 #: pyanaconda/ui/gui/spokes/storage.glade.h:14
 msgid "INSTALLATION DESTINATION"
-msgstr ""
+msgstr "ჩადგმის დანიშნულება"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:2
 msgctxt "GUI|Installation Destination|Filter|Search"
@@ -3643,22 +3885,22 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/filter.glade.h:6
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
 msgid "_Port:"
-msgstr ""
+msgstr "_პორტი:"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:7
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
 msgid "_Target:"
-msgstr ""
+msgstr "დანი_შნულება:"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:8
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
 msgid "_LUN:"
-msgstr ""
+msgstr "_LUN:"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:9
 msgctxt "GUI|Installation Destination|Filter|Search|WWID"
 msgid "_WWID:"
-msgstr ""
+msgstr "_WWID:"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:10
 msgctxt "GUI|Installation Destination|Filter|Search"
@@ -3672,46 +3914,56 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:6
 msgid "Name"
-msgstr ""
+msgstr "სახელი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:12
 msgid "WWID"
-msgstr ""
+msgstr "WWID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:13
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "მოცულობა"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:15
 msgid "Model"
-msgstr ""
+msgstr "მოდელი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:16
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:17
 msgid "Port"
-msgstr ""
+msgstr "პორტი"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:18
 msgid "Target"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:19
 msgid "Vendor"
-msgstr ""
+msgstr "მომწოდებელი"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:20
 msgctxt "GUI|Installation Destination|Filter"
 msgid "Searc_h"
-msgstr ""
+msgstr "_ძებნა"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:21
 msgctxt "GUI|Installation Destination|Filter|Multipath"
@@ -3733,9 +3985,11 @@ msgctxt "GUI|Installation Destination|Filter|Multipath|WWID"
 msgid "Show Only _Devices Containing:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:25
 msgid "Paths"
-msgstr ""
+msgstr "გეზები"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:26
 msgctxt "GUI|Installation Destination|Filter"
@@ -3747,9 +4001,11 @@ msgctxt "GUI|Installation Destination|Filter|Other"
 msgid "Filter _By:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:28
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:29
 msgctxt "GUI|Installation Destination|Filter|Other|Vendor"
@@ -3766,9 +4022,11 @@ msgctxt "GUI|Installation Destination|Filter|Other|ID"
 msgid "Show Only _Devices Containing:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:32
 msgid "Identifier"
-msgstr ""
+msgstr "იდენტიფიკატორი"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:33
 msgctxt "GUI|Installation Destination|Filter"
@@ -3780,13 +4038,17 @@ msgctxt "GUI|Installation Destination|Filter|zSeries"
 msgid "Filter B_y:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:35
 msgid "CCW"
-msgstr ""
+msgstr "CCW"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:36
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:37
 msgctxt "GUI|Installation Destination|Filter|zSeries|CCW"
@@ -3798,15 +4060,19 @@ msgctxt "GUI|Installation Destination|Filter|zSeries|WWPN"
 msgid "_WWPN:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:39
 msgctxt "GUI|Installation Destination|Filter|zSeries|LUN"
 msgid "_LUN:"
-msgstr ""
+msgstr "_LUN:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:40
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:7
 msgid "Type"
-msgstr ""
+msgstr "ტიპი"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:41
 msgctxt "GUI|Installation Destination|Filter"
@@ -3838,19 +4104,25 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "Refresh _List"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:5
 msgid "Add device"
-msgstr ""
+msgstr "მოწყობილობის დამატება"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:6
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:7
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Add"
-msgstr ""
+msgstr "დ_ამატება"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:8
 msgctxt "GUI|Network|Add Device Dialog"
@@ -3871,29 +4143,41 @@ msgstr ""
 msgid "Slaves"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:12
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:13
 msgid "Default Route"
-msgstr ""
+msgstr "ნაგულისხმევი მარშრუტი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:14
 msgid "Subnet Mask"
-msgstr ""
+msgstr "ქვექსელის მასკა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:17
 msgid "Speed"
-msgstr ""
+msgstr "სიჩქარე"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:18
 msgid "Hardware Address"
-msgstr ""
+msgstr "აპარატურული მისამართი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:19
 msgid "Parent"
-msgstr ""
+msgstr "მშობლიური"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:20
 msgid "VLAN ID"
@@ -3904,22 +4188,28 @@ msgctxt "GUI|Network|Wired"
 msgid "C_onfigure..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:22
 msgid "Security"
-msgstr ""
+msgstr "უსაფრთხოება"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:23
 msgctxt "GUI|Network|Wireless"
 msgid "_Network Name"
-msgstr ""
+msgstr "_ქსელის სახელი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:24
 msgid "Network Name"
-msgstr ""
+msgstr "ქსელის დასახელება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:25
 msgid "Security Key"
-msgstr ""
+msgstr "უსაფრთხოების გასსაღები"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:26
 msgctxt "GUI|Network|Wireless"
@@ -3936,22 +4226,28 @@ msgctxt "GUI|Network|Wireless"
 msgid "_Configure..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:29
 msgid "IMEI"
-msgstr ""
+msgstr "IMEI"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:30
 msgid "Provider"
-msgstr ""
+msgstr "პროვაიდერი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:32
 msgctxt "GUI|Network|Mobile Broadband"
 msgid "_Configure..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:33
 msgid "VPN Type"
-msgstr ""
+msgstr "VPN-ის ტიპი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:34
 msgid "Gateway"
@@ -3959,16 +4255,16 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:35
 msgid "Group Name"
-msgstr ""
+msgstr "ჯგუფის სახელი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:36
 msgid "Group Password"
-msgstr ""
+msgstr "ჯგუფის პაროლი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:37
 #: pyanaconda/ui/gui/spokes/user.glade.h:5
 msgid "User name"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:38
 msgctxt "GUI|Network|VPN"
@@ -3978,32 +4274,34 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.glade.h:39
 msgctxt "GUI|Network|Proxy"
 msgid "_Method"
-msgstr ""
+msgstr "_მეთოდი"
 
+# translation auto-copied from project anaconda, version rhel7-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:40
 msgctxt "GUI|Network|Proxy"
 msgid "_Configuration URL"
-msgstr ""
+msgstr "_კონფიგურაციის URL"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:41
 msgctxt "GUI|Network|Proxy"
 msgid "HTTP _Proxy"
-msgstr ""
+msgstr "HTTP _პროქსი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:42
 msgctxt "GUI|Network|Proxy"
 msgid "H_TTPS Proxy"
-msgstr ""
+msgstr "H_TTPS პროქსი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:43
 msgctxt "GUI|Network|Proxy"
 msgid "_FTP Proxy"
-msgstr ""
+msgstr "_FTP პროქსი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:44
 msgctxt "GUI|Network|Proxy"
 msgid "_Socks Host"
-msgstr ""
+msgstr "_Socks ჰოსტი"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:46
 msgid "Network Config Box"
@@ -4012,7 +4310,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.glade.h:47
 msgctxt "GUI|Network"
 msgid "Unloc_k"
-msgstr ""
+msgstr "განბლო_კვა"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:48
 msgctxt "GUI|Network"
@@ -4042,7 +4340,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:55
 msgid "NETWORK CONFIGURATION"
-msgstr ""
+msgstr "ქსელის კონფიგურაცია"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:56
 msgid ""
@@ -4051,14 +4349,18 @@ msgid ""
 "updates available for you."
 msgstr ""
 
+# translation auto-copied from project authconfig, version master, document
+# authconfig
 #: pyanaconda/ui/gui/spokes/network.glade.h:58
 msgid "Authentication"
-msgstr ""
+msgstr "ავთენთიკაცია"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:59
 msgctxt "GUI|Network|Authentication Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:60
 msgctxt "GUI|Network|Authentication Dialog"
@@ -4071,13 +4373,17 @@ msgid ""
 "the wireless network"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.glade.h:1
 msgid "SOFTWARE SELECTION"
-msgstr ""
+msgstr "პროგრამული უზრუნველყოფის შერჩევა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.glade.h:2
 msgid "Base Environment"
-msgstr ""
+msgstr "საბაზო გარემო"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:3
 msgid "Add-Ons for Selected Environment"
@@ -4095,7 +4401,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:3
 msgid "INSTALLATION OPTIONS"
-msgstr ""
+msgstr "ჩადგმის ვარიანტები"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:4
 msgid ""
@@ -4132,10 +4438,12 @@ msgctxt "GUI|Storage|No Space Dialog"
 msgid "_Quit installer"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/storage.glade.h:12
 msgctxt "GUI|Storage|No Space Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:13
 msgid "No Space"
@@ -4151,22 +4459,26 @@ msgid ""
 "until you click on the main menu's \"Begin Installation\" button."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/storage.glade.h:17
 msgid "Local Standard Disks"
-msgstr ""
+msgstr "ლოკალური სტანდარტული დისკები"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:18
 msgid "Disks left unselected here will not be touched."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/storage.glade.h:19
 msgid "Specialized & Network Disks"
-msgstr ""
+msgstr "სპეციალიზებული & ქსელური დისკები"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:20
 msgctxt "GUI|Storage"
 msgid "_Add a disk..."
-msgstr ""
+msgstr "დისკის დ_ამატება..."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:21
 msgid "Add Specialized Disk"
@@ -4222,9 +4534,11 @@ msgctxt "GUI|Storage"
 msgid "_Refresh..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:1
 msgid "KEYBOARD LAYOUT"
-msgstr ""
+msgstr "კლავიატურის განლაგება"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:2
 msgid ""
@@ -4240,7 +4554,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:4
 msgid "name"
-msgstr ""
+msgstr "სახელი"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:5
 msgid "Selected Layouts"
@@ -4249,22 +4563,22 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:6
 msgctxt "GUI|Keyboard Layout"
 msgid "_Add layout"
-msgstr ""
+msgstr "განლაგების დ_ამატება"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:7
 msgctxt "GUI|Keyboard Layout"
 msgid "_Remove layout"
-msgstr ""
+msgstr "განლაგების ამო_ღება"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:8
 msgctxt "GUI|Keyboard Layout"
 msgid "Move selected layout _up"
-msgstr ""
+msgstr "არჩეული განლაგების ა_წევა"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:9
 msgctxt "GUI|Keyboard Layout"
 msgid "Move selected layout _down"
-msgstr ""
+msgstr "არჩეული განლაგების _ჩაწევა"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:10
 msgctxt "GUI|Keyboard Layout"
@@ -4280,24 +4594,32 @@ msgstr ""
 msgid "Alt + Shift to switch layouts."
 msgstr ""
 
+# translation auto-copied from project firewalld, version master, document
+# po/firewalld
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:13
 msgctxt "GUI|Keyboard Layout"
 msgid "_Options"
-msgstr ""
+msgstr "_პარამეტრები"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:14
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:15
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Add"
-msgstr ""
+msgstr "დ_ამატება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:16
 msgid "ADD A KEYBOARD LAYOUT"
-msgstr ""
+msgstr "კლავიატურის განლაგების დამატება"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:17
 msgid "You may add a keyboard layout by selecting it below:"
@@ -4311,19 +4633,23 @@ msgstr ""
 msgid "Add Layout"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:21
 msgctxt "GUI|Keyboard Layout|Switching Options"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:22
 msgctxt "GUI|Keyboard Layout|Switching Options"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:23
 msgid "LAYOUT SWITCHING OPTIONS"
-msgstr ""
+msgstr "განლაგების გადართვის პარამეტრები"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:24
 msgid ""
@@ -4342,9 +4668,11 @@ msgstr ""
 msgid "Layout Options"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:1
 msgid "LANGUAGE SUPPORT"
-msgstr ""
+msgstr "ენის მხარდაჭერა"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:2
 msgid "Select additional language support to be installed:"
@@ -4374,9 +4702,11 @@ msgstr ""
 msgid "checked"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.glade.h:1
 msgid "ROOT PASSWORD"
-msgstr ""
+msgstr "root-ის პაროლი"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:2
 msgctxt "GUI|Password"
@@ -4386,17 +4716,19 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/password.glade.h:3
 msgctxt "GUI|Password"
 msgid "_Confirm:"
-msgstr ""
+msgstr "დადას_ტურება:"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:5
 #: pyanaconda/ui/gui/spokes/user.glade.h:9
 msgid "Confirm Password"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.glade.h:6
 #: pyanaconda/ui/gui/spokes/user.glade.h:12
 msgid "empty password"
-msgstr ""
+msgstr "ცარიელი პაროლი"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:7
 msgid ""
@@ -4404,10 +4736,12 @@ msgid ""
 "the root user."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:1
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:2
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
@@ -4417,30 +4751,32 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:3
 msgctxt "GUI|Software Source|Media Check Dialog"
 msgid "_Done"
-msgstr ""
+msgstr "_დასრულება"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:4
 msgid "MEDIA VERIFICATION"
-msgstr ""
+msgstr "მატარებლის შემოწმება"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:5
 msgid "Verifying media, please wait..."
-msgstr ""
+msgstr "მატარებელი მოწმდება, გთხოვთ დაიცადოთ..."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:6
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:7
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:8
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Enable HTTP Proxy"
-msgstr ""
+msgstr "HTTP პროქსის _ჩართვა"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:9
 msgctxt "GUI|Software Source|Proxy Dialog"
@@ -4454,7 +4790,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:11
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Use Authentication"
-msgstr ""
+msgstr "ავთენტიკაციის გამო_ყენება"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:12
 msgctxt "GUI|Software Source|Proxy Dialog"
@@ -4468,7 +4804,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:14
 msgid "INSTALLATION SOURCE"
-msgstr ""
+msgstr "ჩადგმის წყარო"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:15
 msgid "Which installation source would you like to use?"
@@ -4479,9 +4815,11 @@ msgctxt "GUI|Software Source"
 msgid "_Auto-detected installation media:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:17
 msgid "Device:"
-msgstr ""
+msgstr "მოწყობიობა:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:18
 msgid "Label:"
@@ -4490,32 +4828,32 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:19
 msgctxt "GUI|Software Source"
 msgid "_Verify"
-msgstr ""
+msgstr "შემო_წმება"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:20
 msgctxt "GUI|Software Source"
 msgid "_ISO file:"
-msgstr ""
+msgstr "_ISO ფაილი:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:21
 msgctxt "GUI|Software Source"
 msgid "D_evice:"
-msgstr ""
+msgstr "მო_წყობილობა:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:22
 msgctxt "GUI|Software Source"
 msgid "_Choose an ISO"
-msgstr ""
+msgstr "_ISO-ს არჩევა"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:23
 msgctxt "GUI|Software Source"
 msgid "_On the network:"
-msgstr ""
+msgstr "_ქსელში:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:25
 msgctxt "GUI|Software Source"
 msgid "_Proxy setup..."
-msgstr ""
+msgstr "_პროქსის გამართვა..."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:26
 msgctxt "GUI|Software Source"
@@ -4525,15 +4863,17 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:27
 msgctxt "GUI|Software Source"
 msgid "N_FS mount options:"
-msgstr ""
+msgstr "N_FS-ის მონტირების პარამეტრები:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:28
 msgid "This field is optional."
-msgstr ""
+msgstr "ეს ველი არასავალდებულოა."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:29
 msgid "Updates"
-msgstr ""
+msgstr "განახლებები"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:30
 msgctxt "GUI|Software Source"
@@ -4542,31 +4882,39 @@ msgid ""
 "versions provided by the installation source above."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:31
 msgid "Additional repositories"
-msgstr ""
+msgstr "დამატებითი რეპოზიტორიები"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:32
 msgid "Enabled"
-msgstr ""
+msgstr "ჩართულია"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:34
 msgid "Add a new repository."
-msgstr ""
+msgstr "ახალი რეპოზიტორიის დამატება"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:35
 msgctxt "GUI|Software Source"
 msgid "A_dd"
-msgstr ""
+msgstr "_დამატება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:36
 msgid "Remove the selected repository."
-msgstr ""
+msgstr "არჩეული რეპოზიტორიის ამოღება."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:37
 msgctxt "GUI|Software Source"
 msgid "_Remove"
-msgstr ""
+msgstr "ამო_ღება"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:38
 msgid "Revert to the previous list of repositories."
@@ -4601,7 +4949,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:45
 msgctxt "GUI|Software Source"
 msgid "_Name:"
-msgstr ""
+msgstr "სა_ხელი:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:46
 msgid "Protocol for the repository URL."
@@ -4610,7 +4958,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:47
 msgctxt "GUI|Software Source"
 msgid "Pro_xy URL:"
-msgstr ""
+msgstr "პრო_ქსის URL:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:48
 msgctxt "GUI|Software Source"
@@ -4620,11 +4968,13 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.glade.h:49
 msgctxt "GUI|Software Source"
 msgid "Pass_word:"
-msgstr ""
+msgstr "პარო_ლი:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:50
 msgid "Name of the repository."
-msgstr ""
+msgstr "რეპოზიტორიის სახელი."
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:1
 msgctxt "GUI|Welcome|Beta Warn Dialog"
@@ -4663,9 +5013,10 @@ msgstr ""
 msgid "What language would you like to use during the installation process?"
 msgstr ""
 
+# translation auto-copied from project comps, version master, document comps
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
-msgstr ""
+msgstr "ენები"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:16
 msgid "Locales"
@@ -4678,12 +5029,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:18
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:19
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Continue"
-msgstr ""
+msgstr "გაგრ_ძელება"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:20
 msgid "Unsupported Hardware Detected"
@@ -4693,14 +5044,16 @@ msgstr ""
 msgid "Unsupported Hardware"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/user.glade.h:1
 msgid "CREATE USER"
-msgstr ""
+msgstr "მომხმარებლის შექმნა"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:2
 msgctxt "GUI|User"
 msgid "_Full name"
-msgstr ""
+msgstr "_სრული სახელი:"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:3
 msgctxt "GUI|User"
@@ -4714,12 +5067,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/user.glade.h:6
 msgctxt "GUI|User"
 msgid "_Password"
-msgstr ""
+msgstr "_პაროლი"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:7
 msgctxt "GUI|User"
 msgid "_Confirm password"
-msgstr ""
+msgstr "პაროლის _დადასტურება"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:10
 msgid ""
@@ -4740,37 +5093,51 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/user.glade.h:14
 msgctxt "GUI|User"
 msgid "_Advanced..."
-msgstr ""
+msgstr "დ_ამატებითი..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:23
 msgid "RAID0 <span foreground=\"grey\">(Performance)</span>"
-msgstr ""
+msgstr "RAID0 <span foreground=\"grey\">(წარმადობა)</span>"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:24
 msgid "RAID1 <span foreground=\"grey\">(Redundancy)</span>"
-msgstr ""
+msgstr "RAID1 <span foreground=\"grey\">(რეზერვირება)</span>"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:25
 msgid "RAID4 <span foreground=\"grey\">(Error Checking)</span>"
-msgstr ""
+msgstr "RAID4 <span foreground=\"grey\">(შეცდომებზე შემოწმება)</span>"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:26
 msgid "RAID5 <span foreground=\"grey\">(Distributed Error Checking)</span>"
 msgstr ""
+"RAID5 <span foreground=\"grey\">(დისტრიბუციული შეცდომების შემოწმება)</span>"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:10
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:27
 msgid "RAID6 <span foreground=\"grey\">(Redundant Error Checking)</span>"
 msgstr ""
+"RAID6 <span foreground=\"grey\">(რეზერვირებული შეცდომების შემოწმება)</span>"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:11
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:28
 msgid "RAID10 <span foreground=\"grey\">(Performance, Redundancy)</span>"
-msgstr ""
+msgstr "RAID10 <span foreground=\"grey\">(წარმადობა, რეზერვირება)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:13
 msgid "Add a new mount point."
@@ -4785,10 +5152,12 @@ msgstr ""
 msgid "Remove the selected mount point(s)."
 msgstr ""
 
+# translation auto-copied from project dnf, version master, document po/dnf,
+# author Jan Silhan
 #: pyanaconda/ui/gui/spokes/custom.glade.h:16
 msgctxt "GUI|Custom Partitioning"
 msgid "Remove"
-msgstr ""
+msgstr "ამოღება"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:17
 msgid "Reload storage configuration from disk."
@@ -4801,19 +5170,19 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:19
 msgid "Selected Device"
-msgstr ""
+msgstr "არჩეული მოწყობილობა"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:20
 msgid "Device description"
-msgstr ""
+msgstr "მოწყობილობის აღწერა"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:21
 msgid "Mount _Point:"
-msgstr ""
+msgstr "მონტირების _წერტილი"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:22
 msgid "_Desired Capacity:"
-msgstr ""
+msgstr "სასუ_რველი მოცულობა:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:23
 msgid "_Label:"
@@ -4823,34 +5192,36 @@ msgstr ""
 msgid "Device(s):"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:25
 msgctxt "GUI|Custom Partitioning|Configure|Devices"
 msgid "_Modify..."
-msgstr ""
+msgstr "_შეცვლა..."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:26
 msgid "_Name:"
-msgstr ""
+msgstr "სა_ხელი:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:27
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "Device _Type:"
-msgstr ""
+msgstr "მოწყობილობის _ტიპი:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:28
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "_Encrypt"
-msgstr ""
+msgstr "დაშიფრ_ვა"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:29
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "File S_ystem:"
-msgstr ""
+msgstr "ფაილური ს_ისტემა:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:30
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "Ref_ormat"
-msgstr ""
+msgstr "გადაფ_ორმატება"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:31
 msgctxt "GUI|Custom Partitioning|Configure"
@@ -4860,12 +5231,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.glade.h:32
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "_Modify..."
-msgstr ""
+msgstr "_შეცვლა..."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:33
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "RA_ID Level:"
-msgstr ""
+msgstr "RA_ID-ის დონე:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:34
 msgid "_Update Settings"
@@ -4886,7 +5257,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.glade.h:37
 msgctxt "GUI|Custom Partitioning|Encrypted"
 msgid "_Passphrase:"
-msgstr ""
+msgstr "_პაროლი:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:38
 msgctxt "GUI|Custom Partitioning|Encrypted"
@@ -4899,28 +5270,36 @@ msgid ""
 "different device."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:40
 msgid "AVAILABLE SPACE"
-msgstr ""
+msgstr "ხელმისაწვდომი სიცვრე"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:41
 msgid "TOTAL SPACE"
-msgstr ""
+msgstr "გამური სივრცე"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:42
 msgctxt "GUI|Custom Partitioning"
 msgid "_Reset All"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:1
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:2
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:3
 msgid "ADD DASD STORAGE TARGET"
@@ -4968,10 +5347,12 @@ msgstr ""
 msgid "The added DASD can be found under \"Local Standard Disks\"."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:1
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:2
 msgid ""
@@ -4981,7 +5362,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:3
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "_NIC:"
-msgstr ""
+msgstr "_NIC:"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:4
 msgctxt "GUI|Advanced Storage|FCoE"
@@ -5008,15 +5389,17 @@ msgid ""
 "check your configuration and try again"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:1
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:2
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:3
 msgid "ADD iSCSI STORAGE TARGET"
@@ -5042,9 +5425,11 @@ msgstr ""
 msgid "No credentials (discovery authentication disabled)"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:8
 msgid "CHAP pair"
-msgstr ""
+msgstr "CHAP წყვილი"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:9
 msgid "CHAP pair and a reverse pair"
@@ -5120,13 +5505,17 @@ msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_Bind targets to network interfaces. This may take a moment..."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:24
 msgid "Node Name"
-msgstr ""
+msgstr "კვანძის სახელი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:25
 msgid "Interface"
-msgstr ""
+msgstr "ინტერფეისი"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:26
 msgid "Portal"
@@ -5234,33 +5623,39 @@ msgstr ""
 msgid "LUN:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:1
 msgid "SELECTED DISKS"
-msgstr ""
+msgstr "არჩეული დისკები"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:2
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Close"
-msgstr ""
+msgstr "და_კეტვა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:3
 msgid "Boot"
-msgstr ""
+msgstr "ჩატვირთვადი"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:4
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:7
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "თავისუფალი"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Remove"
-msgstr ""
+msgstr "ამო_ღება"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:10
 msgid "Disk summary goes here"
@@ -5269,26 +5664,28 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:1
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:2
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Delete It"
-msgstr ""
+msgstr "_წაშალე"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:3
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:4
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Select"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:5
 msgid "CONFIGURE MOUNT POINT"
-msgstr ""
+msgstr "მონტირების წერტილის დაკონფიგება"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:6
 msgid "Select one or more disks this device may reside on."
@@ -5297,26 +5694,26 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:11
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:12
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Add mount point"
-msgstr ""
+msgstr "მონტირების წერტილის დ_ამატება"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:13
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Desired Capacity:"
-msgstr ""
+msgstr "სასუ_რველი მოცულობა:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:14
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "Mount _Point:"
-msgstr ""
+msgstr "მონტირების _წერტილი"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:15
 msgid "ADD A NEW MOUNT POINT"
-msgstr ""
+msgstr "მონტირების ახალი წერტილის დამატება"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:16
 msgid ""
@@ -5330,9 +5727,11 @@ msgid ""
 "use.  Try something else?"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:20
 msgid "eg: \"20 GB\", \"500mb\" (minus the quotation marks)"
-msgstr ""
+msgstr "მაგ: \"20 GB\", \"500mb\" (ბრჭყალების გარეშე)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:22
 msgid "Single <span foreground=\"grey\">(No Redundancy, No Striping)</span>"
@@ -5341,16 +5740,18 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:29
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:30
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Save"
-msgstr ""
+msgstr "_შენახვა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:31
 msgid "CONFIGURE CONTAINER"
-msgstr ""
+msgstr "კონტეინერის გამართვა"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:32
 msgid ""
@@ -5360,36 +5761,46 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:33
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Name:"
-msgstr ""
+msgstr "სა_ხელი:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:34
 msgid "RAID Level:"
-msgstr ""
+msgstr "RAID-ის დონე:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:35
 msgid "Encrypt"
-msgstr ""
+msgstr "დაშიფრვა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:36
 msgid "Please enter a valid name."
-msgstr ""
+msgstr "გთხოვთ შეიყვანოთ სწორი სახელი."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:37
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "Si_ze policy:"
-msgstr ""
+msgstr "_ზომის პოლიტიკა:"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:38
 msgid "Automatic"
-msgstr ""
+msgstr "ავტომატური"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:39
 msgid "As large as possible"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:40
 msgid "Fixed"
-msgstr ""
+msgstr "ფიქსირებული"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:1
 msgid "UNFORMATTED DASDS"
@@ -5398,12 +5809,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:2
 msgctxt "GUI|DASD Format Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:3
 msgctxt "GUI|DASD Format Dialog"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:4
 msgid ""
@@ -5459,19 +5870,23 @@ msgstr ""
 msgid "Random data quality:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:1
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:2
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Save Passphrase"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:3
 msgid "DISK ENCRYPTION PASSPHRASE"
-msgstr ""
+msgstr "დისკის შიფრაციის პაროლი"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:4
 msgid ""
@@ -5480,15 +5895,19 @@ msgid ""
 "computer."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:5
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Passphrase:"
-msgstr ""
+msgstr "_პაროლი:"
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:6
 msgctxt "GUI|Passphrase Dialog"
 msgid "Con_firm:"
-msgstr ""
+msgstr "დადას_ტურება:"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:8
 msgid ""
@@ -5496,19 +5915,23 @@ msgid ""
 "default one) when you decrypt your disks after install."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:1
 msgid "RESCAN DISKS"
-msgstr ""
+msgstr "დისკების დასკანირება"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:2
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:3
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:4
 msgid ""
@@ -5541,10 +5964,12 @@ msgstr ""
 msgid "Disk rescan complete."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:1
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_შეწყვეტა"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:2
 msgctxt "GUI|Reclaim Dialog"
@@ -5567,29 +5992,33 @@ msgstr ""
 msgid "Reclaimable Space"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:6
 msgid "Action"
-msgstr ""
+msgstr "მოქმედება"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:10
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Preserve"
-msgstr ""
+msgstr "შე_ნარჩუნება"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:11
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Delete"
-msgstr ""
+msgstr "_წაშლა"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:12
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Shrink"
-msgstr ""
+msgstr "და_პატარავება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:1
 msgid "SUMMARY OF CHANGES"
-msgstr ""
+msgstr "ცვლილებების შეჯამება"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:2
 msgctxt "GUI|Summary Dialog"
@@ -5599,7 +6028,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:3
 msgctxt "GUI|Summary Dialog"
 msgid "_Accept Changes"
-msgstr ""
+msgstr "_ცვლილებების დადასტურება"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:4
 msgid ""
@@ -5619,15 +6048,19 @@ msgstr ""
 msgid "Mount point"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/main.glade.h:3
 msgctxt "GUI|Main"
 msgid "_No"
-msgstr ""
+msgstr "_არა"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/main.glade.h:4
 msgctxt "GUI|Main"
 msgid "_Yes"
-msgstr ""
+msgstr "_დიახ"
 
 #: pyanaconda/ui/gui/main.glade.h:5
 msgid ""
@@ -5635,35 +6068,41 @@ msgid ""
 "installation process?"
 msgstr ""
 
+# translation auto-copied from project virt-top, version master, document
+# virt-top
 #: pyanaconda/ui/gui/main.glade.h:7
 msgid "Quit"
-msgstr ""
+msgstr "გასვლა"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/hubs/summary.glade.h:1
 msgid "INSTALLATION SUMMARY"
-msgstr ""
+msgstr "ჩადგმის შეჯამება"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:2
 msgctxt "GUI|Summary"
 msgid "_Quit"
-msgstr ""
+msgstr "_გამოსვლა"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:3
 msgctxt "GUI|Summary"
 msgid "_Begin Installation"
-msgstr ""
+msgstr "ჩადგმის დაწ_ყება"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:4
 msgid "We won't touch your disks until you click 'Begin Installation'."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/hubs/progress.glade.h:1
 msgid "CONFIGURATION"
-msgstr ""
+msgstr "კონფიგურაცია"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "ჩადგმისთვის მომზადება"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5673,28 +6112,32 @@ msgstr ""
 #: pyanaconda/ui/gui/hubs/progress.glade.h:4
 msgctxt "GUI|Progress"
 msgid "_Reboot"
-msgstr ""
+msgstr "გადატვი_რთვა"
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "მყარ დისკზე ჩადგმა"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "ჩადგმა"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
-msgstr ""
+msgstr "მყარ დისკზე ჩადგმის დაწყება"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
 msgid "Welcome to Fedora"
-msgstr ""
+msgstr "მოგესალმებათ Fedora"
 
 #: anaconda:478
 #, python-format
@@ -5719,7 +6162,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "RAM არასაკმარისია"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +6172,14 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+" სცადეთ ტექსტური რეჟიმის ინსტალატორი შემდეგი ბრძანების root-ის ტერმინალში "
+"გაშვებით:\n"
+"\n"
+"'/usr/bin/liveinst -T'"
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr "ტექსტური რეჟიმის გაშვება"
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +6187,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "DISPLAY ცვლადი არ არის გადმოცემული. იშვებს ტექსტური რეჟიმი."
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "გრაფიკული ჩადგმა მიუწვდომელია. იშვებს ტექსტური რეჟიმი."
 
 #: anaconda:660
 msgid ""
@@ -5779,6 +6226,8 @@ msgid ""
 "in the Activities Overview at any later time."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: data/liveinst/gnome/fedora-welcome:131
 msgid "Close"
-msgstr ""
+msgstr "დაკეტვა"

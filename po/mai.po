@@ -1,22 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Dimitris Glezos <glezos@transifex.com>, 2011
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009
+# Rajesh Ranjan <rranjan@redhat.com>, 2008
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2008-2009
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-23 01:34-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Maithili (http://www.transifex.com/projects/p/anaconda/"
+"language/mai/)\n"
+"Language: mai\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -123,11 +128,11 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "VNC प्रारंभ करू"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "पाठ मोडक उपयोग करू"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
@@ -448,7 +453,7 @@ msgstr ""
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "पूर्व संस्थापित स्क्रिप्ट चलाए रहल अछि"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
@@ -903,11 +908,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "बचाव"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "जारी राखू"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1008,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "अहाँक पास कोनो Linux विभाजन नहि अछि.  फेर बूट कए रहल अछि.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1201,22 +1206,21 @@ msgstr ""
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "%sमेजबान पर vnc क्लाइंट सँ जुड़बाक प्रयास कए रहल अछि...."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "जुड़ि गेल!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "15 सकेण्डमे दोबारा जुड़बाक प्रयास करताह..."
 
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1229,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "संस्थापन प्रारंभ करबाक' लेल कृप्या अपन vnc क्लाइंट %s सँ दस्ती रूप सँ जोड़ू."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1241,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "VNC प्रारंभ कए रहल अछि..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC सर्वर आब चलि रहल अछि."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1257,13 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"अहाँ एकटा सुननेवाला vncviewer सँ कनेक्ट करबाक' लेल चुनल अछि. \n"
+"ई सेट करबाक' लेल गुड़किल्ली सेट करबा जरूरी नहि अछि.  जँ अहाँ \n"
+"गुड़किल्ली सेट कएने अछि, ई प्रयुक्त हाएत तब जखन कनेक्शन \n"
+"vncviewer मे असफल अछि\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1274,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"चेतावनी!!! VNC सर्वर बिनु कोनो गुड़किल्ली सँ चल रहल अछि!\n"
+"अहाँ vncpassword=<password> बूट विकल्प क' प्रयोग कए सकैत छी\n"
+"जँ अहाँ सर्वर की सुरक्षा चाहैत छी.\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1288,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"अहाँ vnc केँ एकटा गुड़किल्ली केर संग चलाबै क' लेल चुनल अछि. \n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,6 +1300,10 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"अज्ञात त्रुटि.  छोड़ रहल अछि. \n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
@@ -1324,7 +1349,7 @@ msgstr ""
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "संस्थापन श्रोत सँ विनिमय क' लेल तैआर कए रहल अछि"
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
@@ -1413,7 +1438,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,7 +1465,6 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
@@ -1516,7 +1539,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "त्रुटि"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1609,7 +1632,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "गुड़किल्ली कम सँ कम छह अक्षर क' जरूर होनाइ चाही."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -2391,7 +2414,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2471,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2604,7 +2625,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -3083,7 +3103,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3211,7 +3230,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3380,7 +3398,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3433,7 +3450,7 @@ msgstr ""
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "जारी राखू (_C)"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -4661,7 +4678,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "संस्थापन प्रक्रिया क' समय अहाँ कओन भाषाक प्रयोग कएनाइ चाहैत छी?"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
@@ -5255,7 +5272,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "मुक्त"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5663,7 +5680,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "संस्थापित करबाक लेल तैआर कए रहल अछि"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5677,15 +5694,15 @@ msgstr ""
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "हार्ड ड्राइवमे संस्थापित करू"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "संस्थापित करू"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "अपन हार्ड डिस्कमे लाइव सीडी संस्थापित करू"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
@@ -5740,11 +5757,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "प्रदर्शक मोड चर सेट नहि अछि. पाठ मोड शुरू कए रहल अछि."
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "आलेखी संस्थापन मोजुद नहि अछि.  पाठ प्रकार प्रारंभ कए रहल अछि."
 
 #: anaconda:660
 msgid ""

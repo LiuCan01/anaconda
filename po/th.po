@@ -1,26 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Dimitris Glezos <glezos@transifex.com>, 2011
+# Kamthorn Krairaksa <kamthorn_k@yahoo.com>, 2002,2004
+# Manatsawin Hanmongkolchai <manatsawin@gmail.com>, 2009
+# Rockers <sumorock@hotmail.com>, 2014
+# Supphachoke Suntiwichaya <mrchoke@opentle.org>, 2003-2004
+# Surichat Sumrit <nook@opentle.org>, 2004
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-23 02:08-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Thai (http://www.transifex.com/projects/p/anaconda/language/"
+"th/)\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Zanata 3.9.5\n"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
-msgstr ""
+msgstr "ระบบแฟ้ม /boot"
 
 #: pyanaconda/bootloader.py:410
 #, python-format
@@ -123,23 +132,29 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "เริ่มโปรแกรม VNC"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "ใช้โหมดตัวอักษร"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
-msgstr ""
+msgstr "รหัสผ่านว่าง"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:140
 msgid "The passwords do not match."
-msgstr ""
+msgstr "รหัสผ่านไม่ตรงกัน"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
-msgstr ""
+msgstr "รหัสผ่านที่คุณกรอกไม่เหมือนกัน กรุณาลองอีกครั้ง"
 
 #: pyanaconda/constants.py:142
 #, python-format
@@ -195,6 +210,8 @@ msgstr ""
 msgid "Strong"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:109
 #, python-format
 msgid ""
@@ -204,11 +221,18 @@ msgid ""
 "\n"
 "The installation will now terminate."
 msgstr ""
+"เกิดข้อผิดพลาดจากการแบ่งพาร์ทิชันของคุณ:\n"
+"\n"
+"%(errortxt)s\n"
+"\n"
+"จะออกจากการติดตั้งทันที"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:115
 #, python-format
 msgid "An error occurred while resizing the device %s."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะปรับขนาดอุปกรณ์ %s"
 
 #: pyanaconda/errors.py:124
 #, python-format
@@ -231,12 +255,18 @@ msgstr ""
 msgid "_Retry"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:140
 msgid ""
 "An error has occurred - no valid devices were found on which to create new "
 "file systems.  Please check your hardware for the cause of this problem."
 msgstr ""
+"เกิดข้อผิดพลาดขึ้น - ไม่พบอุปกรณ์ที่ถูกต้องซึ่งใช้สร้างระบบแฟ้มใหม่ได้ "
+"กรุณาตรวจสอบค่าตั้งฮาร์ดแวร์ของคุณ เพื่อดูสาเหตุของปัญหานี้"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:147
 #, python-format
 msgid ""
@@ -244,13 +274,19 @@ msgid ""
 "cleanly.  Would you like to mount them anyway?\n"
 "%s"
 msgstr ""
+"ระบบแฟ้มสำหรับระบบ Linux ดังต่อไปนี้ไม่ได้เลิกเมานท์อย่างถูกต้อง ต้องการเมานท์ไปก่อนไหม\n"
+"%s"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:158
 msgid ""
 "There is an entry in your /etc/fstab file that contains an invalid or "
 "incorrect file system type:\n"
 "\n"
 msgstr ""
+"มีรายการในแฟ้ม /etc/fstab ของคุณซึ่งมีประเภทของระบบแฟ้มที่ไม่ถูกต้อง:\n"
+"\n"
 
 #: pyanaconda/errors.py:164
 #, python-format
@@ -263,6 +299,8 @@ msgid ""
 "using this image?"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:178
 msgid ""
 "The installer has tried to mount the installation image, but cannot find it "
@@ -270,18 +308,27 @@ msgid ""
 "\n"
 "Should I try again to locate the image?"
 msgstr ""
+"โปรแกรมติดตั้งพยายามเมานต์อิมเมจ #%s แต่ไม่สามารถหามันบนฮาร์ดไดรฟ์ได้\n"
+"\n"
+"ฉันควรจะลองหาที่ตั้งให้อิมเมจอีกครั้งหรือเปล่า"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:188
 #, python-format
 msgid "An error occurred mounting the source device %s. Retry?"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะเมานท์ source device %s ต้องการลองอีกครั้งไหม"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/errors.py:196
 #, python-format
 msgid ""
 "An error occurred unmounting the disc.  Please make sure you're not "
 "accessing %s from the shell on tty2 and then click OK to retry."
 msgstr ""
+"เกิดข้อผิดพลาดขณะเลิกเมานท์แผ่นดิสก์  กรุณาตรวจให้แน่ใจว่าคุณไม่ได้เข้าถึง %s จาก shell บน "
+"tty2 แล้วคลิกปุ่ม ตกลง เพื่อลองอีกครั้ง"
 
 #: pyanaconda/errors.py:204
 #, python-format
@@ -416,17 +463,21 @@ msgstr ""
 msgid "Writing network configuration"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:95
 msgid "Creating users"
-msgstr ""
+msgstr "กำลังสร้างผู้ใช้"
 
 #: pyanaconda/install.py:103
 msgid "Configuring addons"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:106
 msgid "Generating initramfs"
-msgstr ""
+msgstr "กำลังสร้าง initramfs"
 
 #: pyanaconda/install.py:110
 #, python-format
@@ -437,10 +488,12 @@ msgstr ""
 msgid "Running post-installation scripts"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:166
 #, python-format
 msgid "Waiting for %s threads to finish"
-msgstr ""
+msgstr "กำลังรอให้ %s เธรดทำงานเสร็จ"
 
 #: pyanaconda/install.py:172
 msgid "Setting up the installation environment"
@@ -448,15 +501,17 @@ msgstr ""
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "กำลังเรียกใช้สคริปต์ก่อนติดตั้ง..."
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/install.py:266
 msgid "Installing boot loader"
-msgstr ""
+msgstr "กำลังติดตั้งบูตโหลดเดอร์"
 
 #: pyanaconda/install.py:269 pyanaconda/packaging/livepayload.py:170
 #: pyanaconda/packaging/yumpayload.py:1464
@@ -888,10 +943,12 @@ msgstr ""
 msgid "A %(command)s with the name %(policyName)s has already been defined."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "เรียก %s เพื่อเลิกเมานท์ระบบ เมื่อคุณทำเสร็จแล้ว"
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +960,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "กู้ระบบ"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "ดำเนินการต่อไป"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1060,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "คุณไม่มีพาร์ติชั่นลินุกซ์เลย จะเริ่มต้นระบบใหม่\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1201,22 +1258,21 @@ msgstr ""
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "กำลังพยายามเชื่อมต่อไคลเอ็นต์ VNC ที่โฮสต์ %s..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "เชื่อมต่อได้แล้ว!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "จะพยายามเชื่อมต่ออีกครั้งภายในเวลา 15 วินาที..."
 
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1281,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "กรุณาเชื่อมต่อไคลเอ็นต์ VNC ที่ %s ด้วยคุณตัวเอง เพื่อเริ่มติดตั้ง"
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1293,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "กำลังเริ่มโปรแกรม VNC..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "ตอนนี้เซิร์ฟเวอร์ VNC ทำงานแล้ว"
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1309,12 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"คุณเลือกที่จะติดต่อกับ vncviewer ที่กำลังรับการเชื่อมต่ออยู่\n"
+"การเชื่อมต่อนี้ไม่ต้องกำหนดรหัสผ่าน หากคุณกำหนดไว้\n"
+"รหัสผ่านนี้จะถูกใช้เมื่อการเชื่อมต่อไปยัง vncviewer ล้มเหลว\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1325,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"คำเตือน!!! เซิร์ฟเวอร์ VNC กำลังเรียกใช้งานโดยไม่มีรหัสผ่าน!\n"
+"คุณสามารถใช้ตัวเลือกบูต vncpassword=<password> \n"
+"ถ้าคุณต้องการเพิ่มความปลอดภัยให้เซิร์ฟเวอร์\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1339,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"คุณเลือกที่จะเรียกใช้ vnc โดยใส่รหัสผ่าน\n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,6 +1351,10 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"ข้อผิดพลาดที่ไม่รู้จัก จะยกเลิก\n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
@@ -1298,10 +1374,12 @@ msgstr ""
 msgid "No installation source available"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/packaging/livepayload.py:98
 #: pyanaconda/packaging/livepayload.py:119
 msgid "Installing software"
-msgstr ""
+msgstr "กำลังติดตั้งซอฟต์แวร์"
 
 #: pyanaconda/packaging/livepayload.py:220
 #: pyanaconda/packaging/livepayload.py:229
@@ -1324,11 +1402,13 @@ msgstr ""
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "กำลังเตรียมการส่งข้อมูลจากแหล่งติดตั้ง..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "กำลังติดตั้ง"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
@@ -1375,9 +1455,11 @@ msgstr ""
 msgid "SYSTEM"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/categories/user_settings.py:32
 msgid "USER SETTINGS"
-msgstr ""
+msgstr "การตั้งค่าผู้ใช้"
 
 #: pyanaconda/ui/lib/space.py:37
 #, python-format
@@ -1413,7 +1495,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,7 +1522,6 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
@@ -1516,7 +1596,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "เกิดข้อผิดพลาด"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1553,9 +1633,11 @@ msgctxt "TUI|Spoke Navigation"
 msgid "no"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/simpleline/base.py:90
 msgid "Do you really want to quit?"
-msgstr ""
+msgstr "คุณต้องการออกจริงๆ ใช่ไหม"
 
 #: pyanaconda/ui/tui/simpleline/base.py:581 anaconda:526
 msgid "Press ENTER to continue"
@@ -1609,7 +1691,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "รหัสผ่านต้องยาวอย่างน้อย 6 ตัวอักษร"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -1888,9 +1970,11 @@ msgstr ""
 msgid "Formatting /dev/%s. This may take a moment."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:410
 msgid "Generating updated storage configuration"
-msgstr ""
+msgstr "กำลังสร้างค่ากำหนดที่จัดเก็บข้อมูลที่ปรับปรุงแล้ว"
 
 #: pyanaconda/ui/tui/spokes/storage.py:415
 #: pyanaconda/ui/tui/spokes/storage.py:427
@@ -2177,10 +2261,12 @@ msgstr ""
 msgid "Installation source needs to be set up first."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/software.py:121
 #: pyanaconda/ui/tui/spokes/software.py:131
 msgid "Base environment"
-msgstr ""
+msgstr "สภาพแวดล้อมพื้นฐาน"
 
 #: pyanaconda/ui/tui/spokes/software.py:208
 msgid "Checking software selection"
@@ -2190,9 +2276,11 @@ msgstr ""
 msgid "User creation"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/user.py:121 pyanaconda/ui/gui/spokes/user.py:356
 msgid "No user will be created"
-msgstr ""
+msgstr "ไม่มีผู้ใช้ที่จะสร้าง"
 
 #: pyanaconda/ui/tui/spokes/user.py:123
 msgid "You must set a password"
@@ -2203,10 +2291,12 @@ msgstr ""
 msgid "Administrator %s will be created"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/user.py:127 pyanaconda/ui/gui/spokes/user.py:360
 #, python-format
 msgid "User %s will be created"
-msgstr ""
+msgstr "ผู้ใช้ %s จะถูกสร้าง"
 
 #: pyanaconda/ui/tui/spokes/user.py:137
 msgid "Full name can't contain the ':' character"
@@ -2302,9 +2392,11 @@ msgstr ""
 msgid "Password set."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/__init__.py:383 widgets/src/BaseWindow.c:157
 msgid "Help!"
-msgstr ""
+msgstr "ขอความช่วยเหลือ!"
 
 #: pyanaconda/ui/gui/__init__.py:862 widgets/src/StandaloneWindow.c:49
 msgid "_Quit"
@@ -2391,7 +2483,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2540,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2585,9 +2675,11 @@ msgstr ""
 msgid "AM"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1035
 msgid "You need to set up networking first if you want to use NTP"
-msgstr ""
+msgstr "คุณต้องตั้งค่าเครือข่ายก่อน จึงจะสามารถใช้ NTP ได้"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1039
 msgid "You have no working NTP server configured"
@@ -2604,7 +2696,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2786,9 +2877,11 @@ msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Key:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1399
 msgid "User name: "
-msgstr ""
+msgstr "ชื่อผู้ใช้:"
 
 #: pyanaconda/ui/gui/spokes/network.py:1410
 msgid "Identity: "
@@ -2813,17 +2906,23 @@ msgstr ""
 msgid "The password is set."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:130
 msgid "Root password is set"
-msgstr ""
+msgstr "ตั้งรหัสผ่านของ Root แล้ว"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:132
 msgid "Root account is disabled"
-msgstr ""
+msgstr "ปิดการใช้งานบัญชีผู้ใช้ Root อยู่"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.py:134
 msgid "Root password is not set"
-msgstr ""
+msgstr "ไม่ได้ตั้งรหัสผ่านของ Root ไว้"
 
 #: pyanaconda/ui/gui/spokes/software.py:52
 msgctxt "GUI|Spoke"
@@ -2923,9 +3022,11 @@ msgstr ""
 msgid "Failed to set up installation source; check the repo url"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/source.py:555
 msgid "Error setting up base repository"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการตั้งคลังแพคเกจพื้นฐาน"
 
 #: pyanaconda/ui/gui/spokes/source.py:566
 msgid "Error setting up ISO file"
@@ -3083,7 +3184,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3156,9 +3256,11 @@ msgstr ""
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/user.py:617
 msgid "Invalid user name"
-msgstr ""
+msgstr "ชื่อผู้ใช้ไม่ถูกต้อง"
 
 #: pyanaconda/ui/gui/spokes/welcome.py:209
 #, python-format
@@ -3211,7 +3313,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3287,17 +3388,21 @@ msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "Delete _all other file systems in the %s root as well."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:368
 #, python-format
 msgid "Are you sure you want to delete all of the data on %s?"
-msgstr ""
+msgstr "คุณแน่ใจหรือว่าต้องการลบข้อมูลทุกอย่างบน %s?"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:370
 #, python-format
 msgid ""
 "Are you sure you want to delete all of the data on %s, including snapshots "
 "and/or subvolumes?"
-msgstr ""
+msgstr "คุณแน่ใจหรือว่าต้องการลบข้อมูลทุกอย่างบน %s รวมทั้งสแนปชอต และ/หรือ subvolumes ด้วย"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:647
 msgid "Invalid container name"
@@ -3380,7 +3485,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3427,13 +3531,15 @@ msgstr ""
 msgid "New Selector"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: widgets/src/SpokeWindow.c:57
 msgid "_Done"
-msgstr ""
+msgstr "เ_สร็จสิ้น"
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "_ต่อไป"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3455,9 +3561,11 @@ msgctxt "GUI|Advanced User"
 msgid "_Save Changes"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:3
 msgid "ADVANCED USER CONFIGURATION"
-msgstr ""
+msgstr "การกำหนดค่าผู้ใช้ขั้นสูง"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:4
 msgctxt "GUI|Advanced User"
@@ -4075,9 +4183,11 @@ msgstr ""
 msgid "SOFTWARE SELECTION"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/software.glade.h:2
 msgid "Base Environment"
-msgstr ""
+msgstr "สภาพแวดล้อมพื้นฐาน"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:3
 msgid "Add-Ons for Selected Environment"
@@ -4374,9 +4484,11 @@ msgstr ""
 msgid "checked"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/password.glade.h:1
 msgid "ROOT PASSWORD"
-msgstr ""
+msgstr "รหัสผ่านของ ROOT"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:2
 msgctxt "GUI|Password"
@@ -4661,7 +4773,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "ภาษาอะไรที่คุณต้องการใช้ในระหว่างกระบวนการการติดตั้ง?"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
@@ -5255,7 +5367,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "ว่าง"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5653,17 +5765,21 @@ msgctxt "GUI|Summary"
 msgid "_Begin Installation"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/hubs/summary.glade.h:4
 msgid "We won't touch your disks until you click 'Begin Installation'."
-msgstr ""
+msgstr "เราจะไม่แตะต้องดิสก์ของคุณจนกว่าคุณจะคลิกปุ่ม 'เริ่มการติดตั้ง'"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/hubs/progress.glade.h:1
 msgid "CONFIGURATION"
-msgstr ""
+msgstr "การกำหนดค่า"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "กำลังเตรียมการติดตั้ง"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5677,24 +5793,26 @@ msgstr ""
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "ติดตั้งลงฮาร์ดดิสก์"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "ติดตั้ง"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "ติดตั้ง live CD ลงฮาร์ดดิสก์"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
 msgid "Welcome to Fedora"
-msgstr ""
+msgstr "ยินดีต้อนรับสู่ Fedora"
 
 #: anaconda:478
 #, python-format
@@ -5719,7 +5837,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "RAM ไม่พอ"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5847,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+"ลองใช้ตัวติดตั้งในโหมดข้อความโดยเรียกใช้คำสั่ง:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+" จากรูทเทอร์มินัล"
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr "กำลังเริ่มทำงานในโหมดข้อความ"
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +5863,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "ไม่ได้กำหนดตัวแปร DISPLAY จึงจะใช้โหมดข้อความ."
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "ไม่สามารถติดตั้งแบบกราฟิก... กำลังเริ่มการติดตั้งบนโหมดตัวอักษร"
 
 #: anaconda:660
 msgid ""
@@ -5753,25 +5876,33 @@ msgid ""
 "use VNC mode instead?"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: anaconda:756
 #, python-format
 msgid "Please ssh install@%s to begin the install."
-msgstr ""
+msgstr "กรุณา ssh install@%s เพื่อเริ่มติดตั้ง"
 
 #: anaconda:758
 msgid "Please ssh install@<host> to continue installation."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: data/liveinst/gnome/fedora-welcome:94
 msgid "Try Fedora"
-msgstr ""
+msgstr "ลองใช้ Fedora"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: data/liveinst/gnome/fedora-welcome:110
 msgid ""
 "You are currently running Fedora from live media.\n"
 "You can install Fedora now, or choose \"Install to Hard Drive\" in the "
 "Activities Overview at any later time."
 msgstr ""
+"ตอนนี้คุณกำลังเรียกใช้ Fedora จาก live media\n"
+"คุณจะติดตั้ง Fedora เลยก็ได้ หรือเลือก \"ติดตั้งลงฮาร์ดไดรฟ์\" ในภาพรวมกิจกรรม ได้ในภายหลัง"
 
 #: data/liveinst/gnome/fedora-welcome:128
 msgid ""

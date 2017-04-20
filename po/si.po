@@ -1,22 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Danishka Navin <danishka@gmail.com>, 2011
+# Danishka Navin <snavin@redhat.com>, 2007
+# Dimitris Glezos <glezos@transifex.com>, 2011
+# Tyronne Wickramarathne <tywickra@redhat.com>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-23 01:54-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Sinhala (http://www.transifex.com/projects/p/anaconda/"
+"language/si/)\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -123,11 +128,11 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "VNC ආරම්භ කරන්න"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "පාඨමය පිළිවෙල භාවිත කරන්න"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
@@ -448,7 +453,7 @@ msgstr ""
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "පෙර-ස්ථාපන විධානාවලි ක්‍රියාත්මක කරමින්"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
@@ -488,6 +493,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"ඔබේ escrow සහතිකය බාගත කිරීමේදී පහත සඳහන් දෝශය ඇති විය:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:247
 #, python-format
@@ -891,7 +899,7 @@ msgstr ""
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "අවසන් කල විට පද්ධතිය විසන්ධි කිරීමට %s ධාවනය කරන්න."
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +911,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "මුදවාගන්න"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "දිගටම කරගෙන යන්න"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1011,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "ඔබ සතුව කිසිඳු ලිනක්ස් තැටි කොටසක් නොමැත. නැවත අරඹමින්.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1191,32 +1199,32 @@ msgstr ""
 #: pyanaconda/vnc.py:74
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s ස්ථාපනය"
 
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "%(name)s ධාරකය මත %(productName)s %(productVersion)s ස්ථාපනය"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "%s ධාරකයේ තිබෙන vnc ග්‍රාහකය සමඟ සම්බන්ධ වීමට උත්සහ කරමින්..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "සම්බන්ධ විය!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "තත්පර 15 පසුව නැවත සම්බන්ධ වීමට උත්සහ කරනු ඇත..."
 
 #: pyanaconda/vnc.py:180
-#, python-format
+#, fuzzy, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "සම්බන්ධ වීමට %d වරක් උත්සහ කිරීමෙන් පසුව අතහැර දමමින්!\n"
+msgstr[1] "සම්බන්ධ වීමට %d වරක් උත්සහ කිරීමෙන් පසුව අතහැර දමමින්!\n"
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1233,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "කරුණාකර ස්ථාපනය ආරම්භ කිරීම සඳහා ඔබේ vnc සේවා ග්‍රාහකය %s හා අතින් සම්බන්ධ කරන්න."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1245,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "VNC ආරම්භ කරමින්..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC සේවා දාහකය දැන් ක්‍රියාත්මකව පවතී."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1261,12 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"ඔබ විසින් සවන්දෙන vnc දසුනකට සම්බන්ධ වීමට තෝරා ඇත. \n"
+"මෙයට මුරපදයක් සැකසීම ඇවැසි නොවේ, ඔබ මුරපදයක් සකසයි \n"
+"නම් එය vnc දර්ශකය වෙත ඇති සම්බන්ධතාව අසාර්ථක කරයි\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1277,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"අවවාදයයි!!! VNC සේවා දායකය මුරපදයක් නොමැතිව ක්‍රියාත්මක වෙයි!\n"
+"සේවා දායකය ආරක්‍ෂා කිරීමට vncpassword=<password> \n"
+"boot විධානය මඟින් පුලුවන.\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1291,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"ඔබ විසින් vnc මුරපදයක් සමඟ ක්‍රියාත්කම වීම තෝරා ඇත. \n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,6 +1303,10 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"නොදන්නා දෝශයක්.  පිටවෙමින්. \n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
@@ -1324,7 +1352,7 @@ msgstr ""
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "ස්ථාපන ප්‍රභවයේ සිට හුවමාරුව සූදානම් වෙමින්"
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
@@ -1413,7 +1441,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,7 +1468,6 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
@@ -1516,7 +1542,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "දෝශයකි"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1609,7 +1635,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "මුරපදයේදිග අවම වශයෙන් අකුරු 6 කින් වත් සමන්විය යුතු වේ."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -2391,7 +2417,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2474,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2604,7 +2628,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2724,12 +2747,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:895
 #: pyanaconda/ui/gui/spokes/network.glade.h:16
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 ලිපිනය"
 
 #: pyanaconda/ui/gui/spokes/network.py:896
 #: pyanaconda/ui/gui/spokes/network.glade.h:15
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 ලිපිනය"
 
 #: pyanaconda/ui/gui/spokes/network.py:898
 #: pyanaconda/ui/gui/spokes/network.py:900
@@ -3083,7 +3106,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3211,7 +3233,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3380,7 +3401,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3433,7 +3453,7 @@ msgstr ""
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "කරගෙන යන්න(_C)"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3682,7 +3702,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "ධාරිතාව"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
@@ -3780,13 +3800,17 @@ msgctxt "GUI|Installation Destination|Filter|zSeries"
 msgid "Filter B_y:"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:35
 msgid "CCW"
-msgstr ""
+msgstr "CCW"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:36
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:37
 msgctxt "GUI|Installation Destination|Filter|zSeries|CCW"
@@ -4661,7 +4685,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "ස්ථාපනය කිරීමේදී භාවිතා කිරීමට ඔබ කැමති කිනම් භාශාවද?"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
@@ -5255,7 +5279,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "නිදහස්"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5663,7 +5687,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "ස්ථාපනයට සැරසෙමින්"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5677,19 +5701,19 @@ msgstr ""
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "දෘඩ තැටියට ස්ථාපනය කරන්න"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "ස්ථාපනය කරන්න"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "සජීවී CD තැටිය ඔබේ දෘඩ තැටියට ස්ථාපනය කරන්න"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
-msgstr ""
+msgstr "දෘඩ තැටියට ස්ථාපනය අරඹමින්"
 
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
@@ -5719,7 +5743,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "මතකය ප්‍රමාණවත් නැත"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5753,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+"මූල අග්‍රයෙන්:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+" ධාවනය කර පෙළ ප්‍රකාරය අත්හදා බලන්න."
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr "පෙළ ප්‍රකාරය අරඹමින්."
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +5769,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "DISPLAY විචල්‍යය සකසා නොමැත. පාඨමය අයුරින් අරඹමින්"
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "චිත්‍රක ස්ථාපනය භාවිතයේ නොමැත... පෙළ ප්‍රකාරයෙන් අරඹමින්."
 
 #: anaconda:660
 msgid ""

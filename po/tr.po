@@ -1,26 +1,39 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Bahadir Yagan <bahadir.yagan@mentorsystem.com>, 2004
+# dcantrel <dcantrell@redhat.com>, 2011
+# Dimitris Glezos <glezos@transifex.com>, 2011
+# Ebubekir KARUL <ebubekirkarul@yandex.com>, 2013
+# Egemen Metin Turan <mturan@aegee-ankara.org>, 2006
+# Hasan Alp İNAN <hasanalpinan@gmail.com>, 2011
+# Ismail ASCI <ismail.asci@gmail.com>, 2006
+# Muhammet Kara <muhammetk@gmail.com>, 2011
+# Onur Gungor <onurgu@boun.edu.tr>, 2004,2006
+# Akın Ömeroğlu <akinomeroglu@gmail.com>, 2015. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-23 02:08-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/anaconda/"
+"language/tr/)\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Zanata 3.9.5\n"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
-msgstr ""
+msgstr "/boot dosya sistemi"
 
 #: pyanaconda/bootloader.py:410
 #, python-format
@@ -78,15 +91,19 @@ msgstr ""
 msgid "%(desc)s must be within the first %(max_end)s of the disk."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/bootloader.py:515
 #, python-format
 msgid "%s must be on a primary partition."
-msgstr ""
+msgstr "%s birincil bölüm üzerinde olmak zorundadır."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/bootloader.py:651 pyanaconda/bootloader.py:751
 #, python-format
 msgid "%s cannot be on an encrypted block device."
-msgstr ""
+msgstr "%s şifrelenmiş bir blok aygıtı üzerinde olamaz."
 
 #: pyanaconda/bootloader.py:706
 #, python-format
@@ -123,23 +140,29 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "VNC'yi başlat"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "Metin kullan"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
-msgstr ""
+msgstr "Parola alanı boş."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:140
 msgid "The passwords do not match."
-msgstr ""
+msgstr "Parolalar eşleşmiyor."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
-msgstr ""
+msgstr "Girdiğiniz parolalar birbirinden farklı. Lütfen tekrar deneyin."
 
 #: pyanaconda/constants.py:142
 #, python-format
@@ -170,30 +193,40 @@ msgstr ""
 msgid "You will have to press Done twice to confirm it."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:149
 msgid "Empty"
-msgstr ""
+msgstr "Boş"
 
 #: pyanaconda/constants.py:150
 msgid "Too short"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:151 pyanaconda/ui/gui/spokes/lib/passphrase.py:124
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:7
 msgid "Weak"
-msgstr ""
+msgstr "Zayıf"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:152 pyanaconda/ui/gui/spokes/lib/passphrase.py:127
 msgid "Fair"
-msgstr ""
+msgstr "Asgari"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:153 pyanaconda/ui/gui/spokes/lib/passphrase.py:130
 msgid "Good"
-msgstr ""
+msgstr "İyi"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/constants.py:154 pyanaconda/ui/gui/spokes/lib/passphrase.py:133
 msgid "Strong"
-msgstr ""
+msgstr "Güçlü"
 
 #: pyanaconda/errors.py:109
 #, python-format
@@ -205,10 +238,12 @@ msgid ""
 "The installation will now terminate."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/errors.py:115
 #, python-format
 msgid "An error occurred while resizing the device %s."
-msgstr ""
+msgstr "%s: Cihazı yeniden boyutlandırırken bir hata oluştu"
 
 #: pyanaconda/errors.py:124
 #, python-format
@@ -231,11 +266,15 @@ msgstr ""
 msgid "_Retry"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/errors.py:140
 msgid ""
 "An error has occurred - no valid devices were found on which to create new "
 "file systems.  Please check your hardware for the cause of this problem."
 msgstr ""
+"Bir hata oluştu - Yeni dosya sistemini oluşturmak için geçerli bir cihaz "
+"bulunamadı. Lütfen problemin nedeni olabilecek donanımınızı kontrol edin."
 
 #: pyanaconda/errors.py:147
 #, python-format
@@ -271,17 +310,23 @@ msgid ""
 "Should I try again to locate the image?"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/errors.py:188
 #, python-format
 msgid "An error occurred mounting the source device %s. Retry?"
-msgstr ""
+msgstr "Kaynak %s cihazını bağlarken bir hata oluştu. Tekrar deney?"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/errors.py:196
 #, python-format
 msgid ""
 "An error occurred unmounting the disc.  Please make sure you're not "
 "accessing %s from the shell on tty2 and then click OK to retry."
 msgstr ""
+"Diskin bağını kaldırırken bir hata oluştu. %s diskine tty2 kabuğundan "
+"erişmediğinize emin olun ve tekrar denemek için Tamam'ı tıklayın"
 
 #: pyanaconda/errors.py:204
 #, python-format
@@ -331,11 +376,15 @@ msgid ""
 "%(details)s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/errors.py:253
 msgid ""
 "The following error occurred while installing.  This is a fatal error and "
 "installation will be aborted."
 msgstr ""
+"Yükleme sırasında ekteki hata oluştu. Bu ölümcül bir hata olup yükleme "
+"işlemi sona erdirilecek."
 
 #: pyanaconda/errors.py:261
 msgid ""
@@ -362,10 +411,12 @@ msgid ""
 "The installer will now terminate."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/errors.py:290
 #, python-format
 msgid "Unable to encrypt password: unsupported algorithm %s"
-msgstr ""
+msgstr "Parola şifrelenemiyor: desteklenmeyen algoritma %s"
 
 #: pyanaconda/exception.py:101
 #, python-format
@@ -408,60 +459,84 @@ msgid ""
 "The installer will now terminate."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:78
 msgid "Configuring installed system"
-msgstr ""
+msgstr "Yüklenen sistem ayarlanıyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:91
 msgid "Writing network configuration"
-msgstr ""
+msgstr "Ağ ayarları yazılıyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:95
 msgid "Creating users"
-msgstr ""
+msgstr "Kullanıcılar oluşturuluyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:103
 msgid "Configuring addons"
-msgstr ""
+msgstr "Eklentiler ayarlanıyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:106
 msgid "Generating initramfs"
-msgstr ""
+msgstr "İnitramfs oluşturuluyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:110
 #, python-format
 msgid "Joining realm: %s"
-msgstr ""
+msgstr "%s alanına katılınıyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:113
 msgid "Running post-installation scripts"
-msgstr ""
+msgstr "Yükleme sonrası betikleri çalıştırılıyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:166
 #, python-format
 msgid "Waiting for %s threads to finish"
-msgstr ""
+msgstr "%s işlemlerinin tamamlanması bekleniyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:172
 msgid "Setting up the installation environment"
-msgstr ""
+msgstr "Yükleme ortamı oluşturuluyor"
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "Kurulum öncesi betikleri çalıştırılıyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
-msgstr ""
+msgstr "Katılanacak alan keşfediliyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:266
 msgid "Installing boot loader"
-msgstr ""
+msgstr "Boot yükleyicisi yükleniyor"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/install.py:269 pyanaconda/packaging/livepayload.py:170
 #: pyanaconda/packaging/yumpayload.py:1464
 msgid "Performing post-installation setup tasks"
-msgstr ""
+msgstr "Yükleme sonrası ayar görevleri çalıştırılıyor"
 
 #: pyanaconda/iutil.py:777
 msgid "No host url"
@@ -489,10 +564,12 @@ msgid ""
 "%s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/kickstart.py:247
 #, python-format
 msgid "%s is missing. Cannot setup authentication."
-msgstr ""
+msgstr "%s bulunamıyor. Yetkilendirme ayarlanamıyor."
 
 #: pyanaconda/kickstart.py:272
 #, python-format
@@ -569,10 +646,12 @@ msgstr ""
 msgid "NIC \"%s\" given in fcoe command does not exist."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/kickstart.py:723
 #, python-format
 msgid "%s is missing. Cannot setup firewall."
-msgstr ""
+msgstr "%s yok. Güvenlik duvarı ayarlanamıyor."
 
 #: pyanaconda/kickstart.py:771 pyanaconda/kickstart.py:782
 #, python-format
@@ -796,13 +875,17 @@ msgid ""
 "is provided through fedup."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:105
 msgid "Host name cannot be None or an empty string."
-msgstr ""
+msgstr "Sunucu ismi None ya da boş olamaz."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:108
 msgid "Host name must be 255 or fewer characters in length."
-msgstr ""
+msgstr "Sunucu ismi 255 ya da daha az karakter uzunluğunda olmalıdır."
 
 #: pyanaconda/network.py:111
 msgid ""
@@ -811,29 +894,39 @@ msgid ""
 "'-'."
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/network.py:1432 pyanaconda/ui/gui/spokes/custom.py:552
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
-msgstr ""
+msgstr "Bağlanıyor..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:1438
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Bağlantı kesiliyor..."
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:1459
 #, python-format
 msgid "Wired (%(interface_name)s) connected"
-msgstr ""
+msgstr "Kablolu arayüz (%(interface_name)s) bağlandı"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:1462
 #, python-format
 msgid "Wireless connected to %(access_point)s"
-msgstr ""
+msgstr "Kablosuz bağlantı  %(access_point)s ağına bağlı"
 
 #: pyanaconda/network.py:1465
 #, python-format
@@ -860,13 +953,17 @@ msgstr ""
 msgid "Connected: %(list_of_interface_names)s"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:1499
 msgid "Not connected"
-msgstr ""
+msgstr "Bağlı değil"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/network.py:1502 pyanaconda/ui/gui/spokes/network.glade.h:45
 msgid "No network devices available"
-msgstr ""
+msgstr "Hiç bir ağ cihazı uygun değil"
 
 #: pyanaconda/product.py:53
 #, python-format
@@ -891,7 +988,7 @@ msgstr ""
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "Bitirdiğiniz zaman %s 'i çalıştırarak sistemi ayırınız."
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +1000,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "Kurtar"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "Devam Et"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1100,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "Herhangi bir Linux bölümü bulunamadı. Yeniden başlatılıyor.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1018,40 +1115,56 @@ msgstr ""
 msgid "Please press <return> to get a shell. "
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:53 pyanaconda/storage_utils.py:85
 #: pyanaconda/ui/gui/spokes/custom.glade.h:3
 msgid "LVM"
-msgstr ""
+msgstr "LVM"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:54 pyanaconda/storage_utils.py:86
 #: pyanaconda/ui/gui/spokes/custom.glade.h:5
 msgid "LVM Thin Provisioning"
-msgstr ""
+msgstr "LVM Thin Provisioning"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:55 pyanaconda/ui/gui/spokes/custom.glade.h:4
 msgid "RAID"
-msgstr ""
+msgstr "RAID"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:56 pyanaconda/storage_utils.py:83
 #: pyanaconda/ui/gui/spokes/custom.glade.h:1
 msgid "Standard Partition"
-msgstr ""
+msgstr "Standart Alan"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:57 pyanaconda/storage_utils.py:84
 #: pyanaconda/ui/gui/spokes/custom.glade.h:2
 msgid "Btrfs"
-msgstr ""
+msgstr "Btrfs"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:58
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:5
 msgid "Disk"
-msgstr ""
+msgstr "Disk"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda, author Akın Ömeroğlu
 #: pyanaconda/storage_utils.py:69
 msgid ""
 "The 'swap' area on your computer is used by the operating\n"
 "system when running low on memory."
 msgstr ""
+"'Swap' alanı işletim sisteminiz tarafından\n"
+"belleğiniz az olduğunda kullanılır."
 
 #: pyanaconda/storage_utils.py:71
 msgid ""
@@ -1191,32 +1304,31 @@ msgstr ""
 #: pyanaconda/vnc.py:74
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s kurulumu"
 
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "%(name)s konağına %(productName)s %(productVersion)s kurulumu"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "Makine %s'te bulunan vnc istemcisi bağlantısı..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "Bağlandı!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "15 saniye içinde tekrar bağlanmayı deneyecek..."
 
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1337,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "Kuruluma başlamak için lütfen %s'e vnc istemcisi ile bağlanın."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1349,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "VNC Başlatılıyor..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC sunucusu şimdi çalışıyor."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1263,6 +1375,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"UYARI!!! VNC sunucusu PAROLASIZ çalışıyor!\n"
+"Eğer sunucuyu daha güvenli hale getirmek isterseniz\n"
+" vncpassword=<parola> açılış seçeneğini kullanabilirsiniz.\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1389,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"VNC'yi bir parola ile çalıştırmayı seçtiniz. \n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,6 +1401,10 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Bilinmeyen Hata.  Durduruluyor. \n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
@@ -1326,9 +1452,11 @@ msgstr ""
 msgid "Preparing transaction from installation source"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "Kuruluyor"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
@@ -1366,9 +1494,11 @@ msgstr ""
 msgid "LOCALIZATION"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/categories/software.py:31
 msgid "SOFTWARE"
-msgstr ""
+msgstr "YAZILIM"
 
 #: pyanaconda/ui/categories/system.py:32
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:166
@@ -1413,7 +1543,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,7 +1570,6 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
@@ -1516,7 +1644,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1609,7 +1737,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "Parola en az altı karakter uzunluğunda olmalı."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -1818,10 +1946,12 @@ msgstr ""
 msgid "Installation Destination"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/storage.py:119
 #: pyanaconda/ui/gui/spokes/storage.py:427
 msgid "No disks selected"
-msgstr ""
+msgstr "Hiçbir disk seçilmedi."
 
 #: pyanaconda/ui/tui/spokes/storage.py:129
 #: pyanaconda/ui/gui/spokes/storage.py:439
@@ -1932,12 +2062,14 @@ msgstr ""
 msgid "Time settings"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/time_spoke.py:184
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:517
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:523
 #, python-format
 msgid "%s timezone"
-msgstr ""
+msgstr "zaman dilimi %s"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:186
 msgid "Timezone is not set."
@@ -2056,12 +2188,14 @@ msgstr ""
 msgid "Installation source"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/tui/spokes/source.py:57
 #: pyanaconda/ui/tui/spokes/source.py:117
 #: pyanaconda/ui/gui/spokes/source.py:569
 #: pyanaconda/ui/gui/spokes/source.glade.h:24
 msgid "Closest mirror"
-msgstr ""
+msgstr "En yakın ayna"
 
 #: pyanaconda/ui/tui/spokes/source.py:109
 #: pyanaconda/ui/gui/spokes/source.py:561
@@ -2306,17 +2440,23 @@ msgstr ""
 msgid "Help!"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/__init__.py:862 widgets/src/StandaloneWindow.c:49
 msgid "_Quit"
-msgstr ""
+msgstr "_Çıkış"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_No"
-msgstr ""
+msgstr "_Hayır"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_Yes"
-msgstr ""
+msgstr "_Evet"
 
 #: pyanaconda/ui/gui/hubs/__init__.py:242
 msgid ""
@@ -2391,7 +2531,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2588,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2604,7 +2742,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2656,9 +2793,11 @@ msgstr ""
 msgid "Unavailable"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:97
 msgid "Firmware missing"
-msgstr ""
+msgstr "Yazılım eksik"
 
 #: pyanaconda/ui/gui/spokes/network.py:103
 msgid "Cable unplugged"
@@ -2676,9 +2815,11 @@ msgstr ""
 msgid "Authentication required"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:114
 msgid "Connected"
-msgstr ""
+msgstr "Bağlandı"
 
 #: pyanaconda/ui/gui/spokes/network.py:116
 msgid "Disconnecting"
@@ -2724,35 +2865,45 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:895
 #: pyanaconda/ui/gui/spokes/network.glade.h:16
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4  Adresi"
 
 #: pyanaconda/ui/gui/spokes/network.py:896
 #: pyanaconda/ui/gui/spokes/network.glade.h:15
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 Adresi"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:898
 #: pyanaconda/ui/gui/spokes/network.py:900
 #: pyanaconda/ui/gui/spokes/network.glade.h:31
 msgid "IP Address"
-msgstr ""
+msgstr "IP Adresi"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:990
 #, python-format
 msgid "%d Mb/s"
-msgstr ""
+msgstr "%d Mb/s"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1210
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1213
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1216
 msgid "WPA2"
-msgstr ""
+msgstr "WPA2"
 
 #: pyanaconda/ui/gui/spokes/network.py:1220
 msgid "Enterprise"
@@ -3083,7 +3234,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3211,7 +3361,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3380,7 +3529,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3433,7 +3581,7 @@ msgstr ""
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "_Devam"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3622,10 +3770,12 @@ msgstr ""
 msgid "Set Date & Time"
 msgstr ""
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:1
 #: pyanaconda/ui/gui/spokes/storage.glade.h:14
 msgid "INSTALLATION DESTINATION"
-msgstr ""
+msgstr "KURULUM HEDEFİ"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:2
 msgctxt "GUI|Installation Destination|Filter|Search"
@@ -3682,7 +3832,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "Kapasite"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
@@ -4661,7 +4811,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "Kurulum sırasında hangi dili kullanmak istiyorsunuz?"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
@@ -5255,7 +5405,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "Boş"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5663,7 +5813,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "Yüklemek için hazırlanıyor"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5677,19 +5827,19 @@ msgstr ""
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "Sabit Diske Kur"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "Kur"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "Live CD'yi sabit diskinize yükleyin"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
-msgstr ""
+msgstr "Sabit Diske Kurulum Başlıyor"
 
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
@@ -5719,7 +5869,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "RAM yetersiz"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5879,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+" Bir root terminalinde\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+"komutunu çalıştırarak metin kipinde kurulumu deneyin."
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr " Metin kipi başlatılıyor."
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +5895,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "DISPLAY değişkeni ayarlanmamış. Metin kipi başlatılıyor."
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "Grafik kipinde kurulum mevcut değil. Metin kipinde kuruluma geçiliyor."
 
 #: anaconda:660
 msgid ""

@@ -1,22 +1,32 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# dcantrel <dcantrell@redhat.com>, 2011
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Pallavi Nikam <nikam.pallavi@gmail.com>, 2005
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006
+# Rahul Bhalerao <rbhalera@redhat.com>, 2006
+# sandeep shedmake <sandeep.shedmake@gmail.com>, 2007
+# sandeeps <sshedmak@redhat.com>, 2012-2013
+# sandeeps <sshedmak@redhat.com>, 2013-2014
+# David Shea <dshea@redhat.com>, 2016. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-05-09 10:39-0400\n"
+"Last-Translator: David Shea <dshea@redhat.com>\n"
+"Language-Team: Marathi (http://www.transifex.com/projects/p/anaconda/"
+"language/mr/)\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -81,12 +91,12 @@ msgstr ""
 #: pyanaconda/bootloader.py:515
 #, python-format
 msgid "%s must be on a primary partition."
-msgstr ""
+msgstr "%s प्राइमरि विभाजनवर पाहिजे."
 
 #: pyanaconda/bootloader.py:651 pyanaconda/bootloader.py:751
 #, python-format
 msgid "%s cannot be on an encrypted block device."
-msgstr ""
+msgstr "%s हे एंक्रिप्टेड ब्लॉक साधनवर नसावे."
 
 #: pyanaconda/bootloader.py:706
 #, python-format
@@ -123,19 +133,19 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "VNC सुरू करा"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "पाठय रीत वापरा"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
-msgstr ""
+msgstr "पासवर्ड रिकामे आहे."
 
 #: pyanaconda/constants.py:140
 msgid "The passwords do not match."
-msgstr ""
+msgstr "पासवर्डज जुळत नाही."
 
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
@@ -168,11 +178,11 @@ msgstr ""
 
 #: pyanaconda/constants.py:147
 msgid "You will have to press Done twice to confirm it."
-msgstr ""
+msgstr "खात्री करण्यासाठी तुम्हाला पूर्ण झाले दोनवेळा दाबावे लागेल."
 
 #: pyanaconda/constants.py:149
 msgid "Empty"
-msgstr ""
+msgstr "रिकामे"
 
 #: pyanaconda/constants.py:150
 msgid "Too short"
@@ -181,19 +191,19 @@ msgstr ""
 #: pyanaconda/constants.py:151 pyanaconda/ui/gui/spokes/lib/passphrase.py:124
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:7
 msgid "Weak"
-msgstr ""
+msgstr "कमजोर"
 
 #: pyanaconda/constants.py:152 pyanaconda/ui/gui/spokes/lib/passphrase.py:127
 msgid "Fair"
-msgstr ""
+msgstr "सुरेख"
 
 #: pyanaconda/constants.py:153 pyanaconda/ui/gui/spokes/lib/passphrase.py:130
 msgid "Good"
-msgstr ""
+msgstr "चांगले"
 
 #: pyanaconda/constants.py:154 pyanaconda/ui/gui/spokes/lib/passphrase.py:133
 msgid "Strong"
-msgstr ""
+msgstr "मजबूत"
 
 #: pyanaconda/errors.py:109
 #, python-format
@@ -225,7 +235,7 @@ msgstr ""
 
 #: pyanaconda/errors.py:133 pyanaconda/ui/gui/main.glade.h:1
 msgid "_Exit Installer"
-msgstr ""
+msgstr "इंस्टॉलरमधून बाहेर पडा (_E)"
 
 #: pyanaconda/errors.py:133
 msgid "_Retry"
@@ -377,6 +387,11 @@ msgid ""
 "\n"
 " The installer will now terminate."
 msgstr ""
+"हार्डवेअरमधील अडचणमुळे प्रतिष्ठापन थांबवले गेले. योग्य त्रुटी संदेश खालील प्रमाणे आहे:\n"
+"\n"
+"%s.\n"
+"\n"
+" इंस्टॉलर आत्ता बंद होईल."
 
 #: pyanaconda/exception.py:105
 msgid "Hardware error occurred"
@@ -410,49 +425,49 @@ msgstr ""
 
 #: pyanaconda/install.py:78
 msgid "Configuring installed system"
-msgstr ""
+msgstr "इंस्टॉल्ड प्रणाली संरचीत करत आहे"
 
 #: pyanaconda/install.py:91
 msgid "Writing network configuration"
-msgstr ""
+msgstr "नेटवर्क संरचना लिहीत आहे"
 
 #: pyanaconda/install.py:95
 msgid "Creating users"
-msgstr ""
+msgstr "वापरकर्ते निर्माण करत आहे"
 
 #: pyanaconda/install.py:103
 msgid "Configuring addons"
-msgstr ""
+msgstr "ॲडऑन्स संरचीत करत आहे"
 
 #: pyanaconda/install.py:106
 msgid "Generating initramfs"
-msgstr ""
+msgstr "initramfs निर्माण करत आहे"
 
 #: pyanaconda/install.py:110
 #, python-format
 msgid "Joining realm: %s"
-msgstr ""
+msgstr "रिअल्मशी जोडणी करत आहे: %s"
 
 #: pyanaconda/install.py:113
 msgid "Running post-installation scripts"
-msgstr ""
+msgstr "पोस्ट-इंस्टॉलेशन स्क्रिप्टस चालवत आहे"
 
 #: pyanaconda/install.py:166
 #, python-format
 msgid "Waiting for %s threads to finish"
-msgstr ""
+msgstr "समाप्तिकरिता %s थ्रेड्सकरिता वाट पहात आहे"
 
 #: pyanaconda/install.py:172
 msgid "Setting up the installation environment"
-msgstr ""
+msgstr "इंस्टॉलेशन वातावरण सेट करत आहे"
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "पूर्व-प्रतिष्ठापन स्क्रिप्टस् चालवत आहे"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
-msgstr ""
+msgstr "जोडणीजोगी रिअल्म शोधत आहे"
 
 #: pyanaconda/install.py:266
 msgid "Installing boot loader"
@@ -461,7 +476,7 @@ msgstr ""
 #: pyanaconda/install.py:269 pyanaconda/packaging/livepayload.py:170
 #: pyanaconda/packaging/yumpayload.py:1464
 msgid "Performing post-installation setup tasks"
-msgstr ""
+msgstr "पोस्ट-इंस्टॉलेशन सेटअप कार्ये सुरू करत आहे"
 
 #: pyanaconda/iutil.py:777
 msgid "No host url"
@@ -488,6 +503,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"escrow प्रमाणपत्र डाऊनलोड करतेवेळी खालील त्रुटी आढळली:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:247
 #, python-format
@@ -497,12 +515,12 @@ msgstr ""
 #: pyanaconda/kickstart.py:272
 #, python-format
 msgid "autopart fstype of %s is invalid."
-msgstr ""
+msgstr "%s चे autopart fstype अवैध आहे."
 
 #: pyanaconda/kickstart.py:289
 #, python-format
 msgid "Settings default fstype to %s failed."
-msgstr ""
+msgstr "%s करिता पूर्वनिर्धारित fstype अपयशी."
 
 #: pyanaconda/kickstart.py:322
 msgid "GRUB2 does not support installation to a partition."
@@ -572,7 +590,7 @@ msgstr ""
 #: pyanaconda/kickstart.py:723
 #, python-format
 msgid "%s is missing. Cannot setup firewall."
-msgstr ""
+msgstr "%s आढळले नाही. फायरवॉलची मांडणी अशक्य."
 
 #: pyanaconda/kickstart.py:771 pyanaconda/kickstart.py:782
 #, python-format
@@ -815,30 +833,30 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "अपरिचीत"
 
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
-msgstr ""
+msgstr "जोडणी करत आहे..."
 
 #: pyanaconda/network.py:1438
 msgid "Disconnecting..."
-msgstr ""
+msgstr "खंडीत करत आहे..."
 
 #: pyanaconda/network.py:1459
 #, python-format
 msgid "Wired (%(interface_name)s) connected"
-msgstr ""
+msgstr "वायर्ड (%(interface_name)s) जोडले"
 
 #: pyanaconda/network.py:1462
 #, python-format
 msgid "Wireless connected to %(access_point)s"
-msgstr ""
+msgstr "जोडणी केलेले %(access_point)s"
 
 #: pyanaconda/network.py:1465
 #, python-format
 msgid "Bond %(interface_name)s (%(list_of_slaves)s) connected"
-msgstr ""
+msgstr "बाँड %(interface_name)s (%(list_of_slaves)s) जोडले"
 
 #: pyanaconda/network.py:1469
 #, python-format
@@ -858,20 +876,20 @@ msgstr ""
 #: pyanaconda/network.py:1496
 #, python-format
 msgid "Connected: %(list_of_interface_names)s"
-msgstr ""
+msgstr "जुळले: %(list_of_interface_names)s"
 
 #: pyanaconda/network.py:1499
 msgid "Not connected"
-msgstr ""
+msgstr "जुडले नाही"
 
 #: pyanaconda/network.py:1502 pyanaconda/ui/gui/spokes/network.glade.h:45
 msgid "No network devices available"
-msgstr ""
+msgstr "नेटवर्क साधने अनुपलब्ध"
 
 #: pyanaconda/product.py:53
 #, python-format
 msgid "%(productName)s %(productVersion)s INSTALLATION"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s INSTALLATION"
 
 #: pyanaconda/product.py:57
 #, python-format
@@ -891,7 +909,7 @@ msgstr ""
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "पूर्ण झाल्यावर प्रणाली माउंट अशक्य करण्यासाठी %s चालवा."
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +921,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "बचाव"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "चालू ठेवा"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1021,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "तुमच्याकडे Linux विभाजन नाही.  रिबूट करत आहे.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1021,21 +1039,21 @@ msgstr ""
 #: pyanaconda/storage_utils.py:53 pyanaconda/storage_utils.py:85
 #: pyanaconda/ui/gui/spokes/custom.glade.h:3
 msgid "LVM"
-msgstr ""
+msgstr "LVM"
 
 #: pyanaconda/storage_utils.py:54 pyanaconda/storage_utils.py:86
 #: pyanaconda/ui/gui/spokes/custom.glade.h:5
 msgid "LVM Thin Provisioning"
-msgstr ""
+msgstr "LVM थिन प्रोव्हिजनिंग"
 
 #: pyanaconda/storage_utils.py:55 pyanaconda/ui/gui/spokes/custom.glade.h:4
 msgid "RAID"
-msgstr ""
+msgstr "RAID"
 
 #: pyanaconda/storage_utils.py:56 pyanaconda/storage_utils.py:83
 #: pyanaconda/ui/gui/spokes/custom.glade.h:1
 msgid "Standard Partition"
-msgstr ""
+msgstr "मानक विभाजन"
 
 #: pyanaconda/storage_utils.py:57 pyanaconda/storage_utils.py:84
 #: pyanaconda/ui/gui/spokes/custom.glade.h:2
@@ -1045,37 +1063,47 @@ msgstr ""
 #: pyanaconda/storage_utils.py:58
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:5
 msgid "Disk"
-msgstr ""
+msgstr "डिस्क"
 
 #: pyanaconda/storage_utils.py:69
 msgid ""
 "The 'swap' area on your computer is used by the operating\n"
 "system when running low on memory."
 msgstr ""
+"कमी मेमरिचा वापर करतेवेळी संगणकावरील 'swap' क्षेत्र कार्यप्रणाली तर्फे\n"
+"वापरली जाते."
 
 #: pyanaconda/storage_utils.py:71
 msgid ""
 "The 'boot' area on your computer is where files needed\n"
 "to start the operating system are stored."
 msgstr ""
+"संगणकावरील 'boot' क्षेत्र आहे, जेथे\n"
+"कार्यप्रणाली सुरू करण्यासाठीचे फाइल्स् साठवले जातात."
 
 #: pyanaconda/storage_utils.py:73
 msgid ""
 "The 'root' area on your computer is where core system\n"
 "files and applications are stored."
 msgstr ""
+"संगणकावरील 'root' क्षेत्र आहे, जेथे\n"
+"कार्यप्रणाली सुरू करण्यासाठीचे फाइल्स् साठवले जातात."
 
 #: pyanaconda/storage_utils.py:75
 msgid ""
 "The 'home' area on your computer is where all your personal\n"
 "data is stored."
 msgstr ""
+"संगणकावरील 'home' क्षेत्र जेथे आपला व्यक्तिगत डाटा साठवला\n"
+"जातो."
 
 #: pyanaconda/storage_utils.py:77
 msgid ""
 "The BIOS boot partition is required to enable booting\n"
 "from GPT-partitioned disks on BIOS hardware."
 msgstr ""
+"BIOS हार्डवेअरवरील GPT-विभाजीत डिस्क्सपासून बूटिंग सुरू करण्यासाठी\n"
+"BIOS बूट विभाजन आवश्यक आहे."
 
 #: pyanaconda/storage_utils.py:79
 msgid ""
@@ -1191,32 +1219,32 @@ msgstr ""
 #: pyanaconda/vnc.py:74
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s प्रतिष्ठापन"
 
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "यजमान %(name)s वरील %(productName)s %(productVersion)s प्रतिष्ठापन"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "vnc (सेवा)ग्राहक %s यजमानावर जोडण्याचा प्रयत्न करत आहे..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "जोडणी झाली!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "15 सेकंदांनतर पुन: जोडण्याचा प्रयत्न करु..."
 
 #: pyanaconda/vnc.py:180
-#, python-format
+#, fuzzy, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d प्रयत्नानंतर जोडणी करायचा प्रयत्न वगळला!\n"
+msgstr[1] "%d प्रयत्नानंतर जोडणी जोडणी करायचा प्रयत्न वगळले!\n"
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1253,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "प्रतिष्ठापना सुरु करण्यासाठी कृपया स्वतःहून तुमचा vnc (सेवा)ग्राहक %s ला जोडा."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1234,14 +1262,16 @@ msgid ""
 "install. Switch to the shell (Ctrl-B 2) and run 'ip addr' to find the <IP "
 "ADDRESS>."
 msgstr ""
+"इंस्टॉल सुरू करण्यासाठी कृपया vnc क्लाएंटला स्वतः <IP ADDRESS>:%s सह जोडणी करा. शेलचा "
+"(Ctrl-B 2) वापर करा व <IP ADDRESS> शोधण्यासाठी 'ip addr'चालवा."
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "VNC सुरु होत आहे..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC सेवक आता सुरु आहे."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1283,13 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"तुम्ही vncviewer शी जुळवणी करायचे निवडले आहे. \n"
+"याकरिता पासवर्ड निश्चित करायची आवश्यकता नाही.  पासवर्ड निश्चित केल्यास \n"
+", त्याचा वापर \n"
+" vncviewer शी जुळवणी अपयशी झाल्यास वापरले जाते\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1300,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"सावधान!!! VNC सर्वर पासवर्ड विना चालत आहे!\n"
+"सर्वर सुरक्षीत करायचे असल्यास तुम्ही vncpassword=<password> बूट पर्याय\n"
+"वापरू शकता.\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1314,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"तुम्ही vnc ला पासवर्डसह कार्यान्वीत करण्यास निवडले आहे. \n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,20 +1326,26 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"अपिरिचीत त्रुटी.  रद्द करत आहे. \n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
 "VNC password must be six to eight characters long.\n"
 "Please enter a new one, or leave blank for no password."
 msgstr ""
+"VNC पासवर्ड सहा किंवा आठ अक्षरे लांब पाहिजे.\n"
+"कृपया नवीन द्या, किंवा पासवर्ड नसल्यास रिकामे सोडा."
 
 #: pyanaconda/packaging/__init__.py:1230
 msgid "Failed to set up installation source"
-msgstr ""
+msgstr "इंस्टॉलेश स्रोत ठरवण्यास अपयशी"
 
 #: pyanaconda/packaging/__init__.py:1231
 msgid "Error downloading package metadata"
-msgstr ""
+msgstr "संकुल मेटाडेटा डाउनलोड करतेवेऴी त्रुटी."
 
 #: pyanaconda/packaging/__init__.py:1232
 msgid "No installation source available"
@@ -1301,83 +1354,83 @@ msgstr ""
 #: pyanaconda/packaging/livepayload.py:98
 #: pyanaconda/packaging/livepayload.py:119
 msgid "Installing software"
-msgstr ""
+msgstr "सॉफ्टवेअर इंस्टॉल करत आहे"
 
 #: pyanaconda/packaging/livepayload.py:220
 #: pyanaconda/packaging/livepayload.py:229
 #, python-format
 msgid "Downloading %(url)s (%(pct)d%%)"
-msgstr ""
+msgstr "%(url)s (%(pct)d%%) डाउनलोड करत आहे"
 
 #: pyanaconda/packaging/livepayload.py:358
 msgid "Checking image checksum"
-msgstr ""
+msgstr "प्रतिमा चेकसमची तपासणी करत आहे"
 
 #: pyanaconda/packaging/yumpayload.py:1277
 #, python-format
 msgid "CmdlineError: Missing package: %s"
-msgstr ""
+msgstr "CmdlineError: संकुल आढळले नाही: %s"
 
 #: pyanaconda/packaging/yumpayload.py:1426
 msgid "Starting package installation process"
-msgstr ""
+msgstr "संकुल प्रतिष्ठापन प्रक्रिया सुरू करत आहे"
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "प्रतिष्ठापन स्त्रोतपासून व्यवहार तयार करत आहे"
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "इंस्टॉल करत आहे"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
 msgid "Starting pull of %(branchName)s from %(source)s"
-msgstr ""
+msgstr "%(source)s पासून %(branchName)s पूल करायला सुरू केले"
 
 #: pyanaconda/packaging/rpmostreepayload.py:174
 #, python-format
 msgid "Preparing deployment of %s"
-msgstr ""
+msgstr "%s चे वितरण तयार करत आहे"
 
 #: pyanaconda/packaging/rpmostreepayload.py:186
 #, python-format
 msgid "Deployment starting: %s"
-msgstr ""
+msgstr "वितरण सुरू केले: %s"
 
 #: pyanaconda/packaging/rpmostreepayload.py:189
 #, python-format
 msgid "Deployment complete: %s"
-msgstr ""
+msgstr "वितरण पूर्ण झाले: %s"
 
 #: pyanaconda/ui/helpers.py:95 pyanaconda/ui/tui/spokes/storage.py:431
 msgid "Checking storage configuration..."
-msgstr ""
+msgstr "स्टोरेज संरचना तपासत आहे..."
 
 #: pyanaconda/ui/categories/__init__.py:48
 msgid "DEFAULT TITLE"
-msgstr ""
+msgstr "पूर्वनिर्धारित शीर्षक"
 
 #: pyanaconda/ui/categories/customization.py:32
 msgid "CUSTOMIZATION"
-msgstr ""
+msgstr "पसंतीकरण"
 
 #: pyanaconda/ui/categories/localization.py:31
 msgid "LOCALIZATION"
-msgstr ""
+msgstr "भाषांतरन"
 
 #: pyanaconda/ui/categories/software.py:31
 msgid "SOFTWARE"
-msgstr ""
+msgstr "सॉफ्टवेअर"
 
 #: pyanaconda/ui/categories/system.py:32
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:166
 msgid "SYSTEM"
-msgstr ""
+msgstr "प्रणाली"
 
 #: pyanaconda/ui/categories/user_settings.py:32
 msgid "USER SETTINGS"
-msgstr ""
+msgstr "वापरकर्ता सेटिंग्ज"
 
 #: pyanaconda/ui/lib/space.py:37
 #, python-format
@@ -1413,7 +1466,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,15 +1493,14 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
-msgstr ""
+msgstr "इंस्टॉलेशन"
 
 #: pyanaconda/ui/tui/hubs/summary.py:51
 msgid "Starting automated install"
-msgstr ""
+msgstr "स्वयं प्रतिष्ठापन सुरू करत आहे"
 
 #. TRANSLATORS: 'b' to begin installation
 #: pyanaconda/ui/tui/hubs/summary.py:93
@@ -1466,7 +1517,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:104
 msgid "The following mandatory spokes are not completed:"
-msgstr ""
+msgstr "खालील अनिवार्य स्पोक्स पूर्ण नाही:"
 
 #: pyanaconda/ui/tui/hubs/summary.py:118
 #, python-format
@@ -1500,11 +1551,11 @@ msgstr ""
 #: pyanaconda/ui/tui/hubs/summary.py:142
 #: pyanaconda/ui/tui/hubs/__init__.py:114
 msgid "Please complete all spokes before continuing"
-msgstr ""
+msgstr "पुढे जाण्यापूर्वी कृपया सर्व स्पोक्स् पूर्ण करा"
 
 #: pyanaconda/ui/tui/hubs/__init__.py:41
 msgid "Default HUB title"
-msgstr ""
+msgstr "पूर्वनिर्धारित HUB शीर्षक"
 
 #: pyanaconda/ui/tui/hubs/__init__.py:131
 #, python-format
@@ -1516,17 +1567,17 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "त्रुटी"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
-msgstr ""
+msgstr "बाहेर पडण्यासाठी कृपया एंटर दाबा."
 
 #: pyanaconda/ui/tui/tuiobject.py:64 pyanaconda/ui/tui/spokes/password.py:70
 #: pyanaconda/ui/gui/spokes/password.glade.h:4
 #: pyanaconda/ui/gui/spokes/user.glade.h:8
 msgid "Password"
-msgstr ""
+msgstr "पासवर्ड"
 
 #: pyanaconda/ui/tui/tuiobject.py:85
 msgid "Passphrase: "
@@ -1534,7 +1585,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:111
 msgid "Question"
-msgstr ""
+msgstr "प्रश्न"
 
 #: pyanaconda/ui/tui/tuiobject.py:134
 #, python-format
@@ -1555,11 +1606,11 @@ msgstr ""
 
 #: pyanaconda/ui/tui/simpleline/base.py:90
 msgid "Do you really want to quit?"
-msgstr ""
+msgstr "तुम्हाला नक्की बाहेर पडायचे?"
 
 #: pyanaconda/ui/tui/simpleline/base.py:581 anaconda:526
 msgid "Press ENTER to continue"
-msgstr ""
+msgstr "पुढे जाण्याकरिता ENTER दाबा"
 
 #: pyanaconda/ui/tui/simpleline/base.py:632
 #, python-format
@@ -1571,7 +1622,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:40
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:56
 msgid ""
@@ -1579,41 +1630,46 @@ msgid ""
 "connect to this computer from another computer and perform a graphical "
 "installation or continue with a text mode installation?"
 msgstr ""
+"X मशीन सुरू करू शकले नाही. दुसऱ्या संगणकापासून या संगणकाशी संपर्क करण्याकरिता व ग्राफिकल "
+"इंस्टॉलेशन सुरू करण्याकरिता किंवा मजकूर मोड इंस्टॉलेशनसह सुरू करण्यासाठी VNCला सुरू करायला "
+"आवडेल?"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:104
 msgid "q"
-msgstr ""
+msgstr "q"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:120
 msgid "VNC Password"
-msgstr ""
+msgstr "VNC पासवर्ड"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:128
 msgid ""
 "Please provide VNC password (must be six to eight characters long).\n"
 "You will have to type it twice. Leave blank for no password"
 msgstr ""
+"कृपया VNC पासवर्ड द्या (सहा ते आठ अक्षरे लांब पाहिजे).\n"
+"दोनवेळा टाइप करावे लागेल. पासवर्ड ठेवायचे नसल्यास रिकामे सोडा"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:147
 #: pyanaconda/ui/gui/spokes/network.py:1404
 msgid "Password: "
-msgstr ""
+msgstr "पासवर्ड: "
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:148
 msgid "Password (confirm): "
-msgstr ""
+msgstr "पासवर्ड (खात्री करा): "
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:151
 msgid "Passwords do not match!"
-msgstr ""
+msgstr "पासवर्ड जुळत नाही!"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "पासवर्डाची लांबी किमान सहा अक्षरे इतकी असावी."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
-msgstr ""
+msgstr "पासवर्ड आठ अक्षरांपेक्षा मोठे असू शकत नाही."
 
 #: pyanaconda/ui/tui/spokes/langsupport.py:39
 msgid "Language settings"
@@ -1665,12 +1721,12 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/network.py:111
 #, python-format
 msgid "Wired (%(interface_name)s) disconnected\n"
-msgstr ""
+msgstr "वायर्ड (%(interface_name)s) खंडीत झाले\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:116
 #, python-format
 msgid "Wired (%(interface_name)s) connected\n"
-msgstr ""
+msgstr "वायर्ड (%(interface_name)s) जुळले\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:128
 #, python-format
@@ -1680,7 +1736,7 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/network.py:130
 #, python-format
 msgid " DNS: %s\n"
-msgstr ""
+msgstr " DNS: %s\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:137
 #, python-format
@@ -1704,7 +1760,7 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/network.py:167
 #, python-format
 msgid "Configure device %s"
-msgstr ""
+msgstr "साधन %s संरचीत करा"
 
 #: pyanaconda/ui/tui/spokes/network.py:186
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:6
@@ -1718,7 +1774,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:237
 msgid "Can't apply configuration, device activation failed."
-msgstr ""
+msgstr "संरचना लागू करणे अशक्य, साधन सक्रीय करणे अपयशी."
 
 #: pyanaconda/ui/tui/spokes/network.py:279
 #: pyanaconda/ui/gui/spokes/network.py:1568
@@ -1731,20 +1787,20 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:310
 msgid "Device configuration"
-msgstr ""
+msgstr "साधन संरचना"
 
 #: pyanaconda/ui/tui/spokes/network.py:314
 #, python-format
 msgid "IPv4 address or %s for DHCP"
-msgstr ""
+msgstr "IPv4 पत्ता किंवा DHCP करिता %s"
 
 #: pyanaconda/ui/tui/spokes/network.py:316
 msgid "IPv4 netmask"
-msgstr ""
+msgstr "IPv4 नेटमास्क"
 
 #: pyanaconda/ui/tui/spokes/network.py:317
 msgid "IPv4 gateway"
-msgstr ""
+msgstr "IPv4 गेटवे"
 
 #: pyanaconda/ui/tui/spokes/network.py:318
 #, python-format
@@ -1755,24 +1811,24 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:321
 msgid "IPv6 default gateway"
-msgstr ""
+msgstr "IPv6 पूर्वनिर्धारित गेटवे"
 
 #: pyanaconda/ui/tui/spokes/network.py:322
 msgid "Nameservers (comma separated)"
-msgstr ""
+msgstr "नेमसर्व्हर्स (स्वल्पविराम विभाजीत)"
 
 #: pyanaconda/ui/tui/spokes/network.py:323
 msgid "Connect automatically after reboot"
-msgstr ""
+msgstr "रिबूटनंतर स्वयं जोडणी करा"
 
 #: pyanaconda/ui/tui/spokes/network.py:324
 msgid "Apply configuration in installer"
-msgstr ""
+msgstr "इंस्टॉलरमध्ये संरचना लागू करा"
 
 #: pyanaconda/ui/tui/spokes/network.py:339
 #, python-format
 msgid "Configuring device %s."
-msgstr ""
+msgstr "साधन %s संरचीत करत आहे."
 
 #: pyanaconda/ui/tui/spokes/network.py:344
 msgid "Bad format of the IP address"
@@ -1788,31 +1844,31 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/password.py:55
 msgid "Password is set."
-msgstr ""
+msgstr "पासवर्ड ठरवले."
 
 #: pyanaconda/ui/tui/spokes/password.py:57
 msgid "Root account is disabled."
-msgstr ""
+msgstr "रूट खाते बंद केले."
 
 #: pyanaconda/ui/tui/spokes/password.py:59
 msgid "Password is not set."
-msgstr ""
+msgstr "पासवर्ड ठरवले नाही."
 
 #: pyanaconda/ui/tui/spokes/password.py:64
 msgid "Please select new root password. You will have to type it twice."
-msgstr ""
+msgstr "कृपया नवीन रूट पासवर्ड नीवडा. तुम्हाला दोनवेळा टाइप करावे लागेल."
 
 #: pyanaconda/ui/tui/spokes/storage.py:55
 msgid "Use All Space"
-msgstr ""
+msgstr "सर्व जागेचा वापर करा"
 
 #: pyanaconda/ui/tui/spokes/storage.py:56
 msgid "Replace Existing Linux system(s)"
-msgstr ""
+msgstr "अस्तित्वातील Linux प्रणालीला अदलाबदल करा"
 
 #: pyanaconda/ui/tui/spokes/storage.py:57
 msgid "Use Free Space"
-msgstr ""
+msgstr "मोकळ्या जागेचा वापर करा"
 
 #: pyanaconda/ui/tui/spokes/storage.py:67
 msgid "Installation Destination"
@@ -1821,27 +1877,27 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/storage.py:119
 #: pyanaconda/ui/gui/spokes/storage.py:427
 msgid "No disks selected"
-msgstr ""
+msgstr "डिस्क्स् नीवडले नाही"
 
 #: pyanaconda/ui/tui/spokes/storage.py:129
 #: pyanaconda/ui/gui/spokes/storage.py:439
 msgid "Error checking storage configuration"
-msgstr ""
+msgstr "स्टोरेज संरचना तपासतेवेळी त्रुटी आढळली"
 
 #: pyanaconda/ui/tui/spokes/storage.py:131
 #: pyanaconda/ui/gui/spokes/storage.py:441
 msgid "Warning checking storage configuration"
-msgstr ""
+msgstr "सावधानता स्टोरेज संरचना तपासत आहे"
 
 #: pyanaconda/ui/tui/spokes/storage.py:134
 #: pyanaconda/ui/gui/spokes/storage.py:443
 msgid "Automatic partitioning selected"
-msgstr ""
+msgstr "स्वयं विभाजन नीवडले"
 
 #: pyanaconda/ui/tui/spokes/storage.py:136
 #: pyanaconda/ui/gui/spokes/storage.py:445
 msgid "Custom partitioning selected"
-msgstr ""
+msgstr "पसंतीचे विभाजन नीवडले"
 
 #: pyanaconda/ui/tui/spokes/storage.py:172
 #: pyanaconda/ui/gui/spokes/storage.py:702
@@ -1849,18 +1905,20 @@ msgid ""
 "No disks detected.  Please shut down the computer, connect at least one "
 "disk, and restart to complete installation."
 msgstr ""
+"डिस्क्स् आढळले नाही.  कृपया संगणक पूर्णपणे बंद करा, किमान एक डिस्कसह जोडणी करा, व "
+"प्रतिष्ठापन पूर्ण करण्यासाठी पुनः सुरू करा."
 
 #: pyanaconda/ui/tui/spokes/storage.py:174
 #: pyanaconda/ui/gui/spokes/storage.py:706
 msgid "No disks selected; please select at least one disk to install to."
-msgstr ""
+msgstr "डिस्क्स् नीवडले नाही; कृपया इंस्टॉलेशनकरिता किमान एक डिस्क पसंत करा."
 
 #: pyanaconda/ui/tui/spokes/storage.py:189
 #: pyanaconda/ui/tui/spokes/source.py:376
 #: pyanaconda/ui/gui/spokes/source.py:679
 #: pyanaconda/ui/gui/spokes/storage.py:653
 msgid "Probing storage..."
-msgstr ""
+msgstr "स्टोरेज शोधत आहे..."
 
 #: pyanaconda/ui/tui/spokes/storage.py:210
 msgid "Select all"
@@ -1881,40 +1939,45 @@ msgid ""
 "\n"
 "Proceed to run dasdfmt?\n"
 msgstr ""
+"सावधानता: रूपणकरिता नीवड केल्यास इंस्टॉलरचा वापर करून सर्व स्टोरेज साधने गमवले जातील.\n"
+"\n"
+"dasdfmt चालवणे सुरू ठेवायचे?\n"
 
 #: pyanaconda/ui/tui/spokes/storage.py:357
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.py:94
 #, python-format
 msgid "Formatting /dev/%s. This may take a moment."
-msgstr ""
+msgstr "/dev/%s चे रूपण सुरू आहे. यास काही वेळ लागू शकतो."
 
 #: pyanaconda/ui/tui/spokes/storage.py:410
 msgid "Generating updated storage configuration"
-msgstr ""
+msgstr "सुधारित स्टोरेज संरचना निर्माण करत आहे"
 
 #: pyanaconda/ui/tui/spokes/storage.py:415
 #: pyanaconda/ui/tui/spokes/storage.py:427
 #, python-format
 msgid "storage configuration failed: %s"
-msgstr ""
+msgstr "स्टोरेज संरचना अपयशी: %s"
 
 #: pyanaconda/ui/tui/spokes/storage.py:474
 msgid "Autopartitioning Options"
-msgstr ""
+msgstr "स्वयंविभाजन पर्याय"
 
 #: pyanaconda/ui/tui/spokes/storage.py:500
 msgid ""
 "Installation requires partitioning of your hard drive. Select what space to "
 "use for the install target."
 msgstr ""
+"इंस्टॉलेशनकरिता हार्ड ड्राइव्हवरील विभाजन आवश्यक आहे.  प्रतिष्ठापन लक्ष्यकरीता कोणत्या "
+"जागेचा वापर करायचे ते पसंत करा."
 
 #: pyanaconda/ui/tui/spokes/storage.py:540
 msgid "Partition Scheme Options"
-msgstr ""
+msgstr "विभाजन योजना पर्याय"
 
 #: pyanaconda/ui/tui/spokes/storage.py:564
 msgid "Select a partition scheme configuration."
-msgstr ""
+msgstr "विभाजन योजना संरचना निवडा."
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:41
 msgid "status: working"
@@ -1937,11 +2000,11 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:523
 #, python-format
 msgid "%s timezone"
-msgstr ""
+msgstr "%s वेळक्षेत्र"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:186
 msgid "Timezone is not set."
-msgstr ""
+msgstr "वेळक्षेत्र ठरवले नाही."
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:196
 msgid "not set"
@@ -1975,16 +2038,16 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:271
 msgid "Timezone settings"
-msgstr ""
+msgstr "वेळक्षेत्र सेटिंग्स्"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:298
 #, python-format
 msgid "Available timezones in region %s"
-msgstr ""
+msgstr "क्षेत्र %s मधील उपलब्ध वेळक्षेत्र"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:301
 msgid "Available regions"
-msgstr ""
+msgstr "उपलब्ध क्षेत्र"
 
 #. TRANSLATORS: 'b' to go back
 #: pyanaconda/ui/tui/spokes/time_spoke.py:340
@@ -2054,31 +2117,31 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/source.py:54
 msgid "Installation source"
-msgstr ""
+msgstr "इंस्टॉलेशन सोअर्स"
 
 #: pyanaconda/ui/tui/spokes/source.py:57
 #: pyanaconda/ui/tui/spokes/source.py:117
 #: pyanaconda/ui/gui/spokes/source.py:569
 #: pyanaconda/ui/gui/spokes/source.glade.h:24
 msgid "Closest mirror"
-msgstr ""
+msgstr "सर्वात जवळचा मिरर"
 
 #: pyanaconda/ui/tui/spokes/source.py:109
 #: pyanaconda/ui/gui/spokes/source.py:561
 #, python-format
 msgid "NFS server %s"
-msgstr ""
+msgstr "NFS सर्व्हर %s"
 
 #: pyanaconda/ui/tui/spokes/source.py:111
 #: pyanaconda/ui/gui/spokes/source.py:563
 msgid "Local media"
-msgstr ""
+msgstr "स्थानीय मिडीया"
 
 #: pyanaconda/ui/tui/spokes/source.py:114
 #: pyanaconda/ui/tui/spokes/source.py:128
 #: pyanaconda/ui/gui/spokes/source.py:557
 msgid "Error setting up software source"
-msgstr ""
+msgstr "सॉफ्टवेअर स्रोत ठरवतेवेळी त्रुटी"
 
 #: pyanaconda/ui/tui/spokes/source.py:119
 #: pyanaconda/ui/tui/spokes/software.py:87
@@ -2087,12 +2150,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/software.py:289
 #: pyanaconda/ui/gui/spokes/source.py:571
 msgid "Nothing selected"
-msgstr ""
+msgstr "काहिच नीवडले नाही"
 
 #: pyanaconda/ui/tui/spokes/source.py:130
 #: pyanaconda/ui/tui/spokes/software.py:67
 msgid "Processing..."
-msgstr ""
+msgstr "विशेषीत करत आहे..."
 
 #: pyanaconda/ui/tui/spokes/source.py:148
 #: pyanaconda/ui/gui/spokes/source.py:887
@@ -2102,7 +2165,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "CD/DVD"
-msgstr ""
+msgstr "सीडी/डीवीडी"
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "local ISO file"
@@ -2110,20 +2173,20 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "Network"
-msgstr ""
+msgstr "नेटवर्क"
 
 #: pyanaconda/ui/tui/spokes/source.py:156
 msgid "Choose an installation source type."
-msgstr ""
+msgstr "इंस्टॉलेशन सोअर्स प्रकार पसंत करा."
 
 #: pyanaconda/ui/tui/spokes/source.py:253
 #: pyanaconda/ui/tui/spokes/source.py:291
 msgid "Specify Repo Options"
-msgstr ""
+msgstr "रेपो पर्याय निर्देशीत करा"
 
 #: pyanaconda/ui/tui/spokes/source.py:257
 msgid "Repo URL"
-msgstr ""
+msgstr "रेपो URL"
 
 #: pyanaconda/ui/tui/spokes/source.py:295
 msgid "<server>:/<path>"
@@ -2131,56 +2194,56 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/source.py:296
 msgid "NFS mount options"
-msgstr ""
+msgstr "NFS माऊंट पर्याय"
 
 #: pyanaconda/ui/tui/spokes/source.py:338
 msgid "Select device containing the ISO file"
-msgstr ""
+msgstr "ISO फाइल समाविष्टीत असणारे साधन निवडा"
 
 #: pyanaconda/ui/tui/spokes/source.py:397
 msgid "No mountable devices found"
-msgstr ""
+msgstr "माऊंटजोगी साधने आढळले नाही"
 
 #: pyanaconda/ui/tui/spokes/source.py:425
 msgid "Select an ISO to use as install source"
-msgstr ""
+msgstr "इंस्टॉल सोअर्सचा वापर करण्यासाठी ISO निवडा"
 
 #: pyanaconda/ui/tui/spokes/source.py:454
 msgid "No *.iso files found in device root folder"
-msgstr ""
+msgstr "साधन रूट फोल्डरमध्ये *.iso फाइल्स आढळले नाही"
 
 #: pyanaconda/ui/tui/spokes/software.py:39
 msgid "Software selection"
-msgstr ""
+msgstr "सॉफ्टवेअर पसंती"
 
 #: pyanaconda/ui/tui/spokes/software.py:65
 #: pyanaconda/ui/gui/spokes/software.py:262
 msgid "Error checking software selection"
-msgstr ""
+msgstr "सॉफ्टवेअर नीवड तपासतेवेळी त्रुटी"
 
 #: pyanaconda/ui/tui/spokes/software.py:69
 #: pyanaconda/ui/gui/spokes/software.py:265
 msgid "Installation source not set up"
-msgstr ""
+msgstr "प्रतिष्ठापन स्रोत ठरवले नाही"
 
 #: pyanaconda/ui/tui/spokes/software.py:71
 #: pyanaconda/ui/gui/spokes/software.py:268
 msgid "Source changed - please verify"
-msgstr ""
+msgstr "स्रोत बदलले - कृपया खात्री करा"
 
 #: pyanaconda/ui/tui/spokes/software.py:86
 #: pyanaconda/ui/gui/spokes/software.py:275
 msgid "Custom software selected"
-msgstr ""
+msgstr "पसंतीचे सॉफ्टवेअर नीवडले"
 
 #: pyanaconda/ui/tui/spokes/software.py:111
 msgid "Installation source needs to be set up first."
-msgstr ""
+msgstr "सर्वप्रथम इंस्टॉलेशन सोअर्स सेटअप करा."
 
 #: pyanaconda/ui/tui/spokes/software.py:121
 #: pyanaconda/ui/tui/spokes/software.py:131
 msgid "Base environment"
-msgstr ""
+msgstr "बेस वातावरण"
 
 #: pyanaconda/ui/tui/spokes/software.py:208
 msgid "Checking software selection"
@@ -2192,7 +2255,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/user.py:121 pyanaconda/ui/gui/spokes/user.py:356
 msgid "No user will be created"
-msgstr ""
+msgstr "वापरकर्ता निर्माण केले जाणार नाही"
 
 #: pyanaconda/ui/tui/spokes/user.py:123
 msgid "You must set a password"
@@ -2201,12 +2264,12 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/user.py:125 pyanaconda/ui/gui/spokes/user.py:358
 #, python-format
 msgid "Administrator %s will be created"
-msgstr ""
+msgstr "प्रशासक %s निर्माण केले जाईल"
 
 #: pyanaconda/ui/tui/spokes/user.py:127 pyanaconda/ui/gui/spokes/user.py:360
 #, python-format
 msgid "User %s will be created"
-msgstr ""
+msgstr "वापरकर्ता %s निर्माण केले जाईल"
 
 #: pyanaconda/ui/tui/spokes/user.py:137
 msgid "Full name can't contain the ':' character"
@@ -2227,7 +2290,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/warnings.py:36
 msgid "Warnings"
-msgstr ""
+msgstr "सावधानता"
 
 #: pyanaconda/ui/tui/spokes/warnings.py:44
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:21
@@ -2236,10 +2299,12 @@ msgid ""
 "more information on supported hardware, please refer to http://www.redhat."
 "com/hardware."
 msgstr ""
+"हे हार्डवेअर (किंवा जोडणी) Red Hat तर्फे समर्थीत नाही.  समर्थीत हार्डवेअरकरिता अधिक "
+"माहितीविषयी, कृपया http://www.redhat.com/hardware पहा."
 
 #: pyanaconda/ui/tui/spokes/progress.py:37
 msgid "Progress"
-msgstr ""
+msgstr "प्रगती"
 
 #: pyanaconda/ui/tui/spokes/progress.py:139
 #, python-format
@@ -2248,28 +2313,31 @@ msgid ""
 "\n"
 "\tInstallation complete.  Press return to quit"
 msgstr ""
+"\tह्या उत्पादनाचा वापर %s येथील आढळणाऱ्या परवाना करारनुसारे असते\n"
+"\n"
+"\tइंस्टॉलेशन पूर्ण झाले.  बाहेर पडण्याकरिता रिटर्न दाबा"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:49
 msgid "Default spoke title"
-msgstr ""
+msgstr "पूर्वनिर्धारि स्पोक शीर्षक"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:61
 msgid "testing status..."
-msgstr ""
+msgstr "चाचणी स्थिती..."
 
 #: pyanaconda/ui/tui/spokes/__init__.py:106
 msgid "New value"
-msgstr ""
+msgstr "नवीन मूल्य"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:134
 #, python-format
 msgid "%s: "
-msgstr ""
+msgstr "%s: "
 
 #: pyanaconda/ui/tui/spokes/__init__.py:135
 #, python-format
 msgid "%s (confirm): "
-msgstr ""
+msgstr "%s (खात्री): "
 
 #: pyanaconda/ui/tui/spokes/__init__.py:138
 msgid ""
@@ -2282,6 +2350,8 @@ msgid ""
 "\n"
 "Would you like to use it anyway?"
 msgstr ""
+"\n"
+"तुम्हाला कसेहिकरून वापरायचे आहे?"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:179
 msgid ""
@@ -2292,7 +2362,7 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/__init__.py:185
 #, python-format
 msgid "Enter new value for '%s' and press enter\n"
-msgstr ""
+msgstr "'%s'करिता नवीन मूल्य द्या व एंटर दाबा\n"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:204
 msgid "You have provided an invalid value\n"
@@ -2300,7 +2370,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/__init__.py:317
 msgid "Password set."
-msgstr ""
+msgstr "पासवर्ड सेट."
 
 #: pyanaconda/ui/gui/__init__.py:383 widgets/src/BaseWindow.c:157
 msgid "Help!"
@@ -2308,30 +2378,30 @@ msgstr ""
 
 #: pyanaconda/ui/gui/__init__.py:862 widgets/src/StandaloneWindow.c:49
 msgid "_Quit"
-msgstr ""
+msgstr "बाहेर पडा (_Q)"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_No"
-msgstr ""
+msgstr "नाही (_N)"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_Yes"
-msgstr ""
+msgstr "होय (_Y)"
 
 #: pyanaconda/ui/gui/hubs/__init__.py:242
 msgid ""
 "Please complete items marked with this icon before continuing to the next "
 "step."
-msgstr ""
+msgstr "कृपया पुढे मुद्यावर जाण्यापूर्वी ह्या चिन्हासह चिन्ह लावलेल्या घटकांना पूर्ण करा."
 
 #: pyanaconda/ui/gui/hubs/progress.py:112
 msgid "Complete!"
-msgstr ""
+msgstr "पूर्ण झाले!"
 
 #: pyanaconda/ui/gui/hubs/progress.py:140
 #, python-format
 msgid "Use of this product is subject to the license agreement found at %s"
-msgstr ""
+msgstr "%s येथील परवाना करारनुसारे ह्या उत्पादनचा वापर करा"
 
 #: pyanaconda/ui/gui/hubs/progress.py:216
 #, python-format
@@ -2339,6 +2409,8 @@ msgid ""
 "%s is now successfully installed on your system and ready for you to use!  "
 "When you are ready, reboot your system to start using it!"
 msgstr ""
+"%s आता यशस्वीरित्या प्रणालीवर इंस्टॉल झाले आहे व वापरकरिता सज्ज आहे!  सज्ज झाल्यानंतर, "
+"वापर करण्याकरिता प्रणालीला पुन्हा सुरू करा!"
 
 #: pyanaconda/ui/gui/hubs/progress.py:219
 msgctxt "GUI|Progress"
@@ -2363,12 +2435,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:110
 #, python-format
 msgid "Create a new %(container_type)s ..."
-msgstr ""
+msgstr "नवीन %(container_type)s निर्माण करा..."
 
 #: pyanaconda/ui/gui/spokes/custom.py:111
 #, python-format
 msgid "Create or select %(container_type)s"
-msgstr ""
+msgstr "%(container_type)s निर्माण करा किंवा निवडा"
 
 #: pyanaconda/ui/gui/spokes/custom.py:113
 msgid "Device reconfiguration failed. <a href=\"\">Click for details.</a>"
@@ -2383,7 +2455,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:139
 #: pyanaconda/ui/gui/spokes/custom.glade.h:12
 msgid "MANUAL PARTITIONING"
-msgstr ""
+msgstr "मॅन्युअल विभाजन"
 
 #: pyanaconda/ui/gui/spokes/custom.py:356
 #, python-format
@@ -2391,7 +2463,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2415,7 +2486,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:671
 #, python-format
 msgid "%s cannot be encrypted"
-msgstr ""
+msgstr "%s एंक्रिप्ट करणे अशक्य"
 
 #: pyanaconda/ui/gui/spokes/custom.py:673
 msgid "You must create a new file system on the root device."
@@ -2437,7 +2508,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:1225
 #, python-format
 msgid "Specified name %s already in use."
-msgstr ""
+msgstr "निर्देशीत नाव %sचा आधिपासूनच वापर सुरू आहे."
 
 #: pyanaconda/ui/gui/spokes/custom.py:1383
 msgid "No disks assigned"
@@ -2449,7 +2520,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2463,7 +2533,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1495
 msgid "This file system may not be resized."
-msgstr ""
+msgstr "ह्या फाइल प्रणालीला पुनःआकार करणे अशक्य."
 
 #: pyanaconda/ui/gui/spokes/custom.py:1550
 msgid ""
@@ -2488,7 +2558,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1676
 msgid "Invalid partition size set. Use a valid integer."
-msgstr ""
+msgstr "अवैध विभाजन आकार संच. वैध इंटिजरचा वापर करा."
 
 #: pyanaconda/ui/gui/spokes/custom.py:1787
 msgid "Device removal request failed. <a href=\"\">Click for details.</a>"
@@ -2505,12 +2575,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:2020
 #, python-format
 msgid "Volume Group name %s is already in use. Not saving changes."
-msgstr ""
+msgstr "वॉल्युम गट नाव %sचा आधिपासूनच वापर होत आहे. बदल साठवणार नाही."
 
 #: pyanaconda/ui/gui/spokes/custom.py:2052
 #, python-format
 msgid "(%s free)"
-msgstr ""
+msgstr "(%s मोकळे)"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2199
 #, python-format
@@ -2518,6 +2588,8 @@ msgid ""
 "This Software RAID array is missing %(missingMembers)d of %(totalMembers)d "
 "member partitions. You can remove it or select a different device."
 msgstr ""
+"ह्या सॉफ्टवेअर RAID अर्रेमध्ये %(totalMembers)d सदस्य विभाजनांपैकी %(missingMembers)d "
+"आढळले नाही. त्यास काढून टाका किंवा दुसरे साधन निवडा."
 
 #: pyanaconda/ui/gui/spokes/custom.py:2205
 #, python-format
@@ -2525,14 +2597,16 @@ msgid ""
 "This LVM Volume Group is missing %(missingPVs)d of %(totalPVs)d physical "
 "volumes. You can remove it or select a different device."
 msgstr ""
+"ह्या LVM वॉल्युम गटामध्ये %(missingPVs)d आढळले नाही, %(totalPVs)d फिजिकल "
+"वॉल्युम्सपैकी. त्यास काढून टाकू शकता किंवा दुसरे साधन निवडा."
 
 #: pyanaconda/ui/gui/spokes/custom.py:2286
 msgid "No disks selected."
-msgstr ""
+msgstr "डिस्क्स् नीवडले नाही."
 
 #: pyanaconda/ui/gui/spokes/custom.py:2291
 msgid "Not enough free space on selected disks."
-msgstr ""
+msgstr "नीवडलेल्या डिस्क्स्वर अतिरिक्त मोकळी जागा आढळली नाही."
 
 #: pyanaconda/ui/gui/spokes/custom.py:2296
 #: pyanaconda/ui/gui/spokes/custom.py:2321
@@ -2565,33 +2639,35 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:508
 msgid "Restoring hardware time..."
-msgstr ""
+msgstr "हार्डवेअर वेळ पूर्ववत् करत आहे..."
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:519
 msgid "Invalid timezone"
-msgstr ""
+msgstr "अवैध वेळक्षेत्र"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:690
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:704
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:886
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:27
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
+# translation auto-copied from project Anaconda, version master, document
+# anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:692
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:701
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:885
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:888
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1035
 msgid "You need to set up networking first if you want to use NTP"
-msgstr ""
+msgstr "NTP चा वापर करायचे असल्यास प्रथम नेटवर्किंग ठरवा"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1039
 msgid "You have no working NTP server configured"
-msgstr ""
+msgstr "तुमच्याकडे कार्यरत NTP सर्व्हर संरचीत नाही"
 
 #: pyanaconda/ui/gui/spokes/filter.py:484
 msgctxt "GUI|Spoke"
@@ -2604,12 +2680,11 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
 msgid "%s to switch layouts."
-msgstr ""
+msgstr "मांडणी बदलण्यासाठी %s."
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:272
 msgctxt "GUI|Spoke"
@@ -2618,7 +2693,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:369
 msgid "Testing layouts configuration not available."
-msgstr ""
+msgstr "चाचणी मांडणी संरचना उलब्ध नाही."
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:377
 msgid "Getting list of layouts..."
@@ -2632,7 +2707,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:437
 msgid "Layout switching not configured."
-msgstr ""
+msgstr "मांडणी बदलणे संरचीत केले नाही."
 
 #: pyanaconda/ui/gui/spokes/langsupport.py:54
 msgctxt "GUI|Spoke"
@@ -2641,65 +2716,65 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.py:87
 msgid "Status unknown (missing)"
-msgstr ""
+msgstr "स्थिती अपरिचीत (आढळली नाही)"
 
 #: pyanaconda/ui/gui/spokes/network.py:90
 msgid "Status unknown"
-msgstr ""
+msgstr "स्थिती अपरिचीत"
 
 #: pyanaconda/ui/gui/spokes/network.py:92
 msgid "Unmanaged"
-msgstr ""
+msgstr "अव्यवस्थापीत"
 
 #: pyanaconda/ui/gui/spokes/network.py:95
 #: pyanaconda/ui/gui/spokes/network.py:99
 msgid "Unavailable"
-msgstr ""
+msgstr "अनुपलब्ध"
 
 #: pyanaconda/ui/gui/spokes/network.py:97
 msgid "Firmware missing"
-msgstr ""
+msgstr "फर्मवेअर आढळले नाही"
 
 #: pyanaconda/ui/gui/spokes/network.py:103
 msgid "Cable unplugged"
-msgstr ""
+msgstr "केबल प्लग अशक्य"
 
 #: pyanaconda/ui/gui/spokes/network.py:105
 msgid "Disconnected"
-msgstr ""
+msgstr "खंडीत"
 
 #: pyanaconda/ui/gui/spokes/network.py:110
 msgid "Connecting"
-msgstr ""
+msgstr "जोडत आहे"
 
 #: pyanaconda/ui/gui/spokes/network.py:112
 msgid "Authentication required"
-msgstr ""
+msgstr "ओळख पटवणे आवश्यक"
 
 #: pyanaconda/ui/gui/spokes/network.py:114
 msgid "Connected"
-msgstr ""
+msgstr "जुळले"
 
 #: pyanaconda/ui/gui/spokes/network.py:116
 msgid "Disconnecting"
-msgstr ""
+msgstr "खंडीत करत आहे"
 
 #: pyanaconda/ui/gui/spokes/network.py:118
 msgid "Connection failed"
-msgstr ""
+msgstr "जोडणी अपयशी"
 
 #: pyanaconda/ui/gui/spokes/network.py:307
 msgid "Ethernet"
-msgstr ""
+msgstr "इथरनेट"
 
 #: pyanaconda/ui/gui/spokes/network.py:308
 msgid "Wireless"
-msgstr ""
+msgstr "वायरलेस"
 
 #: pyanaconda/ui/gui/spokes/network.py:309
 #: pyanaconda/ui/gui/spokes/network.glade.h:1
 msgid "Bond"
-msgstr ""
+msgstr "बाँड"
 
 #: pyanaconda/ui/gui/spokes/network.py:310
 #: pyanaconda/ui/gui/spokes/network.glade.h:4
@@ -2709,7 +2784,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:311
 #: pyanaconda/ui/gui/spokes/network.glade.h:3
 msgid "Team"
-msgstr ""
+msgstr "टिम"
 
 #: pyanaconda/ui/gui/spokes/network.py:312
 #: pyanaconda/ui/gui/spokes/network.glade.h:2
@@ -2719,55 +2794,55 @@ msgstr ""
 #. TRANSLATORS: ethernet cable is unplugged
 #: pyanaconda/ui/gui/spokes/network.py:799
 msgid "unplugged"
-msgstr ""
+msgstr "प्लग अशक्य"
 
 #: pyanaconda/ui/gui/spokes/network.py:895
 #: pyanaconda/ui/gui/spokes/network.glade.h:16
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 पत्ता"
 
 #: pyanaconda/ui/gui/spokes/network.py:896
 #: pyanaconda/ui/gui/spokes/network.glade.h:15
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 पत्ता"
 
 #: pyanaconda/ui/gui/spokes/network.py:898
 #: pyanaconda/ui/gui/spokes/network.py:900
 #: pyanaconda/ui/gui/spokes/network.glade.h:31
 msgid "IP Address"
-msgstr ""
+msgstr "IP पत्ता"
 
 #: pyanaconda/ui/gui/spokes/network.py:990
 #, python-format
 msgid "%d Mb/s"
-msgstr ""
+msgstr "%d Mb/s"
 
 #: pyanaconda/ui/gui/spokes/network.py:1210
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: pyanaconda/ui/gui/spokes/network.py:1213
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 #: pyanaconda/ui/gui/spokes/network.py:1216
 msgid "WPA2"
-msgstr ""
+msgstr "WPA2"
 
 #: pyanaconda/ui/gui/spokes/network.py:1220
 msgid "Enterprise"
-msgstr ""
+msgstr "एंटरप्राइज"
 
 #: pyanaconda/ui/gui/spokes/network.py:1225 widgets/src/SpokeSelector.c:82
 #: pyanaconda/ui/gui/spokes/filter.glade.h:3
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:21
 msgid "None"
-msgstr ""
+msgstr "काहिच नाही"
 
 #: pyanaconda/ui/gui/spokes/network.py:1366
 #: pyanaconda/ui/gui/spokes/network.glade.h:61
 msgid "Authentication required by wireless network"
-msgstr ""
+msgstr "वायरलेस नेटवर्कतर्फे ओळख पटवणे आवश्यक आहे"
 
 #: pyanaconda/ui/gui/spokes/network.py:1367
 #, python-format
@@ -2775,6 +2850,8 @@ msgid ""
 "Passwords or encryption keys are required to access\n"
 "the wireless network '%(network_id)s'."
 msgstr ""
+"वायरलेस नेटवर्क '%(network_id)s'\n"
+"करिता प्रवेश प्राप्त करण्यासाठी पासवर्डज किंवा एनक्रिप्शन किज आवश्यक आहे."
 
 #: pyanaconda/ui/gui/spokes/network.py:1381
 msgctxt "GUI|Network|Secrets Dialog"
@@ -2811,19 +2888,19 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/password.py:102
 #: pyanaconda/ui/gui/spokes/password.py:103
 msgid "The password is set."
-msgstr ""
+msgstr "पासवर्ड सेट केले आहे."
 
 #: pyanaconda/ui/gui/spokes/password.py:130
 msgid "Root password is set"
-msgstr ""
+msgstr "रूट पासवर्ड ठरवले"
 
 #: pyanaconda/ui/gui/spokes/password.py:132
 msgid "Root account is disabled"
-msgstr ""
+msgstr "रूट खाते बंद केले"
 
 #: pyanaconda/ui/gui/spokes/password.py:134
 msgid "Root password is not set"
-msgstr ""
+msgstr "रूट पासवर्ड ठरवले नाही"
 
 #: pyanaconda/ui/gui/spokes/software.py:52
 msgctxt "GUI|Spoke"
@@ -2833,20 +2910,20 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/software.py:102
 #: pyanaconda/ui/gui/spokes/source.py:56
 msgid "Downloading package metadata..."
-msgstr ""
+msgstr "पॅकेज मेटाडाटा डाऊनलोड करत आहे..."
 
 #: pyanaconda/ui/gui/spokes/software.py:105
 msgid "Downloading group metadata..."
-msgstr ""
+msgstr "गट मेटाडाटा डाऊनलोड करत आहे..."
 
 #: pyanaconda/ui/gui/spokes/software.py:188
 #: pyanaconda/ui/gui/spokes/source.py:551
 msgid "Checking software dependencies..."
-msgstr ""
+msgstr "सॉफ्टवेअर अवलंबन तपासत आहे..."
 
 #: pyanaconda/ui/gui/spokes/software.py:193
 msgid "Error checking software dependencies"
-msgstr ""
+msgstr "सॉफ्टवेअर अवलंबन तपासतेवेळी त्रुटी"
 
 #: pyanaconda/ui/gui/spokes/software.py:278
 msgid "Invalid environment specified in kickstart"
@@ -2886,7 +2963,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.py:55
 msgid "Setting up installation source..."
-msgstr ""
+msgstr "प्रतिष्ठापन स्रोत सेटअप करत आहे..."
 
 #: pyanaconda/ui/gui/spokes/source.py:87
 msgid "Invalid proxy URL"
@@ -2907,11 +2984,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.py:235
 msgid "This media is good to install from."
-msgstr ""
+msgstr "हे मिडीया इंस्टॉलेशनकरिता योग्य आहे."
 
 #: pyanaconda/ui/gui/spokes/source.py:237
 msgid "This media is not good to install from."
-msgstr ""
+msgstr "हे मिडीया इंस्टॉलेशनकरिता योग्य नाही."
 
 #: pyanaconda/ui/gui/spokes/source.py:358
 msgctxt "GUI|Spoke"
@@ -2921,30 +2998,30 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/source.py:480
 #: pyanaconda/ui/gui/spokes/source.py:695
 msgid "Failed to set up installation source; check the repo url"
-msgstr ""
+msgstr "इंस्टॉलेशन स्रोत ठरवण्यास अपयशी; रेपो url तपासा"
 
 #: pyanaconda/ui/gui/spokes/source.py:555
 msgid "Error setting up base repository"
-msgstr ""
+msgstr "बेस रेपॉजिटरि ठरवतेवेळी त्रुटी"
 
 #: pyanaconda/ui/gui/spokes/source.py:566
 msgid "Error setting up ISO file"
-msgstr ""
+msgstr "ISO फाइल सेटअप करतेवेळी त्रुटी"
 
 #: pyanaconda/ui/gui/spokes/source.py:697
 msgid ""
 "Failed to set up installation source; check the repo url and proxy settings"
-msgstr ""
+msgstr "इंस्टॉलेशन स्रोत सेट अकरण्यास अपयशी; रेपो url व प्रॉक्सी सेटिंग्ज"
 
 #: pyanaconda/ui/gui/spokes/source.py:726
 #, python-format
 msgid "Device: %s"
-msgstr ""
+msgstr "साधन: %s"
 
 #: pyanaconda/ui/gui/spokes/source.py:727
 #, python-format
 msgid "Label: %s"
-msgstr ""
+msgstr "लेबल: %s"
 
 #: pyanaconda/ui/gui/spokes/source.py:894
 msgid "You need to configure the network to use a network installation source."
@@ -2976,7 +3053,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.py:1011
 msgid "Duplicate repository names."
-msgstr ""
+msgstr "हुबेहुब रेपॉजिटरि नावे."
 
 #: pyanaconda/ui/gui/spokes/source.py:1018
 msgid "Empty repository name"
@@ -2988,11 +3065,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.py:1027
 msgid "Repository name conflicts with internal repository name."
-msgstr ""
+msgstr "आंतरिक रेपॉजिटरि नावासह रेपॉजिटरि नावचे संघर्ष होते."
 
 #: pyanaconda/ui/gui/spokes/storage.py:115
 msgid "Please wait... software metadata still loading."
-msgstr ""
+msgstr "कृपया थांबा.... सॉफ्टवेअर मेटाडाटा अजूनही लोड होत आहे."
 
 #: pyanaconda/ui/gui/spokes/storage.py:116
 #, python-format
@@ -3005,7 +3082,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:166
 #, python-format
 msgid "%s The disks you've selected have the following amounts of free space:"
-msgstr ""
+msgstr "%s निवडलेल्या डिस्क्समध्ये खालील मोकळी जागा उपलब्ध आहे:"
 
 #: pyanaconda/ui/gui/spokes/storage.py:174
 #, python-format
@@ -3014,6 +3091,9 @@ msgid ""
 "or remove existing partitions via our guided reclaim space tool, or you can "
 "adjust your partitions on your own in the custom partitioning interface."
 msgstr ""
+"<b>%s इंस्टॉल करण्यासाठी तुमच्याकडे अतिरिक्त जागा</b>.  जागा पुन्हप्राप्ति साधनाचा वापर "
+"करून अस्तित्वातील विभाजनांना आंकुचीत किंवा काढून टाकणे शक्य आहे, किंवा पसंतीच्या विभाजन "
+"संवादमध्ये विभाजनांना स्वतः सुस्थीत करा."
 
 #: pyanaconda/ui/gui/spokes/storage.py:198
 #, python-format
@@ -3038,7 +3118,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:347
 msgid "Saving storage configuration..."
-msgstr ""
+msgstr "स्टोरेज संरचना साठवत आहे..."
 
 #: pyanaconda/ui/gui/spokes/storage.py:351
 msgid "Passphrase for autopart encryption not specified."
@@ -3047,13 +3127,13 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:360
 #: pyanaconda/ui/gui/spokes/storage.py:372
 msgid "Failed to save storage configuration..."
-msgstr ""
+msgstr "स्टोरेज संरचना साठवण्यास अपयशी..."
 
 #: pyanaconda/ui/gui/spokes/storage.py:432
 #: pyanaconda/ui/gui/spokes/storage.py:736
 #: pyanaconda/ui/gui/spokes/storage.py:755
 msgid "Formatting DASDs"
-msgstr ""
+msgstr "DASDs चे रूपण"
 
 #: pyanaconda/ui/gui/spokes/storage.py:581
 msgid ""
@@ -3076,14 +3156,13 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:637
 #, python-format
 msgid "%s free"
-msgstr ""
+msgstr "%s मोकळे"
 
 #: pyanaconda/ui/gui/spokes/storage.py:684
 #, python-format
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3097,7 +3176,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:1074
 msgid "You'll be able to make space available during custom partitioning."
-msgstr ""
+msgstr "पसंतीच्या विभाजनवेळी तुम्ही मोकळी जागा उपलब्ध करू शकाल."
 
 #: pyanaconda/ui/gui/spokes/storage.py:1094
 msgid ""
@@ -3121,6 +3200,8 @@ msgid ""
 "The following errors were encountered when checking your storage "
 "configuration.  You can modify your storage layout or quit the installer."
 msgstr ""
+"स्टोरेज संरचना तपासतेवेळी खालील त्रुटी आढळल्यात.  स्टोरेज मांडणी संपादित करा\n"
+"किंवा इंस्टॉलरपासून बाहेर पडा."
 
 #: pyanaconda/ui/gui/spokes/storage.py:1121
 msgctxt "GUI|Storage|Error Dialog"
@@ -3133,10 +3214,12 @@ msgid ""
 "configuration.  These are not fatal, but you may wish to make changes to "
 "your storage layout."
 msgstr ""
+"स्टोरेज संरचना तपासतेवेळी खालील सावधानता आढळल्यात.  हे धोकादायक नाही, परंतु तुम्हाला "
+"स्टोरेज मांडणीकरिता बदल करायला आवडेल."
 
 #: pyanaconda/ui/gui/spokes/storage.py:1139
 msgid "_OK"
-msgstr ""
+msgstr "ठिक आहे (_O)"
 
 #: pyanaconda/ui/gui/spokes/user.py:70
 #, python-format
@@ -3150,7 +3233,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/user.py:289 pyanaconda/ui/gui/spokes/user.py:290
 msgid "The password was set by kickstart."
-msgstr ""
+msgstr "पासवर्ड किकस्टार्टतर्फे सेट झाले."
 
 #: pyanaconda/ui/gui/spokes/user.py:325
 msgid "Full name cannot contain colon characters"
@@ -3175,7 +3258,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:157
 msgid "DATA"
-msgstr ""
+msgstr "डाटा"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:278
 #, python-format
@@ -3186,21 +3269,22 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:287
 msgid "_Click here to create them automatically."
-msgstr ""
+msgstr "याला स्व निर्माण करण्याकरिता येथे क्लिक करा (_C)."
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:312
 msgid "Create new mount points by clicking the '+' button."
-msgstr ""
+msgstr "'+' बटन क्लिक करून नवीन माउंट पॉइंट्स निर्माण करा."
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:320
 msgid ""
 "Or, assign new mount points to existing partitions after selecting them "
 "below."
 msgstr ""
+"किंवा, खालील निवडल्यानंतर अस्तित्वातील विभाजनांकरिता नवीन माऊंट पॉइंट्स लागू करा."
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:325
 msgid "_New mount points will use the following partitioning scheme:"
-msgstr ""
+msgstr "नवीन माऊंट पॉइंट्स खालील विभाजन योजनेचा वापर करेल (_N):"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:132
 #, python-format
@@ -3211,7 +3295,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3234,7 +3317,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:66
 #, python-format
 msgid "CONFIGURE %(container_type)s"
-msgstr ""
+msgstr "%(container_type)s संरचीत करा"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:67
 #, python-format
@@ -3242,15 +3325,16 @@ msgid ""
 "Please create a name for this %(container_type)s and select at least one "
 "disk below."
 msgstr ""
+"कृपया ह्या %(container_type)s करिता नाव द्या व खालील किमान एक डिस्क पसंत करा."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:70
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:71
 msgid "Volume Group"
-msgstr ""
+msgstr "LVM वॉल्युम ग्रुप"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:72
 msgid "Volume"
-msgstr ""
+msgstr "खंड"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:112
 msgid "Cannot relabel already existing file system."
@@ -3266,7 +3350,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:129
 msgid "That mount point is already in use. Try something else?"
-msgstr ""
+msgstr "माउंट पॉइंट आधिपासूनच वापरणीत आहे. इतर वापरून पहा?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:131
 msgid "Please enter a valid mount point."
@@ -3275,11 +3359,11 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:133
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:145
 msgid "That mount point is invalid. Try something else?"
-msgstr ""
+msgstr "माउंट पॉइंट अवैध आहे. इतर वापरून पहा?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:286
 msgid "container"
-msgstr ""
+msgstr "कंटेनर"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:358
 #, python-format
@@ -3290,7 +3374,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:368
 #, python-format
 msgid "Are you sure you want to delete all of the data on %s?"
-msgstr ""
+msgstr "तुम्हाला नक्की %s वरील सर्व डाटा नष्ट करायचे?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:370
 #, python-format
@@ -3316,11 +3400,11 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:34
 #, python-format
 msgid "You have provided a weak passphrase: %s"
-msgstr ""
+msgstr "तुम्ही कमजोर पासफ्रेज: %s पुरवले आहे"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:35
 msgid "Passphrases do not match."
-msgstr ""
+msgstr "पासफ्रेज जुळत नाही."
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:164
 msgid "Passphrase contains non-ASCII characters"
@@ -3328,33 +3412,33 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:54
 msgid "Preserve"
-msgstr ""
+msgstr "साठवा"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:55
 msgid "Shrink"
-msgstr ""
+msgstr "छोटे करा"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:56
 msgid "Delete"
-msgstr ""
+msgstr "नष्ट करा"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:83
 #, python-format
 msgid "Installation requires a total of <b>%s</b> for system data."
-msgstr ""
+msgstr "इंस्टॉलेशनकरिता एकूण <b>%s</b> प्रणाली डाटा आवश्यक आहे."
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:115
 msgid "This device contains the installation source."
-msgstr ""
+msgstr "या साधनमध्ये इंस्टॉलेशन स्रोत समाविष्टीत आहे."
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:162
 #, python-format
 msgid "%(freeSize)s of %(devSize)s"
-msgstr ""
+msgstr "%(freeSize)s, %(devSize)s पैकी"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:169
 msgid "Not resizeable"
-msgstr ""
+msgstr "नवीन आकार अशक्य"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:193
 msgid "Free space"
@@ -3380,12 +3464,11 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
 msgid "Total selected space to reclaim: <b>%s</b>"
-msgstr ""
+msgstr "पुनःप्रापणजोगी एकूण नीवडजोगी जागा: <b>%s</b>"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:453
 #: pyanaconda/ui/gui/spokes/lib/resize.py:458
@@ -3401,49 +3484,49 @@ msgstr ""
 
 #: widgets/src/BaseWindow.c:153
 msgid "DISTRIBUTION INSTALLATION"
-msgstr ""
+msgstr "वितरण प्रतिष्ठापन"
 
 #: widgets/src/BaseWindow.c:154
 msgid "SPOKE NAME"
-msgstr ""
+msgstr "स्पोक नेम"
 
 #: widgets/src/BaseWindow.c:155
 msgid "PRE-RELEASE / TESTING"
-msgstr ""
+msgstr "प्रि-रिलिज / चाचणी"
 
 #: widgets/src/DiskOverview.c:101
 msgid "New Device"
-msgstr ""
+msgstr "नवीन साधन"
 
 #: widgets/src/DiskOverview.c:103 widgets/src/DiskOverview.c:104
 msgid "0 MB"
-msgstr ""
+msgstr "0 MB"
 
 #: widgets/src/MountpointSelector.c:84
 msgid "0 GB"
-msgstr ""
+msgstr "0 GB"
 
 #: widgets/src/SpokeSelector.c:83
 msgid "New Selector"
-msgstr ""
+msgstr "नवीन सिलेक्टर"
 
 #: widgets/src/SpokeWindow.c:57
 msgid "_Done"
-msgstr ""
+msgstr "पूर्ण झाले (_D)"
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "पुढे चला (_C)"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
 msgid "Current layout: '%s'. Click to switch to the next layout."
-msgstr ""
+msgstr "सध्याची मांडणी: '%s'. पुढील मांडणीच्या वापरकरिता क्लिक करा."
 
 #: widgets/src/LayoutIndicator.c:34
 #, c-format
 msgid "Current layout: '%s'. Add more layouts to enable switching."
-msgstr ""
+msgstr "सध्याची मांडणी: '%s'. स्विचिंग सुरू करण्यासाठी आणखी मांडणी समाविष्ट करा."
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:1
 msgctxt "GUI|Advanced User"
@@ -3457,7 +3540,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:3
 msgid "ADVANCED USER CONFIGURATION"
-msgstr ""
+msgstr "प्रगत वापरकर्ता संरचना"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:4
 msgctxt "GUI|Advanced User"
@@ -3466,7 +3549,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:5
 msgid "User and Group IDs"
-msgstr ""
+msgstr "वापरकर्ता व गट IDज"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:6
 msgctxt "GUI|Advanced User"
@@ -3480,7 +3563,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:8
 msgid "Group Membership"
-msgstr ""
+msgstr "गट सदस्यता"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:9
 msgctxt "GUI|Advanced User"
@@ -3489,15 +3572,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:10
 msgid "Example:"
-msgstr ""
+msgstr "उदाहरणार्थ:"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:11
 msgid "wheel, my-team (1245), project-x (29935)"
-msgstr ""
+msgstr "wheel, my-team (1245), project-x (29935)"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:12
 msgid "Tip:"
-msgstr ""
+msgstr "टिप:"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:13
 msgid ""
@@ -3518,7 +3601,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:3
 msgid "Add and mark for usage NTP servers"
-msgstr ""
+msgstr "वापर NTP सर्व्हर्सकरिता समाविष्ट करा व चिन्ह लावा"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:4
 msgid "New NTP Server"
@@ -3530,11 +3613,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:7
 msgid "Working"
-msgstr ""
+msgstr "क्रियाशील"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:8
 msgid "Use"
-msgstr ""
+msgstr "वापर करा"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:9
 msgid "Configure NTP"
@@ -3542,7 +3625,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:10
 msgid "DATE & TIME"
-msgstr ""
+msgstr "दिनांक व वेळ"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:11
 msgctxt "GUI|Date and Time"
@@ -3578,7 +3661,7 @@ msgstr ""
 #. TRANSLATORS: This is the separator between hours and minutes, like in HH:MM
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:19
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:20
 msgid "Minutes"
@@ -3625,7 +3708,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/filter.glade.h:1
 #: pyanaconda/ui/gui/spokes/storage.glade.h:14
 msgid "INSTALLATION DESTINATION"
-msgstr ""
+msgstr "प्रतिष्ठापन लक्ष्य"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:2
 msgctxt "GUI|Installation Destination|Filter|Search"
@@ -3634,11 +3717,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:4
 msgid "Port / Target / LUN #"
-msgstr ""
+msgstr "पोर्ट / लक्ष्य / LUN #"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:5
 msgid "Target WWID"
-msgstr ""
+msgstr "लक्ष्य WWID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:6
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
@@ -3672,41 +3755,41 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:6
 msgid "Name"
-msgstr ""
+msgstr "नाव"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:12
 msgid "WWID"
-msgstr ""
+msgstr "WWID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:13
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "क्षमता"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
-msgstr ""
+msgstr "इंटरकनेक्ट"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:15
 msgid "Model"
-msgstr ""
+msgstr "प्रतिकृती"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:16
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:17
 msgid "Port"
-msgstr ""
+msgstr "पोर्ट"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:18
 msgid "Target"
-msgstr ""
+msgstr "लक्ष्य"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:19
 msgid "Vendor"
-msgstr ""
+msgstr "विक्रेता"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:20
 msgctxt "GUI|Installation Destination|Filter"
@@ -3735,7 +3818,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:25
 msgid "Paths"
-msgstr ""
+msgstr "मार्ग"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:26
 msgctxt "GUI|Installation Destination|Filter"
@@ -3749,7 +3832,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:28
 msgid "ID"
-msgstr ""
+msgstr "आयडी"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:29
 msgctxt "GUI|Installation Destination|Filter|Other|Vendor"
@@ -3768,7 +3851,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:32
 msgid "Identifier"
-msgstr ""
+msgstr "आइडेंटिफायर"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:33
 msgctxt "GUI|Installation Destination|Filter"
@@ -3782,11 +3865,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:35
 msgid "CCW"
-msgstr ""
+msgstr "CCW"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:36
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:37
 msgctxt "GUI|Installation Destination|Filter|zSeries|CCW"
@@ -3806,7 +3889,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/filter.glade.h:40
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:7
 msgid "Type"
-msgstr ""
+msgstr "प्रकार"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:41
 msgctxt "GUI|Installation Destination|Filter"
@@ -3840,7 +3923,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:5
 msgid "Add device"
-msgstr ""
+msgstr "साधन समावेश"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:6
 msgctxt "GUI|Network|Add Device Dialog"
@@ -3869,31 +3952,31 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:11
 msgid "Slaves"
-msgstr ""
+msgstr "स्लेव्स"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:12
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:13
 msgid "Default Route"
-msgstr ""
+msgstr "पूर्वनिर्धारीत राऊट"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:14
 msgid "Subnet Mask"
-msgstr ""
+msgstr "सबनेट मास्क"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:17
 msgid "Speed"
-msgstr ""
+msgstr "वेग"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:18
 msgid "Hardware Address"
-msgstr ""
+msgstr "हार्डवेअर पत्ता"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:19
 msgid "Parent"
-msgstr ""
+msgstr "पॅरेंट"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:20
 msgid "VLAN ID"
@@ -3906,7 +3989,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:22
 msgid "Security"
-msgstr ""
+msgstr "सुरक्षा"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:23
 msgctxt "GUI|Network|Wireless"
@@ -3915,11 +3998,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:24
 msgid "Network Name"
-msgstr ""
+msgstr "नेटवर्क नाव"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:25
 msgid "Security Key"
-msgstr ""
+msgstr "सुरक्षा कि"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:26
 msgctxt "GUI|Network|Wireless"
@@ -3938,11 +4021,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:29
 msgid "IMEI"
-msgstr ""
+msgstr "IMEI"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:30
 msgid "Provider"
-msgstr ""
+msgstr "प्रोव्हाइडर"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:32
 msgctxt "GUI|Network|Mobile Broadband"
@@ -3951,19 +4034,19 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:33
 msgid "VPN Type"
-msgstr ""
+msgstr "VPN प्रकार"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:34
 msgid "Gateway"
-msgstr ""
+msgstr "गेटवे"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:35
 msgid "Group Name"
-msgstr ""
+msgstr "गट नाव"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:36
 msgid "Group Password"
-msgstr ""
+msgstr "गट पासवर्ड"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:37
 #: pyanaconda/ui/gui/spokes/user.glade.h:5
@@ -4042,7 +4125,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:55
 msgid "NETWORK CONFIGURATION"
-msgstr ""
+msgstr "नेटवर्क संरचना"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:56
 msgid ""
@@ -4050,10 +4133,12 @@ msgid ""
 "make software\n"
 "updates available for you."
 msgstr ""
+"ठिकाणाविषयी माहिती प्राप्त करण्यासाठी नेटवर्क प्रवेश वसॉफ्टवेअर सुधारणा\n"
+"उपलब्ध करणे आवश्यक आहे."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:58
 msgid "Authentication"
-msgstr ""
+msgstr "ओळख पटवणे"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:59
 msgctxt "GUI|Network|Authentication Dialog"
@@ -4070,18 +4155,20 @@ msgid ""
 "Passwords or encryption keys are required to access\n"
 "the wireless network"
 msgstr ""
+"वायरलेस नेटवर्ककरिता प्रवेश प्राप्त करण्यासाठी\n"
+"पासवर्डज किंवा एनक्रिप्शन किज आवश्यक आहे"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:1
 msgid "SOFTWARE SELECTION"
-msgstr ""
+msgstr "सॉफ्टवेअर नीवड"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:2
 msgid "Base Environment"
-msgstr ""
+msgstr "बेस एंवार्यनमेंट"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:3
 msgid "Add-Ons for Selected Environment"
-msgstr ""
+msgstr "निवडलेल्या एंवार्यनमेंटकरिता ॲडऑन्स"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:1
 msgctxt "GUI|Storage|Need Space Dialog"
@@ -4095,33 +4182,33 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:3
 msgid "INSTALLATION OPTIONS"
-msgstr ""
+msgstr "प्रतिष्ठापन पर्याय"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:4
 msgid ""
 "Here we'll describe how much space is needed for the current software "
 "selection."
-msgstr ""
+msgstr "सध्याच्या सॉफ्टवेअर नीवडकरिता येथे आवश्यक जागा ठरवली जाईल."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:5
 msgid "disk free"
-msgstr ""
+msgstr "डिस्क फ्री"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:6
 msgid "Free space available for use."
-msgstr ""
+msgstr "वापरकरिता मोकळी जागा उपलब्ध."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:7
 msgid "fs free"
-msgstr ""
+msgstr "fs मोकळे"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:8
 msgid "Free space unavailable but reclaimable from existing partitions."
-msgstr ""
+msgstr "मोकळी जागा अनुपलब्ध परंतु अस्तित्वातील विभाजनांपासून पुनःप्राप्तजोगी आहे."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:9
 msgid "Here we'll describe what your options are."
-msgstr ""
+msgstr "येथे पर्यायचे वर्णन केले जाईल."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:10
 msgid "Need Space"
@@ -4143,25 +4230,27 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:15
 msgid "Device Selection"
-msgstr ""
+msgstr "साधन नीवड"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:16
 msgid ""
 "Select the device(s) you'd like to install to.  They will be left untouched "
 "until you click on the main menu's \"Begin Installation\" button."
 msgstr ""
+"इंस्टॉलजोगी साधने निवडा.  मुख्य मेन्युच्या \"इंस्टॉलेशन सुरू करा\" बटनावर क्लिक केल्याविना हे "
+"बदल लागू होणार नाही."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:17
 msgid "Local Standard Disks"
-msgstr ""
+msgstr "स्थानीय मानक डिस्क्स्"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:18
 msgid "Disks left unselected here will not be touched."
-msgstr ""
+msgstr "येथे विना निवडलेले डिस्क्सना स्पर्श केले जाणार नाही."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:19
 msgid "Specialized & Network Disks"
-msgstr ""
+msgstr "विशिष्ट व नेटवर्क डिस्क्स"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:20
 msgctxt "GUI|Storage"
@@ -4174,27 +4263,27 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:22
 msgid "Other Storage Options"
-msgstr ""
+msgstr "इतर स्टोरेज पर्याय"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:23
 msgid "Partitioning"
-msgstr ""
+msgstr "विभाजन"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:24
 msgid "Encryption"
-msgstr ""
+msgstr "एनक्रिप्शन"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:25
 msgid "A_utomatically configure partitioning."
-msgstr ""
+msgstr "विभाजन स्व संरचीत करा (_u)."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:26
 msgid "_I will configure partitioning."
-msgstr ""
+msgstr "मी विभाजन स्व संरचीत करेल (_I)."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:27
 msgid "_Encrypt my data."
-msgstr ""
+msgstr "माझा डाटा एनक्रिप्ट करा (_E)."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:28
 msgid "You'll set a passphrase next."
@@ -4202,7 +4291,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:29
 msgid "I would like to _make additional space available."
-msgstr ""
+msgstr "मला अगाऊ मोकळी जागा उपलब्ध करायला आवडेल (_m)."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:30
 msgid "Storage Options"
@@ -4210,7 +4299,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:31
 msgid "summary"
-msgstr ""
+msgstr "सारांश"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:32
 msgctxt "GUI|Storage"
@@ -4224,23 +4313,27 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:1
 msgid "KEYBOARD LAYOUT"
-msgstr ""
+msgstr "किबोर्ड मांडणी"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:2
 msgid ""
 "Which keyboard layouts would you like to use on this system?  You may move "
 "any layout to the top of the list to select it as the default."
 msgstr ""
+"ह्या प्रणालीवर तुम्हाला कोणती किबोर्ड मांडणी वापरायला आवडेल?  पूर्वनिर्धारित म्हणून पसंत "
+"करण्यासाठी कुठलिही मांडणी सूचीच्या शीर्षास हलवणे शक्य आहे."
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:3
 msgid ""
 "Changes here will only apply to the installed system. Use the desktop's tool "
 "to configure the keyboard for the installation process."
 msgstr ""
+"येथे बदल फक्त इंस्टॉल्ड प्रणालीकरिता लागू होईल. इंस्टॉलेशन प्रक्रियाकरिता किबोर्ड संरचीत "
+"करायचे असल्यास डेस्कटॉप साधनाचा वापर करा."
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:4
 msgid "name"
-msgstr ""
+msgstr "नाव"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:5
 msgid "Selected Layouts"
@@ -4278,7 +4371,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:12
 msgid "Alt + Shift to switch layouts."
-msgstr ""
+msgstr "मांडणी बदलण्यासाठी Alt + Shift याचा वापर करा."
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:13
 msgctxt "GUI|Keyboard Layout"
@@ -4297,11 +4390,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:16
 msgid "ADD A KEYBOARD LAYOUT"
-msgstr ""
+msgstr "किबोर्ड मांडणी समाविष्ट करा"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:17
 msgid "You may add a keyboard layout by selecting it below:"
-msgstr ""
+msgstr "खालील प्रकारे नीवड करून किबोर्ड मांडणी समाविष्ट करणे शक्य आहे:"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:19
 msgid "Available Layouts"
@@ -4323,20 +4416,20 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:23
 msgid "LAYOUT SWITCHING OPTIONS"
-msgstr ""
+msgstr "मांडणी बदलण्याचे पर्याय"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:24
 msgid ""
 "Which combination(s) would you prefer for switching between keyboard layouts?"
-msgstr ""
+msgstr "किबोर्ड मांडणी अंतर्गत कोणते पर्याय पसंत कराल?"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:25
 msgid "use"
-msgstr ""
+msgstr "वापर"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:26
 msgid "description"
-msgstr ""
+msgstr "वर्णन"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:27
 msgid "Layout Options"
@@ -4344,39 +4437,39 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:1
 msgid "LANGUAGE SUPPORT"
-msgstr ""
+msgstr "भाषा समर्थन"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:2
 msgid "Select additional language support to be installed:"
-msgstr ""
+msgstr "इंस्टॉलजोगी अगाऊ भाषा समर्थन निवडा:"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:3
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:11
 msgid "nativeName"
-msgstr ""
+msgstr "nativeName"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:4
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:12
 msgid "englishName"
-msgstr ""
+msgstr "englishName"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:5
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:13
 msgid "selected"
-msgstr ""
+msgstr "नीवडलेले"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:6
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:15
 msgid "Type here to search."
-msgstr ""
+msgstr "शोधण्याकरिता येथे टाइप करा."
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:7
 msgid "checked"
-msgstr ""
+msgstr "तपासले"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:1
 msgid "ROOT PASSWORD"
-msgstr ""
+msgstr "रूट पासवर्ड"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:2
 msgctxt "GUI|Password"
@@ -4396,13 +4489,14 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/password.glade.h:6
 #: pyanaconda/ui/gui/spokes/user.glade.h:12
 msgid "empty password"
-msgstr ""
+msgstr "रिकामे पासवर्ड"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:7
 msgid ""
 "The root account is used for administering the system.  Enter a password for "
 "the root user."
 msgstr ""
+"रूट खात्याच्या वापर प्रणालीचे प्रशासनकरिता केला जातो.  रूट वापरकर्त्याकरिता पासवर्ड द्या."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:1
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
@@ -4421,11 +4515,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:4
 msgid "MEDIA VERIFICATION"
-msgstr ""
+msgstr "मिडीया तपासणी"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:5
 msgid "Verifying media, please wait..."
-msgstr ""
+msgstr "मिडीया तपासत आहे, कृपया थांबा..."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:6
 msgctxt "GUI|Software Source|Proxy Dialog"
@@ -4449,7 +4543,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:10
 msgid "<span size=\"small\"><b>Example:</b> squid.mysite.org:3128</span>"
-msgstr ""
+msgstr "<span size=\"small\"><b>उदाहरण:</b> squid.mysite.org:3128</span>"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:11
 msgctxt "GUI|Software Source|Proxy Dialog"
@@ -4468,11 +4562,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:14
 msgid "INSTALLATION SOURCE"
-msgstr ""
+msgstr "प्रतिष्ठापन स्रोत"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:15
 msgid "Which installation source would you like to use?"
-msgstr ""
+msgstr "तुम्हाला कोणते प्रतिष्ठापन स्रोत वापरायला आवडेल?"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:16
 msgctxt "GUI|Software Source"
@@ -4481,11 +4575,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:17
 msgid "Device:"
-msgstr ""
+msgstr "साधन:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:18
 msgid "Label:"
-msgstr ""
+msgstr "लेबल:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:19
 msgctxt "GUI|Software Source"
@@ -4529,11 +4623,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:28
 msgid "This field is optional."
-msgstr ""
+msgstr "हा कप्पा वैकल्पिक आहे."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:29
 msgid "Updates"
-msgstr ""
+msgstr "सुधारणा"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:30
 msgctxt "GUI|Software Source"
@@ -4544,15 +4638,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:31
 msgid "Additional repositories"
-msgstr ""
+msgstr "अगाऊ रेपॉजिटरीज"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:32
 msgid "Enabled"
-msgstr ""
+msgstr "सुरू केले"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:34
 msgid "Add a new repository."
-msgstr ""
+msgstr "नवीन रेपॉजिटरी समाविष्ट करा."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:35
 msgctxt "GUI|Software Source"
@@ -4561,7 +4655,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:36
 msgid "Remove the selected repository."
-msgstr ""
+msgstr "निवडलेली रेपॉजिटरि काढून टाका."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:37
 msgctxt "GUI|Software Source"
@@ -4570,7 +4664,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:38
 msgid "Revert to the previous list of repositories."
-msgstr ""
+msgstr "मागील रेपॉजिटरिजच्या सूचीकडे जा."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:39
 msgctxt "GUI|Software Source"
@@ -4579,11 +4673,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:40
 msgid "URL for the repository, without protocol."
-msgstr ""
+msgstr "रेपॉजिटरिकरिता URL, विना प्रोटोकॉल."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:41
 msgid "URL of proxy in the form of protocol://host:[port]"
-msgstr ""
+msgstr "protocol://host:[port] स्वरूपात प्रॉक्सीचे URL"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:42
 msgid "Optional proxy user name."
@@ -4591,7 +4685,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:43
 msgid "Optional proxy password."
-msgstr ""
+msgstr "वैकल्पिक प्रॉक्सी पासवर्ड."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:44
 msgctxt "GUI|Software Source"
@@ -4605,7 +4699,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:46
 msgid "Protocol for the repository URL."
-msgstr ""
+msgstr "रेपॉजिटरि URL करिता प्रोटोकॉल."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:47
 msgctxt "GUI|Software Source"
@@ -4624,7 +4718,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:50
 msgid "Name of the repository."
-msgstr ""
+msgstr "रेपॉजिटरीचे नाव."
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:1
 msgctxt "GUI|Welcome|Beta Warn Dialog"
@@ -4638,7 +4732,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:3
 msgid "This is unstable, pre-release software."
-msgstr ""
+msgstr "हे अस्थीर, पूर्व-प्रकाशित सॉफ्टवेअर आहे."
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:4
 msgid ""
@@ -4654,6 +4748,15 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program "
 "by clicking \"I want to exit\" which will reboot your system."
 msgstr ""
+"सूचना:  हे पूर्व-प्रकाशन सॉफ्टवेअर आहे जे फक्त विकास आणि चाचणी कारणास्तव उद्देशीत आहे.  "
+"कोणत्याही गंभीर कार्य किंवा उत्पादन वातावरणांकरिता या सॉफ्टवेअरचा वापर करू नका.\n"
+"\n"
+"\"मला पुढे जायचे आहे\" क्लिक केल्याने, तुम्हाला पूर्व प्रकाशन सॉफ्टवेअरसह संलग्न धोके समझले आहेत "
+"आणि ते स्वीकार्य आहेत, आपण फक्त चाचणी आणि विकास कारणास्तव याचा वापर कराल, आणि हे "
+"कार्य सुधारित करण्यासाठी कोणतेही बग्ज किंवा अडचणी नोंदविण्यासाठी इच्छूक आहात.\n"
+"\n"
+"तुम्हाला धोके समझले नसल्यास किंवा स्वीकार्य नसल्यास, कृपया \"मला बाहेर पडायचे\" क्लिक करून "
+"ह्या कार्यक्रमातून बाहेर पडा, ज्यामुळे प्रणाली पुन्हा सुरू होईल."
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:9
 msgid "Beta Warn"
@@ -4661,7 +4764,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "प्रतिष्ठापन प्रक्रिये दरम्यान तुम्हांस कोणती भाषा वापरायला आवडेल?"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
@@ -4687,7 +4790,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:20
 msgid "Unsupported Hardware Detected"
-msgstr ""
+msgstr "असमर्थीत हार्डवेअर आढळले"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:22
 msgid "Unsupported Hardware"
@@ -4695,7 +4798,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:1
 msgid "CREATE USER"
-msgstr ""
+msgstr "वापरकर्ता निर्माण करा"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:2
 msgctxt "GUI|User"
@@ -4745,32 +4848,32 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:23
 msgid "RAID0 <span foreground=\"grey\">(Performance)</span>"
-msgstr ""
+msgstr "RAID0 <span foreground=\"grey\">(परफॉर्मंस)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:24
 msgid "RAID1 <span foreground=\"grey\">(Redundancy)</span>"
-msgstr ""
+msgstr "RAID1 <span foreground=\"grey\">(रिडंडंसि)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:25
 msgid "RAID4 <span foreground=\"grey\">(Error Checking)</span>"
-msgstr ""
+msgstr "RAID4 <span foreground=\"grey\">(एरर चेकिंग)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:26
 msgid "RAID5 <span foreground=\"grey\">(Distributed Error Checking)</span>"
-msgstr ""
+msgstr "RAID5 <span foreground=\"grey\">(डिस्ट्रिब्युटेड एरर चेकिंग)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:10
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:27
 msgid "RAID6 <span foreground=\"grey\">(Redundant Error Checking)</span>"
-msgstr ""
+msgstr "RAID6 <span foreground=\"grey\">(रिडंडंट एरर चेकिंग)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:11
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:28
 msgid "RAID10 <span foreground=\"grey\">(Performance, Redundancy)</span>"
-msgstr ""
+msgstr "RAID10 <span foreground=\"grey\">(परफॉर्मंस, रिडंडंसि)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:13
 msgid "Add a new mount point."
@@ -4792,7 +4895,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:17
 msgid "Reload storage configuration from disk."
-msgstr ""
+msgstr "डिस्कपासून स्टोरेज संरचना पुन्हालोड करा."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:18
 msgctxt "GUI|Custom Partitioning"
@@ -4801,11 +4904,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:19
 msgid "Selected Device"
-msgstr ""
+msgstr "नीवडलेले साधन"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:20
 msgid "Device description"
-msgstr ""
+msgstr "साधनचे वर्णन"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:21
 msgid "Mount _Point:"
@@ -4830,7 +4933,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:26
 msgid "_Name:"
-msgstr ""
+msgstr "नाव (_N):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:27
 msgctxt "GUI|Custom Partitioning|Configure"
@@ -4869,7 +4972,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:34
 msgid "_Update Settings"
-msgstr ""
+msgstr "सेटिंग्ज सुधारित करा (_U)"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:35
 msgid ""
@@ -4882,6 +4985,8 @@ msgid ""
 "This device is encrypted and cannot be read without a valid passphrase. You "
 "may unlock it below."
 msgstr ""
+"हे साधन एंक्रिप्टेड आहे व वैध पासफ्रेजविना वाचणे अशक्य आहे. त्यास खालीलप्रमाणे कुलूपबंध अशक्य "
+"करणे शक्य आहे."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:37
 msgctxt "GUI|Custom Partitioning|Encrypted"
@@ -4898,6 +5003,8 @@ msgid ""
 "This device cannot be edited directly. You can remove it or select a "
 "different device."
 msgstr ""
+"ह्या साधनाला प्रत्यक्षरित्या संपादित करणे शक्य आहे. काढून टाकणे किंवा वेगळे साधन पसंत करणे "
+"शक्य आहे."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:40
 msgid "AVAILABLE SPACE"
@@ -4976,7 +5083,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:2
 msgid ""
 "Please select the network interface which is connected to your FCoE switch."
-msgstr ""
+msgstr "कृपया FCoE स्विचसह जोडणी केलेल नेटवर्क इंटरफेस निवडा."
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:3
 msgctxt "GUI|Advanced Storage|FCoE"
@@ -5007,6 +5114,8 @@ msgid ""
 "The following error occurred while attempting to add an FCoE SAN.  Please "
 "check your configuration and try again"
 msgstr ""
+"FCoE SAN समावेश करण्याचा प्रयत्न करतेवेळी खालील त्रुटी आढळली.  कृपया संरचना तपासा व "
+"पुन्हा प्रयत्न करा"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:1
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5020,13 +5129,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:3
 msgid "ADD iSCSI STORAGE TARGET"
-msgstr ""
+msgstr "iSCSI स्टोरेज लक्ष्य समावेश करा"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:4
 msgid ""
 "To use iSCSI disks, you must provide the address of your iSCSI target and "
 "the iSCSI initiator name you've configured for your host."
 msgstr ""
+"iSCSI डिस्क्स्चा वापर करण्यासाठी, iSCSI लक्ष्यचा पत्ता द्या व यजमानकरिता संरचीत "
+"करण्याजोगी iSCSI इनिशिएटर नाव द्या."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:5
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5040,15 +5151,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:7
 msgid "No credentials (discovery authentication disabled)"
-msgstr ""
+msgstr "श्रेय आढळले नाही (डिस्कवरि ऑथेंटिकेशन बंद)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:8
 msgid "CHAP pair"
-msgstr ""
+msgstr "CHAP जोड"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:9
 msgid "CHAP pair and a reverse pair"
-msgstr ""
+msgstr "CHAP जोड व रिवर्स् जोड"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:10
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5060,6 +5171,8 @@ msgid ""
 "<span size=\"small\"><b>Example:</b> iqn.2012-09.com.example:diskarrays-sn-"
 "a8675309</span>"
 msgstr ""
+"<span size=\"small\"><b>उदाहरणार्थ:</b> iqn.2012-09.com.example:diskarrays-sn-"
+"a8675309</span>"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:12
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|CHAP"
@@ -5098,7 +5211,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:19
 msgid "Discovering iSCSI targets.  This may take a moment..."
-msgstr ""
+msgstr "iSCSI लक्ष्य शोधत आहेत.  याला काहीवेळ लागेल..."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:20
 msgid "Discovery login rejected."
@@ -5109,6 +5222,8 @@ msgid ""
 "The following error occurred discovering iSCSI targets.  Please double check "
 "your authorization information and try again."
 msgstr ""
+"निवडलेल्या iSCSI लक्ष्यमध्ये शोधतेवेळी खालील त्रुटी आढळली.  कृपया ऑथराइजेशन माहिती "
+"दोनवेळा तपासा व पुन्हा प्रयत्न करा."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:22
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Retry"
@@ -5122,11 +5237,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:24
 msgid "Node Name"
-msgstr ""
+msgstr "नोडचे नाव"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:25
 msgid "Interface"
-msgstr ""
+msgstr "इंटरफेस"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:26
 msgid "Portal"
@@ -5139,7 +5254,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:28
 msgid "Use the credentials from discovery"
-msgstr ""
+msgstr "डिस्कवरी श्रेयचा वापर करा"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:29
 msgctxt "GUI|Advanced Storage|iSCSI|Login|CHAP"
@@ -5185,6 +5300,8 @@ msgid ""
 "The following error occurred logging into the selected iSCSI node.  Please "
 "double check your authorization information and try again"
 msgstr ""
+"निवडलेल्या iSCSI नोडमध्ये प्रवेश करतेवेळी त्रुटी आढळली.  कृपया ऑथराइजेशन माहिती दोनवेळा "
+"तपासा व पुन्हा प्रयत्न करा"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:38
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Retry"
@@ -5193,13 +5310,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:1
 msgid "ADD zFCP STORAGE TARGET"
-msgstr ""
+msgstr "zFCP स्टोरेज लक्ष्य समाविष्ट करा"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:2
 msgid ""
 "To use zFCP disks, you must provide the device number, WWPN, and LUN "
 "configured for the device."
 msgstr ""
+"zFCP डिस्क्स्चा वापर करण्यासाठी, तुम्ही साधनकरिता साधन क्रमांक, WWPN, आणि LUN "
+"पुरवायला पाहिजे."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:3
 msgctxt "GUI|Advanced Storage|zFCP|Device Number"
@@ -5208,7 +5327,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:4
 msgid "WWPN:"
-msgstr ""
+msgstr "WWPN:"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:5
 msgctxt "GUI|Advanced Storage|zFCP|Start Discovery"
@@ -5217,13 +5336,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:6
 msgid "Discovering zFCP devices.  This may take a moment..."
-msgstr ""
+msgstr "zFCP साधने शोधत आहे.  यास थोडा वेळ लागू शकतो..."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:8
 msgid ""
 "The following error occurred discovering zFCP devices.  Please double check "
 "your configuration information and try again."
 msgstr ""
+"zFCP साधने शोधतेवेळी खालील त्रुटी आढळली.  कृपया संरचना माहिती दोनवेळा तपासा आणि पुन्हा "
+"प्रयत्न करा."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:9
 msgctxt "GUI|Advanced Storage|zFCP|Retry Discovery"
@@ -5232,11 +5353,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:10
 msgid "LUN:"
-msgstr ""
+msgstr "LUN:"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:1
 msgid "SELECTED DISKS"
-msgstr ""
+msgstr "नीवडलेले डिस्क्स्"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:2
 msgctxt "GUI|Selected Disks Dialog"
@@ -5245,17 +5366,17 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:3
 msgid "Boot"
-msgstr ""
+msgstr "बूट"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:4
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:7
 msgid "Description"
-msgstr ""
+msgstr "वर्णन"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "मुक्त"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5264,7 +5385,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:10
 msgid "Disk summary goes here"
-msgstr ""
+msgstr "डिस्क सारांश येथे येते"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:1
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
@@ -5288,11 +5409,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:5
 msgid "CONFIGURE MOUNT POINT"
-msgstr ""
+msgstr "माउंट पॉइंट संरचीत करा"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:6
 msgid "Select one or more disks this device may reside on."
-msgstr ""
+msgstr "ह्या साधनावर अवलंबून एक किंवा त्यापेक्षा जास्त डिस्क्स् पसंत करा."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:11
 msgctxt "GUI|Custom Partitioning|Add Dialog"
@@ -5316,23 +5437,27 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:15
 msgid "ADD A NEW MOUNT POINT"
-msgstr ""
+msgstr "नवीन माउंट पॉइंट समाविष्ट करा"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:16
 msgid ""
 "More customization options are available\n"
 "after creating the mount point below."
 msgstr ""
+"खालील माउंट पॉइंट निर्माण केल्यानंतर\n"
+"अधिक पसंतीचे पर्याय उपलब्ध आहेत."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:18
 msgid ""
 "That mount point is already in\n"
 "use.  Try something else?"
 msgstr ""
+"माउंट पॉइंटचा वापर आधिपासूनच\n"
+"केला जात आहे.  इतर वापरून पहा?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:20
 msgid "eg: \"20 GB\", \"500mb\" (minus the quotation marks)"
-msgstr ""
+msgstr "उदा: \"20 GB\", \"500mb\" (कोटेशन मार्क्स् वजा करून)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:22
 msgid "Single <span foreground=\"grey\">(No Redundancy, No Striping)</span>"
@@ -5350,12 +5475,12 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:31
 msgid "CONFIGURE CONTAINER"
-msgstr ""
+msgstr "कंटेनर संरचीत करा"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:32
 msgid ""
 "Please create a name for this container and select at least one disk below."
-msgstr ""
+msgstr "कृपया ह्या कंटेनरकरिता नाव द्या व खालील किमान एक डिस्क निवडा."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:33
 msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -5364,15 +5489,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:34
 msgid "RAID Level:"
-msgstr ""
+msgstr "RAID स्तर:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:35
 msgid "Encrypt"
-msgstr ""
+msgstr "एंक्रिप्ट करा"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:36
 msgid "Please enter a valid name."
-msgstr ""
+msgstr "कृपया वैध नाव द्या."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:37
 msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -5381,19 +5506,19 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:38
 msgid "Automatic"
-msgstr ""
+msgstr "स्व"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:39
 msgid "As large as possible"
-msgstr ""
+msgstr "शक्यतेवढे मोठे"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:40
 msgid "Fixed"
-msgstr ""
+msgstr "ठरवले"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:1
 msgid "UNFORMATTED DASDS"
-msgstr ""
+msgstr "विनारूपण DASDS"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:2
 msgctxt "GUI|DASD Format Dialog"
@@ -5414,13 +5539,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:5
 msgid "Unformatted DASDs Detected"
-msgstr ""
+msgstr "विनारूपण DASDs आढळले"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:6
 msgid ""
 "<b>Warning</b>: All storage changes made using the installer will be lost "
 "when you choose to format."
 msgstr ""
+"<b>सावधानता</b>: रूपणची नीवड करताना इंस्टॉलरचा वापर करून सर्व स्टोरेज बदल गमवले "
+"जातील."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:7
 msgctxt "GUI|DASD Format Dialog"
@@ -5432,10 +5559,13 @@ msgid ""
 "You may <a href=\"\">go back to the main menu</a> to complete other\n"
 "installation options while formatting completes."
 msgstr ""
+"रूपण पूर्ण होईपर्यंत इतर इंस्टॉलेशन पर्याय पूर्ण करण्यासाठी, तुम्ही <a href=\"\">मुख्य "
+"मेन्युकरिता जाऊ शकता</a>\n"
+"."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:10
 msgid "Disk formatting complete."
-msgstr ""
+msgstr "डिस्क रूपण पूर्ण झाले."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:11
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:11
@@ -5443,10 +5573,12 @@ msgid ""
 "Pressing 'OK' below will take you to the disk selection screen where you "
 "will need to re-select your disks."
 msgstr ""
+"'ठिक आहे' दाबल्यानंतर तुम्हाला डिस्क निवड पडद्याकडे निर्देशीत केले जाईल जेथे डिस्क्सची पुन्हा "
+"निवड करावी लागेल."
 
 #: pyanaconda/ui/gui/spokes/lib/detailederror.glade.h:1
 msgid "An unknown error occurred during installation.  Details are below."
-msgstr ""
+msgstr "प्रतिष्ठापनवेळी अपरिचीत त्रुटी आढळली.  तपशील खालील प्रमाणे आहे."
 
 #: pyanaconda/ui/gui/spokes/lib/entropy_dialog.glade.h:1
 msgid ""
@@ -5471,7 +5603,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:3
 msgid "DISK ENCRYPTION PASSPHRASE"
-msgstr ""
+msgstr "डिस्क एंक्रिप्शन पासफ्रेज"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:4
 msgid ""
@@ -5479,6 +5611,8 @@ msgid ""
 "passphrase that you will use to access your data when you start your "
 "computer."
 msgstr ""
+"ठराविक डाटा एंक्रिप्ट करायचे तुम्ही नीवड केली आहे. संगणक सुरू केल्यावर डाटाकरिता प्रवेश "
+"प्राप्त करण्यासाठी पासफ्रेज निर्माण करणे आवश्यक आहे."
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:5
 msgctxt "GUI|Passphrase Dialog"
@@ -5495,10 +5629,12 @@ msgid ""
 "Warning: You won't be able to switch between keyboard layouts (from the "
 "default one) when you decrypt your disks after install."
 msgstr ""
+"सावधानता: इंस्टॉलनंतर डिस्क्स डिक्रिप्ट केल्यानंतर किबोर्ड मांडणी (पूर्वनिर्धारित पासून वेगळे) "
+"बदलणे अशक्य."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:1
 msgid "RESCAN DISKS"
-msgstr ""
+msgstr "डिस्क्स पुन्हा स्कॅन करा"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:2
 msgctxt "GUI|Refresh Dialog|Rescan"
@@ -5515,12 +5651,16 @@ msgid ""
 "You can remove or insert additional disks at this time and press 'Rescan "
 "Disks' below for the changes to take effect."
 msgstr ""
+"ह्यावेळी अगाऊ डिस्क्स काढून टाका किंवा अंतर्भुत करा व बदलांच्या प्रभावकरिता खालील 'डिस्क्स "
+"पुन्हा स्कॅन करा' दाबा."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:5
 msgid ""
 "<b>Warning:</b> All storage changes made using the installer will be lost "
 "when you press 'Rescan Disks'."
 msgstr ""
+"<b>सावधानता:</b> 'डिस्क्स पुन्हा स्कॅन करा' दाबल्यावर इंस्टॉलरचा वापर करून केलेले सर्व "
+"स्टोरेज बदल गमवाल."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:6
 msgctxt "GUI|Refresh Dialog|Rescan"
@@ -5529,13 +5669,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:7
 msgid "Scanning disks.  This may take a moment..."
-msgstr ""
+msgstr "डिस्क्स स्कॅन करत आहे.  याला काहीवेळ लागेल..."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:8
 msgid ""
 "You may <a href=\"\">go back to the main menu</a> to complete other\n"
 "installation options while this scan completes."
 msgstr ""
+"हे स्कॅन पूर्ण होईपर्यंत इतर इंस्टॉलेशन पर्याय पूर्ण करण्यासाठी\n"
+"तुम्ही <a href=\"\">मुख्य मेन्युकडे जाऊ</a> शकता."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:10
 msgid "Disk rescan complete."
@@ -5553,11 +5695,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:3
 msgid "RECLAIM DISK SPACE"
-msgstr ""
+msgstr "डिस्क जागा पुनःप्राप्त करा"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:4
 msgid "Description goes here."
-msgstr ""
+msgstr "वर्णन येथे उपलब्ध होते."
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:7
 msgid "File System"
@@ -5565,12 +5707,12 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:8
 msgid "Reclaimable Space"
-msgstr ""
+msgstr "पुनःप्राप्यजोगी जागा"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:6
 msgid "Action"
-msgstr ""
+msgstr "कृती"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:10
 msgctxt "GUI|Reclaim Dialog"
@@ -5589,7 +5731,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:1
 msgid "SUMMARY OF CHANGES"
-msgstr ""
+msgstr "बदलांचा सारांश"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:2
 msgctxt "GUI|Summary Dialog"
@@ -5609,7 +5751,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:5
 msgid "Order"
-msgstr ""
+msgstr "क्रम"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:8
 msgid "Device Name"
@@ -5634,6 +5776,8 @@ msgid ""
 "Are you sure you wish to quit the\n"
 "installation process?"
 msgstr ""
+"तुम्हाला नक्की\n"
+"प्रतिष्ठापन प्रक्रियापासून बाहेर पडायचे?"
 
 #: pyanaconda/ui/gui/main.glade.h:7
 msgid "Quit"
@@ -5641,7 +5785,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:1
 msgid "INSTALLATION SUMMARY"
-msgstr ""
+msgstr "प्रतिष्ठापन सारांश"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:2
 msgctxt "GUI|Summary"
@@ -5655,15 +5799,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:4
 msgid "We won't touch your disks until you click 'Begin Installation'."
-msgstr ""
+msgstr "We won't touch your disks until you click 'Begin Installation'."
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:1
 msgid "CONFIGURATION"
-msgstr ""
+msgstr "संरचना"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "प्रतिष्ठापनसाठी तयारी करत आहे"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5677,24 +5821,24 @@ msgstr ""
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "हार्ड ड्राइव्ह्हवर प्रतिष्ठापन करा"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "इंस्टॉल करा"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "लाइव्ह CD ला तुमच्या हार्ड डिस्कवर इंस्टॉल करा"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
-msgstr ""
+msgstr "हार्ड ड्राइव्हवर प्रतिष्ठापन सुरू करा"
 
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
 msgid "Welcome to Fedora"
-msgstr ""
+msgstr "फेडोरावर स्वागत आहे"
 
 #: anaconda:478
 #, python-format
@@ -5719,7 +5863,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "पुरेशी RAM आढळली नाही"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5873,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+" मजकूर मोड इंस्टॉलर वापरण्यासाठी खालील चालवून पहा:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+", रूट टर्मिनल पासून."
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr " मजकूर मोड सुरू करत आहे."
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +5889,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "DISPLAY वेरियेबल सेट केले नाही. मजकूर मोड सुरु करत आहे."
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "ग्राफिकल प्रतिष्ठापन उपलब्ध नाही. मजकूर मोड सुरु करत आहे."
 
 #: anaconda:660
 msgid ""
@@ -5752,19 +5901,21 @@ msgid ""
 "custom partitioning for full control over the disk layout. Would you like to "
 "use VNC mode instead?"
 msgstr ""
+"मजूकर मोड इंस्टॉलेशन पर्यायचे मर्यादीत सेट पुरवतो. डिस्क मांडणीवरील संपूर्ण नियंत्रणकरिता ते "
+"पसंतीचे विभाजन पुरवत नाही. त्याऐवजी तुम्हाला VNC मोडचा वापर करायला आवडेल का?"
 
 #: anaconda:756
 #, python-format
 msgid "Please ssh install@%s to begin the install."
-msgstr ""
+msgstr "प्रतिष्ठापन सुरू करण्यासाठी कृपया ssh install@%s करा."
 
 #: anaconda:758
 msgid "Please ssh install@<host> to continue installation."
-msgstr ""
+msgstr "प्रतिष्ठापन सुरू ठेवण्याकरिता कृपया ssh install@<host> करा."
 
 #: data/liveinst/gnome/fedora-welcome:94
 msgid "Try Fedora"
-msgstr ""
+msgstr "फेडोरा वारून पहा"
 
 #: data/liveinst/gnome/fedora-welcome:110
 msgid ""
@@ -5772,13 +5923,18 @@ msgid ""
 "You can install Fedora now, or choose \"Install to Hard Drive\" in the "
 "Activities Overview at any later time."
 msgstr ""
+"You are currently running Fedora from live media.\n"
+"You can install Fedora now, or choose \"Install to Hard Drive\" in the "
+"Activities Overview at any later time."
 
 #: data/liveinst/gnome/fedora-welcome:128
 msgid ""
 "You can choose \"Install to Hard Drive\"\n"
 "in the Activities Overview at any later time."
 msgstr ""
+"पुढील वेळी क्रिया अवलोकनमध्ये \"हार्ड ड्राइव्हवर इंस्टॉल करा\"\n"
+"पसंत करणे शक्य आहे."
 
 #: data/liveinst/gnome/fedora-welcome:131
 msgid "Close"
-msgstr ""
+msgstr "बंद करा"

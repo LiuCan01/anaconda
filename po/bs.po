@@ -1,22 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Adnan Hodzic <AbsintheSyringe@gmail.com>, 2007
+# Arnes Arnautović <aarnes1987@gmail.com>, 2011
+# dcantrel <dcantrell@redhat.com>, 2011
+# Dimitris Glezos <glezos@transifex.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-24 08:32-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Bosnian (http://www.transifex.com/projects/p/anaconda/"
+"language/bs/)\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -123,11 +129,11 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "Pokreni VNC"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "Upotrijebi tekstualan način"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
@@ -139,7 +145,7 @@ msgstr ""
 
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
-msgstr ""
+msgstr "Lozinke koje ste unijeli različite su. Pokušajte ponovo."
 
 #: pyanaconda/constants.py:142
 #, python-format
@@ -170,9 +176,11 @@ msgstr ""
 msgid "You will have to press Done twice to confirm it."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/constants.py:149
 msgid "Empty"
-msgstr ""
+msgstr "Prazno"
 
 #: pyanaconda/constants.py:150
 msgid "Too short"
@@ -229,7 +237,7 @@ msgstr ""
 
 #: pyanaconda/errors.py:133
 msgid "_Retry"
-msgstr ""
+msgstr "_Ponovi"
 
 #: pyanaconda/errors.py:140
 msgid ""
@@ -244,6 +252,9 @@ msgid ""
 "cleanly.  Would you like to mount them anyway?\n"
 "%s"
 msgstr ""
+"Sljedeći datotečni sistemi Linux sistema nisu ispravno napušteni. Želite li "
+"im ipak pristupiti?\n"
+"%s"
 
 #: pyanaconda/errors.py:158
 msgid ""
@@ -811,11 +822,13 @@ msgid ""
 "'-'."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/network.py:1432 pyanaconda/ui/gui/spokes/custom.py:552
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
@@ -860,9 +873,11 @@ msgstr ""
 msgid "Connected: %(list_of_interface_names)s"
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/network.py:1499
 msgid "Not connected"
-msgstr ""
+msgstr "Nije povezan"
 
 #: pyanaconda/network.py:1502 pyanaconda/ui/gui/spokes/network.glade.h:45
 msgid "No network devices available"
@@ -903,11 +918,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "Spašavanje"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "Nastavi"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1028,9 +1043,11 @@ msgstr ""
 msgid "LVM Thin Provisioning"
 msgstr ""
 
+# translation auto-copied from project system-config-kickstart, version
+# master, document system-config-kickstart
 #: pyanaconda/storage_utils.py:55 pyanaconda/ui/gui/spokes/custom.glade.h:4
 msgid "RAID"
-msgstr ""
+msgstr "RAID"
 
 #: pyanaconda/storage_utils.py:56 pyanaconda/storage_utils.py:83
 #: pyanaconda/ui/gui/spokes/custom.glade.h:1
@@ -1089,6 +1106,8 @@ msgid ""
 "Your root partition is less than 250 megabytes which is usually too small to "
 "install %s."
 msgstr ""
+"Particija 'root' manja je od 250 MB, što je najčešće premalo za instalaciju "
+"%s-a."
 
 #: pyanaconda/storage_utils.py:190
 #, python-format
@@ -1096,6 +1115,8 @@ msgid ""
 "You have not defined a root partition (/), which is required for "
 "installation of %s to continue."
 msgstr ""
+"Niste odredili korijensku particiju 'root ' (/), potrebnu za nastavak "
+"instalacije %s-a."
 
 #: pyanaconda/storage_utils.py:199
 #, python-format
@@ -1145,6 +1166,9 @@ msgid ""
 "You have not specified a swap partition.  Although not strictly required in "
 "all cases, it will significantly improve performance for most installations."
 msgstr ""
+"Niste odredili razmjensku particiju. Iako nije strogo zahtijevana u svim "
+"slučajevima, može značajno unaprijediti izvršavanje većine instaliranih "
+"sistema."
 
 #: pyanaconda/storage_utils.py:283
 msgid ""
@@ -1201,22 +1225,21 @@ msgstr ""
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "Pokušavanje povezivanja s VNC klijentom na računaru %s..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "Povezano!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "Pokušaj ponovnog povezivanja za 15 sekundi..."
 
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1248,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "Za pokretanje instalacije ručno povežite vaš VNC klijent s %s."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1260,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "Pokretanje VNC..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC poslužitelj je pokrenut."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1413,7 +1436,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,7 +1463,6 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
@@ -1516,7 +1537,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1526,7 +1547,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/password.glade.h:4
 #: pyanaconda/ui/gui/spokes/user.glade.h:8
 msgid "Password"
-msgstr ""
+msgstr "Lozinka"
 
 #: pyanaconda/ui/tui/tuiobject.py:85
 msgid "Passphrase: "
@@ -1594,10 +1615,12 @@ msgid ""
 "You will have to type it twice. Leave blank for no password"
 msgstr ""
 
+# translation auto-copied from project usermode, version default, document
+# usermode
 #: pyanaconda/ui/tui/spokes/askvnc.py:147
 #: pyanaconda/ui/gui/spokes/network.py:1404
 msgid "Password: "
-msgstr ""
+msgstr "Lozinka:"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:148
 msgid "Password (confirm): "
@@ -1609,7 +1632,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "Lozinka mora sadržavati najmanje 6 znakova."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -2276,6 +2299,8 @@ msgid ""
 "You must enter your root password and confirm it by typing it a second time "
 "to continue."
 msgstr ""
+"Za nastavljanje je potrebno unijeti korijensku lozinku i potvrditi je "
+"ponovnim unošenjem."
 
 #: pyanaconda/ui/tui/spokes/__init__.py:162
 msgid ""
@@ -2391,7 +2416,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2473,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2604,7 +2627,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2758,11 +2780,13 @@ msgstr ""
 msgid "Enterprise"
 msgstr ""
 
+# translation auto-copied from project audit-viewer, version default, document
+# audit-viewer
 #: pyanaconda/ui/gui/spokes/network.py:1225 widgets/src/SpokeSelector.c:82
 #: pyanaconda/ui/gui/spokes/filter.glade.h:3
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:21
 msgid "None"
-msgstr ""
+msgstr "Ništa"
 
 #: pyanaconda/ui/gui/spokes/network.py:1366
 #: pyanaconda/ui/gui/spokes/network.glade.h:61
@@ -2776,10 +2800,12 @@ msgid ""
 "the wireless network '%(network_id)s'."
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1381
 msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Password:"
-msgstr ""
+msgstr "_Lozinka:"
 
 #: pyanaconda/ui/gui/spokes/network.py:1389
 msgctxt "GUI|Network|Secrets Dialog"
@@ -3083,7 +3109,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3211,7 +3236,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3380,7 +3404,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3433,7 +3456,7 @@ msgstr ""
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "_Nastavi"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3578,7 +3601,7 @@ msgstr ""
 #. TRANSLATORS: This is the separator between hours and minutes, like in HH:MM
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:19
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:20
 msgid "Minutes"
@@ -3665,6 +3688,8 @@ msgctxt "GUI|Installation Destination|Filter|Search"
 msgid "Search Res_ults:"
 msgstr ""
 
+# translation auto-copied from project libvirt, version master, document
+# libvirt
 #: pyanaconda/ui/gui/spokes/filter.glade.h:11
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:18
 #: pyanaconda/ui/gui/spokes/source.glade.h:33
@@ -3672,7 +3697,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:6
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:12
 msgid "WWID"
@@ -3696,9 +3721,11 @@ msgstr ""
 msgid "LUN"
 msgstr ""
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/filter.glade.h:17
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:18
 msgid "Target"
@@ -3806,7 +3833,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/filter.glade.h:40
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:7
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:41
 msgctxt "GUI|Installation Destination|Filter"
@@ -3847,10 +3874,12 @@ msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Cancel"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:7
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Add"
-msgstr ""
+msgstr "_Dodaj"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:8
 msgctxt "GUI|Network|Add Device Dialog"
@@ -4051,9 +4080,11 @@ msgid ""
 "updates available for you."
 msgstr ""
 
+# translation auto-copied from project system-config-kickstart, version
+# master, document system-config-kickstart
 #: pyanaconda/ui/gui/spokes/network.glade.h:58
 msgid "Authentication"
-msgstr ""
+msgstr "Provjera autentičnosti"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:59
 msgctxt "GUI|Network|Authentication Dialog"
@@ -4178,7 +4209,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:23
 msgid "Partitioning"
-msgstr ""
+msgstr "Particioniranje"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:24
 msgid "Encryption"
@@ -4238,9 +4269,11 @@ msgid ""
 "to configure the keyboard for the installation process."
 msgstr ""
 
+# translation auto-copied from project docbook-locales, version master,
+# document locale
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:4
 msgid "name"
-msgstr ""
+msgstr "Ime"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:5
 msgid "Selected Layouts"
@@ -4290,10 +4323,12 @@ msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Cancel"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:15
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Add"
-msgstr ""
+msgstr "_Dodaj"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:16
 msgid "ADD A KEYBOARD LAYOUT"
@@ -4403,6 +4438,8 @@ msgid ""
 "The root account is used for administering the system.  Enter a password for "
 "the root user."
 msgstr ""
+"Korijenski nalog 'root' upotrebljava se za administriranje sistema. Unesite "
+"lozinku za 'root' korisnika."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:1
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
@@ -4533,7 +4570,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:29
 msgid "Updates"
-msgstr ""
+msgstr "Ažuriranja"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:30
 msgctxt "GUI|Software Source"
@@ -4546,9 +4583,11 @@ msgstr ""
 msgid "Additional repositories"
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/ui/gui/spokes/source.glade.h:32
 msgid "Enabled"
-msgstr ""
+msgstr "Omogućeno"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:34
 msgid "Add a new repository."
@@ -4598,10 +4637,12 @@ msgctxt "GUI|Software Source"
 msgid "This URL refers to a mirror _list."
 msgstr ""
 
+# translation auto-copied from project audit-viewer, version default, document
+# audit-viewer
 #: pyanaconda/ui/gui/spokes/source.glade.h:45
 msgctxt "GUI|Software Source"
 msgid "_Name:"
-msgstr ""
+msgstr "_Ime:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:46
 msgid "Protocol for the repository URL."
@@ -4661,11 +4702,12 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "Koji jezik želite upotrebljavati tijekom instalacijskog postupka?"
 
+# translation auto-copied from project comps, version master, document comps
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
-msgstr ""
+msgstr "Jezici"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:16
 msgid "Locales"
@@ -4680,10 +4722,12 @@ msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Quit"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:19
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Continue"
-msgstr ""
+msgstr "_Nastavi"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:20
 msgid "Unsupported Hardware Detected"
@@ -4707,9 +4751,11 @@ msgctxt "GUI|User"
 msgid "_User name"
 msgstr ""
 
+# translation auto-copied from project libuser, version default, document
+# libuser
 #: pyanaconda/ui/gui/spokes/user.glade.h:4
 msgid "Full Name"
-msgstr ""
+msgstr "Puno ime"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:6
 msgctxt "GUI|User"
@@ -4830,7 +4876,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:26
 msgid "_Name:"
-msgstr ""
+msgstr "_Ime:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:27
 msgctxt "GUI|Custom Partitioning|Configure"
@@ -5027,6 +5073,8 @@ msgid ""
 "To use iSCSI disks, you must provide the address of your iSCSI target and "
 "the iSCSI initiator name you've configured for your host."
 msgstr ""
+"Da biste upotrijebili iSCSI diskove potrebno je pružiti adresu vašeg iSCSI "
+"cilja i naziv iSCSI inicijatora kojeg ste konfigurirali za vaš računar."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:5
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5124,9 +5172,11 @@ msgstr ""
 msgid "Node Name"
 msgstr ""
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:25
 msgid "Interface"
-msgstr ""
+msgstr "Sučelje"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:26
 msgid "Portal"
@@ -5238,24 +5288,28 @@ msgstr ""
 msgid "SELECTED DISKS"
 msgstr ""
 
+# translation auto-copied from project audit-viewer, version default, document
+# audit-viewer
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:2
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Close"
-msgstr ""
+msgstr "_Zatvori"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:3
 msgid "Boot"
 msgstr ""
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:4
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:7
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "Slobodno"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5357,14 +5411,18 @@ msgid ""
 "Please create a name for this container and select at least one disk below."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:33
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Name:"
-msgstr ""
+msgstr "_Ime:"
 
+# translation auto-copied from project system-config-kickstart, version
+# master, document system-config-kickstart
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:34
 msgid "RAID Level:"
-msgstr ""
+msgstr "RADI razina:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:35
 msgid "Encrypt"
@@ -5485,10 +5543,12 @@ msgctxt "GUI|Passphrase Dialog"
 msgid "_Passphrase:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:6
 msgctxt "GUI|Passphrase Dialog"
 msgid "Con_firm:"
-msgstr ""
+msgstr "_Potvrdite:"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:8
 msgid ""
@@ -5567,20 +5627,24 @@ msgstr ""
 msgid "Reclaimable Space"
 msgstr ""
 
+# translation auto-copied from project system-config-audit, version master,
+# document system-config-audit
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:6
 msgid "Action"
-msgstr ""
+msgstr "Radnja"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:10
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Preserve"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:11
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Delete"
-msgstr ""
+msgstr "_Izbriši"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:12
 msgctxt "GUI|Reclaim Dialog"
@@ -5635,9 +5699,10 @@ msgid ""
 "installation process?"
 msgstr ""
 
+# translation auto-copied from project iok, version master, document iok
 #: pyanaconda/ui/gui/main.glade.h:7
 msgid "Quit"
-msgstr ""
+msgstr "Odustani"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:1
 msgid "INSTALLATION SUMMARY"
@@ -5670,10 +5735,12 @@ msgctxt "GUI|Progress"
 msgid "_Finish configuration"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/hubs/progress.glade.h:4
 msgctxt "GUI|Progress"
 msgid "_Reboot"
-msgstr ""
+msgstr "_Resetuj"
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
@@ -5719,7 +5786,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "Nema dovoljno RAM memorije"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5796,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+" Pokušajte tekstualni način instalacije tako što ćete pokrenuti:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+" sa root terminala."
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr " Pokrećem tekstualni način."
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +5812,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "DISPLAY varijabla nije postavljena. Pokrećem tekstualni način."
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "Grafička instalacija nije dostupna. Pokrećem tekstualni način."
 
 #: anaconda:660
 msgid ""

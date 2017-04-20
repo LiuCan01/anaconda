@@ -1,22 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# dcantrel <dcantrell@redhat.com>, 2011
+# Dimitrios Michelinakis <dimitris@michelinakis.gr>, 2006
+# Dimitris Glezos <dimitris@glezos.com>, 2006-2008
+# Kostas Papadimas <pkst@gnome.org>, 2006
+# Nikos Charonitakis <nikosx@gmail.comr>, 2002,2005-2007
+# Nikos Roussos <nikos@roussos.cc>, 2011-2012
+# Simos Xenitellis <simos@hellug.gr>, 2002
+# skaftanis <skaftanis@gmail.com>, 2011
+# Stavros Giannouris <stavrosg@hellug.gr>, 2007
+# Jan Silhan <jsilhan@redhat.com>, 2015. #zanata
+# Peter Hatina <phatina@redhat.com>, 2015. #zanata
+# Tim Waugh <twaugh@redhat.com>, 2015. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-17 09:15-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/anaconda/language/"
+"el/)\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -123,11 +136,11 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "Γίνεται εκκίνηση VNC"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "Χρήση λειτουργίας κειμένου"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
@@ -139,7 +152,7 @@ msgstr ""
 
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
-msgstr ""
+msgstr "Τα συνθηματικά ήταν διαφορετικά. Παρακαλώ δοκιμάστε ξανά."
 
 #: pyanaconda/constants.py:142
 #, python-format
@@ -170,18 +183,22 @@ msgstr ""
 msgid "You will have to press Done twice to confirm it."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/constants.py:149
 msgid "Empty"
-msgstr ""
+msgstr "Κενό"
 
 #: pyanaconda/constants.py:150
 msgid "Too short"
 msgstr ""
 
+# translation auto-copied from project FirstBoot, version master, document
+# firstboot
 #: pyanaconda/constants.py:151 pyanaconda/ui/gui/spokes/lib/passphrase.py:124
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:7
 msgid "Weak"
-msgstr ""
+msgstr "Αδύναμο"
 
 #: pyanaconda/constants.py:152 pyanaconda/ui/gui/spokes/lib/passphrase.py:127
 msgid "Fair"
@@ -191,9 +208,11 @@ msgstr ""
 msgid "Good"
 msgstr ""
 
+# translation auto-copied from project FirstBoot, version master, document
+# firstboot
 #: pyanaconda/constants.py:154 pyanaconda/ui/gui/spokes/lib/passphrase.py:133
 msgid "Strong"
-msgstr ""
+msgstr "Ισχυρό"
 
 #: pyanaconda/errors.py:109
 #, python-format
@@ -229,7 +248,7 @@ msgstr ""
 
 #: pyanaconda/errors.py:133
 msgid "_Retry"
-msgstr ""
+msgstr "_Προσπάθεια ξανά"
 
 #: pyanaconda/errors.py:140
 msgid ""
@@ -244,6 +263,9 @@ msgid ""
 "cleanly.  Would you like to mount them anyway?\n"
 "%s"
 msgstr ""
+"Τα παρακάτω συστήματα αρχείων για το σύστημα Linux σας δεν έχουν γίνει σωστά "
+"unmount. Θα θέλατε να τα προσαρτήσετε πάραυτα;\n"
+"%s"
 
 #: pyanaconda/errors.py:158
 msgid ""
@@ -282,6 +304,9 @@ msgid ""
 "An error occurred unmounting the disc.  Please make sure you're not "
 "accessing %s from the shell on tty2 and then click OK to retry."
 msgstr ""
+"Δημιουργήθηκε σφάλμα κατά την αποπροσάρτηση του δίσκου. Βεβαιωθείτε ότι δεν "
+"έχετε πρόσβαση στο %s μέσω του κελύφους στο tty2 και πατήστε Εντάξει για να "
+"ξαναπροσπαθήσετε."
 
 #: pyanaconda/errors.py:204
 #, python-format
@@ -377,6 +402,12 @@ msgid ""
 "\n"
 " The installer will now terminate."
 msgstr ""
+"Η εγκατάσταση σταμάτησε λόγω κάποιου φερόμενου προβλήματος υλικού. Το "
+"ακριβές μήνυμα του σφάλματος είναι:\n"
+"\n"
+" %s.\n"
+"\n"
+" Ο εγκασταστάτης θα τερματιστεί."
 
 #: pyanaconda/exception.py:105
 msgid "Hardware error occurred"
@@ -435,7 +466,7 @@ msgstr ""
 
 #: pyanaconda/install.py:113
 msgid "Running post-installation scripts"
-msgstr ""
+msgstr "Εκτέλεση δέσμης ενεργειών μετά την εγκατάσταση "
 
 #: pyanaconda/install.py:166
 #, python-format
@@ -448,7 +479,7 @@ msgstr ""
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "Εκτέλεση δέσμης ενεργειών πριν την εγκατάσταση "
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
@@ -488,6 +519,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Το παρακάτω λάθος προέκυψε ενώ κατέβαινε το δεσμευμένο πιστοποιητικό:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:247
 #, python-format
@@ -811,11 +845,13 @@ msgid ""
 "'-'."
 msgstr ""
 
+# translation auto-copied from project SETroubleShoot, version master,
+# document framework/po/setroubleshoot
 #: pyanaconda/network.py:1432 pyanaconda/ui/gui/spokes/custom.py:552
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "Άγνωστο"
 
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
@@ -860,9 +896,11 @@ msgstr ""
 msgid "Connected: %(list_of_interface_names)s"
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/network.py:1499
 msgid "Not connected"
-msgstr ""
+msgstr "Χωρίς σύνδεση"
 
 #: pyanaconda/network.py:1502 pyanaconda/ui/gui/spokes/network.glade.h:45
 msgid "No network devices available"
@@ -891,7 +929,7 @@ msgstr ""
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "Τρέξε το %s για αν αποπροσαρτήσεις το σύστημα όταν τελειώσεις"
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +941,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "Λειτουργία Rescue"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1041,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "Δεν έχετε κανένα τμήμα δίσκου Linux. Γίνεται επανεκκίνηση.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1028,24 +1066,30 @@ msgstr ""
 msgid "LVM Thin Provisioning"
 msgstr ""
 
+# translation auto-copied from project system-config-kickstart, version
+# master, document system-config-kickstart
 #: pyanaconda/storage_utils.py:55 pyanaconda/ui/gui/spokes/custom.glade.h:4
 msgid "RAID"
-msgstr ""
+msgstr "RAID"
 
 #: pyanaconda/storage_utils.py:56 pyanaconda/storage_utils.py:83
 #: pyanaconda/ui/gui/spokes/custom.glade.h:1
 msgid "Standard Partition"
 msgstr ""
 
+# translation auto-copied from project storaged, version storaged, document
+# storaged, author Peter Hatina
 #: pyanaconda/storage_utils.py:57 pyanaconda/storage_utils.py:84
 #: pyanaconda/ui/gui/spokes/custom.glade.h:2
 msgid "Btrfs"
-msgstr ""
+msgstr "Btrfs"
 
+# translation auto-copied from project storaged, version storaged, document
+# storaged, author Peter Hatina
 #: pyanaconda/storage_utils.py:58
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:5
 msgid "Disk"
-msgstr ""
+msgstr "Δίσκος"
 
 #: pyanaconda/storage_utils.py:69
 msgid ""
@@ -1089,6 +1133,8 @@ msgid ""
 "Your root partition is less than 250 megabytes which is usually too small to "
 "install %s."
 msgstr ""
+"Το τμήμα δίσκου root είναι μικρότερο των 250 megabytes, το οποίο συνήθως "
+"είναι πολύ μικρό για εγκατάσταση του %s."
 
 #: pyanaconda/storage_utils.py:190
 #, python-format
@@ -1096,6 +1142,8 @@ msgid ""
 "You have not defined a root partition (/), which is required for "
 "installation of %s to continue."
 msgstr ""
+"Δεν έχετε καθορίσει ένα τμήμα δίσκου root (/), το οποίο απαιτείται για την "
+"συνέχεια της εγκατάστασης του %s."
 
 #: pyanaconda/storage_utils.py:199
 #, python-format
@@ -1124,7 +1172,7 @@ msgstr ""
 
 #: pyanaconda/storage_utils.py:236
 msgid "You have not created a bootable partition."
-msgstr ""
+msgstr "Πρέπει να δημιουργήσετε ένα τμήμα δίσκου boot."
 
 #: pyanaconda/storage_utils.py:258
 msgid ""
@@ -1145,6 +1193,9 @@ msgid ""
 "You have not specified a swap partition.  Although not strictly required in "
 "all cases, it will significantly improve performance for most installations."
 msgstr ""
+"Δεν έχετε ορίσει ένα τμήμα δίσκου swap. Αν και δεν κρίνεται απαραίτητο σε "
+"όλες τις περιπτώσεις, θα βελτιώσει σημαντικά την απόδοση για την πλειονότητα "
+"των εγκαταστάσεων."
 
 #: pyanaconda/storage_utils.py:283
 msgid ""
@@ -1153,17 +1204,25 @@ msgid ""
 "referred to by device path in /etc/fstab, which is not ideal since device "
 "paths can change under a variety of circumstances. "
 msgstr ""
+"Τουλάχιστον μια από τις συσκευές μετατροπής δεν έχει ένα UUID, που είναι "
+"κοινό στον χώρο μετατροπής που δημιουργήθηκε με την χρήση παλαιότερων "
+"εκδοχών mkswap. Αυτές οι συσκευές θα αναφέρονται ανά είσοδο συσκευής σε κλπ/"
+"fstab που δεν είναι ιδανικό εφόσον οι λειτουργίες συσκευής μπορούν να "
+"αλλαξουν κάτω από πολλές περιστάσεις.  "
 
 #: pyanaconda/storage_utils.py:294
 #, python-format
 msgid ""
 "This mount point is invalid.  The %s directory must be on the / file system."
 msgstr ""
+"Το σημείο προσάρτησης δεν είναι έγκυρο. Ο κατάλογος %s θα πρέπει να "
+"βρίσκεται στο σύστημα αρχείων /"
 
 #: pyanaconda/storage_utils.py:299
 #, python-format
 msgid "The mount point %s must be on a linux file system."
 msgstr ""
+"Το σημείο προσάρτησης %s θα πρέπει να βρίσκεται σε ένα σύστημα αρχείων linux."
 
 #: pyanaconda/storage_utils.py:327
 #, python-format
@@ -1196,27 +1255,26 @@ msgstr ""
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "Εγκατάσταση του %(productName)s %(productVersion)s στο %(name)s"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "Προσπάθεια σύνδεσης με τον πελάτη vnc στο σύστημα %s..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "Ολοκλήρωση σύνδεσης!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "Θα γίνει ξανά προσπάθεια σύνδεσης σε 15 δευτερόλεπτα..."
 
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1226,6 +1284,8 @@ msgstr ""
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
 msgstr ""
+"Παρακαλώ συνδέστε χειροκίνητα τον πελάτη vnc στο %s για να ξεκινήσει η "
+"εγκατάσταση."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1297,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "Έναρξη VNC..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "Ο διακομιστής VNC είναι ενεργός."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1313,13 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Επιλέξατε να συνδεθείτε σε έναν listening vncviewer. \n"
+"Αυτό δεν απαιτεί την εισαγωγή ενός κωδικού.  Εαν \n"
+"θέσετε έναν κωδικό, αυτός θα χρησιμοποιηθεί στην περίπτωση που η σύνδεση \n"
+"στον vncviewer είναι ανεπιτυχής\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1330,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"ΠΡΟΕΙΔΟΠΟΙΗΣΗ!!! Ο εξυπηρετητής VNC εκτελείται ΧΩΡΙΣ ΚΩΔΙΚΟ!\n"
+"Μπορείτε να χρησιμοποιήσετε την επιλογή στο boot vncpassword=<password>\n"
+"αν θέλετε να διασφαλίσετε τον εξυπηρετητή.\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1344,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Επιλέξατε να εκτελέσετε το vnc με έναν κωδικό. \n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,6 +1356,10 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Άγνωστο σφάλμα.  Γίνεται εγκατάλειψη. \n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
@@ -1324,11 +1405,11 @@ msgstr ""
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "Προετοιμασία συναλλαγής από την πηγή εγκατάστασης."
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "Εγκατάσταση"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
@@ -1413,7 +1494,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,11 +1521,12 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
+# translation auto-copied from project Fedora Release Notes, version master,
+# document Installation
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
-msgstr ""
+msgstr "Εγκατάσταση"
 
 #: pyanaconda/ui/tui/hubs/summary.py:51
 msgid "Starting automated install"
@@ -1516,7 +1597,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1526,7 +1607,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/password.glade.h:4
 #: pyanaconda/ui/gui/spokes/user.glade.h:8
 msgid "Password"
-msgstr ""
+msgstr "Συνθηματικό"
 
 #: pyanaconda/ui/tui/tuiobject.py:85
 msgid "Passphrase: "
@@ -1594,10 +1675,12 @@ msgid ""
 "You will have to type it twice. Leave blank for no password"
 msgstr ""
 
+# translation auto-copied from project usermode, version default, document
+# usermode
 #: pyanaconda/ui/tui/spokes/askvnc.py:147
 #: pyanaconda/ui/gui/spokes/network.py:1404
 msgid "Password: "
-msgstr ""
+msgstr "Συνθηματικό: "
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:148
 msgid "Password (confirm): "
@@ -1610,6 +1693,7 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
 msgstr ""
+"Το συνθηματικό πρόσβασης πρέπει να έχει μήκος τουλάχιστον έξι χαρακτήρες."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -2108,9 +2192,11 @@ msgstr ""
 msgid "local ISO file"
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "Network"
-msgstr ""
+msgstr "Δίκτυο"
 
 #: pyanaconda/ui/tui/spokes/source.py:156
 msgid "Choose an installation source type."
@@ -2276,6 +2362,8 @@ msgid ""
 "You must enter your root password and confirm it by typing it a second time "
 "to continue."
 msgstr ""
+"Πρέπει να εισαγάγετε το συνθηματικό υπερχρήστη και να το επικυρώσετε "
+"πληκτρολογώντας το μία δεύτερη φορά για να συνεχίσετε."
 
 #: pyanaconda/ui/tui/spokes/__init__.py:162
 msgid ""
@@ -2308,7 +2396,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/__init__.py:862 widgets/src/StandaloneWindow.c:49
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_No"
@@ -2340,10 +2428,12 @@ msgid ""
 "When you are ready, reboot your system to start using it!"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/hubs/progress.py:219
 msgctxt "GUI|Progress"
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
 #: pyanaconda/ui/gui/hubs/progress.py:227
 #, python-format
@@ -2391,7 +2481,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2538,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2604,7 +2692,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2758,11 +2845,13 @@ msgstr ""
 msgid "Enterprise"
 msgstr ""
 
+# translation auto-copied from project audit-viewer, version default, document
+# audit-viewer
 #: pyanaconda/ui/gui/spokes/network.py:1225 widgets/src/SpokeSelector.c:82
 #: pyanaconda/ui/gui/spokes/filter.glade.h:3
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:21
 msgid "None"
-msgstr ""
+msgstr "Κανένα"
 
 #: pyanaconda/ui/gui/spokes/network.py:1366
 #: pyanaconda/ui/gui/spokes/network.glade.h:61
@@ -2776,10 +2865,12 @@ msgid ""
 "the wireless network '%(network_id)s'."
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/network.py:1381
 msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Password:"
-msgstr ""
+msgstr "_Κωδικός:"
 
 #: pyanaconda/ui/gui/spokes/network.py:1389
 msgctxt "GUI|Network|Secrets Dialog"
@@ -2869,10 +2960,12 @@ msgid ""
 "installer, change your software source, or change your software selections."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/software.py:540
 msgctxt "GUI|Software Selection|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
 #: pyanaconda/ui/gui/spokes/software.py:541
 msgctxt "GUI|Software Selection|Error Dialog"
@@ -3083,7 +3176,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3105,11 +3197,13 @@ msgid ""
 "can modify your selection or quit the installer."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/storage.py:1099
 #: pyanaconda/ui/gui/spokes/storage.py:1120
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1100
 msgctxt "GUI|Storage|Error Dialog"
@@ -3136,7 +3230,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:1139
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/user.py:70
 #, python-format
@@ -3211,7 +3305,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3303,15 +3396,19 @@ msgstr ""
 msgid "Invalid container name"
 msgstr ""
 
+# translation auto-copied from project ibus-anthy, version head, document
+# ibus-anthy
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:49
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:59
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:34
 #, python-format
@@ -3380,7 +3477,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3433,7 +3529,7 @@ msgstr ""
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "_Συνέχεια"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3445,10 +3541,12 @@ msgstr ""
 msgid "Current layout: '%s'. Add more layouts to enable switching."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:1
 msgctxt "GUI|Advanced User"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:2
 msgctxt "GUI|Advanced User"
@@ -3506,15 +3604,19 @@ msgid ""
 "parentheses. "
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:1
 msgctxt "GUI|Date and Time|NTP"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:2
 msgctxt "GUI|Date and Time|NTP"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:3
 msgid "Add and mark for usage NTP servers"
@@ -3549,9 +3651,11 @@ msgctxt "GUI|Date and Time"
 msgid "_Region:"
 msgstr ""
 
+# translation auto-copied from project Fedora Websites, version
+# fedoraproject.org, document po/fedora-web
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:12
 msgid "Region"
-msgstr ""
+msgstr "Περιοχή"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:13
 msgctxt "GUI|Date and Time"
@@ -3578,7 +3682,7 @@ msgstr ""
 #. TRANSLATORS: This is the separator between hours and minutes, like in HH:MM
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:19
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:20
 msgid "Minutes"
@@ -3665,6 +3769,8 @@ msgctxt "GUI|Installation Destination|Filter|Search"
 msgid "Search Res_ults:"
 msgstr ""
 
+# translation auto-copied from project libreport, version master, document
+# libreport
 #: pyanaconda/ui/gui/spokes/filter.glade.h:11
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:18
 #: pyanaconda/ui/gui/spokes/source.glade.h:33
@@ -3672,7 +3778,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:6
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:12
 msgid "WWID"
@@ -3682,7 +3788,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "Χωρητικότητα"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
@@ -3690,7 +3796,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:15
 msgid "Model"
-msgstr ""
+msgstr "Πρότυπο "
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:16
 msgid "LUN"
@@ -3698,15 +3804,15 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:17
 msgid "Port"
-msgstr ""
+msgstr "Πύλη εισόδου "
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:18
 msgid "Target"
-msgstr ""
+msgstr "Στόχος "
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:19
 msgid "Vendor"
-msgstr ""
+msgstr "Αγοραστής"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:20
 msgctxt "GUI|Installation Destination|Filter"
@@ -3806,7 +3912,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/filter.glade.h:40
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:7
 msgid "Type"
-msgstr ""
+msgstr "Τύπος"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:41
 msgctxt "GUI|Installation Destination|Filter"
@@ -3842,15 +3948,19 @@ msgstr ""
 msgid "Add device"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:6
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:7
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Add"
-msgstr ""
+msgstr "_Προσθήκη"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:8
 msgctxt "GUI|Network|Add Device Dialog"
@@ -3871,9 +3981,11 @@ msgstr ""
 msgid "Slaves"
 msgstr ""
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/network.glade.h:12
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:13
 msgid "Default Route"
@@ -3904,9 +4016,11 @@ msgctxt "GUI|Network|Wired"
 msgid "C_onfigure..."
 msgstr ""
 
+# translation auto-copied from project Fedora Release Notes, version master,
+# document Security
 #: pyanaconda/ui/gui/spokes/network.glade.h:22
 msgid "Security"
-msgstr ""
+msgstr "Ασφάλεια"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:23
 msgctxt "GUI|Network|Wireless"
@@ -4051,14 +4165,18 @@ msgid ""
 "updates available for you."
 msgstr ""
 
+# translation auto-copied from project system-config-kickstart, version
+# master, document system-config-kickstart
 #: pyanaconda/ui/gui/spokes/network.glade.h:58
 msgid "Authentication"
-msgstr ""
+msgstr "Πιστοποίηση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/network.glade.h:59
 msgctxt "GUI|Network|Authentication Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:60
 msgctxt "GUI|Network|Authentication Dialog"
@@ -4132,10 +4250,12 @@ msgctxt "GUI|Storage|No Space Dialog"
 msgid "_Quit installer"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/storage.glade.h:12
 msgctxt "GUI|Storage|No Space Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:13
 msgid "No Space"
@@ -4178,7 +4298,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:23
 msgid "Partitioning"
-msgstr ""
+msgstr "Κατάτμηση"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:24
 msgid "Encryption"
@@ -4238,9 +4358,11 @@ msgid ""
 "to configure the keyboard for the installation process."
 msgstr ""
 
+# translation auto-copied from project docbook-locales, version master,
+# document locale
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:4
 msgid "name"
-msgstr ""
+msgstr "Όνομα"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:5
 msgid "Selected Layouts"
@@ -4280,20 +4402,26 @@ msgstr ""
 msgid "Alt + Shift to switch layouts."
 msgstr ""
 
+# translation auto-copied from project firewalld, version master, document
+# po/firewalld
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:13
 msgctxt "GUI|Keyboard Layout"
 msgid "_Options"
-msgstr ""
+msgstr "_Επιλογές"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:14
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:15
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Add"
-msgstr ""
+msgstr "_Προσθήκη"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:16
 msgid "ADD A KEYBOARD LAYOUT"
@@ -4311,15 +4439,19 @@ msgstr ""
 msgid "Add Layout"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:21
 msgctxt "GUI|Keyboard Layout|Switching Options"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:22
 msgctxt "GUI|Keyboard Layout|Switching Options"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:23
 msgid "LAYOUT SWITCHING OPTIONS"
@@ -4383,10 +4515,12 @@ msgctxt "GUI|Password"
 msgid "_Root Password:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/password.glade.h:3
 msgctxt "GUI|Password"
 msgid "_Confirm:"
-msgstr ""
+msgstr "Επι_βεβαίωση:"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:5
 #: pyanaconda/ui/gui/spokes/user.glade.h:9
@@ -4403,16 +4537,22 @@ msgid ""
 "The root account is used for administering the system.  Enter a password for "
 "the root user."
 msgstr ""
+"Ο λογαριασμός υπερχρήστη χρησιμοποιείται για τη διαχείριση του συστήματος. "
+"Εισάγετε ένα συνθηματικό για τον υπερχρήστη."
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:1
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project ibus-anthy, version head, document
+# ibus-anthy
 #: pyanaconda/ui/gui/spokes/source.glade.h:2
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
 msgid "_Open"
-msgstr ""
+msgstr "Άν_οιγμα"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:3
 msgctxt "GUI|Software Source|Media Check Dialog"
@@ -4427,15 +4567,19 @@ msgstr ""
 msgid "Verifying media, please wait..."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:6
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/source.glade.h:7
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:8
 msgctxt "GUI|Software Source|Proxy Dialog"
@@ -4533,7 +4677,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:29
 msgid "Updates"
-msgstr ""
+msgstr "Ανανεώσεις"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:30
 msgctxt "GUI|Software Source"
@@ -4546,9 +4690,11 @@ msgstr ""
 msgid "Additional repositories"
 msgstr ""
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/source.glade.h:32
 msgid "Enabled"
-msgstr ""
+msgstr "Ενεργοποιημένο"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:34
 msgid "Add a new repository."
@@ -4563,10 +4709,12 @@ msgstr ""
 msgid "Remove the selected repository."
 msgstr ""
 
+# translation auto-copied from project ibus-anthy, version head, document
+# ibus-anthy
 #: pyanaconda/ui/gui/spokes/source.glade.h:37
 msgctxt "GUI|Software Source"
 msgid "_Remove"
-msgstr ""
+msgstr "_Αφαίρεση"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:38
 msgid "Revert to the previous list of repositories."
@@ -4598,10 +4746,12 @@ msgctxt "GUI|Software Source"
 msgid "This URL refers to a mirror _list."
 msgstr ""
 
+# translation auto-copied from project audit-viewer, version default, document
+# audit-viewer
 #: pyanaconda/ui/gui/spokes/source.glade.h:45
 msgctxt "GUI|Software Source"
 msgid "_Name:"
-msgstr ""
+msgstr "_Όνομα:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:46
 msgid "Protocol for the repository URL."
@@ -4662,10 +4812,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
 msgstr ""
+"Ποια γλώσσα θα θέλατε να χρησιμοποιηθεί κατά τη διαδικασία εγκατάστασης;"
 
+# translation auto-copied from project comps, version master, document comps
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
-msgstr ""
+msgstr "Γλώσσες"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:16
 msgid "Locales"
@@ -4675,15 +4827,19 @@ msgstr ""
 msgid "WELCOME"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:18
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:19
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Continue"
-msgstr ""
+msgstr "_Συνέχεια"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:20
 msgid "Unsupported Hardware Detected"
@@ -4707,9 +4863,11 @@ msgctxt "GUI|User"
 msgid "_User name"
 msgstr ""
 
+# translation auto-copied from project libuser, version default, document
+# libuser
 #: pyanaconda/ui/gui/spokes/user.glade.h:4
 msgid "Full Name"
-msgstr ""
+msgstr "Πλήρες όνομα"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:6
 msgctxt "GUI|User"
@@ -4776,28 +4934,34 @@ msgstr ""
 msgid "Add a new mount point."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer, author Tim Waugh
 #: pyanaconda/ui/gui/spokes/custom.glade.h:14
 msgctxt "GUI|Custom Partitioning"
 msgid "Add"
-msgstr ""
+msgstr "Προσθήκη"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:15
 msgid "Remove the selected mount point(s)."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer, author Tim Waugh
 #: pyanaconda/ui/gui/spokes/custom.glade.h:16
 msgctxt "GUI|Custom Partitioning"
 msgid "Remove"
-msgstr ""
+msgstr "Αφαίρεση"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:17
 msgid "Reload storage configuration from disk."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer, author Tim Waugh
 #: pyanaconda/ui/gui/spokes/custom.glade.h:18
 msgctxt "GUI|Custom Partitioning"
 msgid "Refresh"
-msgstr ""
+msgstr "Ανανέωση"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:19
 msgid "Selected Device"
@@ -4830,17 +4994,19 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:26
 msgid "_Name:"
-msgstr ""
+msgstr "_Όνομα:"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:27
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "Device _Type:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/custom.glade.h:28
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "_Encrypt"
-msgstr ""
+msgstr "Κ_ρυπτογράφηση"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:29
 msgctxt "GUI|Custom Partitioning|Configure"
@@ -4912,15 +5078,19 @@ msgctxt "GUI|Custom Partitioning"
 msgid "_Reset All"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:1
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:2
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:3
 msgid "ADD DASD STORAGE TARGET"
@@ -4968,10 +5138,12 @@ msgstr ""
 msgid "The added DASD can be found under \"Local Standard Disks\"."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:1
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:2
 msgid ""
@@ -5008,15 +5180,19 @@ msgid ""
 "check your configuration and try again"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:1
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:2
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:3
 msgid "ADD iSCSI STORAGE TARGET"
@@ -5027,6 +5203,9 @@ msgid ""
 "To use iSCSI disks, you must provide the address of your iSCSI target and "
 "the iSCSI initiator name you've configured for your host."
 msgstr ""
+"Για να γίνει χρήση δίσκων iSCSI, πρέπει να παρέχετε τη διεύθυνση του στόχου "
+"iSCSI σας και το όνομα του iSCSI initiator που έχετε ρυθμίσει για το "
+"διακομιστή σας."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:5
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5044,11 +5223,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:8
 msgid "CHAP pair"
-msgstr ""
+msgstr "ζεύγος CHAP"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:9
 msgid "CHAP pair and a reverse pair"
-msgstr ""
+msgstr "ζεύγος CHAP και αντίστροφο ζεύγος"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:10
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5122,11 +5301,13 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:24
 msgid "Node Name"
-msgstr ""
+msgstr "Όνομα Κόμβου"
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:25
 msgid "Interface"
-msgstr ""
+msgstr "Διεπαφή"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:26
 msgid "Portal"
@@ -5238,53 +5419,65 @@ msgstr ""
 msgid "SELECTED DISKS"
 msgstr ""
 
+# translation auto-copied from project audit-viewer, version default, document
+# audit-viewer
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:2
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Close"
-msgstr ""
+msgstr "_Κλείσιμο"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:3
 msgid "Boot"
 msgstr ""
 
+# translation auto-copied from project system-config-firewall, version master,
+# document po/system-config-firewall
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:4
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:7
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "Ελεύθερο"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Remove"
-msgstr ""
+msgstr "_Αφαίρεση"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:10
 msgid "Disk summary goes here"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:1
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:2
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Delete It"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:3
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:4
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Select"
-msgstr ""
+msgstr "Επι_λογή"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:5
 msgid "CONFIGURE MOUNT POINT"
@@ -5294,10 +5487,12 @@ msgstr ""
 msgid "Select one or more disks this device may reside on."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:11
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:12
 msgctxt "GUI|Custom Partitioning|Add Dialog"
@@ -5338,10 +5533,12 @@ msgstr ""
 msgid "Single <span foreground=\"grey\">(No Redundancy, No Striping)</span>"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:29
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:30
 msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -5357,14 +5554,18 @@ msgid ""
 "Please create a name for this container and select at least one disk below."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:33
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Name:"
-msgstr ""
+msgstr "_Όνομα:"
 
+# translation auto-copied from project system-config-kickstart, version
+# master, document system-config-kickstart
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:34
 msgid "RAID Level:"
-msgstr ""
+msgstr "Επίπεδο RAID:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:35
 msgid "Encrypt"
@@ -5395,15 +5596,17 @@ msgstr ""
 msgid "UNFORMATTED DASDS"
 msgstr ""
 
+# translation auto-copied from project ibus-anthy, version head, document
+# ibus-anthy
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:2
 msgctxt "GUI|DASD Format Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:3
 msgctxt "GUI|DASD Format Dialog"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:4
 msgid ""
@@ -5459,10 +5662,12 @@ msgstr ""
 msgid "Random data quality:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:1
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:2
 msgctxt "GUI|Passphrase Dialog"
@@ -5485,10 +5690,12 @@ msgctxt "GUI|Passphrase Dialog"
 msgid "_Passphrase:"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:6
 msgctxt "GUI|Passphrase Dialog"
 msgid "Con_firm:"
-msgstr ""
+msgstr "Ε_πιβεβαίωση:"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:8
 msgid ""
@@ -5500,15 +5707,19 @@ msgstr ""
 msgid "RESCAN DISKS"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:2
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:3
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:4
 msgid ""
@@ -5541,10 +5752,12 @@ msgstr ""
 msgid "Disk rescan complete."
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:1
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:2
 msgctxt "GUI|Reclaim Dialog"
@@ -5567,25 +5780,31 @@ msgstr ""
 msgid "Reclaimable Space"
 msgstr ""
 
+# translation auto-copied from project system-config-audit, version master,
+# document system-config-audit
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:6
 msgid "Action"
-msgstr ""
+msgstr "Ενέργεια"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:10
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Preserve"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:11
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Delete"
-msgstr ""
+msgstr "_Διαγραφή"
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:12
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Shrink"
-msgstr ""
+msgstr "_Μείωση μεγέθους"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:1
 msgid "SUMMARY OF CHANGES"
@@ -5635,18 +5854,22 @@ msgid ""
 "installation process?"
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer, author Tim Waugh
 #: pyanaconda/ui/gui/main.glade.h:7
 msgid "Quit"
-msgstr ""
+msgstr "Έξοδος"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:1
 msgid "INSTALLATION SUMMARY"
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/hubs/summary.glade.h:2
 msgctxt "GUI|Summary"
 msgid "_Quit"
-msgstr ""
+msgstr "_Έξοδος"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:3
 msgctxt "GUI|Summary"
@@ -5663,38 +5886,42 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "Γίνεται προετοιμασία εγκατάστασης"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
 msgid "_Finish configuration"
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel6-branch,
+# document anaconda
 #: pyanaconda/ui/gui/hubs/progress.glade.h:4
 msgctxt "GUI|Progress"
 msgid "_Reboot"
-msgstr ""
+msgstr "Επανε_κκίνηση"
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "Εγκατάσταση στο σκληρό δίσκο"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "Εγκατάσταση"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "Εγκαταστήστε το live CD στο σκληρό σας δίσκο"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
 msgstr ""
 
+# translation auto-copied from project Fedora Release Notes, version master,
+# document Welcome
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
 msgid "Welcome to Fedora"
-msgstr ""
+msgstr "Καλώς ήρθατε στο Fedora"
 
 #: anaconda:478
 #, python-format
@@ -5719,7 +5946,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "Δεν υπάρχει αρκετή μνήμη"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5956,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+" Δοκιμάστε την εγκατάσταση σε περιβάλλον κειμένου εκτελώντας:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+"από ένα τερματικό ως root."
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr " Ξεκινάει το περιβάλλον κειμένου."
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5741,10 +5973,12 @@ msgstr ""
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
 msgstr ""
+"Δεν έχει οριστεί η μεταβλητή DISPLAY. Γίνεται εκκίνηση λειτουργίας κειμένου"
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
 msgstr ""
+"Η γραφική εγκατάσταση δεν είναι διαθέσιμη.  Εκκίνηση λειτουργίας κειμένου."
 
 #: anaconda:660
 msgid ""
@@ -5779,6 +6013,8 @@ msgid ""
 "in the Activities Overview at any later time."
 msgstr ""
 
+# translation auto-copied from project system-config-printer, version master,
+# document system-config-printer, author Tim Waugh
 #: data/liveinst/gnome/fedora-welcome:131
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"

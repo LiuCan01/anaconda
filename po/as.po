@@ -1,26 +1,33 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Amitakhya Phukan <amitakhya.phukan@gmail.com>, 2006
+# Bijit Sarmah <bijitsarmah2@gmail.com>, 2013
+# Bijit Sarmah <bijitsarmah2@gmail.com>, 2013
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011,2013-2014
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2013-2014
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-24 08:30-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Assamese (http://www.transifex.com/projects/p/anaconda/"
+"language/as/)\n"
+"Language: as\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
-msgstr ""
+msgstr "/boot ফাইল চিস্টেম"
 
 #: pyanaconda/bootloader.py:410
 #, python-format
@@ -28,6 +35,8 @@ msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following raid "
 "levels: %(raid_level)s."
 msgstr ""
+"RAID সংহতিসমূহ যি '%(desc)s' অন্তৰ্ভুক্ত কৰে তাৰ নিম্নলিখিত raid স্তৰসমূহৰ এটা থাকিব "
+"লাগিব: %(raid_level)s।"
 
 #: pyanaconda/bootloader.py:418
 #, python-format
@@ -35,6 +44,8 @@ msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following metadata "
 "versions: %(metadata_versions)s."
 msgstr ""
+"RAID সংহতিসমূহ যি '%(desc)s' অন্তৰ্ভুক্ত কৰে সিহতৰ নিম্নলিখিত মেটাডাটা সংস্কৰণসমূহৰ "
+"এটা থাকিব লাগিব: %(metadata_versions)s।"
 
 #: pyanaconda/bootloader.py:426
 #, python-format
@@ -42,51 +53,53 @@ msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following device "
 "types: %(types)s."
 msgstr ""
+"RAID সংহতিসমূহ যি '%(desc)s' অন্তৰ্ভুক্ত কৰে সিহতৰ নিম্নলিখিত ডিভাইচ ধৰণসমূহৰ "
+"যিকোনো এটা থাকিব লাগিব: %(types)s।"
 
 #: pyanaconda/bootloader.py:442
 #, python-format
 msgid "%(name)s must have one of the following disklabel types: %(types)s."
-msgstr ""
+msgstr "%(name)s ৰ নিম্নলিখিত ডিস্কলেবেল ধৰণসমূহৰ এটা থাকিব লাগিব: %(types)s।"
 
 #: pyanaconda/bootloader.py:454
 #, python-format
 msgid "%(desc)s cannot be of type %(type)s."
-msgstr ""
+msgstr "%(desc)s ধৰণ %(type)s ৰ নিচিনা হব নোৱাৰে।"
 
 #: pyanaconda/bootloader.py:460
 #, python-format
 msgid "%(desc)s must be mounted on one of %(mountpoints)s."
-msgstr ""
+msgstr "%(desc)s ক %(mountpoints)s ৰ এটাত মাউণ্ট কৰিব লাগিব।"
 
 #: pyanaconda/bootloader.py:472
 #, python-format
 msgid "%(desc)s must be between %(min)d and %(max)d MB in size"
-msgstr ""
+msgstr "%(desc)s আকাৰত %(min)d আৰু %(max)d MB ৰ মাজত হব লাগিব"
 
 #: pyanaconda/bootloader.py:478
 #, python-format
 msgid "%(desc)s must not be smaller than %(min)dMB."
-msgstr ""
+msgstr "%(desc)s  %(min)dMB কে সৰু হব নালাগিব।"
 
 #: pyanaconda/bootloader.py:487
 #, python-format
 msgid "%(desc)s must not be larger than %(max)dMB."
-msgstr ""
+msgstr "%(desc)s %(max)dMB কে ডাঙৰ হব নালাগিব।"
 
 #: pyanaconda/bootloader.py:505
 #, python-format
 msgid "%(desc)s must be within the first %(max_end)s of the disk."
-msgstr ""
+msgstr "%(desc)s ডিস্কৰ প্ৰথম %(max_end)s ৰ অন্তৰ্গত হব লাগিব।"
 
 #: pyanaconda/bootloader.py:515
 #, python-format
 msgid "%s must be on a primary partition."
-msgstr ""
+msgstr "%s এটা প্ৰাথমিক বিভাজনত হব লাগিব।"
 
 #: pyanaconda/bootloader.py:651 pyanaconda/bootloader.py:751
 #, python-format
 msgid "%s cannot be on an encrypted block device."
-msgstr ""
+msgstr "%s এটা ইনক্ৰিপ্টেড খণ্ড ডিভাইচত হব নোৱাৰিব।"
 
 #: pyanaconda/bootloader.py:706
 #, python-format
@@ -96,7 +109,7 @@ msgstr ""
 #: pyanaconda/bootloader.py:710
 #, python-format
 msgid "%(desc)s cannot be of type %(type)s"
-msgstr ""
+msgstr "%(desc)s ধৰণ %(type)s ৰ নিচিনা হব নোৱাৰিব"
 
 #: pyanaconda/bootloader.py:1355
 #, python-format
@@ -105,6 +118,9 @@ msgid ""
 "loader stage1 device %(stage1dev)s is not. A drive failure in %(stage2dev)s "
 "could render the system unbootable."
 msgstr ""
+"বুটল'ডাৰ stage2 ডিভাইচ %(stage2dev)s এটা মাল্টি-ডিস্ক এৰেত আছে, কিন্তু বুটল'ডাৰ "
+"stage1 ডিভাইচ %(stage1dev)s নাই। %(stage2dev)s ত এটা ড্ৰাইভ ব্যৰ্থতাৰ বাবে "
+"চিস্টেম বুটৰ অযোগ্য হব পাৰে।"
 
 #: pyanaconda/bootloader.py:1361
 #, python-format
@@ -113,6 +129,9 @@ msgid ""
 "loader stage1 device %(stage1dev)s is not part of this array. The stage1 "
 "boot loader will only be installed to a single drive."
 msgstr ""
+"বুট ল'ডাৰ stage2 ডিভাইচ %(stage2dev)s এটা মাল্টি-ডিস্ক এৰেত আছে, কিন্তু বুট ল'ডাৰ "
+"stage1 ডিভাইচ %(stage1dev)s এই এৰেৰ অংশ নহয়। stage1 বুটল'ডাৰক কেৱল এটা ড্ৰাইভত "
+"ইনস্টল কৰা হব।"
 
 #: pyanaconda/bootloader.py:1652
 #, python-format
@@ -120,26 +139,28 @@ msgid ""
 "%(deviceName)s may not have enough space for grub2 to embed core.img when "
 "using the %(fsType)s file system on %(deviceType)s"
 msgstr ""
+"%(deviceName)s ত %(deviceType)s ৰ %(fsType)s ফাইল চিস্টেম ব্যৱহাৰ কৰোতে grub2 "
+"দ্বাৰা core.img অন্তৰ্ভুক্ত কৰিবলে পৰ্যাপ্ত স্থান নাথাকিব পাৰে"
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "VNC আৰম্ভ কৰক"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "লিখিত ধৰণ ব্যৱহাৰ কৰক"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
-msgstr ""
+msgstr "পাছৱৰ্ড ৰিক্ত।"
 
 #: pyanaconda/constants.py:140
 msgid "The passwords do not match."
-msgstr ""
+msgstr "পাছৱৰ্ডসমূহ মিল নাখায়।"
 
 #: pyanaconda/constants.py:141
 msgid "The passwords you entered were different.  Please try again."
-msgstr ""
+msgstr "আপুনি দিয়া পাছৱৰ্ড কেইটা বেলেগ। অনুগ্ৰহ কৰি পুনঃ চেষ্টা কৰক।"
 
 #: pyanaconda/constants.py:142
 #, python-format
@@ -154,25 +175,29 @@ msgstr ""
 #: pyanaconda/constants.py:144
 msgid "You have provided a weak password. Press Done again to use anyway."
 msgstr ""
+"আপুনি এটা দূৰ্বল পাছৱৰ্ড প্ৰদান কৰিছে।  ইয়াক তথাপিও ব্যৱহাৰ কৰিবলৈ কৰা হল আকৌ টিপক।"
 
 #: pyanaconda/constants.py:145
 #, python-format
 msgid "You have provided a weak password: %s. Press Done again to use anyway."
 msgstr ""
+"আপুনি এটা দূৰ্বল পাছৱৰ্ড প্ৰদান কৰিছে: %s। ইয়াক তথাপিও ব্যৱহাৰ কৰিবলে কৰা হল টিপক।"
 
 #: pyanaconda/constants.py:146
 msgid ""
 "The password you have provided contains non-ASCII characters. You may not be "
 "able to switch between keyboard layouts to login. Press Done to continue."
 msgstr ""
+"আপুনি প্ৰদান কৰা পাছৱৰ্ডত নন-ASCII আখৰসমূহ আছে। আপুনি লগিন কৰিবলৈ কিবৰ্ড "
+"বিন্যাসসমূহৰ মাজত চুইচ কৰিব নোৱাৰিব পাৰে। আগবাঢ়িবলৈ কৰা হল টিপক।"
 
 #: pyanaconda/constants.py:147
 msgid "You will have to press Done twice to confirm it."
-msgstr ""
+msgstr "আপুনি ইয়াক সুনিশ্চিত কৰিবলে কৰা হল দুবাৰ টিপিব লাগিব।"
 
 #: pyanaconda/constants.py:149
 msgid "Empty"
-msgstr ""
+msgstr "ৰিক্ত"
 
 #: pyanaconda/constants.py:150
 msgid "Too short"
@@ -181,19 +206,19 @@ msgstr ""
 #: pyanaconda/constants.py:151 pyanaconda/ui/gui/spokes/lib/passphrase.py:124
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:7
 msgid "Weak"
-msgstr ""
+msgstr "দূৰ্বল"
 
 #: pyanaconda/constants.py:152 pyanaconda/ui/gui/spokes/lib/passphrase.py:127
 msgid "Fair"
-msgstr ""
+msgstr "ভাল"
 
 #: pyanaconda/constants.py:153 pyanaconda/ui/gui/spokes/lib/passphrase.py:130
 msgid "Good"
-msgstr ""
+msgstr "ভাল"
 
 #: pyanaconda/constants.py:154 pyanaconda/ui/gui/spokes/lib/passphrase.py:133
 msgid "Strong"
-msgstr ""
+msgstr "শক্তিশালী"
 
 #: pyanaconda/errors.py:109
 #, python-format
@@ -204,11 +229,16 @@ msgid ""
 "\n"
 "The installation will now terminate."
 msgstr ""
+"আপোনাৰ বিভাজন প্ৰক্ৰিয়াৰ সৈতে নিম্নলিখিত ত্ৰুটি হৈছিল:\n"
+"\n"
+"%(errortxt)s\n"
+"\n"
+"ইনস্টলেষণ এতিয়া সমাপ্ত হব।"
 
 #: pyanaconda/errors.py:115
 #, python-format
 msgid "An error occurred while resizing the device %s."
-msgstr ""
+msgstr "ডিভাইচ %s ক পুনৰ আকৰা দিওতে এটা ত্ৰুটি হৈছিল।"
 
 #: pyanaconda/errors.py:124
 #, python-format
@@ -225,17 +255,19 @@ msgstr ""
 
 #: pyanaconda/errors.py:133 pyanaconda/ui/gui/main.glade.h:1
 msgid "_Exit Installer"
-msgstr ""
+msgstr "ইনস্টলাৰ প্ৰস্থান কৰক (_E)"
 
 #: pyanaconda/errors.py:133
 msgid "_Retry"
-msgstr ""
+msgstr "পুনঃচেষ্টা কৰক (_R)"
 
 #: pyanaconda/errors.py:140
 msgid ""
 "An error has occurred - no valid devices were found on which to create new "
 "file systems.  Please check your hardware for the cause of this problem."
 msgstr ""
+"এটা ত্ৰুটি হৈছে - নতুন ফাইল চিস্টেমবোৰ সৃষ্টি কৰিবলৈ কোনো বৈধ ডিভাইচ পোৱা নগল। "
+"অনুগ্ৰহ কৰি এই সমস্যাৰ কাৰণ জানিবলৈ আপোনাৰ হাৰ্ডৱেৰ নিৰীক্ষণ কৰক।"
 
 #: pyanaconda/errors.py:147
 #, python-format
@@ -244,6 +276,9 @@ msgid ""
 "cleanly.  Would you like to mount them anyway?\n"
 "%s"
 msgstr ""
+"আপোনাৰ Linux চিস্টেমৰ বাবে নিম্নলিখিত ফাইল চিস্টেম সঠিকভাৱে মাউণ্ট কৰা হোৱা "
+"নাছিল। আপুনি সিহতক তথাপিও মাউণ্ট কৰিব খোজে নে?\n"
+"%s"
 
 #: pyanaconda/errors.py:158
 msgid ""
@@ -251,6 +286,9 @@ msgid ""
 "incorrect file system type:\n"
 "\n"
 msgstr ""
+"আপোনাৰ /etc/fstab ফাইলত এটা প্ৰবিষ্টি আছে যি এটা অবৈধ অথবা ভুল ফাইল চিস্টেম ধৰণ "
+"অন্তৰ্ভুক্ত কৰে: \n"
+"\n"
 
 #: pyanaconda/errors.py:164
 #, python-format
@@ -262,6 +300,11 @@ msgid ""
 "choose to continue if you think this is in error. Would you like to continue "
 "using this image?"
 msgstr ""
+"ISO ছবি %s ৰ এটা আকাৰ আছে যি 2048 বাইটৰ বহুগুণ নহয়। ইয়াৰ অৰ্থ হব পাৰে যে ইয়াক "
+"এই কমপিউটাৰলৈ স্থানান্তৰ কৰোতে ক্ষতিগ্ৰস্থ হৈছিল।\n"
+"\n"
+"আপুনি প্ৰস্থান কৰি আপোনাৰ ইনস্টলেষণ বাদ দিয়াটো উপদেশিত, কিন্তু আপুনি আগবাঢ়িব পাৰে "
+"যদি আপোনাৰ মতে ই এটা ত্ৰুটি হয়। আপুনি এই ছবি ব্যৱহাৰ কৰাটো অব্যাহত ৰাখিব খোজে নে?"
 
 #: pyanaconda/errors.py:178
 msgid ""
@@ -270,11 +313,15 @@ msgid ""
 "\n"
 "Should I try again to locate the image?"
 msgstr ""
+"ইনস্টলাৰে ইনস্টলেষণ ছবি মাউণ্ট কৰাৰ চেষ্টা কৰিছে, কিন্তু ইয়াক হাৰ্ড ড্ৰাইভত বিচাৰি "
+"নাপায়।\n"
+"\n"
+"মই ছবি সন্ধান কৰাৰ পুনৰ চেষ্টা কৰিম নে?"
 
 #: pyanaconda/errors.py:188
 #, python-format
 msgid "An error occurred mounting the source device %s. Retry?"
-msgstr ""
+msgstr "উৎস ডিভাইচ %s মাউণ্ট কৰোতে এটা ত্ৰুটি হৈছিল। পুনৰ চেষ্টা কৰিব নে?"
 
 #: pyanaconda/errors.py:196
 #, python-format
@@ -282,6 +329,8 @@ msgid ""
 "An error occurred unmounting the disc.  Please make sure you're not "
 "accessing %s from the shell on tty2 and then click OK to retry."
 msgstr ""
+"ডিস্ক আনমাউণ্ট কৰোতে এটা ত্ৰুটি হৈছিল। অনুগ্ৰহ কৰি সুনিশ্চিত কৰক যে আপুনি %s ক tty2 ত "
+"শ্বেলৰ পৰা অভিগম কৰা নাই আৰু তাৰ পিছত পুনৰ চেষ্টা কৰিবলৈ ঠিক আছে ক্লিক কৰক।"
 
 #: pyanaconda/errors.py:204
 #, python-format
@@ -289,6 +338,8 @@ msgid ""
 "The group '%s' is required for this installation. This group does not exist. "
 "This is a fatal error and installation will be aborted."
 msgstr ""
+"এই ইনস্টলেষণৰ বাবে দল '%s' ৰ প্ৰয়োজন। এই দল অস্তিত্ববান নহয়। ই এটা মাৰাত্মক ত্ৰুটি "
+"আৰু ইনস্টলেষণ বাদ দিয়া হব।"
 
 #: pyanaconda/errors.py:210
 #, python-format
@@ -297,6 +348,8 @@ msgid ""
 "not exist.  Would you like to ignore this group and continue with "
 "installation?"
 msgstr ""
+"আপুনি দল '%s' ইনস্টল কৰিব লাগে বুলি ধাৰ্য্য কৰিছে। এই দল অস্তিত্ববান নহয়। আপুনি এই "
+"দল উপেক্ষা কৰি ইনস্টলেষণ অব্যাহত ৰাখিব খোজে নে?"
 
 #: pyanaconda/errors.py:215
 #, python-format
@@ -305,6 +358,8 @@ msgid ""
 "installation.  This group does not exist.  Would you like to ignore this "
 "group and continue with installation?"
 msgstr ""
+"আপুনি দল '%s' ক ইনস্টলেষণৰ পৰা বাদ দিব লাগে বুলি ধাৰ্য্য কৰিছে।  এই দল অস্তিত্ববান "
+"নহয়। আপুনি এই দল উপেক্ষা কৰি ইনস্টলেষণ অব্যাহত ৰাখিব খোজে নে?"
 
 #: pyanaconda/errors.py:227
 #, python-format
@@ -312,6 +367,8 @@ msgid ""
 "The package '%s' is required for this installation. This package does not "
 "exist. This is a fatal error and installation will be aborted."
 msgstr ""
+"এই ইনস্টলেষণৰ বাবে '%s' পেকেইজৰ প্ৰয়োজন। এই পেকেইজ অস্তিত্ববান নহয়। ই এটা "
+"মাৰাত্মক ত্ৰুটি আৰু ইনস্টলেষণ বাদ দিয়া হব।"
 
 #: pyanaconda/errors.py:234
 #, python-format
@@ -320,6 +377,8 @@ msgid ""
 "does not exist.  Would you like to ignore this package and continue with "
 "installation?"
 msgstr ""
+"আপুনি পেকেইজ '%s' ইনস্টল কৰিব লাগে বুলি ধাৰ্য্য কৰিছে। এই পেকেইজ অস্তিত্ববান নহয়। "
+"আপুনি এই পেকেইজক উপেক্ষা কৰি ইনস্টলেষণ অব্যাহত ৰাখিব খোজে নে?"
 
 #: pyanaconda/errors.py:245
 #, python-format
@@ -330,12 +389,18 @@ msgid ""
 "\n"
 "%(details)s"
 msgstr ""
+"kickstart স্ক্ৰিপ্ট চলাওতে শাৰী %(lineno)s ত টৰা ত্ৰুটি হৈছিল।  ই এটা মাৰাত্মক "
+"ত্ৰুটি আৰু ইনস্টলেষণ বাদ দিয়া হব। এই ত্ৰুটিৰ বিৱৰণ হল:\n"
+"\n"
+"%(details)s"
 
 #: pyanaconda/errors.py:253
 msgid ""
 "The following error occurred while installing.  This is a fatal error and "
 "installation will be aborted."
 msgstr ""
+"ইনস্টল কৰোতে নিম্নলিখিত ত্ৰুটি হৈছিল।  ই এটা মাৰাত্মক ত্ৰুটি আৰু ইনস্টলেষণ বাদ দিয়া "
+"হব।"
 
 #: pyanaconda/errors.py:261
 msgid ""
@@ -343,6 +408,9 @@ msgid ""
 "caused by an error with\n"
 "your installation source."
 msgstr ""
+"ইনস্টলেষণৰ বাবে চিহ্নিত নিম্নলিখিত চফ্টৱেৰত ত্ৰুটি আছে।   ই সম্ভবত আপোনাৰ ইনস্টল "
+"উৎসৰ সৈতে এটা ত্ৰুটিৰ\n"
+"বাবে হৈছে।"
 
 #: pyanaconda/errors.py:269
 msgid ""
@@ -350,6 +418,8 @@ msgid ""
 "will not be bootable. Would you like to ignore this and continue with "
 "installation?"
 msgstr ""
+"বুট ল'ডাৰ ইনস্টল কৰোতে নিম্নলিখিত ত্ৰুটি হল। চিস্টেম বুটৰ অযোগ্য হব। আপুনি ইয়াক "
+"উপেক্ষা কৰি ইনস্টলেষণৰ সৈতে আগবাঢ়িব খোজে নে?"
 
 #: pyanaconda/errors.py:282
 #, python-format
@@ -361,11 +431,17 @@ msgid ""
 "\n"
 "The installer will now terminate."
 msgstr ""
+"ইনস্টলেষণ বুট ল'ডাৰ ইনস্টল কৰোতে এটা ত্ৰুটিৰ বাবে বন্ধ কৰা হৈছিল। প্ৰকৃত ত্ৰুটি বাৰ্তা "
+"হল:\n"
+"\n"
+"%s.\n"
+"\n"
+" ইনস্টলাৰ এতিয়া প্ৰস্থান কৰিব।"
 
 #: pyanaconda/errors.py:290
 #, python-format
 msgid "Unable to encrypt password: unsupported algorithm %s"
-msgstr ""
+msgstr "পাছৱৰ্ড ইনক্ৰিপ্ট কৰিবলে অক্ষম: অসমৰ্থিত এলগৰিথম %s"
 
 #: pyanaconda/exception.py:101
 #, python-format
@@ -377,6 +453,12 @@ msgid ""
 "\n"
 " The installer will now terminate."
 msgstr ""
+"ইনস্টল প্ৰক্ৰিয়া আপোনাৰ হাৰ্ডৱেৰৰ এটা সমস্যাৰ বাবে বন্ধ কৰা হৈছে। সঠিক ত্ৰুটি বাৰ্তা "
+"হল:\n"
+"\n"
+"%s।\n"
+"\n"
+"ইনস্টলাৰ এতিয়া প্ৰস্থান কৰিব।"
 
 #: pyanaconda/exception.py:105
 msgid "Hardware error occurred"
@@ -395,6 +477,15 @@ msgid ""
 "\n"
 "The installer will now terminate."
 msgstr ""
+"\n"
+"ইনস্টলেষণক অভাৱবিনিময়ী cmdline অৱস্থাত চলোৱা অৱস্থাত অসম্পূৰ্ণ স্পৌকসমূহ চিনাক্ত কৰাৰ "
+"বাবে বন্ধ কৰা হৈছিল। যিহেতু cmdline অৱস্থাত কোনো প্ৰশ্ন হব নোৱাৰিব, আপোনাৰ "
+"kickstart ফাইল সম্পাদন কৰক আৰু ইনস্টলেষণৰ পুনৰ চেষ্টা কৰক।\n"
+"সঠিক ত্ৰুটি বাৰ্তা হল: \n"
+"\n"
+"%s.\n"
+"\n"
+"ইনস্টলাৰে এতিয়া প্ৰস্থান কৰিব।"
 
 #: pyanaconda/exception.py:147
 #, python-format
@@ -410,75 +501,75 @@ msgstr ""
 
 #: pyanaconda/install.py:78
 msgid "Configuring installed system"
-msgstr ""
+msgstr "ইনস্টল্ড চিস্টেম সংৰূপণ কৰা হৈছে"
 
 #: pyanaconda/install.py:91
 msgid "Writing network configuration"
-msgstr ""
+msgstr "নেটৱৰ্ক সংৰূপ লিখা হৈছে"
 
 #: pyanaconda/install.py:95
 msgid "Creating users"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰীসমূহ সৃষ্টি কৰক"
 
 #: pyanaconda/install.py:103
 msgid "Configuring addons"
-msgstr ""
+msgstr "এডঅনসমূহ সংৰূপণ কৰা হৈছে"
 
 #: pyanaconda/install.py:106
 msgid "Generating initramfs"
-msgstr ""
+msgstr "initramfs সৃজন কৰা"
 
 #: pyanaconda/install.py:110
 #, python-format
 msgid "Joining realm: %s"
-msgstr ""
+msgstr "ৰাজত্বত অংশগ্ৰহণ কৰা হৈছে: %s"
 
 #: pyanaconda/install.py:113
 msgid "Running post-installation scripts"
-msgstr ""
+msgstr "পস্ট-ইণ্টলেষণ স্ক্ৰিপ্টসমূহ চলোৱা হৈছে"
 
 #: pyanaconda/install.py:166
 #, python-format
 msgid "Waiting for %s threads to finish"
-msgstr ""
+msgstr "%s থ্ৰেডমসমূহ সমাপ্ত হবলে অপেক্ষা কৰা হৈছে"
 
 #: pyanaconda/install.py:172
 msgid "Setting up the installation environment"
-msgstr ""
+msgstr "ইনস্টল পৰিৱেশ সংহতি কৰা হৈছে"
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "ইনস্টলৰ প্ৰাক্কালৰ স্ক্ৰিপ্ট সঞ্চালিত হৈছে"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
-msgstr ""
+msgstr "অংশগ্ৰহণ কৰিবলে ৰাজত্ব খোজ কৰা হৈছে"
 
 #: pyanaconda/install.py:266
 msgid "Installing boot loader"
-msgstr ""
+msgstr "বুট ল'ডাৰ ইনস্টল কৰা হৈছে"
 
 #: pyanaconda/install.py:269 pyanaconda/packaging/livepayload.py:170
 #: pyanaconda/packaging/yumpayload.py:1464
 msgid "Performing post-installation setup tasks"
-msgstr ""
+msgstr "পস্ট-ইণ্টলেষণ সংস্থাপন কাৰ্য্যসমূহ পৰিৱেশন কৰা হৈছে"
 
 #: pyanaconda/iutil.py:777
 msgid "No host url"
-msgstr ""
+msgstr "হস্ট url নাই"
 
 #: pyanaconda/iutil.py:798
 msgid "malformed URL, cannot parse it."
-msgstr ""
+msgstr "ক্ষতিগ্ৰস্থ URL, ইয়াক বিশ্লেষণ কৰিব নোৱাৰি।"
 
 #: pyanaconda/iutil.py:814
 msgid "URL has no host component"
-msgstr ""
+msgstr "URL ৰ কোনো হস্ট উপাদান নাই"
 
 #: pyanaconda/kickstart.py:165
 #, python-format
 msgid "Escrow certificate %s requires the network."
-msgstr ""
+msgstr "Escrow প্ৰমাণপত্ৰ %s ৰ নেটৱৰ্কৰ প্ৰয়োজন।"
 
 #: pyanaconda/kickstart.py:173
 #, python-format
@@ -488,35 +579,38 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"escrow প্ৰমাণপত্ৰ ডাউনল'ড কৰোতে নিম্নলিখীত ত্ৰুটি হৈছিল:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:247
 #, python-format
 msgid "%s is missing. Cannot setup authentication."
-msgstr ""
+msgstr "%s সন্ধানহীন। প্ৰমাণীকৰণ সংস্থাপন কৰিব নোৱাৰি।"
 
 #: pyanaconda/kickstart.py:272
 #, python-format
 msgid "autopart fstype of %s is invalid."
-msgstr ""
+msgstr "%s ধৰণৰ autopart fstype অবৈধ।"
 
 #: pyanaconda/kickstart.py:289
 #, python-format
 msgid "Settings default fstype to %s failed."
-msgstr ""
+msgstr "%s লৈ অবিকল্পিত fstype সংহতি কৰা ব্যৰ্থ হল।"
 
 #: pyanaconda/kickstart.py:322
 msgid "GRUB2 does not support installation to a partition."
-msgstr ""
+msgstr "GRUB2 এ এটা বিভাজনলৈ ইনস্টলেষণ সমৰ্থন নকৰে।"
 
 #: pyanaconda/kickstart.py:415
 #, python-format
 msgid "More than one match found for given boot drive \"%s\"."
-msgstr ""
+msgstr "প্ৰদান কৰা বুট ড্ৰাইভ \"%s\" ৰ বাবে এটা মিল পোৱা গল।"
 
 #: pyanaconda/kickstart.py:420
 #, python-format
 msgid "Requested boot drive \"%s\" doesn't exist or cannot be used."
-msgstr ""
+msgstr "অনুৰোধ কৰা বুট ড্ৰাইভ \"%s\" অস্তিত্ববান নহয় অথবা ব্যৱহাৰ কৰিব নোৱাৰি।"
 
 #: pyanaconda/kickstart.py:494
 #, python-format
@@ -529,55 +623,58 @@ msgstr ""
 #, python-format
 msgid "Tried to use undefined partition \"%s\" in Btrfs volume specification."
 msgstr ""
+"Btrfs ভলিউম ধাৰ্য্যকৰণত অবিৱৰিত বিভাজন \"%s\" ব্যৱহাৰ কৰাৰ চেষ্টা কৰা হৈছিল।"
 
 #: pyanaconda/kickstart.py:512
 msgid ""
 "Btrfs volume defined without any member devices.  Either specify member "
 "devices or use --useexisting."
 msgstr ""
+"Btrfs ভলিউমক কোনো সদস্য ডিভাইচৰ অবিহনে বিৱৰণ দিয়া হৈছে। সদস্য ডিভাইচসমূহ ধাৰ্য্য "
+"কৰক অথবা --useexisting ব্যৱহাৰ কৰক।"
 
 #: pyanaconda/kickstart.py:521 pyanaconda/kickstart.py:892
 #: pyanaconda/kickstart.py:1481
 #, python-format
 msgid "The mount point \"%s\" is not valid.  It must start with a /."
-msgstr ""
+msgstr "মাউণ্ট বিন্দু \"%s\" বৈধ নহয়। ই এটা / ৰ সৈতে আৰম্ভ হব লাগিব।"
 
 #: pyanaconda/kickstart.py:536
 #, python-format
 msgid "Btrfs volume \"%s\" specified with --useexisting does not exist."
-msgstr ""
+msgstr "--useexisting ৰ সৈতে ধাৰ্য্য কৰা Btrfs ভলিউম \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:620
 #, python-format
 msgid ""
 "Disklabel \"%s\" given in clearpart command is not supported on this "
 "platform."
-msgstr ""
+msgstr "clearpart কমান্ডত দিয়া ডিস্কলেবেল \"%s\" এই প্লেটফৰ্মত সমৰ্থিত নহয়।"
 
 #: pyanaconda/kickstart.py:632
 #, python-format
 msgid "Disk \"%s\" given in clearpart command does not exist."
-msgstr ""
+msgstr "clearpart কমান্ডত দিয়া ডিস্ক \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:645
 #, python-format
 msgid "Device \"%s\" given in clearpart device list does not exist."
-msgstr ""
+msgstr "clearpart ডিভাইচ তালিকাত দিয়া ডিভাইচ \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:672
 #, python-format
 msgid "NIC \"%s\" given in fcoe command does not exist."
-msgstr ""
+msgstr "fcoe কমান্ডত দিয়া NIC \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:723
 #, python-format
 msgid "%s is missing. Cannot setup firewall."
-msgstr ""
+msgstr "%s সন্ধানহীন। ফায়াৰৱাল সংস্থাপন কৰিব নোৱাৰি।"
 
 #: pyanaconda/kickstart.py:771 pyanaconda/kickstart.py:782
 #, python-format
 msgid "Disk \"%s\" given in ignoredisk command does not exist."
-msgstr ""
+msgstr "ignoredisk কমান্ডত দিয়া ডিস্ক \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:795
 #, python-format
@@ -585,12 +682,16 @@ msgid ""
 "Network interface \"%(nic)s\" required by iSCSI \"%(iscsiTarget)s\" target "
 "is not up."
 msgstr ""
+"iSCSI \"%(iscsiTarget)s\" লক্ষ্য দ্বাৰা প্ৰয়োজনীয় নেটৱৰ্ক আন্তঃপৃষ্ঠ \"%(nic)s\" আপ "
+"নহয়।"
 
 #: pyanaconda/kickstart.py:805
 msgid ""
 "iscsi --iface must be specified (binding used) either for all targets or for "
 "none"
 msgstr ""
+"iscsi --iface ক সকলো লক্ষ্যৰ বাবে ধাৰ্য্য (ব্যৱহৃত বাইণ্ডিং) কৰিব লাগিব অথবা কাৰো "
+"বাবে কৰিব নালাগে"
 
 #: pyanaconda/kickstart.py:898
 #, python-format
@@ -598,6 +699,8 @@ msgid ""
 "No volume group exists with the name \"%s\".  Specify volume groups before "
 "logical volumes."
 msgstr ""
+"\"%s\" নামৰ সৈতে কোনো দল অস্তিত্ববান নহয়। যৌক্তিক ভলিউমসমূহৰ আগত ভলিউম দলসমূহ "
+"ধাৰ্য্য কৰক।"
 
 #: pyanaconda/kickstart.py:905
 msgid "Cache PVs must belong to the same VG as the cached LV"
@@ -609,22 +712,24 @@ msgid ""
 "No thin pool exists with the name \"%s\". Specify thin pools before thin "
 "volumes."
 msgstr ""
+"\"%s\" নামৰ সৈতে কোনো পাতল পুল অস্তিত্ববান নহয়। পাতল ভলিউমসমূহৰ আগত পাতল পুলসমূহ "
+"ধাৰ্য্য কৰক।"
 
 #: pyanaconda/kickstart.py:920
 msgid "logvol --noformat must also use the --name= option."
-msgstr ""
+msgstr "logvol --noformat এ --name= বিকল্প ব্যৱহাৰ কৰিব লাগিব।"
 
 #: pyanaconda/kickstart.py:925 pyanaconda/kickstart.py:995
 #, python-format
 msgid "Logical volume \"%s\" given in logvol command does not exist."
-msgstr ""
+msgstr "logvol কমান্ডত দিয়া যৌক্তিক ভলিউম \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:936 pyanaconda/kickstart.py:945
 #: pyanaconda/kickstart.py:1005 pyanaconda/kickstart.py:1273
 #: pyanaconda/kickstart.py:1282 pyanaconda/kickstart.py:1365
 #, python-format
 msgid "Target size \"%(size)s\" for device \"%(device)s\" is invalid."
-msgstr ""
+msgstr "ডিভাইচ \"%(device)s\" ৰ বাবে লক্ষ্যৰ আকাৰ \"%(size)s\" অবৈধ।"
 
 #: pyanaconda/kickstart.py:959
 #, python-format
@@ -632,6 +737,7 @@ msgid ""
 "Logical volume name \"%(logvol)s\" is already in use in volume group "
 "\"%(volgroup)s\"."
 msgstr ""
+"যৌক্তিক ভলিউম নাম \"%(logvol)s\" ইতিমধ্যে ভলিউম দল \"%(volgroup)s\" ত ব্যৱহৃত।"
 
 #: pyanaconda/kickstart.py:966
 #, python-format
@@ -646,6 +752,8 @@ msgid ""
 "Logical volume size \"%(logvolSize)s\" must be larger than the volume group "
 "extent size of \"%(extentSize)s\"."
 msgstr ""
+"ভলিউম আকাৰ \"%(logvolSize)s\" ভলিউম দল প্ৰসাৰিত আকাৰ \"%(extentSize)s\" ৰ "
+"ডাঙৰ হব লাগিব।"
 
 #: pyanaconda/kickstart.py:973
 msgid "Percentage must be between 0 and 100."
@@ -655,75 +763,75 @@ msgstr ""
 #: pyanaconda/kickstart.py:1534
 #, python-format
 msgid "The \"%s\" file system type is not supported."
-msgstr ""
+msgstr "\"%s\" ফাইল চিস্টেম ধৰণ সমৰ্থিত নহয়।"
 
 #: pyanaconda/kickstart.py:1144 pyanaconda/kickstart.py:1148
 #, python-format
 msgid "The %s kickstart command is not currently supported."
-msgstr ""
+msgstr "%s kickstart কমান্ড বৰ্তমানে সমৰ্থিত নহয়।"
 
 #: pyanaconda/kickstart.py:1173
 #, python-format
 msgid "No disk found for specified BIOS disk \"%s\"."
-msgstr ""
+msgstr "ধাৰ্য্যত BIOS ডিস্ক \"%s\" ৰ বাবে কোনো ডিস্ক পোৱা নগল।"
 
 #: pyanaconda/kickstart.py:1208
 #, python-format
 msgid "RAID partition \"%s\" is defined multiple times."
-msgstr ""
+msgstr "RAID বিভাজন \"%s\" একাধিকবাৰ বিৱৰণ দিয়া হৈছে।"
 
 #: pyanaconda/kickstart.py:1219 pyanaconda/kickstart.py:1456
 #, python-format
 msgid "PV partition \"%s\" is defined multiple times."
-msgstr ""
+msgstr "PV বিভাজন \"%s\" ক একাধিক বাৰ বিৱৰণ দিয়া হৈছে।"
 
 #: pyanaconda/kickstart.py:1230 pyanaconda/kickstart.py:1466
 #, python-format
 msgid "Btrfs partition \"%s\" is defined multiple times."
-msgstr ""
+msgstr "Btrfs বিভাজন \"%s\" ক একাধিক বাৰ বিৱৰণ দিয়া হৈছে।"
 
 #: pyanaconda/kickstart.py:1250
 #, python-format
 msgid "The size \"%s\" is invalid."
-msgstr ""
+msgstr "আকাৰ \"%s\" অবৈধ।"
 
 #: pyanaconda/kickstart.py:1257
 msgid "part --noformat must also use the --onpart option."
-msgstr ""
+msgstr "part --noformat এ --onpart বিকল্পও ব্যৱহাৰ কৰিব লাগিব।"
 
 #: pyanaconda/kickstart.py:1262 pyanaconda/kickstart.py:1356
 #, python-format
 msgid "Partition \"%s\" given in part command does not exist."
-msgstr ""
+msgstr "part কমান্ডত দিয়া বিভাজন \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:1316 pyanaconda/kickstart.py:1330
 #, python-format
 msgid "Disk \"%s\" given in part command does not exist."
-msgstr ""
+msgstr "part কমান্ডত দিয়া ডিস্ক \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:1319
 #, python-format
 msgid "Cannot install to unpartitionable device \"%s\"."
-msgstr ""
+msgstr "অবিভাজনযোগ্য ডিভাইচ \"%s\" লৈ ইনস্টল কৰিব নোৱাৰি।"
 
 #: pyanaconda/kickstart.py:1326
 #, python-format
 msgid "Disk \"%s\" in part command is not partitioned."
-msgstr ""
+msgstr "part কমান্ডৰ ডিস্ক \"%s\" বিভাজিত নহয়।"
 
 #: pyanaconda/kickstart.py:1339
 #, python-format
 msgid "The maximum size \"%s\" is invalid."
-msgstr ""
+msgstr "সৰ্বাধিক আকাৰ \"%s\" অবৈধ।"
 
 #: pyanaconda/kickstart.py:1488
 msgid "raid --noformat must also use the --device option."
-msgstr ""
+msgstr "raid --noformat এ --device বিকল্পও ব্যৱহাৰ কৰিব লাগিব।"
 
 #: pyanaconda/kickstart.py:1493
 #, python-format
 msgid "RAID device  \"%s\" given in raid command does not exist."
-msgstr ""
+msgstr "raid কমান্ডত দিয়া RAID ডিভাইচ \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:1516
 #, python-format
@@ -731,21 +839,23 @@ msgid ""
 "RAID device \"%(device)s\" has a format of \"%(format)s\", but should have a "
 "format of \"mdmember\"."
 msgstr ""
+"RAID ডিভাইচ \"%(device)s\" ৰ \"%(format)s\" বিন্যাস আছে, কিন্তু \"mdmember\" "
+"বিন্যাসথাকিব লাগে।"
 
 #: pyanaconda/kickstart.py:1521
 #, python-format
 msgid "Tried to use undefined partition \"%s\" in RAID specification."
-msgstr ""
+msgstr "RAID ধাৰ্য্যকৰণত অবিৱৰিত বিভাজন \"%s\" ব্যৱহাৰ কৰাৰ চেষ্টা কৰা হৈছিল।"
 
 #: pyanaconda/kickstart.py:1552
 #, python-format
 msgid "RAID volume \"%s\" specified with --useexisting does not exist."
-msgstr ""
+msgstr "--useexisting ৰ সৈতে ধাৰ্য্য কৰা RAID ভলিউম \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:1561
 #, python-format
 msgid "The RAID volume name \"%s\" is already in use."
-msgstr ""
+msgstr "RAID ভলিউম নাম \"%s\" ইতিমধ্যে ব্যৱহৃত।"
 
 #: pyanaconda/kickstart.py:1832
 #, python-format
@@ -753,11 +863,13 @@ msgid ""
 "Physical volume \"%(device)s\" has a format of \"%(format)s\", but should "
 "have a format of \"lvmpv\"."
 msgstr ""
+"ভৌতিক ভলিউম \"%(device)s\" ৰ \"%(format)s\" বিন্যাস আছে, কিন্তু \"lvmpv\" "
+"বিন্যাসথাকিব লাগে।"
 
 #: pyanaconda/kickstart.py:1837
 #, python-format
 msgid "Tried to use undefined partition \"%s\" in Volume Group specification"
-msgstr ""
+msgstr "ভলিউম দল ধাৰ্য্যকৰণত অবিৱৰিত বিভাজন \"%s\" ব্যৱহাৰ কৰাৰ চেষ্টা কৰা হৈছিল।"
 
 #: pyanaconda/kickstart.py:1843
 #, python-format
@@ -765,6 +877,8 @@ msgid ""
 "Volume group \"%s\" defined without any physical volumes.  Either specify "
 "physical volumes or use --useexisting."
 msgstr ""
+"ভলিউম দল \"%s\" ক কোনো ভৌতিক ভলিউমৰ অবিহনে বিৱৰণ দিয়া হৈছে। ভৌতিক ভলিউমসমূহ "
+"ধাৰ্য্য কৰক অথবা --useexisting ব্যৱহাৰ কৰক।"
 
 #: pyanaconda/kickstart.py:1853
 #, python-format
@@ -773,36 +887,43 @@ msgid ""
 "one of:\n"
 "%(validExtentSizes)s."
 msgstr ""
+"ভলিউম দলক \"%(extentSize)s\" ভৌতিক এক্সটেণ্ট আকাৰ দিয়া হৈছে, কিন্তু চিহ্নিত "
+"আকাৰসমূহৰ এটা হব লাগে:\n"
+"%(validExtentSizes)s।"
 
 #: pyanaconda/kickstart.py:1860
 msgid ""
 "volgroup --noformat and volgroup --useexisting must also use the --name= "
 "option."
 msgstr ""
+"volgroup --noformat আৰু volgroup --useexisting এ --name= বিকল্পও ব্যৱহাৰ কৰিব "
+"লাগিব।"
 
 #: pyanaconda/kickstart.py:1865
 #, python-format
 msgid "Volume group \"%s\" given in volgroup command does not exist."
-msgstr ""
+msgstr "volgroup কমান্ডত দিয়া ভলিউম দল \"%s\" অস্তিত্ববান নহয়।"
 
 #: pyanaconda/kickstart.py:1868
 #, python-format
 msgid "The volume group name \"%s\" is already in use."
-msgstr ""
+msgstr "ভলিউম দল নাম \"%s\" ইতিমধ্যে ব্যৱহৃত।"
 
 #: pyanaconda/kickstart.py:1921
 msgid ""
 "The upgrade kickstart command is no longer supported. Upgrade functionality "
 "is provided through fedup."
 msgstr ""
+"upgrade kickstart কমান্ড আৰু সমৰ্থিত নহয়। Upgrade কাৰ্য্যকৰীতা fedup দ্বাৰা প্ৰদান "
+"কৰা হয়।"
 
 #: pyanaconda/network.py:105
 msgid "Host name cannot be None or an empty string."
-msgstr ""
+msgstr "হস্ট নাম ৰিক্ত অথবা এটা ৰিক্ত স্ট্ৰিং হব নোৱাৰিব।"
 
 #: pyanaconda/network.py:108
 msgid "Host name must be 255 or fewer characters in length."
-msgstr ""
+msgstr "হস্ট নাম দৈৰ্ঘত ২৫৫ বা কমসংখ্যাৰ আখৰৰ হ'ব লাগিব।"
 
 #: pyanaconda/network.py:111
 msgid ""
@@ -810,35 +931,38 @@ msgid ""
 "parts between periods must contain something and cannot start or end with "
 "'-'."
 msgstr ""
+"হস্ট নামসমূহে কেৱল আখৰ 'a-z', 'A-Z', '0-9', '-', অথবা '.' অন্তৰ্ভুক্ত কৰিব পাৰিব, "
+"পিৰিয়ডৰ মাজৰ অংশসমূহে কিবা অন্তৰ্ভুক্ত কৰিব লাগিব আৰু '-' ৰ সৈতে আৰম্ভ অথবা শেষ হব "
+"নোৱাৰিব।"
 
 #: pyanaconda/network.py:1432 pyanaconda/ui/gui/spokes/custom.py:552
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "অজ্ঞাত"
 
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
-msgstr ""
+msgstr "সংযোগ কৰা হৈছে..."
 
 #: pyanaconda/network.py:1438
 msgid "Disconnecting..."
-msgstr ""
+msgstr "বিচ্ছিন্ন কৰা হৈছে..."
 
 #: pyanaconda/network.py:1459
 #, python-format
 msgid "Wired (%(interface_name)s) connected"
-msgstr ""
+msgstr "তাঁৰযুক্ত (%(interface_name)s) সংযুক্ত"
 
 #: pyanaconda/network.py:1462
 #, python-format
 msgid "Wireless connected to %(access_point)s"
-msgstr ""
+msgstr "বেতাঁৰ %(access_point)s ৰ সৈতে সংযুক্ত"
 
 #: pyanaconda/network.py:1465
 #, python-format
 msgid "Bond %(interface_name)s (%(list_of_slaves)s) connected"
-msgstr ""
+msgstr "বান্ধনী %(interface_name)s (%(list_of_slaves)s) সংযুক্ত"
 
 #: pyanaconda/network.py:1469
 #, python-format
@@ -853,30 +977,30 @@ msgstr ""
 #: pyanaconda/network.py:1479
 #, python-format
 msgid "VLAN %(interface_name)s (%(parent_device)s, ID %(vlanid)s) connected"
-msgstr ""
+msgstr "VLAN %(interface_name)s (%(parent_device)s, ID %(vlanid)s) সংযুক্ত"
 
 #: pyanaconda/network.py:1496
 #, python-format
 msgid "Connected: %(list_of_interface_names)s"
-msgstr ""
+msgstr "সংযুক্ত: %(list_of_interface_names)s"
 
 #: pyanaconda/network.py:1499
 msgid "Not connected"
-msgstr ""
+msgstr "সংযুক্ত নহয়"
 
 #: pyanaconda/network.py:1502 pyanaconda/ui/gui/spokes/network.glade.h:45
 msgid "No network devices available"
-msgstr ""
+msgstr "কোনো নেটৱৰ্ক ডিভাইচ উপলব্ধ নাই"
 
 #: pyanaconda/product.py:53
 #, python-format
 msgid "%(productName)s %(productVersion)s INSTALLATION"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s ইনস্টলেষণ"
 
 #: pyanaconda/product.py:57
 #, python-format
 msgid "New %(name)s %(version)s Installation"
-msgstr ""
+msgstr "নতুন %(name)s %(version)s ইনস্টলেষণ"
 
 #: pyanaconda/pwpolicy.py:124
 #, python-format
@@ -891,7 +1015,7 @@ msgstr ""
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "চিস্টেমটো আনমাউণ্ট কৰিবলে %s চলাওক যেতিয়া আপোনাৰ কাম সমপূৰ্ণ হৈ যাব।"
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +1027,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "উদ্ধাৰ"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "আগবাঢ়ক"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -965,7 +1089,7 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/software.py:154
 msgctxt "TUI|Spoke Navigation"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #: pyanaconda/rescue.py:324
 msgid "Rescue Mount"
@@ -1003,7 +1127,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "কোনো Linux বিভাজন উপস্থিত নাই।  পুনৰ বুট কৰা হৈছে।\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1021,67 +1145,79 @@ msgstr ""
 #: pyanaconda/storage_utils.py:53 pyanaconda/storage_utils.py:85
 #: pyanaconda/ui/gui/spokes/custom.glade.h:3
 msgid "LVM"
-msgstr ""
+msgstr "LVM"
 
 #: pyanaconda/storage_utils.py:54 pyanaconda/storage_utils.py:86
 #: pyanaconda/ui/gui/spokes/custom.glade.h:5
 msgid "LVM Thin Provisioning"
-msgstr ""
+msgstr "LVM পাতল যোগান"
 
 #: pyanaconda/storage_utils.py:55 pyanaconda/ui/gui/spokes/custom.glade.h:4
 msgid "RAID"
-msgstr ""
+msgstr "RAID"
 
 #: pyanaconda/storage_utils.py:56 pyanaconda/storage_utils.py:83
 #: pyanaconda/ui/gui/spokes/custom.glade.h:1
 msgid "Standard Partition"
-msgstr ""
+msgstr "প্ৰামাণিক বিভাজন"
 
 #: pyanaconda/storage_utils.py:57 pyanaconda/storage_utils.py:84
 #: pyanaconda/ui/gui/spokes/custom.glade.h:2
 msgid "Btrfs"
-msgstr ""
+msgstr "Btrfs"
 
 #: pyanaconda/storage_utils.py:58
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:5
 msgid "Disk"
-msgstr ""
+msgstr "ডিস্ক"
 
 #: pyanaconda/storage_utils.py:69
 msgid ""
 "The 'swap' area on your computer is used by the operating\n"
 "system when running low on memory."
 msgstr ""
+"আপোনাৰ কমপিউটাৰৰ 'swap' স্থান মেমৰি কম থকা অৱস্থাত অপাৰেটিং\n"
+"চিস্টেম দ্বাৰা ব্যৱহাৰ কৰা হৈছে।"
 
 #: pyanaconda/storage_utils.py:71
 msgid ""
 "The 'boot' area on your computer is where files needed\n"
 "to start the operating system are stored."
 msgstr ""
+"আপোনাৰ কমপিউটাৰৰ 'boot' স্থান হল যত অপাৰেটিং চিস্টেম\n"
+"আৰম্ভ কৰিবলে প্ৰয়োজনীয় ফাইলসমূহ সংৰক্ষণ কৰা হয়।"
 
 #: pyanaconda/storage_utils.py:73
 msgid ""
 "The 'root' area on your computer is where core system\n"
 "files and applications are stored."
 msgstr ""
+"আপোনাৰ কমপিউটাৰৰ 'root' স্থান হল যত কেন্দ্ৰীয় চিস্টেম ফাইল আৰি এপ্লিকেচনসমূহ\n"
+"সংৰক্ষণ কৰা হয়।"
 
 #: pyanaconda/storage_utils.py:75
 msgid ""
 "The 'home' area on your computer is where all your personal\n"
 "data is stored."
 msgstr ""
+"আপোনাৰ কমপিউটাৰৰ 'home' স্থান হল যত আপোনাৰ সকলো ব্যক্তিগত\n"
+"তথ্য সংৰক্ষণ কৰা হয়।"
 
 #: pyanaconda/storage_utils.py:77
 msgid ""
 "The BIOS boot partition is required to enable booting\n"
 "from GPT-partitioned disks on BIOS hardware."
 msgstr ""
+"বুটিং সামৰ্থবান কৰিবলে BIOS হাৰ্ডৱেৰত GPT-বিভাজিত ডিস্কসমূহৰ পৰা\n"
+"BIOS বুট বিভাজনৰ প্ৰয়োজন।"
 
 #: pyanaconda/storage_utils.py:79
 msgid ""
 "The PReP boot partition is required as part of the\n"
 "boot loader configuration on some PPC platforms."
 msgstr ""
+"PRep বুট বিভাজনক কিছুমান PPC প্লেটফৰ্মত বুট ল'ডাৰ সংৰূপৰ এটা অংশ\n"
+"হিচাপে প্ৰয়োজন হয়।"
 
 #: pyanaconda/storage_utils.py:185
 #, python-format
@@ -1089,6 +1225,7 @@ msgid ""
 "Your root partition is less than 250 megabytes which is usually too small to "
 "install %s."
 msgstr ""
+"আপোনাৰ ৰুট বিভাজন 250 মেগাবাইটৰ কম যি সাধাৰণত %s ইনস্টল কৰিবলে অত্যাধিক সৰু।"
 
 #: pyanaconda/storage_utils.py:190
 #, python-format
@@ -1096,6 +1233,7 @@ msgid ""
 "You have not defined a root partition (/), which is required for "
 "installation of %s to continue."
 msgstr ""
+"আপুনি এটা ৰুট বিভাজন (/) ৰ বিৰৱণ দিয়া নাই, যি %s ৰ ইনস্টলেষণ আগবাঢ়িবলৈ প্ৰয়োজনীয়।"
 
 #: pyanaconda/storage_utils.py:199
 #, python-format
@@ -1110,6 +1248,8 @@ msgid ""
 "Your %(mount)s partition is too small for %(format)s formatting (allowable "
 "size is %(minSize)s to %(maxSize)s)"
 msgstr ""
+"আপোনাৰ %(mount)s বিভাজন %(format)s ফৰমেটিংৰ বাবে অতি সৰু (অনুমোদিত আকাৰ হল "
+"%(minSize)s ৰ পৰা %(maxSize)s)"
 
 #: pyanaconda/storage_utils.py:215
 #, python-format
@@ -1117,20 +1257,24 @@ msgid ""
 "Your %(mount)s partition is too large for %(format)s formatting (allowable "
 "size is %(minSize)s to %(maxSize)s)"
 msgstr ""
+"আপোনাৰ %(mount)s বিভাজন %(format)s ফৰমেটিংৰ বাবে অতি ডাঙৰ (অনুমোদিত আকাৰ হল "
+"%(minSize)s ৰ পৰা %(maxSize)s)"
 
 #: pyanaconda/storage_utils.py:224
 msgid "No valid boot loader target device found. See below for details."
-msgstr ""
+msgstr "কোনো বৈধ বুট ল'ডাৰ লক্ষ্য ডিভাইচ পোৱা নগল। বিৱৰণৰ বাবে তলত চাওক।"
 
 #: pyanaconda/storage_utils.py:236
 msgid "You have not created a bootable partition."
-msgstr ""
+msgstr "আপুনি এটা বুট কৰিব পৰা বিভাজন সৃষ্টি কৰা নাই।"
 
 #: pyanaconda/storage_utils.py:258
 msgid ""
 "Your BIOS-based system needs a special partition to boot from a GPT disk "
 "label. To continue, please create a 1MiB 'biosboot' type partition."
 msgstr ""
+"আপোনাৰ BIOS-ভিত্তিয় চিস্টেমৰ এটা GPT ডিস্ক লেবেলৰ পৰা বুট হবলে এটা বিশেষ বিভাজনৰ "
+"প্ৰয়োজন। আগবাঢ়িবলৈ, অনুগ্ৰহ কৰি এটা 1MiB 'biosboot' ধৰণ বিভাজন সৃষ্টি কৰক।"
 
 #: pyanaconda/storage_utils.py:269
 #, python-format
@@ -1139,12 +1283,16 @@ msgid ""
 "required to continue installation without a swap partition, but you only "
 "have %(installedMem)s."
 msgstr ""
+"আপুনি এটা শ্বাপ বিভাজন ধাৰ্য্য কৰা নাই। এটা শ্বাপ বিভাজনৰ বাহিৰে ইনস্টল চলাই নিবলে "
+"%(requiredMem)s মেমৰিৰ প্ৰয়োজন, কিন্তু আপোনাৰ কেৱল %(installedMem)s আছে।"
 
 #: pyanaconda/storage_utils.py:276
 msgid ""
 "You have not specified a swap partition.  Although not strictly required in "
 "all cases, it will significantly improve performance for most installations."
 msgstr ""
+"আপুনি এটা স্বাপ বিভাজন ধাৰ্য্য কৰা নাই। যদিও সকলো ক্ষেত্ৰত প্ৰয়োজনীয় নহয়, ই "
+"বেছিৰভাগ ইনস্টলেষণৰ বাবে পৰিৱেশন গুৰুত্বপূৰ্ণভাৱে উন্নত কৰিব।"
 
 #: pyanaconda/storage_utils.py:283
 msgid ""
@@ -1153,17 +1301,21 @@ msgid ""
 "referred to by device path in /etc/fstab, which is not ideal since device "
 "paths can change under a variety of circumstances. "
 msgstr ""
+"আপোনাৰ শ্বাপ ডিভাইচসমূহৰ অন্তত এটাৰ এটা UUID নাই, যি mkswap ৰ পুৰনি সংস্কৰণসমূহ "
+"ব্যৱহাৰ কৰি সৃষ্টি কৰা শ্বাপ স্থানৰ বাবে সাধাৰণ। এই ডিভাইচসমূহক /etc/fstab ত "
+"ডিভাইচ পথৰে প্ৰসংগ কৰা হব, যি সংগত নহয় যিহেতু ডিভাইচ পথসমূহ বিভিন্ন ক্ষেত্ৰত সলনি "
+"হব পাৰে। "
 
 #: pyanaconda/storage_utils.py:294
 #, python-format
 msgid ""
 "This mount point is invalid.  The %s directory must be on the / file system."
-msgstr ""
+msgstr "এই মাউণ্ট বিন্দু অবৈধ। %s ডাইৰেকটৰি / ফাইল চিস্টেমত হব লাগিব।"
 
 #: pyanaconda/storage_utils.py:299
 #, python-format
 msgid "The mount point %s must be on a linux file system."
-msgstr ""
+msgstr "মাউণ্ট বিন্দু %s এটা linux ফাইল চিস্টেমত হব লাগিব।"
 
 #: pyanaconda/storage_utils.py:327
 #, python-format
@@ -1191,32 +1343,32 @@ msgstr ""
 #: pyanaconda/vnc.py:74
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s ইনস্টল প্ৰক্ৰিয়া"
 
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s ইনস্টল host %(name)s ত"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "%s হস্টত vnc গ্ৰাহক সংযোগ কৰাৰ চেষ্টা কৰা হৈছে..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "সংযোগ কৰা হ'ল !"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "সংযোগ কৰিব'লৈ পুনৰ ১৫ ছেকেণ্ডত চেষ্টা কৰিম..."
 
 #: pyanaconda/vnc.py:180
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d চেষ্টাৰ পিচত সংযোগ কৰাৰ চেষ্টা বাদ দিয়া হব!\n"
+msgstr[1] "%d চেষ্টাৰ পিচত সংযোগ কৰাৰ চেষ্টা বাদ দিয়া হব!\n"
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1377,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "ইনস্টল আৰম্ভ কৰিব'লৈ অনুগ্ৰহ কৰি %s লৈ আপোনাৰ vnc গ্ৰাহকক নিজে সংযোগ কৰক।"
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1234,14 +1386,17 @@ msgid ""
 "install. Switch to the shell (Ctrl-B 2) and run 'ip addr' to find the <IP "
 "ADDRESS>."
 msgstr ""
+"ইনস্টল আৰম্ভ কৰিবলে অনুগ্ৰহ কৰি আপোনাৰ vnc ক্লাএণ্টক হস্তচালিতভাৱে <IP ADDRESS>:%s "
+"ৰ সৈতে সংযুক্ত কৰক। শ্বেললে যাওক (Ctrl-B 2) আৰু <IP ADDRESS> জানিবলে 'ip addr' "
+"চলাওক। "
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "VNC আৰম্ভ কৰা হৈছে..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "VNC চাৰ্ভাৰ এতিয়া চলি আছে।"
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1408,13 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"আপুনি এটা listening vncviewer লৈ সংযোগ কৰিব বিচাৰিছে। \n"
+"ইয়াৰ বাবে এটা পাছৱৰ্ড নিৰ্ধাৰণ কৰাৰ প্ৰয়োজন নহয়। যদি আপুনি\n"
+"পাছৱৰ্ড নিৰ্ধাৰণ কৰি, তেনেহ'লে vncviewer লৈ বিফল হোৱা সংযোগৰ \n"
+"ক্ষেত্ৰত ব্যৱহাৰ কৰা হ'ব\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1425,12 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"সকীয়নি !!! VNC চাৰ্ভাৰ কোনো পাছৱৰ্ড নোহোৱাকে চলি আছে !\n"
+"চাৰ্ভাৰক নিৰাপদ কৰিব'লৈ আপুনি \n"
+"self.password=<password> বুট বিকল্প প্ৰয়োগ কৰিব পাৰে।\n"
+"\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1439,10 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"আপুনি পাছৱৰ্ড নোহোৱাকে vnc চলা খুজিছে। \n"
+"\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,20 +1451,26 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"অজ্ঞাত ভূল। এৰি দিয়া হৈছে। \n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
 "VNC password must be six to eight characters long.\n"
 "Please enter a new one, or leave blank for no password."
 msgstr ""
+"VNC পাছৱৰ্ড ছয় অথবা আট আখৰৰ হব লাগিব।\n"
+"অনুগ্ৰহ কৰি এটা নতুন সুমুৱাওক, অথবা কোনো পাছৱৰ্ড নিদিলে ৰিক্ত এৰিব।"
 
 #: pyanaconda/packaging/__init__.py:1230
 msgid "Failed to set up installation source"
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ"
 
 #: pyanaconda/packaging/__init__.py:1231
 msgid "Error downloading package metadata"
-msgstr ""
+msgstr "পেকেইজ মেটাডাটা ডাউনল'ড কৰোতে ত্ৰুটি"
 
 #: pyanaconda/packaging/__init__.py:1232
 msgid "No installation source available"
@@ -1301,83 +1479,83 @@ msgstr ""
 #: pyanaconda/packaging/livepayload.py:98
 #: pyanaconda/packaging/livepayload.py:119
 msgid "Installing software"
-msgstr ""
+msgstr "চফ্টৱেৰ ইনস্টল কৰা হৈছে"
 
 #: pyanaconda/packaging/livepayload.py:220
 #: pyanaconda/packaging/livepayload.py:229
 #, python-format
 msgid "Downloading %(url)s (%(pct)d%%)"
-msgstr ""
+msgstr "%(url)s (%(pct)d%%) ডাউনল'ড কৰা হৈছে"
 
 #: pyanaconda/packaging/livepayload.py:358
 msgid "Checking image checksum"
-msgstr ""
+msgstr "ছবিৰ চেকচাম নিৰীক্ষণ কৰা হৈছে"
 
 #: pyanaconda/packaging/yumpayload.py:1277
 #, python-format
 msgid "CmdlineError: Missing package: %s"
-msgstr ""
+msgstr "CmdlineError: সন্ধানহীন পেকেইজ: %s"
 
 #: pyanaconda/packaging/yumpayload.py:1426
 msgid "Starting package installation process"
-msgstr ""
+msgstr "পেকেইজ ইনস্টল প্ৰক্ৰিয়া আৰম্ভ কৰা হৈছে"
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "ইনস্টল উৎসস্থলৰ পৰা তথ্য বিনিময়ৰ প্ৰস্তুতি চলিছে"
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "ইনস্টল কৰা হৈছে"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
 msgid "Starting pull of %(branchName)s from %(source)s"
-msgstr ""
+msgstr "%(source)s ৰ পৰা %(branchName)s ৰ পুল আৰম্ভ কৰা হৈছে"
 
 #: pyanaconda/packaging/rpmostreepayload.py:174
 #, python-format
 msgid "Preparing deployment of %s"
-msgstr ""
+msgstr "%s ৰ মোতায়েন প্ৰস্তুত কৰা হৈছে"
 
 #: pyanaconda/packaging/rpmostreepayload.py:186
 #, python-format
 msgid "Deployment starting: %s"
-msgstr ""
+msgstr "মোতায়েন আৰম্ভ কৰা হৈছে: %s"
 
 #: pyanaconda/packaging/rpmostreepayload.py:189
 #, python-format
 msgid "Deployment complete: %s"
-msgstr ""
+msgstr "মোতায়েন সম্পূৰ্ণ: %s"
 
 #: pyanaconda/ui/helpers.py:95 pyanaconda/ui/tui/spokes/storage.py:431
 msgid "Checking storage configuration..."
-msgstr ""
+msgstr "সংৰক্ষণ সংৰূপ নিৰীক্ষণ কৰা হৈছে..."
 
 #: pyanaconda/ui/categories/__init__.py:48
 msgid "DEFAULT TITLE"
-msgstr ""
+msgstr "অবিকল্পিত শীৰ্ষক"
 
 #: pyanaconda/ui/categories/customization.py:32
 msgid "CUSTOMIZATION"
-msgstr ""
+msgstr "স্বনিৰ্বাচন"
 
 #: pyanaconda/ui/categories/localization.py:31
 msgid "LOCALIZATION"
-msgstr ""
+msgstr "স্থানীয়কৰণ"
 
 #: pyanaconda/ui/categories/software.py:31
 msgid "SOFTWARE"
-msgstr ""
+msgstr "চফ্টৱেৰ"
 
 #: pyanaconda/ui/categories/system.py:32
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:166
 msgid "SYSTEM"
-msgstr ""
+msgstr "চিস্টেম"
 
 #: pyanaconda/ui/categories/user_settings.py:32
 msgid "USER SETTINGS"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী সংহতিসমূহ"
 
 #: pyanaconda/ui/lib/space.py:37
 #, python-format
@@ -1385,14 +1563,16 @@ msgid ""
 "Not enough space in file systems for the current software selection. An "
 "additional %s is needed."
 msgstr ""
+"বৰ্তমান চফ্টৱেৰ নিৰ্বাচনৰ বাবে ফাইল চিস্টেমসমূহত পৰ্যাপ্ত স্থান নাই। এটা অতিৰিক্ত %s "
+"ৰ প্ৰয়োজন।"
 
 #: pyanaconda/ui/lib/entropy.py:58
 msgid "The system needs more random data entropy"
-msgstr ""
+msgstr "চিস্টেমৰ অধিক তথ্য এনট্ৰপিৰ প্ৰয়োজন"
 
 #: pyanaconda/ui/lib/entropy.py:67
 msgid "Entropy can be increased by typing randomly on keyboard"
-msgstr ""
+msgstr "এনট্ৰপিক কিবৰ্ডত যাদৃচ্ছিকভাৱে টাইপ কৰি বৃদ্ধি কৰিব পাৰি"
 
 #: pyanaconda/ui/lib/entropy.py:68
 #, python-format
@@ -1413,17 +1593,16 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
 msgid ""
 "Available entropy: %(av_entr)s, Required entropy: %(req_entr)s [%(pct)d %%]"
-msgstr ""
+msgstr "উপলব্ধ এনট্ৰপি: %(av_entr)s, প্ৰয়োজনীয় এনট্ৰপি: %(req_entr)s [%(pct)d %%]"
 
 #: pyanaconda/ui/lib/entropy.py:107
 msgid "Enough entropy gathered, please stop typing."
-msgstr ""
+msgstr "পৰ্যাপ্ত এনট্ৰপি গুটোৱা হৈছে, অনুগ্ৰহ কৰি টাইপ কৰা বন্ধ কৰক।"
 
 #: pyanaconda/ui/lib/entropy.py:110
 #, python-format
@@ -1441,15 +1620,14 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
-msgstr ""
+msgstr "ইনস্টলেষণ"
 
 #: pyanaconda/ui/tui/hubs/summary.py:51
 msgid "Starting automated install"
-msgstr ""
+msgstr " স্বচালিত ইনস্টল আৰম্ভ কৰা হৈছে"
 
 #. TRANSLATORS: 'b' to begin installation
 #: pyanaconda/ui/tui/hubs/summary.py:93
@@ -1457,16 +1635,18 @@ msgstr ""
 msgid "Enter '%s' to ignore the warning and attempt to install anyway."
 msgstr ""
 
+# translation auto-copied from project anaconda, version rhel7-branch,
+# document anaconda
 #. TRANSLATORS: 'b' to begin installation
 #: pyanaconda/ui/tui/hubs/summary.py:95 pyanaconda/ui/tui/hubs/summary.py:122
 #: pyanaconda/ui/tui/hubs/summary.py:139
 msgctxt "TUI|Spoke Navigation"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #: pyanaconda/ui/tui/hubs/summary.py:104
 msgid "The following mandatory spokes are not completed:"
-msgstr ""
+msgstr "নিম্নলিখিত বাধ্যতামূলক স্পৌকবোৰ সম্পূৰ্ণ হোৱা নাই:"
 
 #: pyanaconda/ui/tui/hubs/summary.py:118
 #, python-format
@@ -1483,7 +1663,7 @@ msgstr ""
 #: pyanaconda/ui/tui/simpleline/base.py:634
 msgctxt "TUI|Spoke Navigation"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 #. TRANSLATORS: 'r' to refresh
 #. TRANSLATORS:'r' to refresh
@@ -1495,16 +1675,16 @@ msgstr ""
 #: pyanaconda/ui/tui/simpleline/base.py:638
 msgctxt "TUI|Spoke Navigation"
 msgid "r"
-msgstr ""
+msgstr "r"
 
 #: pyanaconda/ui/tui/hubs/summary.py:142
 #: pyanaconda/ui/tui/hubs/__init__.py:114
 msgid "Please complete all spokes before continuing"
-msgstr ""
+msgstr "অনুগ্ৰহ কৰি আগবঢ়াৰ আগত সকলো স্পৌক সম্পূৰ্ণ কৰক"
 
 #: pyanaconda/ui/tui/hubs/__init__.py:41
 msgid "Default HUB title"
-msgstr ""
+msgstr "অবিকল্পিত HUB শীৰ্ষক"
 
 #: pyanaconda/ui/tui/hubs/__init__.py:131
 #, python-format
@@ -1516,17 +1696,17 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "ভুল"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
-msgstr ""
+msgstr "প্ৰস্থান কৰিবলে enter টিপক।"
 
 #: pyanaconda/ui/tui/tuiobject.py:64 pyanaconda/ui/tui/spokes/password.py:70
 #: pyanaconda/ui/gui/spokes/password.glade.h:4
 #: pyanaconda/ui/gui/spokes/user.glade.h:8
 msgid "Password"
-msgstr ""
+msgstr "পাছৱৰ্ড"
 
 #: pyanaconda/ui/tui/tuiobject.py:85
 msgid "Passphrase: "
@@ -1534,32 +1714,36 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:111
 msgid "Question"
-msgstr ""
+msgstr "প্ৰশ্ন"
 
 #: pyanaconda/ui/tui/tuiobject.py:134
 #, python-format
 msgid "Please respond '%(yes)s' or '%(no)s': "
 msgstr ""
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #. TRANSLATORS: 'yes' as positive reply
 #: pyanaconda/ui/tui/tuiobject.py:136 pyanaconda/ui/tui/tuiobject.py:143
 msgctxt "TUI|Spoke Navigation"
 msgid "yes"
-msgstr ""
+msgstr "হয়"
 
+# translation auto-copied from project anaconda, version f22-branch, document
+# anaconda
 #. TRANSLATORS: 'no' as negative reply
 #: pyanaconda/ui/tui/tuiobject.py:138 pyanaconda/ui/tui/tuiobject.py:149
 msgctxt "TUI|Spoke Navigation"
 msgid "no"
-msgstr ""
+msgstr "নহয়"
 
 #: pyanaconda/ui/tui/simpleline/base.py:90
 msgid "Do you really want to quit?"
-msgstr ""
+msgstr "আপুনি সঁচাকৈ প্ৰস্থান কৰিব বিচাৰে নেকি?"
 
 #: pyanaconda/ui/tui/simpleline/base.py:581 anaconda:526
 msgid "Press ENTER to continue"
-msgstr ""
+msgstr "আগবাঢ়িবলৈ ENTER টিপক"
 
 #: pyanaconda/ui/tui/simpleline/base.py:632
 #, python-format
@@ -1571,7 +1755,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:40
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:56
 msgid ""
@@ -1579,64 +1763,71 @@ msgid ""
 "connect to this computer from another computer and perform a graphical "
 "installation or continue with a text mode installation?"
 msgstr ""
+"X এ আপোনাৰ মেচিন আৰম্ভ কৰিবলে সক্ষম নাছিল।   আপুনি এটা গ্ৰাফিকেল ইনস্টলেষণ "
+"পৰিৱেশন কৰিবলে অন্য কমপিউটাৰৰ পৰা এই কমপিউটাৰলে সংযোগ কৰাৰ বাবে VNC আৰম্ভ কৰিব "
+"বিচাৰে নে এটা লিখনি অৱস্থা ইনস্টলেষণৰ সৈতে অব্যাহত থাকিব বিচাৰে?"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:104
 msgid "q"
-msgstr ""
+msgstr "q"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:120
 msgid "VNC Password"
-msgstr ""
+msgstr "VNC পাছৱৰ্ড"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:128
 msgid ""
 "Please provide VNC password (must be six to eight characters long).\n"
 "You will have to type it twice. Leave blank for no password"
 msgstr ""
+"অনুগ্ৰহ কৰি VNC পাছৱৰ্ড প্ৰদান কৰক (ছয়ৰ পৰা আঠ আখৰ দীঘল হব লাগিব)। আপুনি ইয়াক "
+"দুবাৰ টাইপ কৰিব লাগিব। কোনো পাছৱৰ্ড নিদিলে খালি এৰক"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:147
 #: pyanaconda/ui/gui/spokes/network.py:1404
 msgid "Password: "
-msgstr ""
+msgstr "পাছৱৰ্ড: "
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:148
 msgid "Password (confirm): "
-msgstr ""
+msgstr "পাছৱৰ্ড (সুনিশ্চিত কৰক): "
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:151
 msgid "Passwords do not match!"
-msgstr ""
+msgstr "পাছৱৰ্ডসমূহ মিল নাখায়!"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "পাছৱৰ্ড অতি কমেও ৬টা আখৰ দীঘল হ'ব লাগে।"
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
-msgstr ""
+msgstr "পাছৱৰ্ড আঠ আখৰতকৈ অধিক হব নোৱাৰিব।"
 
 #: pyanaconda/ui/tui/spokes/langsupport.py:39
 msgid "Language settings"
-msgstr ""
+msgstr "ভাষা সংহতিসমূহ"
 
 #: pyanaconda/ui/tui/spokes/langsupport.py:71
 msgid "Language is not set."
-msgstr ""
+msgstr "ভাষা সংহিত নহয়।"
 
 #: pyanaconda/ui/tui/spokes/langsupport.py:81
 msgid "Available locales"
-msgstr ""
+msgstr "উপলব্ধ স্থানীয়সমূহ"
 
 #: pyanaconda/ui/tui/spokes/langsupport.py:84
 msgid "Available languages"
-msgstr ""
+msgstr "উপলব্ধ ভাষাসমূহ"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #. TRANSLATORS: 'b' to go back
 #: pyanaconda/ui/tui/spokes/langsupport.py:118
 #: pyanaconda/ui/tui/spokes/langsupport.py:128
 msgctxt "TUI|Spoke Navigation|Language Support"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #: pyanaconda/ui/tui/spokes/langsupport.py:126
 #, python-format
@@ -1646,51 +1837,55 @@ msgid ""
 "quit]: "
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #. TRANSLATORS:'c' to continue
 #: pyanaconda/ui/tui/spokes/langsupport.py:130
 msgctxt "TUI|Spoke Navigation|Language Support"
 msgid "c"
-msgstr ""
+msgstr "c"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #. TRANSLATORS:'q' to quit
 #: pyanaconda/ui/tui/spokes/langsupport.py:132
 msgctxt "TUI|Spoke Navigation|Language Support"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 #: pyanaconda/ui/tui/spokes/network.py:47
 msgid "Network configuration"
-msgstr ""
+msgstr "নেটৱৰ্ক সংৰূপ"
 
 #: pyanaconda/ui/tui/spokes/network.py:111
 #, python-format
 msgid "Wired (%(interface_name)s) disconnected\n"
-msgstr ""
+msgstr "তাঁৰযুক্ত (%(interface_name)s) বিচ্ছিন্নিত\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:116
 #, python-format
 msgid "Wired (%(interface_name)s) connected\n"
-msgstr ""
+msgstr "তাঁৰযুক্ত (%(interface_name)s) সংযুক্ত\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:128
 #, python-format
 msgid " IPv4 Address: %(addr)s Netmask: %(netmask)s Gateway: %(gateway)s\n"
-msgstr ""
+msgstr " IPv4 ঠিকনা: %(addr)s নেটমাস্ক: %(netmask)s গেইটৱে: %(gateway)s\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:130
 #, python-format
 msgid " DNS: %s\n"
-msgstr ""
+msgstr " DNS: %s\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:137
 #, python-format
 msgid " IPv6 Address: %(addr)s/%(prefix)d\n"
-msgstr ""
+msgstr " IPv6 ঠিকনা: %(addr)s/%(prefix)d\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:151
 #, python-format
 msgid "Host name: %s\n"
-msgstr ""
+msgstr "হস্ট নাম: %s\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:153
 #, python-format
@@ -1699,18 +1894,18 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:165
 msgid "Set host name"
-msgstr ""
+msgstr "হস্ট নাম সংহতি কৰক"
 
 #: pyanaconda/ui/tui/spokes/network.py:167
 #, python-format
 msgid "Configure device %s"
-msgstr ""
+msgstr "ডিভাইচ %s সংৰূপণ কৰক"
 
 #: pyanaconda/ui/tui/spokes/network.py:186
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:6
 #: pyanaconda/ui/gui/spokes/network.glade.h:51
 msgid "Host name"
-msgstr ""
+msgstr "হস্ট নাম"
 
 #: pyanaconda/ui/tui/spokes/network.py:219
 msgid "Configuration not saved: netmask missing in static configuration"
@@ -1718,7 +1913,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:237
 msgid "Can't apply configuration, device activation failed."
-msgstr ""
+msgstr "সংৰূপ প্ৰয়োগ কৰিব নোৱাৰি, ডিভাইচৰ সক্ৰিয়কৰণ ব্যৰ্থ হল।"
 
 #: pyanaconda/ui/tui/spokes/network.py:279
 #: pyanaconda/ui/gui/spokes/network.py:1568
@@ -1727,24 +1922,24 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:1673
 #, python-format
 msgid "Host name is not valid: %s"
-msgstr ""
+msgstr "হস্ট নাম বৈধ নহয়: %s"
 
 #: pyanaconda/ui/tui/spokes/network.py:310
 msgid "Device configuration"
-msgstr ""
+msgstr "ডিভাইচৰ সংৰূপ"
 
 #: pyanaconda/ui/tui/spokes/network.py:314
 #, python-format
 msgid "IPv4 address or %s for DHCP"
-msgstr ""
+msgstr "DHCP ৰ বাবে IPv4 ঠিকনা অথবা %s"
 
 #: pyanaconda/ui/tui/spokes/network.py:316
 msgid "IPv4 netmask"
-msgstr ""
+msgstr "IPv4 নেটমাস্ক"
 
 #: pyanaconda/ui/tui/spokes/network.py:317
 msgid "IPv4 gateway"
-msgstr ""
+msgstr "IPv4 গেইটৱে"
 
 #: pyanaconda/ui/tui/spokes/network.py:318
 #, python-format
@@ -1755,24 +1950,24 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/network.py:321
 msgid "IPv6 default gateway"
-msgstr ""
+msgstr "IPv6 অবিকল্পিত গেইটৱে"
 
 #: pyanaconda/ui/tui/spokes/network.py:322
 msgid "Nameservers (comma separated)"
-msgstr ""
+msgstr "নেইমচাৰ্ভাৰসমূহ (কমা পৃথকিত)"
 
 #: pyanaconda/ui/tui/spokes/network.py:323
 msgid "Connect automatically after reboot"
-msgstr ""
+msgstr "পুনৰাম্ভৰ পিছত স্বচালিতভাৱে সংযোগ কৰক"
 
 #: pyanaconda/ui/tui/spokes/network.py:324
 msgid "Apply configuration in installer"
-msgstr ""
+msgstr "ইনস্টলাৰত সংৰূপ প্ৰয়োগ কৰক"
 
 #: pyanaconda/ui/tui/spokes/network.py:339
 #, python-format
 msgid "Configuring device %s."
-msgstr ""
+msgstr "ডিভাইচ %s সংৰূপণ কৰা হৈছে।"
 
 #: pyanaconda/ui/tui/spokes/network.py:344
 msgid "Bad format of the IP address"
@@ -1784,64 +1979,64 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/password.py:32
 msgid "Root password"
-msgstr ""
+msgstr "ৰুট পাছৱৰ্ড"
 
 #: pyanaconda/ui/tui/spokes/password.py:55
 msgid "Password is set."
-msgstr ""
+msgstr "পাছৱৰ্ড সংহতি কৰা আছে।"
 
 #: pyanaconda/ui/tui/spokes/password.py:57
 msgid "Root account is disabled."
-msgstr ""
+msgstr "ৰুট একাওণ্ট অসামৰ্থবান।"
 
 #: pyanaconda/ui/tui/spokes/password.py:59
 msgid "Password is not set."
-msgstr ""
+msgstr "পাছৱৰ্ড সংহতি কৰা হোৱা নাই।"
 
 #: pyanaconda/ui/tui/spokes/password.py:64
 msgid "Please select new root password. You will have to type it twice."
-msgstr ""
+msgstr "অনুগ্ৰহ কৰি নতুন ৰুট পাছৱৰ্ড বাছক। আপুনি ইয়াক দুবাৰ টাইপ কৰিব লাগিব।"
 
 #: pyanaconda/ui/tui/spokes/storage.py:55
 msgid "Use All Space"
-msgstr ""
+msgstr "সকলো স্থান ব্যৱহাৰ কৰক"
 
 #: pyanaconda/ui/tui/spokes/storage.py:56
 msgid "Replace Existing Linux system(s)"
-msgstr ""
+msgstr "স্থায়ী Linux চিস্টেম(সমূহ) প্ৰতিস্থাপন কৰক"
 
 #: pyanaconda/ui/tui/spokes/storage.py:57
 msgid "Use Free Space"
-msgstr ""
+msgstr "ৰিক্ত স্থান ব্যৱহাৰ কৰক"
 
 #: pyanaconda/ui/tui/spokes/storage.py:67
 msgid "Installation Destination"
-msgstr ""
+msgstr "ইনস্টলেষণৰ গন্তব্য"
 
 #: pyanaconda/ui/tui/spokes/storage.py:119
 #: pyanaconda/ui/gui/spokes/storage.py:427
 msgid "No disks selected"
-msgstr ""
+msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
 
 #: pyanaconda/ui/tui/spokes/storage.py:129
 #: pyanaconda/ui/gui/spokes/storage.py:439
 msgid "Error checking storage configuration"
-msgstr ""
+msgstr "সংৰক্ষণ সংৰূপ নিৰীক্ষণ কৰোতে ত্ৰুটি"
 
 #: pyanaconda/ui/tui/spokes/storage.py:131
 #: pyanaconda/ui/gui/spokes/storage.py:441
 msgid "Warning checking storage configuration"
-msgstr ""
+msgstr "সংৰক্ষণ সংৰূপ নিৰীক্ষণ কৰোতে সতৰ্কবাৰ্তা"
 
 #: pyanaconda/ui/tui/spokes/storage.py:134
 #: pyanaconda/ui/gui/spokes/storage.py:443
 msgid "Automatic partitioning selected"
-msgstr ""
+msgstr "স্বচালিত বিভাজন নিৰ্বাচন কৰা হৈছে"
 
 #: pyanaconda/ui/tui/spokes/storage.py:136
 #: pyanaconda/ui/gui/spokes/storage.py:445
 msgid "Custom partitioning selected"
-msgstr ""
+msgstr "স্বনিৰ্বাচিত বিভাজন নিৰ্বাচন কৰা হৈছে"
 
 #: pyanaconda/ui/tui/spokes/storage.py:172
 #: pyanaconda/ui/gui/spokes/storage.py:702
@@ -1849,22 +2044,25 @@ msgid ""
 "No disks detected.  Please shut down the computer, connect at least one "
 "disk, and restart to complete installation."
 msgstr ""
+"কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই। অনুগ্ৰহ কৰি কমপিউটাৰ বন্ধ কৰক, অন্তত এটা ডিস্ক "
+"সংযোগ কৰক, আৰু ইনস্টলেষণ সম্পূৰ্ণ কৰিবলে পুনৰাম্ভ কৰক।"
 
 #: pyanaconda/ui/tui/spokes/storage.py:174
 #: pyanaconda/ui/gui/spokes/storage.py:706
 msgid "No disks selected; please select at least one disk to install to."
 msgstr ""
+"কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই; অনুগ্ৰহ কৰি ইনস্টল কৰিবলে অন্তত এটা ডিস্ক বাছক।"
 
 #: pyanaconda/ui/tui/spokes/storage.py:189
 #: pyanaconda/ui/tui/spokes/source.py:376
 #: pyanaconda/ui/gui/spokes/source.py:679
 #: pyanaconda/ui/gui/spokes/storage.py:653
 msgid "Probing storage..."
-msgstr ""
+msgstr "সংৰক্ষণ বিশ্লেষণ কৰা হৈছে..."
 
 #: pyanaconda/ui/tui/spokes/storage.py:210
 msgid "Select all"
-msgstr ""
+msgstr "সকলো বাছক"
 
 #: pyanaconda/ui/tui/spokes/storage.py:337
 msgid ""
@@ -1881,40 +2079,46 @@ msgid ""
 "\n"
 "Proceed to run dasdfmt?\n"
 msgstr ""
+"<b>সতৰ্কবাৰ্তা:</b> ইনস্টলাৰ ব্যৱহাৰ কৰি কৰা সকলো সংৰক্ষণ পৰিবৰ্তন হেৰাই যাব যদি "
+"আপুনি ফৰমেট কৰে।\n"
+"\n"
+"dasdfmt চলাব নে?\n"
 
 #: pyanaconda/ui/tui/spokes/storage.py:357
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.py:94
 #, python-format
 msgid "Formatting /dev/%s. This may take a moment."
-msgstr ""
+msgstr "/dev/%s ফৰমেট কৰা হৈছে। ই কিছু সময় লব পাৰে।"
 
 #: pyanaconda/ui/tui/spokes/storage.py:410
 msgid "Generating updated storage configuration"
-msgstr ""
+msgstr "আপডেইটেড সংৰক্ষণ সংৰূপ সৃজন কৰা হৈছে"
 
 #: pyanaconda/ui/tui/spokes/storage.py:415
 #: pyanaconda/ui/tui/spokes/storage.py:427
 #, python-format
 msgid "storage configuration failed: %s"
-msgstr ""
+msgstr "সংৰক্ষণ সংৰূপ ব্যৰ্থ হল: %s"
 
 #: pyanaconda/ui/tui/spokes/storage.py:474
 msgid "Autopartitioning Options"
-msgstr ""
+msgstr "স্ববিভাজন বিকল্পসমূহ"
 
 #: pyanaconda/ui/tui/spokes/storage.py:500
 msgid ""
 "Installation requires partitioning of your hard drive. Select what space to "
 "use for the install target."
 msgstr ""
+"ইনস্টলেষণ কৰিবলে আপোনাৰ হাৰ্ড ড্ৰাইভ বিভাজন কৰিব লাগিব।  ইনস্টল লক্ষ্যৰ বাবে কোন "
+"স্থান ব্যৱহাৰ কৰা হব  বাছক।"
 
 #: pyanaconda/ui/tui/spokes/storage.py:540
 msgid "Partition Scheme Options"
-msgstr ""
+msgstr "বিভাজন আঁচনি বিকল্পসমূহ"
 
 #: pyanaconda/ui/tui/spokes/storage.py:564
 msgid "Select a partition scheme configuration."
-msgstr ""
+msgstr "এটা বিভাজন আঁচনি সংৰূপ বাছক।"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:41
 msgid "status: working"
@@ -1937,11 +2141,11 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:523
 #, python-format
 msgid "%s timezone"
-msgstr ""
+msgstr "%s সময়অঞ্চল"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:186
 msgid "Timezone is not set."
-msgstr ""
+msgstr "সময়অঞ্চল সংহতি কৰা হোৱা নাই।"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:196
 msgid "not set"
@@ -1975,16 +2179,16 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:271
 msgid "Timezone settings"
-msgstr ""
+msgstr "সময়অঞ্চল সংহতিসমূহ"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:298
 #, python-format
 msgid "Available timezones in region %s"
-msgstr ""
+msgstr "অঞ্চল %s ত উপলব্ধ সময়অঞ্চলসমূহ"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:301
 msgid "Available regions"
-msgstr ""
+msgstr "উপলব্ধ অঞ্চলসমূহ"
 
 #. TRANSLATORS: 'b' to go back
 #: pyanaconda/ui/tui/spokes/time_spoke.py:340
@@ -2000,17 +2204,21 @@ msgid ""
 "quit]: "
 msgstr ""
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #. TRANSLATORS: 'b' to go back
 #: pyanaconda/ui/tui/spokes/time_spoke.py:366
 msgctxt "TUI|Spoke Navigation|Time Settings"
 msgid "b"
-msgstr ""
+msgstr "b"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #. TRANSLATORS:'q' to quit
 #: pyanaconda/ui/tui/spokes/time_spoke.py:368
 msgctxt "TUI|Spoke Navigation|Time Settings"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:376
 msgid "NTP configuration"
@@ -2042,43 +2250,43 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/shell_spoke.py:33
 msgid "Shell"
-msgstr ""
+msgstr "শ্বেল"
 
 #: pyanaconda/ui/tui/spokes/shell_spoke.py:48
 msgid "Start shell"
-msgstr ""
+msgstr "শ্বেল আৰম্ভ কৰক"
 
 #: pyanaconda/ui/tui/spokes/shell_spoke.py:57
 msgid "Exit the shell to continue"
-msgstr ""
+msgstr "আগবাঢ়িবলৈ শ্বেল প্ৰস্থান কৰক"
 
 #: pyanaconda/ui/tui/spokes/source.py:54
 msgid "Installation source"
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস"
 
 #: pyanaconda/ui/tui/spokes/source.py:57
 #: pyanaconda/ui/tui/spokes/source.py:117
 #: pyanaconda/ui/gui/spokes/source.py:569
 #: pyanaconda/ui/gui/spokes/source.glade.h:24
 msgid "Closest mirror"
-msgstr ""
+msgstr "নিকটতম মিৰৰ"
 
 #: pyanaconda/ui/tui/spokes/source.py:109
 #: pyanaconda/ui/gui/spokes/source.py:561
 #, python-format
 msgid "NFS server %s"
-msgstr ""
+msgstr "NFS চাৰ্ভাৰ %s"
 
 #: pyanaconda/ui/tui/spokes/source.py:111
 #: pyanaconda/ui/gui/spokes/source.py:563
 msgid "Local media"
-msgstr ""
+msgstr "স্থানীয় মাধ্যম"
 
 #: pyanaconda/ui/tui/spokes/source.py:114
 #: pyanaconda/ui/tui/spokes/source.py:128
 #: pyanaconda/ui/gui/spokes/source.py:557
 msgid "Error setting up software source"
-msgstr ""
+msgstr "চফ্টৱেৰ উৎস সংস্থাপন কৰোতে ত্ৰুটি"
 
 #: pyanaconda/ui/tui/spokes/source.py:119
 #: pyanaconda/ui/tui/spokes/software.py:87
@@ -2087,100 +2295,100 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/software.py:289
 #: pyanaconda/ui/gui/spokes/source.py:571
 msgid "Nothing selected"
-msgstr ""
+msgstr "একো নিৰ্বাচন কৰা হোৱা নাই"
 
 #: pyanaconda/ui/tui/spokes/source.py:130
 #: pyanaconda/ui/tui/spokes/software.py:67
 msgid "Processing..."
-msgstr ""
+msgstr "প্ৰক্ৰিয়াকৰণ কৰা হৈছে..."
 
 #: pyanaconda/ui/tui/spokes/source.py:148
 #: pyanaconda/ui/gui/spokes/source.py:887
 msgid ""
 "The installation source is in use by the installer and cannot be changed."
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস ইনস্টলাৰ দ্বাৰা ব্যৱহৃত আৰু পৰিবৰ্তন কৰিব নোৱাৰি।"
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "CD/DVD"
-msgstr ""
+msgstr "CD/DVD"
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "local ISO file"
-msgstr ""
+msgstr "স্থানীয় ISO ফাইল"
 
 #: pyanaconda/ui/tui/spokes/source.py:152
 msgid "Network"
-msgstr ""
+msgstr "নেটৱৰ্ক"
 
 #: pyanaconda/ui/tui/spokes/source.py:156
 msgid "Choose an installation source type."
-msgstr ""
+msgstr "এটা ইনস্টলেষণ উৎস ধৰণ বাছক।"
 
 #: pyanaconda/ui/tui/spokes/source.py:253
 #: pyanaconda/ui/tui/spokes/source.py:291
 msgid "Specify Repo Options"
-msgstr ""
+msgstr "ভঁৰালৰ বিকল্পসমূহ ধাৰ্য্য কৰক"
 
 #: pyanaconda/ui/tui/spokes/source.py:257
 msgid "Repo URL"
-msgstr ""
+msgstr "ভঁৰালৰ URL"
 
 #: pyanaconda/ui/tui/spokes/source.py:295
 msgid "<server>:/<path>"
-msgstr ""
+msgstr "<server>:/<path>"
 
 #: pyanaconda/ui/tui/spokes/source.py:296
 msgid "NFS mount options"
-msgstr ""
+msgstr "NFS মাউণ্ট বিকল্পসমূহ"
 
 #: pyanaconda/ui/tui/spokes/source.py:338
 msgid "Select device containing the ISO file"
-msgstr ""
+msgstr "ISO ফাইল অন্তৰ্ভুক্ত কৰা ডিভাইচ বাছক"
 
 #: pyanaconda/ui/tui/spokes/source.py:397
 msgid "No mountable devices found"
-msgstr ""
+msgstr "কোনো মাউণ্ট কৰিব পৰা ডিভাইচ পোৱা নগল"
 
 #: pyanaconda/ui/tui/spokes/source.py:425
 msgid "Select an ISO to use as install source"
-msgstr ""
+msgstr "ইনস্টল উৎস ৰূপে ব্যৱহাৰ কৰিবলৈ এটা ISO বাছক"
 
 #: pyanaconda/ui/tui/spokes/source.py:454
 msgid "No *.iso files found in device root folder"
-msgstr ""
+msgstr "ডিভাইচৰ ৰুট ফোল্ডাৰত কোনো *.iso ফাইল পোৱা নগল"
 
 #: pyanaconda/ui/tui/spokes/software.py:39
 msgid "Software selection"
-msgstr ""
+msgstr "চফ্টৱেৰ নিৰ্বাচন"
 
 #: pyanaconda/ui/tui/spokes/software.py:65
 #: pyanaconda/ui/gui/spokes/software.py:262
 msgid "Error checking software selection"
-msgstr ""
+msgstr "চফ্টৱেৰ নিৰ্বাচন নিৰীক্ষণ কৰোতে ত্ৰুটি"
 
 #: pyanaconda/ui/tui/spokes/software.py:69
 #: pyanaconda/ui/gui/spokes/software.py:265
 msgid "Installation source not set up"
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰা হোৱা নাই"
 
 #: pyanaconda/ui/tui/spokes/software.py:71
 #: pyanaconda/ui/gui/spokes/software.py:268
 msgid "Source changed - please verify"
-msgstr ""
+msgstr "উৎস পৰিবৰ্তন হৈছে - অনুগ্ৰহ কৰি সতাসত্য নিৰূপণ কৰক"
 
 #: pyanaconda/ui/tui/spokes/software.py:86
 #: pyanaconda/ui/gui/spokes/software.py:275
 msgid "Custom software selected"
-msgstr ""
+msgstr "স্বনিৰ্বাচিত চফ্টৱেৰ নিৰ্বাচন কৰা হৈছে"
 
 #: pyanaconda/ui/tui/spokes/software.py:111
 msgid "Installation source needs to be set up first."
-msgstr ""
+msgstr "ইনস্টলেষণ উৎসক প্ৰথমতে সংস্থাপন কৰাটো প্ৰয়োজনীয়।"
 
 #: pyanaconda/ui/tui/spokes/software.py:121
 #: pyanaconda/ui/tui/spokes/software.py:131
 msgid "Base environment"
-msgstr ""
+msgstr "ভিত্তি পৰিৱেশ"
 
 #: pyanaconda/ui/tui/spokes/software.py:208
 msgid "Checking software selection"
@@ -2188,25 +2396,25 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/user.py:37
 msgid "User creation"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী সৃষ্টিকৰণ"
 
 #: pyanaconda/ui/tui/spokes/user.py:121 pyanaconda/ui/gui/spokes/user.py:356
 msgid "No user will be created"
-msgstr ""
+msgstr "কোনো ব্যৱহাৰকাৰী সৃষ্টি কৰা নহব"
 
 #: pyanaconda/ui/tui/spokes/user.py:123
 msgid "You must set a password"
-msgstr ""
+msgstr "আপুনি এটা পাছৱৰ্ড সংহতি কৰিব লাগিব"
 
 #: pyanaconda/ui/tui/spokes/user.py:125 pyanaconda/ui/gui/spokes/user.py:358
 #, python-format
 msgid "Administrator %s will be created"
-msgstr ""
+msgstr "প্ৰশাসক %s সৃষ্টি কৰা হব"
 
 #: pyanaconda/ui/tui/spokes/user.py:127 pyanaconda/ui/gui/spokes/user.py:360
 #, python-format
 msgid "User %s will be created"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী %s সৃষ্টি কৰা হব"
 
 #: pyanaconda/ui/tui/spokes/user.py:137
 msgid "Full name can't contain the ':' character"
@@ -2227,7 +2435,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/warnings.py:36
 msgid "Warnings"
-msgstr ""
+msgstr "সতৰ্কবাৰ্তাসমূহ"
 
 #: pyanaconda/ui/tui/spokes/warnings.py:44
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:21
@@ -2236,10 +2444,12 @@ msgid ""
 "more information on supported hardware, please refer to http://www.redhat."
 "com/hardware."
 msgstr ""
+"এই হাৰ্ডৱেৰ (অথবা সংযুক্তি) Red Hat দ্বাৰা সমৰ্থিত নহয়। সমৰ্থিত হাৰ্ডৱেৰৰ বিষয়ে "
+"অধিক তথ্যৰ বাবে, অনুগ্ৰহ কৰি http://www.redhat.com/hardware চাওক।"
 
 #: pyanaconda/ui/tui/spokes/progress.py:37
 msgid "Progress"
-msgstr ""
+msgstr "প্ৰগ্ৰতি"
 
 #: pyanaconda/ui/tui/spokes/progress.py:139
 #, python-format
@@ -2248,51 +2458,59 @@ msgid ""
 "\n"
 "\tInstallation complete.  Press return to quit"
 msgstr ""
+"\tএই উৎপাদনৰ ব্যৱহাৰ %s ত উপলব্ধ অনুজ্ঞা চুক্তিৰ অধিন\n"
+"\n"
+"\tইনস্টলেষণ সম্পূৰ্ণ।  প্ৰস্থান কৰিবলৈ return টিপক"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:49
 msgid "Default spoke title"
-msgstr ""
+msgstr "অবিকল্পিত স্পৌক শীৰ্ষক"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:61
 msgid "testing status..."
-msgstr ""
+msgstr "অৱস্থা পৰিক্ষা কৰা হৈছে..."
 
 #: pyanaconda/ui/tui/spokes/__init__.py:106
 msgid "New value"
-msgstr ""
+msgstr "নতুন মান"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:134
 #, python-format
 msgid "%s: "
-msgstr ""
+msgstr "%s: "
 
 #: pyanaconda/ui/tui/spokes/__init__.py:135
 #, python-format
 msgid "%s (confirm): "
-msgstr ""
+msgstr "%s (সুনিশ্চিত কৰক):"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:138
 msgid ""
 "You must enter your root password and confirm it by typing it a second time "
 "to continue."
 msgstr ""
+"আপুনি আগবাঢ়িবলৈ ৰূটৰ পাছৱৰ্ড দি সেইটোকে দ্বিতীয় বাৰ টাইপ কৰি সুনিশ্চিত কৰিব লাগিব।"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:162
 msgid ""
 "\n"
 "Would you like to use it anyway?"
 msgstr ""
+"\n"
+"আপুনি ইয়াক তথাপিও ব্যৱহাৰ কৰিব বিচাৰে নে?"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:179
 msgid ""
 "You have provided a password containing non-ASCII characters.\n"
 "You may not be able to switch between keyboard layouts to login.\n"
 msgstr ""
+"আপুনি নন-ASCII আখৰ থকা এটা পাছৱৰ্ড প্ৰদান কৰিছে।\n"
+"আপুনি লগিন কৰিবলৈ কিবৰ্ড বিন্যাসসমূহ পৰিবৰ্তন কৰিব নোৱাৰিব।\n"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:185
 #, python-format
 msgid "Enter new value for '%s' and press enter\n"
-msgstr ""
+msgstr "'%s' ৰ বাবে নতুন মান সুমুৱাওক আৰু enter টিপক\n"
 
 #: pyanaconda/ui/tui/spokes/__init__.py:204
 msgid "You have provided an invalid value\n"
@@ -2300,38 +2518,39 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/__init__.py:317
 msgid "Password set."
-msgstr ""
+msgstr "পাছৱৰ্ড সংহতি কৰা আছে।"
 
 #: pyanaconda/ui/gui/__init__.py:383 widgets/src/BaseWindow.c:157
 msgid "Help!"
-msgstr ""
+msgstr "সহায়!"
 
 #: pyanaconda/ui/gui/__init__.py:862 widgets/src/StandaloneWindow.c:49
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_No"
-msgstr ""
+msgstr "নহয় (_N)"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_Yes"
-msgstr ""
+msgstr "হয় (_Y)"
 
 #: pyanaconda/ui/gui/hubs/__init__.py:242
 msgid ""
 "Please complete items marked with this icon before continuing to the next "
 "step."
 msgstr ""
+"অনুগ্ৰহ কৰি পৰৱৰ্তী স্তৰত আগবঢ়াৰ আগত এই আইকনৰ সৈতে চিহ্নিত বস্তুবোৰ সম্পূৰ্ণ কৰক।"
 
 #: pyanaconda/ui/gui/hubs/progress.py:112
 msgid "Complete!"
-msgstr ""
+msgstr "সম্পূৰ্ণ!"
 
 #: pyanaconda/ui/gui/hubs/progress.py:140
 #, python-format
 msgid "Use of this product is subject to the license agreement found at %s"
-msgstr ""
+msgstr "এই উৎপাদনৰ ব্যৱহাৰ %s ত উপলব্ধ অনুজ্ঞা চুক্তিৰ অধিন"
 
 #: pyanaconda/ui/gui/hubs/progress.py:216
 #, python-format
@@ -2339,11 +2558,13 @@ msgid ""
 "%s is now successfully installed on your system and ready for you to use!  "
 "When you are ready, reboot your system to start using it!"
 msgstr ""
+"%s এতিয়া আপোনাৰ চিস্টেমত সফলভাৱে ইনস্টল কৰা হল আৰু ব্যৱহাৰ কৰিবলে প্ৰস্তুত! যেতিয়া "
+"আপুনি প্ৰস্তুত, ইয়াক ব্যৱহাৰ কৰিবলে চিস্টেম পুনৰাম্ভ কৰক!"
 
 #: pyanaconda/ui/gui/hubs/progress.py:219
 msgctxt "GUI|Progress"
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/hubs/progress.py:227
 #, python-format
@@ -2352,6 +2573,10 @@ msgid ""
 "done.\n"
 "Finish it and then click the Finish configuration button please."
 msgstr ""
+"%s ক আপোনাৰ চিস্টেমত এতিয়া সফলভাৱে ইনস্টল কৰা হৈছে, কিন্তু কিছুমান সংৰূপণ এতিয়াও "
+"কৰিব লগিয়া আছে।\n"
+"\n"
+"ইয়াক সম্পূৰ্ণ কৰক আৰু তাৰ পিছত অনুগ্ৰহ কৰি সংৰূপ সম্পূৰ্ণ কৰক বুটাম ক্লিক কৰক।"
 
 #: pyanaconda/ui/gui/hubs/progress.py:232
 #, python-format
@@ -2359,16 +2584,18 @@ msgid ""
 "%s is now successfully installed and ready for you to use!\n"
 "Go ahead and reboot to start using it!"
 msgstr ""
+"%s এতিয়া আপোনাৰ চিস্টেমত সফলভাৱে ইনস্টল কৰা হৈছে আৰু ব্যৱহাৰ কৰিবলে প্ৰস্তুত!\n"
+"আগবাঢ়ক আৰু ইয়াক ব্যৱহাৰ কৰিবলৈ চিস্টেম পুনৰাম্ভ কৰক!"
 
 #: pyanaconda/ui/gui/spokes/custom.py:110
 #, python-format
 msgid "Create a new %(container_type)s ..."
-msgstr ""
+msgstr "এটা নতুন %(container_type)s সৃষ্টি কৰক ..."
 
 #: pyanaconda/ui/gui/spokes/custom.py:111
 #, python-format
 msgid "Create or select %(container_type)s"
-msgstr ""
+msgstr "%(container_type)s সৃষ্টি কৰক অথবা বাছক"
 
 #: pyanaconda/ui/gui/spokes/custom.py:113
 msgid "Device reconfiguration failed. <a href=\"\">Click for details.</a>"
@@ -2383,15 +2610,15 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:139
 #: pyanaconda/ui/gui/spokes/custom.glade.h:12
 msgid "MANUAL PARTITIONING"
-msgstr ""
+msgstr "হস্তচালিত বিভাজন প্ৰক্ৰিয়া"
 
 #: pyanaconda/ui/gui/spokes/custom.py:356
 #, python-format
 msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d সংৰক্ষণ ডিভাইচ নিৰ্বাচন কৰা হৈছে (_s)"
+msgstr[1] "%d সংৰক্ষণ ডিভাইচসমূহ নিৰ্বাচন কৰা হৈছে (_s)"
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2399,32 +2626,35 @@ msgid ""
 "When you create mount points for your %(name)s %(version)s installation, "
 "you'll be able to view their details here."
 msgstr ""
+"যেতিয়া আপুনি আপোনাৰ %(name)s %(version)s  ইনস্টলেষণৰ বাবে মাউণ্ট বিন্দুসমূহ সৃষ্টি "
+"কৰে, আপুনি সিহতৰ বিৱৰণসমূহ ইয়াত চাব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:662
 #, python-format
 msgid ""
 "/boot/efi must be on a device of type %(oneFsType)s or %(anotherFsType)s"
 msgstr ""
+"/boot/efi এ %(oneFsType)s অথবা %(anotherFsType)s ধৰণৰ ডিভাইচত থাকিব লাগিব"
 
 #: pyanaconda/ui/gui/spokes/custom.py:666
 #, python-format
 msgid "%(fs)s must be on a device of type %(type)s"
-msgstr ""
+msgstr "%(fs)s এটা ধৰণ %(type)s ৰ ডিভাইচত থাকিব লাগিব"
 
 #: pyanaconda/ui/gui/spokes/custom.py:669
 #: pyanaconda/ui/gui/spokes/custom.py:671
 #, python-format
 msgid "%s cannot be encrypted"
-msgstr ""
+msgstr "%s ইনক্ৰিপ্ট কৰিব নোৱাৰি"
 
 #: pyanaconda/ui/gui/spokes/custom.py:673
 msgid "You must create a new file system on the root device."
-msgstr ""
+msgstr "আপুনি ৰুট ডিভাইচত এটা নতুন ফাইল চিস্টেম সৃষ্টি কৰিব লাগিব।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:678
 #, python-format
 msgid "Device does not support RAID level selection %s."
-msgstr ""
+msgstr "ডিভাইচে RAID স্তৰ নিৰ্বাচন %s সমৰ্থন নকৰে।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:786
 msgid "Device resize request failed. <a href=\"\">Click for details.</a>"
@@ -2437,33 +2667,33 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:1225
 #, python-format
 msgid "Specified name %s already in use."
-msgstr ""
+msgstr "ধাৰ্য্যত নাম %s ইতিমধ্যে ব্যৱহৃত।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1383
 msgid "No disks assigned"
-msgstr ""
+msgstr "কোনো ডিস্ক ধাৰ্য্য কৰা হোৱা নাই"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1389
 #, python-format
 msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "আৰু %d অন্য"
+msgstr[1] "আৰু %d অন্যবোৰ"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
-msgstr ""
+msgstr "কনটেইনাৰ ইনক্ৰিপ্ট কৰা আছে।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1493
 msgid ""
 "The space available to this mount point can be changed by modifying the "
 "volume below."
-msgstr ""
+msgstr "এই মাউণ্ট বিন্দুলৈ উপলব্ধ স্থানক তলৰ ভলিউম পৰিবৰ্তন কৰি সলনি কৰিব পাৰি।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1495
 msgid "This file system may not be resized."
-msgstr ""
+msgstr "এই ফাইল চিস্টেম পুনৰ আকাৰ নকৰা হব পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1550
 msgid ""
@@ -2480,7 +2710,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:1660
 #, python-format
 msgid "Added new %(type)s to existing container %(name)s."
-msgstr ""
+msgstr "স্থায়ী কনটেইনাৰ %(name)s লৈ নতুন %(type)s যোগ কৰা হল।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1671
 msgid "Failed to add new device. <a href=\"\">Click for details.</a>"
@@ -2488,7 +2718,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1676
 msgid "Invalid partition size set. Use a valid integer."
-msgstr ""
+msgstr "অবৈধ বিভাজন আকাৰ সংহতি। এটা বৈধ পূৰ্ণসংখ্যা ব্যৱহাৰ কৰক।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:1787
 msgid "Device removal request failed. <a href=\"\">Click for details.</a>"
@@ -2505,12 +2735,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:2020
 #, python-format
 msgid "Volume Group name %s is already in use. Not saving changes."
-msgstr ""
+msgstr "ভলিউম দল নাম %s ইতিমধ্যে ব্যৱহৃত। পৰিবৰ্তনসমূহ সংৰক্ষণ কৰা হোৱা নাই।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2052
 #, python-format
 msgid "(%s free)"
-msgstr ""
+msgstr "(%s free)"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2199
 #, python-format
@@ -2518,6 +2748,8 @@ msgid ""
 "This Software RAID array is missing %(missingMembers)d of %(totalMembers)d "
 "member partitions. You can remove it or select a different device."
 msgstr ""
+"এই চফ্টৱেৰ RAID এৰেত %(totalMembers)d সদস্য বিভাজনসমূহৰ %(missingMembers)d "
+"সন্ধানহীন। আপুনি ইয়াক আতৰাব পাৰে অথবা এটা ভিন্ন ডিভাইচ নিৰ্বাচন কৰিব বিচাৰে।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2205
 #, python-format
@@ -2525,14 +2757,16 @@ msgid ""
 "This LVM Volume Group is missing %(missingPVs)d of %(totalPVs)d physical "
 "volumes. You can remove it or select a different device."
 msgstr ""
+"এই LVM ভলিউম দলত %(totalPVs)d ভৌতিক ভলিউমসমূহৰ %(missingPVs)d সন্ধানহীন। আপুনি "
+"ইয়াক আতৰাব পাৰিব অথবা এটা ভিন্ন ডিভাইচ নিৰ্বাচন কৰিব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2286
 msgid "No disks selected."
-msgstr ""
+msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2291
 msgid "Not enough free space on selected disks."
-msgstr ""
+msgstr "নিৰ্বাচিত ডিস্কসমূহত পৰ্যাপ্ত খালি ঠাই নাই।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2296
 #: pyanaconda/ui/gui/spokes/custom.py:2321
@@ -2544,14 +2778,16 @@ msgid ""
 "Continuing with this action will reset all your partitioning selections to "
 "their current on-disk state."
 msgstr ""
+"এই কাৰ্য্যৰ সৈতে আগবাঢ়িলে আপোনাৰ সকলো বিভাজন প্ৰক্ৰিয়া নিৰ্বাচনক সিহতৰ অন-ডিস্ক "
+"অৱস্থালৈ পুনৰ সংহতি কৰা হব।"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2543
 msgid "_Reset selections"
-msgstr ""
+msgstr "নিৰ্বাচনসমূহ পুনৰ সংহতি কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2543
 msgid "_Preserve current selections"
-msgstr ""
+msgstr "বৰ্তমান নিৰ্বাচনসমূহ সংৰক্ষণ কৰক (_P)"
 
 #: pyanaconda/ui/gui/spokes/custom.py:2618
 msgid ""
@@ -2561,68 +2797,69 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:387
 msgctxt "GUI|Spoke"
 msgid "DATE & _TIME"
-msgstr ""
+msgstr "তাৰিখ আৰু সময় (_T)"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:508
 msgid "Restoring hardware time..."
-msgstr ""
+msgstr "হাৰ্ডৱেৰ সময় পুনৰুদ্ধাৰ কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:519
 msgid "Invalid timezone"
-msgstr ""
+msgstr "অবৈধ সময়অঞ্চল"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:690
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:704
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:886
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:27
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:692
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:701
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:885
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:888
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1035
 msgid "You need to set up networking first if you want to use NTP"
 msgstr ""
+"যদি আপুনি NTP ব্যৱহাৰ কৰিব বিচাৰে আপুনি প্ৰথমতে নেটৱাৰ্কিং সংস্থাপন কৰিব লাগিব"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.py:1039
 msgid "You have no working NTP server configured"
-msgstr ""
+msgstr "আপোনাৰ কোনো কাৰ্য্যকৰী NTP চাৰ্ভাৰ সংৰূপিত নাই"
 
 #: pyanaconda/ui/gui/spokes/filter.py:484
 msgctxt "GUI|Spoke"
 msgid "_INSTALLATION DESTINATION"
-msgstr ""
+msgstr "ইনস্টলেষণৰ গন্তব্য (_I)"
 
 #: pyanaconda/ui/gui/spokes/filter.py:592
 #, python-format
 msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d সংৰক্ষণ ডিভাইচ নিৰ্বাচন কৰা হৈছে (_s)"
+msgstr[1] "%d সংৰক্ষণ ডিভাইচসমূহ নিৰ্বাচন কৰা হৈছে (_s)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
 msgid "%s to switch layouts."
-msgstr ""
+msgstr "বিন্যাসমূহ সলনি কৰিবলে %s।"
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:272
 msgctxt "GUI|Spoke"
 msgid "_KEYBOARD"
-msgstr ""
+msgstr "কিবৰ্ড (_K)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:369
 msgid "Testing layouts configuration not available."
-msgstr ""
+msgstr "পৰিক্ষণ বিন্যাস সংৰূপ উপলব্ধ নাই।"
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:377
 msgid "Getting list of layouts..."
-msgstr ""
+msgstr "বিন্যাসসমূহৰ তালিকা প্ৰাপ্ত কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:427
 msgid ""
@@ -2632,142 +2869,142 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:437
 msgid "Layout switching not configured."
-msgstr ""
+msgstr "বিন্যাস সলনি কৰাটো সংৰূপণ কৰা হোৱা নাই।"
 
 #: pyanaconda/ui/gui/spokes/langsupport.py:54
 msgctxt "GUI|Spoke"
 msgid "_LANGUAGE SUPPORT"
-msgstr ""
+msgstr "ভাষাৰ সমৰ্থন (_L)"
 
 #: pyanaconda/ui/gui/spokes/network.py:87
 msgid "Status unknown (missing)"
-msgstr ""
+msgstr "অৱস্থা অজ্ঞাত (সন্ধানহীন)"
 
 #: pyanaconda/ui/gui/spokes/network.py:90
 msgid "Status unknown"
-msgstr ""
+msgstr "অৱস্থা অজ্ঞাত"
 
 #: pyanaconda/ui/gui/spokes/network.py:92
 msgid "Unmanaged"
-msgstr ""
+msgstr "অব্যৱস্থাপিত"
 
 #: pyanaconda/ui/gui/spokes/network.py:95
 #: pyanaconda/ui/gui/spokes/network.py:99
 msgid "Unavailable"
-msgstr ""
+msgstr "উপলব্ধ নাই"
 
 #: pyanaconda/ui/gui/spokes/network.py:97
 msgid "Firmware missing"
-msgstr ""
+msgstr "ফাৰ্মৱেৰ সন্ধানহীন"
 
 #: pyanaconda/ui/gui/spokes/network.py:103
 msgid "Cable unplugged"
-msgstr ""
+msgstr "কেবুল আনপ্লাগ্গড"
 
 #: pyanaconda/ui/gui/spokes/network.py:105
 msgid "Disconnected"
-msgstr ""
+msgstr "বিচ্ছিন্নিত"
 
 #: pyanaconda/ui/gui/spokes/network.py:110
 msgid "Connecting"
-msgstr ""
+msgstr "সংযোগ কৰা হৈছে"
 
 #: pyanaconda/ui/gui/spokes/network.py:112
 msgid "Authentication required"
-msgstr ""
+msgstr "প্ৰমাণীকৰণ প্ৰয়োজন"
 
 #: pyanaconda/ui/gui/spokes/network.py:114
 msgid "Connected"
-msgstr ""
+msgstr "সংযুক্ত"
 
 #: pyanaconda/ui/gui/spokes/network.py:116
 msgid "Disconnecting"
-msgstr ""
+msgstr "বিচ্ছিন্ন কৰা হৈছে"
 
 #: pyanaconda/ui/gui/spokes/network.py:118
 msgid "Connection failed"
-msgstr ""
+msgstr "সংযোগ ব্যৰ্থ"
 
 #: pyanaconda/ui/gui/spokes/network.py:307
 msgid "Ethernet"
-msgstr ""
+msgstr "ইথাৰনেট"
 
 #: pyanaconda/ui/gui/spokes/network.py:308
 msgid "Wireless"
-msgstr ""
+msgstr "বেতাঁৰ"
 
 #: pyanaconda/ui/gui/spokes/network.py:309
 #: pyanaconda/ui/gui/spokes/network.glade.h:1
 msgid "Bond"
-msgstr ""
+msgstr "বান্ধনী"
 
 #: pyanaconda/ui/gui/spokes/network.py:310
 #: pyanaconda/ui/gui/spokes/network.glade.h:4
 msgid "VLAN"
-msgstr ""
+msgstr "VLAN"
 
 #: pyanaconda/ui/gui/spokes/network.py:311
 #: pyanaconda/ui/gui/spokes/network.glade.h:3
 msgid "Team"
-msgstr ""
+msgstr "দল"
 
 #: pyanaconda/ui/gui/spokes/network.py:312
 #: pyanaconda/ui/gui/spokes/network.glade.h:2
 msgid "Bridge"
-msgstr ""
+msgstr "ব্ৰিজ"
 
 #. TRANSLATORS: ethernet cable is unplugged
 #: pyanaconda/ui/gui/spokes/network.py:799
 msgid "unplugged"
-msgstr ""
+msgstr "আনপ্লাগ্গড"
 
 #: pyanaconda/ui/gui/spokes/network.py:895
 #: pyanaconda/ui/gui/spokes/network.glade.h:16
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 ঠিকনা"
 
 #: pyanaconda/ui/gui/spokes/network.py:896
 #: pyanaconda/ui/gui/spokes/network.glade.h:15
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 ঠিকনা"
 
 #: pyanaconda/ui/gui/spokes/network.py:898
 #: pyanaconda/ui/gui/spokes/network.py:900
 #: pyanaconda/ui/gui/spokes/network.glade.h:31
 msgid "IP Address"
-msgstr ""
+msgstr "IP ঠিকনা"
 
 #: pyanaconda/ui/gui/spokes/network.py:990
 #, python-format
 msgid "%d Mb/s"
-msgstr ""
+msgstr "%d Mb/s"
 
 #: pyanaconda/ui/gui/spokes/network.py:1210
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: pyanaconda/ui/gui/spokes/network.py:1213
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 #: pyanaconda/ui/gui/spokes/network.py:1216
 msgid "WPA2"
-msgstr ""
+msgstr "WPA2"
 
 #: pyanaconda/ui/gui/spokes/network.py:1220
 msgid "Enterprise"
-msgstr ""
+msgstr "এন্টাৰপ্ৰাইজ"
 
 #: pyanaconda/ui/gui/spokes/network.py:1225 widgets/src/SpokeSelector.c:82
 #: pyanaconda/ui/gui/spokes/filter.glade.h:3
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:21
 msgid "None"
-msgstr ""
+msgstr "কোনো নহয়"
 
 #: pyanaconda/ui/gui/spokes/network.py:1366
 #: pyanaconda/ui/gui/spokes/network.glade.h:61
 msgid "Authentication required by wireless network"
-msgstr ""
+msgstr "বেতাঁৰ নেটৱৰ্ক দ্বাৰা প্ৰমাণীকৰণৰ প্ৰয়োজন"
 
 #: pyanaconda/ui/gui/spokes/network.py:1367
 #, python-format
@@ -2775,78 +3012,80 @@ msgid ""
 "Passwords or encryption keys are required to access\n"
 "the wireless network '%(network_id)s'."
 msgstr ""
+"বেতাঁৰ নেটৱৰ্ক '%(network_id)s' অভিগম কৰিবলে⏎\n"
+"পাছৱৰ্ড অথবা ইনক্ৰিপষণ কি'সমূহৰ প্ৰয়োজন।"
 
 #: pyanaconda/ui/gui/spokes/network.py:1381
 msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Password:"
-msgstr ""
+msgstr "পাছৱৰ্ড (_P):"
 
 #: pyanaconda/ui/gui/spokes/network.py:1389
 msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Key:"
-msgstr ""
+msgstr "কি' (_K):"
 
 #: pyanaconda/ui/gui/spokes/network.py:1399
 msgid "User name: "
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী নাম: "
 
 #: pyanaconda/ui/gui/spokes/network.py:1410
 msgid "Identity: "
-msgstr ""
+msgstr "পৰিচয়: "
 
 #: pyanaconda/ui/gui/spokes/network.py:1415
 msgid "Private key password: "
-msgstr ""
+msgstr "ব্যক্তিগত কি' পাছৱৰ্ড: "
 
 #: pyanaconda/ui/gui/spokes/network.py:1471
 msgctxt "GUI|Spoke"
 msgid "_NETWORK & HOST NAME"
-msgstr ""
+msgstr "নেটৱৰ্কৰ আৰু হস্ট নাম (_N)"
 
 #: pyanaconda/ui/gui/spokes/password.py:55
 msgctxt "GUI|Spoke"
 msgid "_ROOT PASSWORD"
-msgstr ""
+msgstr "ৰুট পাছৱৰ্ড (_R)"
 
 #: pyanaconda/ui/gui/spokes/password.py:102
 #: pyanaconda/ui/gui/spokes/password.py:103
 msgid "The password is set."
-msgstr ""
+msgstr "পাছৱৰ্ড সংহতি কৰা আছে।"
 
 #: pyanaconda/ui/gui/spokes/password.py:130
 msgid "Root password is set"
-msgstr ""
+msgstr "ৰুট পাছৱৰ্ড সংহতি কৰা আছে।"
 
 #: pyanaconda/ui/gui/spokes/password.py:132
 msgid "Root account is disabled"
-msgstr ""
+msgstr "ৰুট একাওণ্ট অসামৰ্থবান"
 
 #: pyanaconda/ui/gui/spokes/password.py:134
 msgid "Root password is not set"
-msgstr ""
+msgstr "ৰুট পাছৱৰ্ড সংহতি কৰা হোৱা নাই"
 
 #: pyanaconda/ui/gui/spokes/software.py:52
 msgctxt "GUI|Spoke"
 msgid "_SOFTWARE SELECTION"
-msgstr ""
+msgstr "চফ্টৱেৰ নিৰ্বাচন (_S)"
 
 #: pyanaconda/ui/gui/spokes/software.py:102
 #: pyanaconda/ui/gui/spokes/source.py:56
 msgid "Downloading package metadata..."
-msgstr ""
+msgstr "পেকেইজ মেটাডাটা ডাউনল'ড কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/software.py:105
 msgid "Downloading group metadata..."
-msgstr ""
+msgstr "দল মেটাডাটা ডাউনল'ড কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/software.py:188
 #: pyanaconda/ui/gui/spokes/source.py:551
 msgid "Checking software dependencies..."
-msgstr ""
+msgstr "চফ্টৱেৰ নিৰ্ভৰতাসমূহ নিৰীক্ষণ কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/software.py:193
 msgid "Error checking software dependencies"
-msgstr ""
+msgstr "চফ্টৱেৰ নিৰ্ভৰতাসমূহ নিৰীক্ষণ কৰোতে ত্ৰুটি"
 
 #: pyanaconda/ui/gui/spokes/software.py:278
 msgid "Invalid environment specified in kickstart"
@@ -2868,131 +3107,136 @@ msgid ""
 "likely caused by an error with your installation source.  You can quit the "
 "installer, change your software source, or change your software selections."
 msgstr ""
+"ইনস্টলেষণৰ বাবে চিহ্নিত চফ্টৱেৰত নিম্নলিখিত ত্ৰুটিসমূহ আছে। ই সম্ভবত আপোনাৰ ইনস্টলেষণ "
+"উৎসৰ সৈতে এটা ত্ৰুটিৰ বাবে হৈছে। আপুনি ইনস্টলাৰক প্ৰস্থান কৰিব পাৰিব, আপোনাৰ "
+"চফ্টৱেৰ উৎস পৰিবৰ্তন কৰিব পাৰিব, অথবা আপোনাৰ চফ্টৱেৰ নিৰ্বাচনসমূহ পৰিবৰ্তন কৰিব "
+"পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/software.py:540
 msgctxt "GUI|Software Selection|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/spokes/software.py:541
 msgctxt "GUI|Software Selection|Error Dialog"
 msgid "_Modify Software Source"
-msgstr ""
+msgstr "চফ্টৱেৰ উৎস পৰিবৰ্তন কৰক (_M)"
 
 #: pyanaconda/ui/gui/spokes/software.py:542
 msgctxt "GUI|Software Selection|Error Dialog"
 msgid "Modify _Selections"
-msgstr ""
+msgstr "নিৰ্বাচনসমূহ পৰিবৰ্তন কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/source.py:55
 msgid "Setting up installation source..."
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/source.py:87
 msgid "Invalid proxy URL"
-msgstr ""
+msgstr "অবৈধ প্ৰক্সি URL"
 
 #: pyanaconda/ui/gui/spokes/source.py:92
 #, python-format
 msgid "Invalid proxy protocol: %s"
-msgstr ""
+msgstr "অবৈধ প্ৰক্সি প্ৰটোকল: %s"
 
 #: pyanaconda/ui/gui/spokes/source.py:98
 msgid "Extra characters in proxy URL"
-msgstr ""
+msgstr "প্ৰক্সি URL ত অতিিৰক্ত আখৰ"
 
 #: pyanaconda/ui/gui/spokes/source.py:102
 msgid "Proxy authentication data duplicated"
-msgstr ""
+msgstr "প্ৰক্সি প্ৰমাণীকৰণ তথ্য প্ৰতিলিপি কৰা হৈছে"
 
 #: pyanaconda/ui/gui/spokes/source.py:235
 msgid "This media is good to install from."
-msgstr ""
+msgstr "এই মাধ্যমৰ পৰা ইনস্টল কৰিবলে ভাল।"
 
 #: pyanaconda/ui/gui/spokes/source.py:237
 msgid "This media is not good to install from."
-msgstr ""
+msgstr "এই মাধ্যমৰ পৰা ইনস্টল কৰাটো ভাল নহয়।"
 
 #: pyanaconda/ui/gui/spokes/source.py:358
 msgctxt "GUI|Spoke"
 msgid "_INSTALLATION SOURCE"
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস (_I)"
 
 #: pyanaconda/ui/gui/spokes/source.py:480
 #: pyanaconda/ui/gui/spokes/source.py:695
 msgid "Failed to set up installation source; check the repo url"
-msgstr ""
+msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ; ভঁৰালৰ url নিৰীক্ষণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/source.py:555
 msgid "Error setting up base repository"
-msgstr ""
+msgstr "ভিত্তি ভঁৰাল সংহতি কৰোতে ত্ৰুটি"
 
 #: pyanaconda/ui/gui/spokes/source.py:566
 msgid "Error setting up ISO file"
-msgstr ""
+msgstr "ISO ফাইল সংহতি কৰোতে ত্ৰুটি"
 
 #: pyanaconda/ui/gui/spokes/source.py:697
 msgid ""
 "Failed to set up installation source; check the repo url and proxy settings"
 msgstr ""
+"ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ; ভঁৰাল url আৰু প্ৰক্সি সংহতিসমূহ নিৰীক্ষণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/source.py:726
 #, python-format
 msgid "Device: %s"
-msgstr ""
+msgstr "ডিভাইচ: %s"
 
 #: pyanaconda/ui/gui/spokes/source.py:727
 #, python-format
 msgid "Label: %s"
-msgstr ""
+msgstr "লেবেল: %s"
 
 #: pyanaconda/ui/gui/spokes/source.py:894
 msgid "You need to configure the network to use a network installation source."
-msgstr ""
+msgstr "আপুনি এটা নেটৱৰ্ক ইনস্টলেষণ উৎস ব্যৱহাৰ কৰিবলে নেটৱৰ্ক সংৰূপণ কৰিব লাগিব।"
 
 #: pyanaconda/ui/gui/spokes/source.py:956
 msgid "URL is empty"
-msgstr ""
+msgstr "URL ৰিক্ত"
 
 #: pyanaconda/ui/gui/spokes/source.py:960
 msgid "Invalid URL"
-msgstr ""
+msgstr "অবৈধ URL"
 
 #: pyanaconda/ui/gui/spokes/source.py:977
 msgid "Protocol in URL does not match selected protocol"
-msgstr ""
+msgstr "URL ৰ প্ৰটোকল নিৰ্বাচিত প্ৰটোকলৰ সৈতে মিল নাখায়"
 
 #: pyanaconda/ui/gui/spokes/source.py:980
 msgid "NFS server is empty"
-msgstr ""
+msgstr "NFS চাৰ্ভাৰ ৰিক্ত"
 
 #: pyanaconda/ui/gui/spokes/source.py:987
 msgid "Invalid host name"
-msgstr ""
+msgstr "অবৈধ হস্ট নাম"
 
 #: pyanaconda/ui/gui/spokes/source.py:990
 msgid "Remote directory is required"
-msgstr ""
+msgstr "দূৰৱৰ্তী ডাইৰেকটৰিৰ প্ৰয়োজন"
 
 #: pyanaconda/ui/gui/spokes/source.py:1011
 msgid "Duplicate repository names."
-msgstr ""
+msgstr "প্ৰতিলিপি ভঁৰাল নামবোৰ।"
 
 #: pyanaconda/ui/gui/spokes/source.py:1018
 msgid "Empty repository name"
-msgstr ""
+msgstr "ৰিক্ত ভঁৰাল নাম"
 
 #: pyanaconda/ui/gui/spokes/source.py:1021
 msgid "Invalid repository name"
-msgstr ""
+msgstr "অবৈধ ভঁৰাল নাম"
 
 #: pyanaconda/ui/gui/spokes/source.py:1027
 msgid "Repository name conflicts with internal repository name."
-msgstr ""
+msgstr "ভঁৰালৰ নাম অভ্যন্তৰীণ ভঁৰালৰ নামৰ সৈতে দন্দ কৰে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:115
 msgid "Please wait... software metadata still loading."
-msgstr ""
+msgstr "অনুগ্ৰহ কৰি অপেক্ষা কৰক... চফ্টৱেৰ মেটাডাট এতিয়াও ল'ড হৈ আছে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:116
 #, python-format
@@ -3001,11 +3245,14 @@ msgid ""
 "selection</a> requires <b>%(total)s</b> of available space, including <b>"
 "%(software)s</b> for software and <b>%(swap)s</b> for swap space."
 msgstr ""
+"আপোনাৰ বৰ্তমান <a href=\"\" title=\"%(tooltip)s\"><b>%(product)s</b> চফ্টৱেৰ "
+"নিৰ্বাচন</a> ৰ উপলব্ধ স্থানৰ <b>%(total)s</b> ৰ প্ৰয়োজন, চফ্টৱেৰৰ বাবে <b>"
+"%(software)s</b> আৰু শ্বাপ স্থানৰ বাবে <b>%(swap)s</b> ৰ সৈতে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:166
 #, python-format
 msgid "%s The disks you've selected have the following amounts of free space:"
-msgstr ""
+msgstr "%s আপুনি নিৰ্বাচন কৰা ডিস্কসমূহৰ নিম্নলিখিত পৰিমাণ খালি ঠাই উপলব্ধ আছে:"
 
 #: pyanaconda/ui/gui/spokes/storage.py:174
 #, python-format
@@ -3014,6 +3261,9 @@ msgid ""
 "or remove existing partitions via our guided reclaim space tool, or you can "
 "adjust your partitions on your own in the custom partitioning interface."
 msgstr ""
+"<b>আপোনাৰ ওচৰত %s ইনস্টল কৰিবলে পৰ্যাপ্ত স্থান নাই।</b>   আপুনি আমাৰ স্থান পুনৰ "
+"প্ৰাপ্ত কৰক সঁজুলিৰ সহায়ত স্থায়ী বিভাজনসমূহ সংকোচন অথবা আতৰাব পাৰিব, অথবা আপুনি "
+"নিজস্বভাৱে স্বনিৰ্বাচিত বিভাজন আন্তঃপষ্ঠত আপোনাৰ বিভাজনসমূহ সজাব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:198
 #, python-format
@@ -3030,15 +3280,19 @@ msgid ""
 "could add more disks for additional space, modify your software selection to "
 "install a smaller version of <b>%(productName)s</b>, or quit the installer."
 msgstr ""
+"<b>আপোনাৰ ওচৰত %(productName)s ইনস্টল কৰিবলে পৰ্যাপ্ত স্থান নাই</b>, যদিও আপুনি "
+"নিৰ্বাচিত ডিস্কসমূহত উপলব্ধ সকলো খালি ঠাই ব্যৱহাৰ কৰে।  অতিৰিক্ত স্থানৰ বাবে আপুনি "
+"অধিক ডিস্ক যোগ কৰিব পাৰে, <b>%(productName)s</b> ৰ এটা সৰু সংস্কৰণ ইনস্টল কৰিবলে "
+"আপোনাৰ চফ্টৱেৰ নিৰ্বাচন পৰিবৰ্তন কৰিব পাৰে, অথবা ইনস্টলাৰ প্ৰস্থান কৰিব পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:229
 msgctxt "GUI|Spoke"
 msgid "INSTALLATION _DESTINATION"
-msgstr ""
+msgstr "ইনস্টলেষণ গন্তব্য (_D)"
 
 #: pyanaconda/ui/gui/spokes/storage.py:347
 msgid "Saving storage configuration..."
-msgstr ""
+msgstr "সংগ্ৰহৰ সংৰূপ সংৰক্ষণ কৰা হৈছে..."
 
 #: pyanaconda/ui/gui/spokes/storage.py:351
 msgid "Passphrase for autopart encryption not specified."
@@ -3047,13 +3301,13 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:360
 #: pyanaconda/ui/gui/spokes/storage.py:372
 msgid "Failed to save storage configuration..."
-msgstr ""
+msgstr "সংৰক্ষণ সংৰূপ সংৰক্ষণ কৰিবলে ব্যৰ্থ..."
 
 #: pyanaconda/ui/gui/spokes/storage.py:432
 #: pyanaconda/ui/gui/spokes/storage.py:736
 #: pyanaconda/ui/gui/spokes/storage.py:755
 msgid "Formatting DASDs"
-msgstr ""
+msgstr "DASDs ফৰমেট কৰা হৈছে"
 
 #: pyanaconda/ui/gui/spokes/storage.py:581
 msgid ""
@@ -3072,24 +3326,28 @@ msgid ""
 "WWPN %(wwpn)s\n"
 "LUN %(lun)s"
 msgstr ""
+"FCP ডিভাইচ %(hba_id)s\n"
+"WWPN %(wwpn)s\n"
+"LUN %(lun)s"
 
 #: pyanaconda/ui/gui/spokes/storage.py:637
 #, python-format
 msgid "%s free"
-msgstr ""
+msgstr "%s মুক্ত"
 
 #: pyanaconda/ui/gui/spokes/storage.py:684
 #, python-format
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d ডিস্ক নিৰ্বাচিত; %(capacity)s ক্ষমতা; %(free)s মুক্ত"
+msgstr[1] "%(count)d ডিস্কসমূহ নিৰ্বাচিত; %(capacity)s ক্ষমতা; %(free)s মুক্ত"
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
 "You have chosen to skip boot loader installation.  Your system may not be "
 "bootable."
 msgstr ""
+"আপুনি বুট ল'ডাৰ ইনস্টলেষণ বাদ দিবলে নিৰ্বাচন কৰিছে।   আপোনাৰ চিস্টেম বুট নহবও পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:899
 msgid "There was a problem with your disk selection. Click here for details."
@@ -3097,7 +3355,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:1074
 msgid "You'll be able to make space available during custom partitioning."
-msgstr ""
+msgstr "আপুনি স্বনিৰ্বাচিত বিভাজন প্ৰক্ৰিয়াৰ সময়ত স্থান উপলব্ধ কৰাব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1094
 msgid ""
@@ -3109,7 +3367,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:1120
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1100
 msgctxt "GUI|Storage|Error Dialog"
@@ -3121,11 +3379,13 @@ msgid ""
 "The following errors were encountered when checking your storage "
 "configuration.  You can modify your storage layout or quit the installer."
 msgstr ""
+"আপোনাৰ সংৰক্ষণ সংৰূপ নিৰীক্ষণ কৰোতে নিম্নলিখিত ত্ৰুটিসমূহ পোৱা গৈছিল। আপুনি আপোনাৰ "
+"সংৰক্ষণ বিন্যাস পৰিবৰ্তন কৰিব পাৰে অথবা ইনস্টলাৰ প্ৰস্থান কৰিব পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1121
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Modify Storage Layout"
-msgstr ""
+msgstr "সংৰক্ষণ বিন্যাস পৰিবৰ্তন কৰক (_M)"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1135
 msgid ""
@@ -3133,37 +3393,39 @@ msgid ""
 "configuration.  These are not fatal, but you may wish to make changes to "
 "your storage layout."
 msgstr ""
+"আপোনাৰ সংৰক্ষণ সংৰূপ নিৰীক্ষণ কৰোতে নিম্নলিখিত সতৰ্কবাৰ্তা পোৱা গৈছিল।   এইবোৰ "
+"মাৰাত্মক নহয়, কিন্তু আপুনি বিচাৰিলে আপোনাৰ সংৰক্ষণ বিন্যাস পৰিবৰ্তন কৰিব পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1139
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/user.py:70
 #, python-format
 msgid "Invalid group name: %s"
-msgstr ""
+msgstr "অবৈধ দল নাম: %s"
 
 #: pyanaconda/ui/gui/spokes/user.py:213
 msgctxt "GUI|Spoke"
 msgid "_USER CREATION"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী সৃষ্টিকৰণ (_U)"
 
 #: pyanaconda/ui/gui/spokes/user.py:289 pyanaconda/ui/gui/spokes/user.py:290
 msgid "The password was set by kickstart."
-msgstr ""
+msgstr "পাছৱৰ্ড kickstart দ্বাৰা সংহতি কৰা হৈছিল।"
 
 #: pyanaconda/ui/gui/spokes/user.py:325
 msgid "Full name cannot contain colon characters"
-msgstr ""
+msgstr "সম্পূৰ্ণ নামত কলন আখৰসমূহ থাকিব নোৱাৰিব"
 
 #: pyanaconda/ui/gui/spokes/user.py:617
 msgid "Invalid user name"
-msgstr ""
+msgstr "অবৈধ ব্যৱহাৰকাৰী নাম"
 
 #: pyanaconda/ui/gui/spokes/welcome.py:209
 #, python-format
 msgid "WELCOME TO %(name)s %(version)s."
-msgstr ""
+msgstr "%(name)s %(version)s লৈ স্বাগতম।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.py:271
 #, python-format
@@ -3172,10 +3434,13 @@ msgid ""
 "%(initiatorName)s</b> using the target IP address <b>%(targetAddress)s</b>.  "
 "Please select which nodes you wish to log into:"
 msgstr ""
+"iSCSI initiator খোজ কৰি নিম্নলিখিত ন'ডসমূহ খোজ কৰা হৈছে <b>%(initiatorName)s</"
+"b> লক্ষ্য IP ঠিকনা ব্যৱহাৰ কৰি<b>%(targetAddress)s</b>।  অনুগ্ৰহ কৰি আপুনি লগিন "
+"কৰিব বিচৰা ন'ডসমূহ বাছক:"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:157
 msgid "DATA"
-msgstr ""
+msgstr "তথ্য"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:278
 #, python-format
@@ -3183,24 +3448,26 @@ msgid ""
 "You haven't created any mount points for your %(product)s %(version)s "
 "installation yet.  You can:"
 msgstr ""
+"আপুনি এতিয়াও আপোনাৰ %(product)s %(version)s ইনস্টলেষণৰ বাবে কোনো মাউণ্ট বিন্দু "
+"সৃষ্টি কৰা নাই।  আপুনি কৰিব পাৰে:"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:287
 msgid "_Click here to create them automatically."
-msgstr ""
+msgstr "সিহতক স্বচালিতভাৱে সৃষ্টি কৰিবলে ইয়াত ক্লিক কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:312
 msgid "Create new mount points by clicking the '+' button."
-msgstr ""
+msgstr "'+' বুটাম ক্লিক কৰি নতুন মাউণ্ট বিন্দু সৃষ্টি কৰক।"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:320
 msgid ""
 "Or, assign new mount points to existing partitions after selecting them "
 "below."
-msgstr ""
+msgstr "অথবা, তলত নিৰ্বাচন কৰি স্থায়ী বিভাজনসমূহলে নতুন মাউণ্ট বিন্দু ধাৰ্য্য কৰক।"
 
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:325
 msgid "_New mount points will use the following partitioning scheme:"
-msgstr ""
+msgstr "নতুন মাউণ্ট বিন্দুবোৰে নিম্নলিখিত বিভাজন আঁচনি ব্যৱহাৰ কৰিব (_N):"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:132
 #, python-format
@@ -3211,18 +3478,22 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
+"<b>%(count)d ডিস্ক; %(size)s ক্ষমতা; %(free)s মুক্ত স্থান</b> (অবিভাজিত আৰু "
+"ফাইলচিস্টেমসমূহত)"
 msgstr[1] ""
+"<b>%(count)d ডিস্কসমূহ; %(size)s ক্ষমতা; %(free)s মুক্ত স্থান</b> (অবিভাজিত আৰু "
+"ফাইলচিস্টেমসমূহত)"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Do not install boot loader"
-msgstr ""
+msgstr "বুট ল'ডাৰ ইনস্টল নকৰিব (_D)"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:194
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:8
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Set as Boot Device"
-msgstr ""
+msgstr "বুট ডিভাইচ ৰূপে সংহতি কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:62
 #, python-format
@@ -3230,11 +3501,13 @@ msgid ""
 "The RAID level you have selected (%(level)s) requires more disks (%(min)d) "
 "than you currently have selected (%(count)d)."
 msgstr ""
+"আপুনি নিৰ্বাচন কৰা RAID স্তৰ (%(level)s) ৰ আপুনি বৰ্তমানে নিৰ্বাচন কৰা (%(count)d) "
+"ত কে অধিক ডিস্ক(%(min)d) ৰ প্ৰয়োজন।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:66
 #, python-format
 msgid "CONFIGURE %(container_type)s"
-msgstr ""
+msgstr "%(container_type)s সংৰূপণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:67
 #, python-format
@@ -3242,55 +3515,57 @@ msgid ""
 "Please create a name for this %(container_type)s and select at least one "
 "disk below."
 msgstr ""
+"অনুগ্ৰহ কৰি এই %(container_type)s ৰ বাবে এটা নাম সৃষ্টি কৰক আৰু তলত অন্তত এটা ডিস্ক "
+"বাছক।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:70
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:71
 msgid "Volume Group"
-msgstr ""
+msgstr "ভলিউম দল"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:72
 msgid "Volume"
-msgstr ""
+msgstr "ভলিউম"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:112
 msgid "Cannot relabel already existing file system."
-msgstr ""
+msgstr "ইতিমধ্যে অস্তিত্ববান ফাইল চিস্টেম পুনৰলেবেল কৰিব নোৱাৰি।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:117
 msgid "Cannot set label on file system."
-msgstr ""
+msgstr "ফাইল চিস্টেমত লেবেল সংহতি কৰিব নোৱাৰি।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:119
 msgid "Unacceptable label format for file system."
-msgstr ""
+msgstr "ফাইল চিস্টেমৰ বাবে অগ্ৰহণীয় লেবেল বিন্যাস।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:129
 msgid "That mount point is already in use. Try something else?"
-msgstr ""
+msgstr "সেই মাউণ্ট বিন্দু ইতিমধ্যে ব্যৱহৃত। অন্য কিবা চেষ্টা কৰিব?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:131
 msgid "Please enter a valid mount point."
-msgstr ""
+msgstr "অনুগ্ৰহ কৰি এটা বৈধ মাউণ্ট বিন্দু সুমুৱাওক।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:133
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:145
 msgid "That mount point is invalid. Try something else?"
-msgstr ""
+msgstr "সেই মাউণ্ট বিন্দু অবৈধ। অন্য কিবা চেষ্টা কৰিব?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:286
 msgid "container"
-msgstr ""
+msgstr "কনটেইনাৰ"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:358
 #, python-format
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "Delete _all other file systems in the %s root as well."
-msgstr ""
+msgstr "%s ৰুটতো অন্য সকলো ফাইল চিস্টেম মচি পেলাওক (_a)।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:368
 #, python-format
 msgid "Are you sure you want to delete all of the data on %s?"
-msgstr ""
+msgstr "আপুনি %s ত উপলব্ধ সকলো তথ্য মচি পেলাবলে নিশ্চিত নে?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:370
 #, python-format
@@ -3298,67 +3573,69 @@ msgid ""
 "Are you sure you want to delete all of the data on %s, including snapshots "
 "and/or subvolumes?"
 msgstr ""
+"আপুনি %s ত উপলব্ধ সকলো তথ্য মচি পেলাবলে নিশ্চিত নে, স্নেপশ্বটসমূহ আৰু/অথবা চাবভলিউমৰ "
+"সৈতে?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:647
 msgid "Invalid container name"
-msgstr ""
+msgstr "অবৈধ কনটেইনাৰ নাম"
 
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:49
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:59
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:34
 #, python-format
 msgid "You have provided a weak passphrase: %s"
-msgstr ""
+msgstr "আপুনি এটা দূৰ্বল পাচফ্ৰেইছ প্ৰদান কৰিছে: %s"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:35
 msgid "Passphrases do not match."
-msgstr ""
+msgstr "পাচফ্ৰেইছসমূহ মিল নাখায়।"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.py:164
 msgid "Passphrase contains non-ASCII characters"
-msgstr ""
+msgstr "পাচফ্ৰেইছত নন-ASCII আখৰসমূহ আছে"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:54
 msgid "Preserve"
-msgstr ""
+msgstr "সংৰক্ষণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:55
 msgid "Shrink"
-msgstr ""
+msgstr "সংকোচিত কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:56
 msgid "Delete"
-msgstr ""
+msgstr "মচি পেলাওক"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:83
 #, python-format
 msgid "Installation requires a total of <b>%s</b> for system data."
-msgstr ""
+msgstr "ইনস্টলেষণৰ চিস্টেম তথ্যৰ বাবে সৰ্বমুঠ <b>%s</b> ৰ প্ৰয়োজন।"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:115
 msgid "This device contains the installation source."
-msgstr ""
+msgstr "এই ডিভাইচে ইনস্টলেষণ উৎস অন্তৰ্ভুক্ত কৰে।"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:162
 #, python-format
 msgid "%(freeSize)s of %(devSize)s"
-msgstr ""
+msgstr "%(devSize)s ৰ %(freeSize)s"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:169
 msgid "Not resizeable"
-msgstr ""
+msgstr "পুনৰ আকাৰ দিব নোৱাৰি"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:193
 msgid "Free space"
-msgstr ""
+msgstr "মুক্ত স্থান"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:215
 msgid ""
@@ -3366,6 +3643,8 @@ msgid ""
 "this installation.  Removing a file system will permanently delete all of "
 "the data it contains."
 msgstr ""
+"আপুনি এই ইনস্টলেষণৰ বাবে স্থান মুক্ত কৰিবলে প্ৰয়োজন নহোৱা ফাইল চিস্টেমসমূহ আতৰাব "
+"পাৰে। এটা ফাইল চিস্টেম আতৰালে ই অন্তৰ্ভুক্ত কৰা সকলো তথ্য স্থায়ীভাৱে মচি পেলোৱা হব।"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:221
 msgid ""
@@ -3373,6 +3652,9 @@ msgid ""
 "risky and we recommend you back up your data first, you can recover that "
 "free disk space and make it available for this installation below."
 msgstr ""
+"পূৰ্ব-স্থায়ী ফাইল চিস্টেমসমূহত মুক্ত স্থান উপলব্ধ আছে।  যিহেতু ই বিপদজনক আৰু আমি আপোনাক "
+"আপোনাৰ তথ্য প্ৰথমতে বেকআপ কৰাৰ উপদেশ দিও, আপুনি সেই মুক্ত ডিস্ক স্থান পুনৰুদ্ধাৰ কৰিব "
+"পাৰিব আৰু তলত এই ইনস্টলেষণৰ বাবে উপলব্ধ কৰাব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:231
 #, python-format
@@ -3380,124 +3662,126 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
+"<b>%(count)s ডিস্ক; %(size)s পুনৰুদ্ধাৰ কৰিব পৰা স্থান</b> (ফাইল চিস্টেমসমূহত)"
 msgstr[1] ""
+"<b>%(count)s ডিস্কসমূহ; %(size)s পুনৰুদ্ধাৰ কৰিব পৰা স্থান</b> (ফাইল চিস্টেমসমূহত)"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
 msgid "Total selected space to reclaim: <b>%s</b>"
-msgstr ""
+msgstr "পুনৰুদ্ধাৰ কৰিবলে নিৰ্বাচন কৰা সৰ্বমুঠ স্থান: <b>%s</b>"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:453
 #: pyanaconda/ui/gui/spokes/lib/resize.py:458
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:13
 msgctxt "GUI|Reclaim Dialog"
 msgid "Delete _all"
-msgstr ""
+msgstr "সকলো মচি পেলাওক (_a)"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:455
 msgctxt "GUI|Reclaim Dialog"
 msgid "Preserve _all"
-msgstr ""
+msgstr "সকলো সংৰক্ষণ কৰক (_a)"
 
 #: widgets/src/BaseWindow.c:153
 msgid "DISTRIBUTION INSTALLATION"
-msgstr ""
+msgstr "বিতৰন ইনস্টলেষণ"
 
 #: widgets/src/BaseWindow.c:154
 msgid "SPOKE NAME"
-msgstr ""
+msgstr "স্পৌক নাম"
 
 #: widgets/src/BaseWindow.c:155
 msgid "PRE-RELEASE / TESTING"
-msgstr ""
+msgstr "পূৰ্ব-উন্মোচন/পৰিক্ষণ"
 
 #: widgets/src/DiskOverview.c:101
 msgid "New Device"
-msgstr ""
+msgstr "নতুন ডিভাইচ"
 
 #: widgets/src/DiskOverview.c:103 widgets/src/DiskOverview.c:104
 msgid "0 MB"
-msgstr ""
+msgstr "0 MB"
 
 #: widgets/src/MountpointSelector.c:84
 msgid "0 GB"
-msgstr ""
+msgstr "0 GB"
 
 #: widgets/src/SpokeSelector.c:83
 msgid "New Selector"
-msgstr ""
+msgstr "নতুন নিৰ্বাচক"
 
 #: widgets/src/SpokeWindow.c:57
 msgid "_Done"
-msgstr ""
+msgstr "কৰা হল (_D)"
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "আগবাঢ়ক (_C)"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
 msgid "Current layout: '%s'. Click to switch to the next layout."
-msgstr ""
+msgstr "বৰ্তমান বিন্যাস: '%s'। পৰৱৰ্তী বিন্যাসলৈ যাবলে ক্লিক কৰক।"
 
 #: widgets/src/LayoutIndicator.c:34
 #, c-format
 msgid "Current layout: '%s'. Add more layouts to enable switching."
-msgstr ""
+msgstr "বৰ্তমান বিন্যাস: '%s'। পৰৱৰ্তী বিন্যাসলৈ যাবলে অধিক বিন্যাস যোগ কৰক।"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:1
 msgctxt "GUI|Advanced User"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:2
 msgctxt "GUI|Advanced User"
 msgid "_Save Changes"
-msgstr ""
+msgstr "পৰিবৰ্তনসমূহ সংৰক্ষণ কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:3
 msgid "ADVANCED USER CONFIGURATION"
-msgstr ""
+msgstr "উন্নত ব্যৱহাৰকাৰী সংৰূপ"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:4
 msgctxt "GUI|Advanced User"
 msgid "Home _directory:"
-msgstr ""
+msgstr "ঘৰ ডাইৰেকটৰি (_d):"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:5
 msgid "User and Group IDs"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী আৰু দল IDs"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:6
 msgctxt "GUI|Advanced User"
 msgid "Specify a _user ID manually:"
-msgstr ""
+msgstr "এটা ব্যৱহাৰকাৰী ID ক হস্তচালিতভাৱে ধাৰ্য্য কৰক (_u):"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:7
 msgctxt "GUI|Advanced User"
 msgid "Specify a _group ID manually:"
-msgstr ""
+msgstr "এটা দল ID হস্তচালিতভাৱে ধাৰ্য্য কৰক (_g):"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:8
 msgid "Group Membership"
-msgstr ""
+msgstr "দলৰ সদস্যতা"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:9
 msgctxt "GUI|Advanced User"
 msgid "_Add user to the following groups:"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰীসকলক নিম্নলিখিত দললৈ যোগ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:10
 msgid "Example:"
-msgstr ""
+msgstr "উদাহৰণ:"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:11
 msgid "wheel, my-team (1245), project-x (29935)"
-msgstr ""
+msgstr "চকা, মোৰ-দল (1245), প্ৰকল্প-x (29935)"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:12
 msgid "Tip:"
-msgstr ""
+msgstr "সহায়:"
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade.h:13
 msgid ""
@@ -3505,160 +3789,162 @@ msgid ""
 "Groups that do not already exist will be created; specify their GID in "
 "parentheses. "
 msgstr ""
+"আপুনি ইয়াত দল নামসমূহ আৰু দল IDs ৰ এটা কমা-পৃথকিত তালিকা ইনপুট কৰিব পাৰিব।দলসমূহ "
+"যি ইতিমধ্যে অস্তিত্ববান নহয় সৃষ্টি কৰা হব; সিহতৰ GID ব্ৰেকেটত ধাৰ্য্য কৰক।"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:1
 msgctxt "GUI|Date and Time|NTP"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:2
 msgctxt "GUI|Date and Time|NTP"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:3
 msgid "Add and mark for usage NTP servers"
-msgstr ""
+msgstr "ব্যৱহাৰ NTP চাৰ্ভাৰসমূহৰ বাবে যোগ কৰক আৰু চিহ্নিত কৰক"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:4
 msgid "New NTP Server"
-msgstr ""
+msgstr "নতুন NTP চাৰ্ভাৰ"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:5
 msgid "Add NTP Server"
-msgstr ""
+msgstr "NTP চাৰ্ভাৰ যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:7
 msgid "Working"
-msgstr ""
+msgstr "কৰ্মৰত"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:8
 msgid "Use"
-msgstr ""
+msgstr "ব্যৱহাৰ কৰক"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:9
 msgid "Configure NTP"
-msgstr ""
+msgstr "NTP সংৰূপণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:10
 msgid "DATE & TIME"
-msgstr ""
+msgstr "তাৰিখ আৰু সময়"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:11
 msgctxt "GUI|Date and Time"
 msgid "_Region:"
-msgstr ""
+msgstr "অঞ্চল (_R):"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:12
 msgid "Region"
-msgstr ""
+msgstr "অঞ্চল"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:13
 msgctxt "GUI|Date and Time"
 msgid "_City:"
-msgstr ""
+msgstr "নগৰ (_C):"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:14
 msgid "City"
-msgstr ""
+msgstr "নগৰ"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:15
 msgctxt "GUI|Date and Time"
 msgid "_Network Time"
-msgstr ""
+msgstr "নেটৱৰ্ক সময় (_N)"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:16
 msgid "Use Network Time"
-msgstr ""
+msgstr "নেটৱৰ্ক সময় ব্যৱহাৰ কৰক"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:17
 msgid "Hours"
-msgstr ""
+msgstr "ঘন্টা"
 
 #. TRANSLATORS: This is the separator between hours and minutes, like in HH:MM
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:19
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:20
 msgid "Minutes"
-msgstr ""
+msgstr "মিনিট"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:21
 msgid "Hour Up"
-msgstr ""
+msgstr "ঘন্টা ওপৰ"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:22
 msgid "Hour Down"
-msgstr ""
+msgstr "ঘন্টা তল"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:23
 msgid "AM/PM Up"
-msgstr ""
+msgstr "AM/PM ওপৰ"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:24
 msgid "Minutes Up"
-msgstr ""
+msgstr "মিনিট ওপৰ"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:25
 msgid "AM/PM Down"
-msgstr ""
+msgstr "AM/PM তল"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:26
 msgid "Minutes Down"
-msgstr ""
+msgstr "মিনিট তল"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:28
 msgctxt "GUI|Date and Time"
 msgid "24-_hour"
-msgstr ""
+msgstr "২৪-ঘন্টা (_h)"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:29
 msgctxt "GUI|Date and Time"
 msgid "_AM/PM"
-msgstr ""
+msgstr "AM/PM (_A)"
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade.h:30
 msgid "Set Date & Time"
-msgstr ""
+msgstr "তাৰিখ & সময় সংহতি কৰক"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:1
 #: pyanaconda/ui/gui/spokes/storage.glade.h:14
 msgid "INSTALLATION DESTINATION"
-msgstr ""
+msgstr "ইনস্টলেষণৰ গন্তব্য"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:2
 msgctxt "GUI|Installation Destination|Filter|Search"
 msgid "Search _By:"
-msgstr ""
+msgstr "চিহ্নিত বস্তু দ্বাৰা সন্ধান কৰক (_B):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:4
 msgid "Port / Target / LUN #"
-msgstr ""
+msgstr "পৰ্ট/লক্ষ্য/LUN #"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:5
 msgid "Target WWID"
-msgstr ""
+msgstr "লক্ষ্য WWID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:6
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
 msgid "_Port:"
-msgstr ""
+msgstr "পোৰ্ট (_P):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:7
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
 msgid "_Target:"
-msgstr ""
+msgstr "লক্ষ্য (_T):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:8
 msgctxt "GUI|Installation Destination|Filter|Search|Port Target LUN"
 msgid "_LUN:"
-msgstr ""
+msgstr "LUN (_L):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:9
 msgctxt "GUI|Installation Destination|Filter|Search|WWID"
 msgid "_WWID:"
-msgstr ""
+msgstr "WWID (_W):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:10
 msgctxt "GUI|Installation Destination|Filter|Search"
@@ -3672,108 +3958,108 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:6
 msgid "Name"
-msgstr ""
+msgstr "নাম"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:12
 msgid "WWID"
-msgstr ""
+msgstr "WWID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:13
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "ক্ষমতা"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
-msgstr ""
+msgstr "আন্তঃসংযোগ"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:15
 msgid "Model"
-msgstr ""
+msgstr "আৰ্হি"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:16
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:17
 msgid "Port"
-msgstr ""
+msgstr "পোৰ্ট"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:18
 msgid "Target"
-msgstr ""
+msgstr "লক্ষ্য"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:19
 msgid "Vendor"
-msgstr ""
+msgstr "বিক্ৰেতা"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:20
 msgctxt "GUI|Installation Destination|Filter"
 msgid "Searc_h"
-msgstr ""
+msgstr "সন্ধান কৰক (_h)"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:21
 msgctxt "GUI|Installation Destination|Filter|Multipath"
 msgid "Filter _By:"
-msgstr ""
+msgstr "চিহ্নিত বস্তু দ্বাৰা ফিল্টাৰ কৰক (_B):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:22
 msgctxt "GUI|Installation Destination|Filter|Multipath|Vendor"
 msgid "Show Only _Devices From:"
-msgstr ""
+msgstr "কেৱল চিহ্নিত বস্তুৰ পৰা ডিভাইচসমূহ দেখুৱাওক (_D):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:23
 msgctxt "GUI|Installation Destination|Filter|Multipath|Interconnect"
 msgid "Show Only _Devices With:"
-msgstr ""
+msgstr "কেৱল চিহ্নিত বস্তু থকা ডিভাইচসমূহ দেখুৱাওক (_D):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:24
 msgctxt "GUI|Installation Destination|Filter|Multipath|WWID"
 msgid "Show Only _Devices Containing:"
-msgstr ""
+msgstr "কেৱল চিহ্নিত বস্তু অন্তৰ্ভুক্ত কৰা ডিভাইচসমূহ দেখুৱাওক (_D):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:25
 msgid "Paths"
-msgstr ""
+msgstr "পথবোৰ"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:26
 msgctxt "GUI|Installation Destination|Filter"
 msgid "_Multipath Devices"
-msgstr ""
+msgstr "বহুপথ ডিভাইচসমূহ (_M)"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:27
 msgctxt "GUI|Installation Destination|Filter|Other"
 msgid "Filter _By:"
-msgstr ""
+msgstr "চিহ্নিত বস্তু দ্বাৰা ফিল্টাৰ কৰক (_B):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:28
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:29
 msgctxt "GUI|Installation Destination|Filter|Other|Vendor"
 msgid "Show Only _Devices From:"
-msgstr ""
+msgstr "কেৱল চিহ্নিত বস্তুৰ পৰা ডিভাইচসমূহ দেখুৱাওক (_D):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:30
 msgctxt "GUI|Installation Destination|Filter|Other|Interconnect"
 msgid "Show Only _Devices With:"
-msgstr ""
+msgstr "কেৱল চিহ্নিত বস্তু থকা ডিভাইচসমূহ দেখুৱাওক (_D):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:31
 msgctxt "GUI|Installation Destination|Filter|Other|ID"
 msgid "Show Only _Devices Containing:"
-msgstr ""
+msgstr "কেৱল চিহ্নিত বস্তু অন্তৰ্ভুক্ত কৰা ডিভাইচসমূহ দেখুৱাওক (_D):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:32
 msgid "Identifier"
-msgstr ""
+msgstr "পৰিচয়ক"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:33
 msgctxt "GUI|Installation Destination|Filter"
 msgid "_Other SAN Devices"
-msgstr ""
+msgstr "অন্য SAN ডিভাইচসমূহ (_O)"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:34
 msgctxt "GUI|Installation Destination|Filter|zSeries"
@@ -3782,237 +4068,249 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:35
 msgid "CCW"
-msgstr ""
+msgstr "CCW"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:36
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
+# translation auto-copied from project anaconda, version rhel7-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:37
 msgctxt "GUI|Installation Destination|Filter|zSeries|CCW"
 msgid "_CCW:"
-msgstr ""
+msgstr "CCW (_C):"
 
+# translation auto-copied from project anaconda, version rhel7-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:38
 msgctxt "GUI|Installation Destination|Filter|zSeries|WWPN"
 msgid "_WWPN:"
-msgstr ""
+msgstr "WWPN (_W):"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:39
 msgctxt "GUI|Installation Destination|Filter|zSeries|LUN"
 msgid "_LUN:"
-msgstr ""
+msgstr "LUN (_L):"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:40
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:7
 msgid "Type"
-msgstr ""
+msgstr "ধৰণ"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:41
 msgctxt "GUI|Installation Destination|Filter"
 msgid "_zSeries Devices"
-msgstr ""
+msgstr "zSeries ডিভাইচসমূহ (_z)"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:42
 msgctxt "GUI|Installation Destination|Filter"
 msgid "_Add zFCP LUN..."
-msgstr ""
+msgstr "zFCP LUN যোগ কৰক (_A)..."
 
+# translation auto-copied from project anaconda, version rhel7-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:43
 msgctxt "GUI|Installation Destination|Filter"
 msgid "Add EC_KD DASD..."
-msgstr ""
+msgstr "ECKD DASD যোগ কৰক (_K)..."
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:44
 msgctxt "GUI|Installation Destination|Filter"
 msgid "Add _iSCSI Target..."
-msgstr ""
+msgstr "iSCSI লক্ষ্য যোগ কৰক (_i)..."
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:45
 msgctxt "GUI|Installation Destination|Filter"
 msgid "Add FCo_E SAN..."
-msgstr ""
+msgstr "FCoE SAN যোগ কৰক (_E)..."
 
+# translation auto-copied from project anaconda, version rhel7-branch,
+# document anaconda
 #: pyanaconda/ui/gui/spokes/filter.glade.h:46
 msgctxt "GUI|Installation Destination|Filter"
 msgid "Refresh _List"
-msgstr ""
+msgstr "তালিকা সতেজ কৰক (_L)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:5
 msgid "Add device"
-msgstr ""
+msgstr "ডিভাইচ যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:6
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:7
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Add"
-msgstr ""
+msgstr "যোগ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:8
 msgctxt "GUI|Network|Add Device Dialog"
 msgid "_Select the type of device you wish to add"
-msgstr ""
+msgstr "আপুনি যোগ কৰিব বিচৰা ডিভাইচৰ ধৰণ বাছক (_S)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:9
 msgid "NETWORK & HOST NAME"
-msgstr ""
+msgstr "নেটৱৰ্ক আৰু হস্ট নাম"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:10
 msgid ""
 "Please use the live desktop environment's tools for customizing your network "
 "configuration.  You can set the host name here."
 msgstr ""
+"আপোনাৰ নেটৱৰ্ক সংৰূপ স্বনিৰ্বাচন কৰিবলে অনুগ্ৰহ কৰি জীৱন্ত ডেস্কটপ পৰিৱেশৰ সঁজুলিসমূহ "
+"ব্যৱহাৰ কৰক। আপুনি হস্ট নামসমূহ ইয়াত সংহতি কৰিব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:11
 msgid "Slaves"
-msgstr ""
+msgstr "স্লেইভবোৰ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:12
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:13
 msgid "Default Route"
-msgstr ""
+msgstr "অবিকল্পিত পথ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:14
 msgid "Subnet Mask"
-msgstr ""
+msgstr "চাবনেট মাস্ক"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:17
 msgid "Speed"
-msgstr ""
+msgstr "গতি"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:18
 msgid "Hardware Address"
-msgstr ""
+msgstr "হাৰ্ডৱেৰ ঠিকনা"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:19
 msgid "Parent"
-msgstr ""
+msgstr "উপধায়ক"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:20
 msgid "VLAN ID"
-msgstr ""
+msgstr "VLAN ID"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:21
 msgctxt "GUI|Network|Wired"
 msgid "C_onfigure..."
-msgstr ""
+msgstr "সংৰূপণ কৰক (_o)..."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:22
 msgid "Security"
-msgstr ""
+msgstr "সুৰক্ষা"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:23
 msgctxt "GUI|Network|Wireless"
 msgid "_Network Name"
-msgstr ""
+msgstr "নেটৱৰ্ক সময় (_N)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:24
 msgid "Network Name"
-msgstr ""
+msgstr "নেটৱৰ্কৰ নাম"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:25
 msgid "Security Key"
-msgstr ""
+msgstr "সুৰক্ষা কি'"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:26
 msgctxt "GUI|Network|Wireless"
 msgid "_Use as Hotspot..."
-msgstr ""
+msgstr "হটস্পট হিচাপে ব্যৱহাৰ কৰক (_U)..."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:27
 msgctxt "GUI|Network|Wireless"
 msgid "_Stop Hotspot..."
-msgstr ""
+msgstr "হটস্পট বন্ধ কৰক (_S)..."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:28
 msgctxt "GUI|Network|Wireless"
 msgid "_Configure..."
-msgstr ""
+msgstr "সংৰূপণ কৰক (_C)..."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:29
 msgid "IMEI"
-msgstr ""
+msgstr "IMEI"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:30
 msgid "Provider"
-msgstr ""
+msgstr "প্ৰদানকাৰী"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:32
 msgctxt "GUI|Network|Mobile Broadband"
 msgid "_Configure..."
-msgstr ""
+msgstr "সংৰূপণ কৰক (_C)..."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:33
 msgid "VPN Type"
-msgstr ""
+msgstr "VPN ধৰণ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:34
 msgid "Gateway"
-msgstr ""
+msgstr "গেইটৱে"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:35
 msgid "Group Name"
-msgstr ""
+msgstr "দলৰ নাম"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:36
 msgid "Group Password"
-msgstr ""
+msgstr "দল পাছৱৰ্ড"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:37
 #: pyanaconda/ui/gui/spokes/user.glade.h:5
 msgid "User name"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী নাম"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:38
 msgctxt "GUI|Network|VPN"
 msgid "_Configure..."
-msgstr ""
+msgstr "সংৰূপণ কৰক (_C)..."
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:39
 msgctxt "GUI|Network|Proxy"
 msgid "_Method"
-msgstr ""
+msgstr "পদ্ধতি (_M)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:40
 msgctxt "GUI|Network|Proxy"
 msgid "_Configuration URL"
-msgstr ""
+msgstr "সংৰূপ URL (_C)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:41
 msgctxt "GUI|Network|Proxy"
 msgid "HTTP _Proxy"
-msgstr ""
+msgstr "HTTP প্ৰক্সি (_P)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:42
 msgctxt "GUI|Network|Proxy"
 msgid "H_TTPS Proxy"
-msgstr ""
+msgstr "HTTP প্ৰক্সি (_T)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:43
 msgctxt "GUI|Network|Proxy"
 msgid "_FTP Proxy"
-msgstr ""
+msgstr "FTP প্ৰক্সি (_F)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:44
 msgctxt "GUI|Network|Proxy"
 msgid "_Socks Host"
-msgstr ""
+msgstr "চক্স হস্ট (_S)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:46
 msgid "Network Config Box"
-msgstr ""
+msgstr "নেটৱৰ্ক সংৰূপ বাকচ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:47
 msgctxt "GUI|Network"
 msgid "Unloc_k"
-msgstr ""
+msgstr "আনলক কৰক (_k)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:48
 msgctxt "GUI|Network"
@@ -4021,12 +4319,12 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:49
 msgid "More Network Config Box"
-msgstr ""
+msgstr "অধিক নেটৱৰ্ক সংৰূপ বাকচ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:50
 msgctxt "GUI|Network"
 msgid "_Host name:"
-msgstr ""
+msgstr "হস্টৰ নাম (_H):"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:52
 msgid "_Apply"
@@ -4042,7 +4340,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:55
 msgid "NETWORK CONFIGURATION"
-msgstr ""
+msgstr "নেটৱৰ্ক সংৰূপ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:56
 msgid ""
@@ -4050,172 +4348,179 @@ msgid ""
 "make software\n"
 "updates available for you."
 msgstr ""
+"আপোনাৰ অৱস্থানৰ বিষয়ে তথ্য প্ৰাপ্ত কৰিবলে আৰু আপোনাৰ বাবে চফ্টৱেৰ আপডেইটসমূহ উপলব্ধ "
+"কৰাবলে\n"
+"আপোনাৰ নেটৱৰ্ক অভিগমৰ প্ৰয়োজন হব।"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:58
 msgid "Authentication"
-msgstr ""
+msgstr "প্ৰমাণীকৰণ"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:59
 msgctxt "GUI|Network|Authentication Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:60
 msgctxt "GUI|Network|Authentication Dialog"
 msgid "C_onnect"
-msgstr ""
+msgstr "সংযোগ  কৰক (_o)"
 
 #: pyanaconda/ui/gui/spokes/network.glade.h:62
 msgid ""
 "Passwords or encryption keys are required to access\n"
 "the wireless network"
 msgstr ""
+"বেতাঁৰ নেটৱৰ্ক অভিগম কৰিবলে⏎\n"
+"পাছৱৰ্ড অথবা ইনক্ৰিপষণ কি'সমূহৰ প্ৰয়োজন"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:1
 msgid "SOFTWARE SELECTION"
-msgstr ""
+msgstr "চফ্টৱেৰ নিৰ্বাচন"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:2
 msgid "Base Environment"
-msgstr ""
+msgstr "ভিত্তি পৰিৱেশ"
 
 #: pyanaconda/ui/gui/spokes/software.glade.h:3
 msgid "Add-Ons for Selected Environment"
-msgstr ""
+msgstr "নিৰ্বাচিত পৰিৱেশৰ বাবে এড-অনসমূহ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:1
 msgctxt "GUI|Storage|Need Space Dialog"
 msgid "Cancel & _add more disks"
-msgstr ""
+msgstr "বাতিল কৰক আৰু অধিক ডিস্ক যোগ কৰক (_a)"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:2
 msgctxt "GUI|Storage|Need Space Dialog"
 msgid "_Reclaim space"
-msgstr ""
+msgstr "স্থান পুনৰুদ্ধাৰ কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:3
 msgid "INSTALLATION OPTIONS"
-msgstr ""
+msgstr "ইনস্টলেষণৰ বিকল্পসমূহ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:4
 msgid ""
 "Here we'll describe how much space is needed for the current software "
 "selection."
-msgstr ""
+msgstr "বৰ্তমান চফ্টৱেৰ নিৰ্বাচনৰ বাবে কিমান স্থানৰ প্ৰয়োজন তাৰ বিৱৰণ আমি ইয়াত দিম।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:5
 msgid "disk free"
-msgstr ""
+msgstr "ডিস্ক মুক্ত"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:6
 msgid "Free space available for use."
-msgstr ""
+msgstr "ব্যৱহাৰৰ বাবে উপলব্ধ খালি ঠাই।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:7
 msgid "fs free"
-msgstr ""
+msgstr "fs মুক্ত"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:8
 msgid "Free space unavailable but reclaimable from existing partitions."
-msgstr ""
+msgstr "খালি ঠাই উপলব্ধ নাই কিন্তু স্থায়ী বিভাজনসমূহৰ পৰা প্ৰাপ্ত কৰিব পাৰি।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:9
 msgid "Here we'll describe what your options are."
-msgstr ""
+msgstr "ইয়াত আমি বিৱৰণ দিম আপোনাৰ বিকল্পসমূহ কি।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:10
 msgid "Need Space"
-msgstr ""
+msgstr "স্থানৰ প্ৰয়োজন"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:11
 msgctxt "GUI|Storage|No Space Dialog"
 msgid "_Quit installer"
-msgstr ""
+msgstr "ইনস্টলাৰ প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:12
 msgctxt "GUI|Storage|No Space Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:13
 msgid "No Space"
-msgstr ""
+msgstr "স্থান নাই"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:15
 msgid "Device Selection"
-msgstr ""
+msgstr "ডিভাইচ নিৰ্বাচন"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:16
 msgid ""
 "Select the device(s) you'd like to install to.  They will be left untouched "
 "until you click on the main menu's \"Begin Installation\" button."
 msgstr ""
+"ডিভাইচ(সমূহ) য'লৈ ইনস্টল কৰিব বাছক।   সিহতক স্পৰ্শ কৰা নহব যেতিয়ালৈকে আপুনি মূখ্য "
+"মেনুৰ \"ইনস্টলেষণ আৰম্ভ কৰক\" বুটাম ক্লিক নকৰে।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:17
 msgid "Local Standard Disks"
-msgstr ""
+msgstr "স্থানীয় প্ৰামাণিক ডিস্কসমূহ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:18
 msgid "Disks left unselected here will not be touched."
-msgstr ""
+msgstr "ইয়াত অনিৰ্বাচিত এৰা ডিস্কসমূহ স্পৰ্শ কৰা নহব।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:19
 msgid "Specialized & Network Disks"
-msgstr ""
+msgstr "বিশেষ আৰু নেটৱৰ্ক ডিস্কসমূহ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:20
 msgctxt "GUI|Storage"
 msgid "_Add a disk..."
-msgstr ""
+msgstr "এটা ডিস্ক যোগ কৰক (_A)..."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:21
 msgid "Add Specialized Disk"
-msgstr ""
+msgstr "বিশেষ ডিস্ক যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:22
 msgid "Other Storage Options"
-msgstr ""
+msgstr "অন্য সংৰক্ষণ বিকল্পসমূহ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:23
 msgid "Partitioning"
-msgstr ""
+msgstr "বিভাজন প্ৰক্ৰিয়া"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:24
 msgid "Encryption"
-msgstr ""
+msgstr "ইনক্ৰিপষণ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:25
 msgid "A_utomatically configure partitioning."
-msgstr ""
+msgstr "বিভাজন প্ৰক্ৰিয়া স্বচালিতভাৱে সংৰূপণ কৰক (_u)।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:26
 msgid "_I will configure partitioning."
-msgstr ""
+msgstr "মই বিভাজন প্ৰক্ৰিয়া সংৰূপণ কৰিম (_I)।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:27
 msgid "_Encrypt my data."
-msgstr ""
+msgstr "মোৰ তথ্য ইনক্ৰিপ্ট কৰক (_E)।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:28
 msgid "You'll set a passphrase next."
-msgstr ""
+msgstr "আপুনি ইয়াৰ পিছত এটা পাচফ্ৰেইছ সংহতি কৰিব।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:29
 msgid "I would like to _make additional space available."
-msgstr ""
+msgstr "মই অতিৰিক্ত স্থান উপলব্ধ কৰাব খোজো (_m)।"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:30
 msgid "Storage Options"
-msgstr ""
+msgstr "সংৰক্ষণ বিকল্পসমূহ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:31
 msgid "summary"
-msgstr ""
+msgstr "সাৰাংশ"
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:32
 msgctxt "GUI|Storage"
 msgid "_Full disk summary and boot loader..."
-msgstr ""
+msgstr "সম্পূৰ্ণ ডিস্ক সাৰাংশ আৰু বুট ল'ডাৰ (_F)..."
 
 #: pyanaconda/ui/gui/spokes/storage.glade.h:33
 msgctxt "GUI|Storage"
@@ -4224,223 +4529,229 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:1
 msgid "KEYBOARD LAYOUT"
-msgstr ""
+msgstr "কিবৰ্ডৰ বিন্যাস"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:2
 msgid ""
 "Which keyboard layouts would you like to use on this system?  You may move "
 "any layout to the top of the list to select it as the default."
 msgstr ""
+"এই চিস্টেমত আপুনি কোনবোৰ কিবৰ্ড বিন্যাস ব্যৱহাৰ কৰিব বিচাৰে?  অবিকল্পিত হিচাপে "
+"বাছিবলেআপুনি যিকোনো বিন্যাসক তালিকাৰ ওপৰত স্থানান্তৰ কৰিব পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:3
 msgid ""
 "Changes here will only apply to the installed system. Use the desktop's tool "
 "to configure the keyboard for the installation process."
 msgstr ""
+"ইয়াত কৰা পৰিবৰ্তনসমূহ কেৱল ইনস্টল চিস্টেমৰ বাবে প্ৰযোজ্য হব। কি'বৰ্ডক ইনস্টলেষণ "
+"প্ৰক্ৰিয়াৰ বাবে  সংৰূপণ কৰিবলে ডেস্কটপৰ সঁজুলি ব্যৱহাৰ কৰক।"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:4
 msgid "name"
-msgstr ""
+msgstr "নাম"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:5
 msgid "Selected Layouts"
-msgstr ""
+msgstr "নিৰ্বাচিত বিন্যাসসমূহ"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:6
 msgctxt "GUI|Keyboard Layout"
 msgid "_Add layout"
-msgstr ""
+msgstr "বিন্যাস যোগ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:7
 msgctxt "GUI|Keyboard Layout"
 msgid "_Remove layout"
-msgstr ""
+msgstr "বিন্যাস আতৰাওক (_R)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:8
 msgctxt "GUI|Keyboard Layout"
 msgid "Move selected layout _up"
-msgstr ""
+msgstr "নিৰ্বাচিত বিন্যাসক ওপৰত স্থানান্তৰ কৰক (_u)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:9
 msgctxt "GUI|Keyboard Layout"
 msgid "Move selected layout _down"
-msgstr ""
+msgstr "নিৰ্বাচিত বিন্যাসক তলত স্থানান্তৰ কৰক (_d)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:10
 msgctxt "GUI|Keyboard Layout"
 msgid "_Preview layout"
-msgstr ""
+msgstr "বিন্যাস পূৰ্বদৰ্শন কৰক (_P)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:11
 msgctxt "GUI|Keyboard Layout"
 msgid "_Test the layout configuration below:"
-msgstr ""
+msgstr "বিন্যাসৰ সংৰূপ তলত পৰিক্ষা কৰক (_T):"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:12
 msgid "Alt + Shift to switch layouts."
-msgstr ""
+msgstr "বিন্যাসসমূহ সলনি কৰিবলে Alt + Shift"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:13
 msgctxt "GUI|Keyboard Layout"
 msgid "_Options"
-msgstr ""
+msgstr "বিকল্পসমূহ (_O)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:14
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:15
 msgctxt "GUI|Keyboard Layout|Add Layout"
 msgid "_Add"
-msgstr ""
+msgstr "যোগ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:16
 msgid "ADD A KEYBOARD LAYOUT"
-msgstr ""
+msgstr "এটা কি'বৰ্ড বিন্যাস যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:17
 msgid "You may add a keyboard layout by selecting it below:"
-msgstr ""
+msgstr "আপুনি তলত নিৰ্বাচন কৰি এটা কিবৰ্ড বিন্যাস যোগ কৰিব পাৰে:"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:19
 msgid "Available Layouts"
-msgstr ""
+msgstr "উপলব্ধ বিন্যাসমূহ"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:20
 msgid "Add Layout"
-msgstr ""
+msgstr "বিন্যাস যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:21
 msgctxt "GUI|Keyboard Layout|Switching Options"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:22
 msgctxt "GUI|Keyboard Layout|Switching Options"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:23
 msgid "LAYOUT SWITCHING OPTIONS"
-msgstr ""
+msgstr "বিন্যাস সলনি কৰা বিকল্পসমূহ"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:24
 msgid ""
 "Which combination(s) would you prefer for switching between keyboard layouts?"
-msgstr ""
+msgstr "কিবৰ্ড বিন্যাসসমূহ সলনি কৰিবলে কোনবোৰ সংযুক্তি আপুনি পছন্দ কৰিব?"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:25
 msgid "use"
-msgstr ""
+msgstr "ব্যৱহাৰ কৰক"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:26
 msgid "description"
-msgstr ""
+msgstr "বিৱৰণ"
 
 #: pyanaconda/ui/gui/spokes/keyboard.glade.h:27
 msgid "Layout Options"
-msgstr ""
+msgstr "বিন্যাস বিকল্পসমূহ"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:1
 msgid "LANGUAGE SUPPORT"
-msgstr ""
+msgstr "ভাষাৰ সমৰ্থন"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:2
 msgid "Select additional language support to be installed:"
-msgstr ""
+msgstr "ইনস্টল কৰিব বিচৰা অতিৰিক্ত ভাষাৰ সমৰ্থন বাছক:"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:3
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:11
 msgid "nativeName"
-msgstr ""
+msgstr "nativeName"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:4
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:12
 msgid "englishName"
-msgstr ""
+msgstr "englishName"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:5
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:13
 msgid "selected"
-msgstr ""
+msgstr "নিৰ্বাচিত"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:6
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:15
 msgid "Type here to search."
-msgstr ""
+msgstr "সন্ধান কৰিবলে ইয়াত টাইপ কৰক।"
 
 #: pyanaconda/ui/gui/spokes/langsupport.glade.h:7
 msgid "checked"
-msgstr ""
+msgstr "নিৰীক্ষিত"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:1
 msgid "ROOT PASSWORD"
-msgstr ""
+msgstr "ৰুট পাছৱৰ্ড"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:2
 msgctxt "GUI|Password"
 msgid "_Root Password:"
-msgstr ""
+msgstr "ৰুট পাছৱৰ্ড (_R):"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:3
 msgctxt "GUI|Password"
 msgid "_Confirm:"
-msgstr ""
+msgstr "সুনিশ্চিত কৰক (_C):"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:5
 #: pyanaconda/ui/gui/spokes/user.glade.h:9
 msgid "Confirm Password"
-msgstr ""
+msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:6
 #: pyanaconda/ui/gui/spokes/user.glade.h:12
 msgid "empty password"
-msgstr ""
+msgstr "ৰিক্ত পাছৱৰ্ড"
 
 #: pyanaconda/ui/gui/spokes/password.glade.h:7
 msgid ""
 "The root account is used for administering the system.  Enter a password for "
 "the root user."
 msgstr ""
+"ৰুট একাওণ্ট চিস্টেম প্ৰশাসন কৰাৰ বাবে ব্যৱহাৰ কৰা হয়।  ৰুট ব্যৱহাৰকাৰীৰ বাবে এটা "
+"পাছৱৰ্ড সুমুৱাওক।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:1
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:2
 msgctxt "GUI|Software Source|ISO Chooser Dialog"
 msgid "_Open"
-msgstr ""
+msgstr "খোলক (_O)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:3
 msgctxt "GUI|Software Source|Media Check Dialog"
 msgid "_Done"
-msgstr ""
+msgstr "কৰা হল (_D)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:4
 msgid "MEDIA VERIFICATION"
-msgstr ""
+msgstr "মাধ্যমৰ সতা সত্য নিৰূপণ"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:5
 msgid "Verifying media, please wait..."
-msgstr ""
+msgstr "মাধ্যম সতা সত্য নিৰূপণ কৰা হৈছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক..."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:6
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:7
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:8
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Enable HTTP Proxy"
-msgstr ""
+msgstr "HTTP প্ৰক্সি সামৰ্থবান কৰক (_E)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:9
 msgctxt "GUI|Software Source|Proxy Dialog"
@@ -4449,91 +4760,91 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:10
 msgid "<span size=\"small\"><b>Example:</b> squid.mysite.org:3128</span>"
-msgstr ""
+msgstr "<span size=\"small\"><b>উদাহৰণ:</b> squid.mysite.org:3128</span>"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:11
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Use Authentication"
-msgstr ""
+msgstr "প্ৰমাণীকৰণ ব্যৱহাৰ কৰক (_U)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:12
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "User _name"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী নাম (_n)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:13
 msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "Pass_word"
-msgstr ""
+msgstr "পাছৱৰ্ড (_w)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:14
 msgid "INSTALLATION SOURCE"
-msgstr ""
+msgstr "ইনস্টলেষণৰ উৎস"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:15
 msgid "Which installation source would you like to use?"
-msgstr ""
+msgstr "কোনটো ইনস্টল উৎস আপুনি ব্যৱহাৰ কৰিব বিচাৰে?"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:16
 msgctxt "GUI|Software Source"
 msgid "_Auto-detected installation media:"
-msgstr ""
+msgstr "স্ব-নিৰ্বাচিত ইনস্টলেষণ মাধ্যম (_A):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:17
 msgid "Device:"
-msgstr ""
+msgstr "ডিভাইচ:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:18
 msgid "Label:"
-msgstr ""
+msgstr "লেবেল:"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:19
 msgctxt "GUI|Software Source"
 msgid "_Verify"
-msgstr ""
+msgstr "সতা সত্য নিৰূপণ কৰক (_V)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:20
 msgctxt "GUI|Software Source"
 msgid "_ISO file:"
-msgstr ""
+msgstr "ISO ফাইল (_I):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:21
 msgctxt "GUI|Software Source"
 msgid "D_evice:"
-msgstr ""
+msgstr "ডিভাইচ (_e):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:22
 msgctxt "GUI|Software Source"
 msgid "_Choose an ISO"
-msgstr ""
+msgstr "এটা ISO বাছক (_C)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:23
 msgctxt "GUI|Software Source"
 msgid "_On the network:"
-msgstr ""
+msgstr "নেটৱৰ্কত (_O):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:25
 msgctxt "GUI|Software Source"
 msgid "_Proxy setup..."
-msgstr ""
+msgstr "প্ৰস্কি সংস্থাপন (_P)..."
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:26
 msgctxt "GUI|Software Source"
 msgid "This URL refers to a _mirror list."
-msgstr ""
+msgstr "এই URL এ এটা মিৰৰ তালিকালে প্ৰসংগ কৰে (_m)।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:27
 msgctxt "GUI|Software Source"
 msgid "N_FS mount options:"
-msgstr ""
+msgstr "NFS মাউণ্ট বিকল্পসমূহ (_F):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:28
 msgid "This field is optional."
-msgstr ""
+msgstr "এই ক্ষেত্ৰ বৈকল্পিক।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:29
 msgid "Updates"
-msgstr ""
+msgstr "আপডেইটসমূহ"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:30
 msgctxt "GUI|Software Source"
@@ -4541,104 +4852,106 @@ msgid ""
 "Don't install the latest available software _updates. Install the default "
 "versions provided by the installation source above."
 msgstr ""
+"শেহতীয়াভাৱে উপলব্ধ চফ্টৱেৰ আপডেইটসমূহ ইনস্টল নকৰিব (_u)।  ওপৰত থকা ইনস্টলেষণ উৎস "
+"দ্বাৰা প্ৰদান কৰা অবিকল্পিত সংস্কৰণসমূহ ইনস্টল কৰক।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:31
 msgid "Additional repositories"
-msgstr ""
+msgstr "অতিৰিক্ত ভঁৰালসমূহ"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:32
 msgid "Enabled"
-msgstr ""
+msgstr "সামৰ্থবান"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:34
 msgid "Add a new repository."
-msgstr ""
+msgstr "এটা নতুন ভঁৰাল যোগ কৰক।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:35
 msgctxt "GUI|Software Source"
 msgid "A_dd"
-msgstr ""
+msgstr "যোগ কৰক (_d)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:36
 msgid "Remove the selected repository."
-msgstr ""
+msgstr "নিৰ্বাচিত ভঁৰাল আতৰাওক।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:37
 msgctxt "GUI|Software Source"
 msgid "_Remove"
-msgstr ""
+msgstr "আতৰাওক (_R)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:38
 msgid "Revert to the previous list of repositories."
-msgstr ""
+msgstr "ভঁৰালসমূহৰ পূৰ্বৰ তালিকালৈ উভতি যাওক।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:39
 msgctxt "GUI|Software Source"
 msgid "Rese_t"
-msgstr ""
+msgstr "পুনৰ সংহতি কৰক (_t)"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:40
 msgid "URL for the repository, without protocol."
-msgstr ""
+msgstr "ভঁৰালৰ বাবে URL, প্ৰটোকল নহোৱাকৈ।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:41
 msgid "URL of proxy in the form of protocol://host:[port]"
-msgstr ""
+msgstr "প্ৰটোকল://host:[port] বিন্যাসত প্ৰক্সিৰ URL"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:42
 msgid "Optional proxy user name."
-msgstr ""
+msgstr "বৈকল্পিক প্ৰক্সি ব্যৱহাৰকাৰী নাম।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:43
 msgid "Optional proxy password."
-msgstr ""
+msgstr "বৈকল্পিক প্ৰক্সি পাছৱৰ্ড।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:44
 msgctxt "GUI|Software Source"
 msgid "This URL refers to a mirror _list."
-msgstr ""
+msgstr "এই URL এ এটা মিৰৰ তালিকালৈ প্ৰসংগ কৰে (_l)।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:45
 msgctxt "GUI|Software Source"
 msgid "_Name:"
-msgstr ""
+msgstr "নাম (_N):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:46
 msgid "Protocol for the repository URL."
-msgstr ""
+msgstr "ভঁৰাল URL ৰ বাবে প্ৰটোকল।"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:47
 msgctxt "GUI|Software Source"
 msgid "Pro_xy URL:"
-msgstr ""
+msgstr "প্ৰক্সি URL (_x):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:48
 msgctxt "GUI|Software Source"
 msgid "U_ser name:"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী নাম (_s):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:49
 msgctxt "GUI|Software Source"
 msgid "Pass_word:"
-msgstr ""
+msgstr "পাছৱৰ্ড (_w):"
 
 #: pyanaconda/ui/gui/spokes/source.glade.h:50
 msgid "Name of the repository."
-msgstr ""
+msgstr "ভঁৰালৰ নাম।"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:1
 msgctxt "GUI|Welcome|Beta Warn Dialog"
 msgid "I want to _exit."
-msgstr ""
+msgstr "মই প্ৰস্থান কৰিব বিচাৰো (_e)।"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:2
 msgctxt "GUI|Welcome|Beta Warn Dialog"
 msgid "I want to _proceed."
-msgstr ""
+msgstr "মই আগবাঢ়িব বিচাৰো (_p)।"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:3
 msgid "This is unstable, pre-release software."
-msgstr ""
+msgstr "ই অস্থিৰ, পূৰ্ব-উন্মোচন চফ্টৱেৰ।"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:4
 msgid ""
@@ -4654,311 +4967,330 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program "
 "by clicking \"I want to exit\" which will reboot your system."
 msgstr ""
+"ঘোষণা: ই এটা পূৰ্ব-উন্মোচন চফ্টৱেৰ যি কেৱল উন্নয়ন আৰু পৰিক্ষণ কাৰণৰ বাবে। এই "
+"চফ্টৱেৰক কোনো গুৰুত্বপূৰ্ণ কাম অথবা উন্নয়ন পৰিৱেশৰ বাবে ব্যৱহাৰ নকৰিব।\n"
+"\n"
+"\"মই আগবাঢ়িব বিচাৰো\" ক্লিক কৰিলে, আপুনি মানি লব যে আপুনি পূৰ্ব-উন্মোচন চফ্টৱেৰৰ "
+"সৈতে জড়িত বিপদসমূহ বুজি পায় আৰু গ্ৰহণ কৰে, যে আপুনি ইয়াক কেৱল পৰিক্ষণ আৰু উন্নয়ন "
+"কাৰণসমূহৰ বাবে ব্যৱহাৰ কৰিব বিচাৰে, আৰু এই কাৰ্য্য উন্নত কৰিবলৈ যিকোনো বাগ অথবা "
+"সমস্যা সংবাদন কৰিবলৈ সাঁজু।\n"
+"\n"
+"যদি আপুনি বিপদসমূহ বুজি নাপায় অথবা গ্ৰহণ নকৰে, তেন্তে অনুগ্ৰহ কৰি \"মই প্ৰস্থান কৰিব "
+"বিচাৰো\" ক্লিক কৰি প্ৰগ্ৰামটো প্ৰস্থান কৰক যি আপোনাৰ চিস্টেম পুনৰাম্ভ কৰিব।"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:9
 msgid "Beta Warn"
-msgstr ""
+msgstr "Beta সতৰ্ক"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "ইনস্টলৰ সময়ত আপুনি কোনতো ভাষা ব্যৱহাৰ কৰিব খোজে ?"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
-msgstr ""
+msgstr "ভাষাসমূহ"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:16
 msgid "Locales"
-msgstr ""
+msgstr "স্থানীয়সমূহ"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:17
 msgid "WELCOME"
-msgstr ""
+msgstr "স্বাগতম"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:18
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:19
 msgctxt "GUI|Welcome|Unsupported Hardware Dialog"
 msgid "_Continue"
-msgstr ""
+msgstr "অব্যাহত ৰাখক (_C)"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:20
 msgid "Unsupported Hardware Detected"
-msgstr ""
+msgstr "অসমৰ্থিত হাৰ্ডৱেৰ চিনাক্ত কৰা হৈছে"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:22
 msgid "Unsupported Hardware"
-msgstr ""
+msgstr "অসমৰ্থিত হাৰ্ডৱেৰ"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:1
 msgid "CREATE USER"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী সৃষ্টি কৰক"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:2
 msgctxt "GUI|User"
 msgid "_Full name"
-msgstr ""
+msgstr "সম্পূৰ্ণ নাম (_F)"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:3
 msgctxt "GUI|User"
 msgid "_User name"
-msgstr ""
+msgstr "ব্যৱহাৰকাৰী নাম (_U)"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:4
 msgid "Full Name"
-msgstr ""
+msgstr "সম্পূৰ্ণ নাম"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:6
 msgctxt "GUI|User"
 msgid "_Password"
-msgstr ""
+msgstr "পাছৱৰ্ড (_P)"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:7
 msgctxt "GUI|User"
 msgid "_Confirm password"
-msgstr ""
+msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:10
 msgid ""
 "<b>Tip:</b> Keep your user name shorter than 32 characters and do not use "
 "spaces."
 msgstr ""
+"<b>সহায়:</b> আপোনাৰ ব্যৱহাৰকাৰী নাম ৩২ আখৰৰ কম ৰাখক আৰু স্পেইচ ব্যৱহাৰ নকৰিব।"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:11
 msgctxt "GUI|User"
 msgid "Require a password to use this account"
-msgstr ""
+msgstr "এই একাওণ্ট ব্যৱহাৰ কৰিবলে এটা পাছৱৰ্ডৰ প্ৰয়োজন"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:13
 msgctxt "GUI|User"
 msgid "Make this user administrator"
-msgstr ""
+msgstr "এই ব্যৱহাৰকাৰীজনক প্ৰশাসক বনাওক"
 
 #: pyanaconda/ui/gui/spokes/user.glade.h:14
 msgctxt "GUI|User"
 msgid "_Advanced..."
-msgstr ""
+msgstr "উন্নত (_A)..."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:23
 msgid "RAID0 <span foreground=\"grey\">(Performance)</span>"
-msgstr ""
+msgstr "RAID0 <span foreground=\"grey\">(পৰিৱেশন)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:24
 msgid "RAID1 <span foreground=\"grey\">(Redundancy)</span>"
-msgstr ""
+msgstr "RAID1 <span foreground=\"grey\">(অতিৰিক্ততা)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:8
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:25
 msgid "RAID4 <span foreground=\"grey\">(Error Checking)</span>"
-msgstr ""
+msgstr "RAID4 <span foreground=\"grey\">(ত্ৰুটি পৰিক্ষণ)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:26
 msgid "RAID5 <span foreground=\"grey\">(Distributed Error Checking)</span>"
-msgstr ""
+msgstr "RAID5 <span foreground=\"grey\">(বিতৰিত ত্ৰুটি নিৰীক্ষণ)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:10
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:27
 msgid "RAID6 <span foreground=\"grey\">(Redundant Error Checking)</span>"
-msgstr ""
+msgstr "RAID6 <span foreground=\"grey\">(অতিৰিক্ত ত্ৰুটি নিৰীক্ষণ)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:11
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:28
 msgid "RAID10 <span foreground=\"grey\">(Performance, Redundancy)</span>"
-msgstr ""
+msgstr "RAID10 <span foreground=\"grey\">(পৰিৱেশন, অতিৰিক্ততা)</span>"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:13
 msgid "Add a new mount point."
-msgstr ""
+msgstr "এটা নতুন মাউণ্ট বিন্দু যোগ কৰক।"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:14
 msgctxt "GUI|Custom Partitioning"
 msgid "Add"
-msgstr ""
+msgstr "যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:15
 msgid "Remove the selected mount point(s)."
-msgstr ""
+msgstr "নিৰ্বাচিত মাউণ্ট বিন্দু(সমূহ) আতৰাওক।"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:16
 msgctxt "GUI|Custom Partitioning"
 msgid "Remove"
-msgstr ""
+msgstr "আতৰাওক"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:17
 msgid "Reload storage configuration from disk."
-msgstr ""
+msgstr "ডিস্কৰ পৰা সংৰক্ষণৰ সংৰূপ পুনৰ ল'ড কৰক।"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:18
 msgctxt "GUI|Custom Partitioning"
 msgid "Refresh"
-msgstr ""
+msgstr "সতেজ কৰক"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:19
 msgid "Selected Device"
-msgstr ""
+msgstr "নিৰ্বাচিত ডিভাইচ"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:20
 msgid "Device description"
-msgstr ""
+msgstr "ডিভাইচৰ বিৱৰণ"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:21
 msgid "Mount _Point:"
-msgstr ""
+msgstr "মাউণ্ট বিন্দু (_P):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:22
 msgid "_Desired Capacity:"
-msgstr ""
+msgstr "প্ৰত্যাশিত ক্ষমতা (_D):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:23
 msgid "_Label:"
-msgstr ""
+msgstr "লেবেল (_L):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:24
 msgid "Device(s):"
-msgstr ""
+msgstr "ডিভাইচ(সমূহ):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:25
 msgctxt "GUI|Custom Partitioning|Configure|Devices"
 msgid "_Modify..."
-msgstr ""
+msgstr "পৰিবৰ্তন কৰক (_M)..."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:26
 msgid "_Name:"
-msgstr ""
+msgstr "নাম (_N):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:27
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "Device _Type:"
-msgstr ""
+msgstr "ডিভাইচৰ ধৰণ (_T):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:28
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "_Encrypt"
-msgstr ""
+msgstr "ইনক্ৰিপ্ট কৰক (_E)"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:29
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "File S_ystem:"
-msgstr ""
+msgstr "ফাইল চিস্টেম (_y):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:30
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "Ref_ormat"
-msgstr ""
+msgstr "পুনৰ বিন্যাস কৰক (_o)"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:31
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "_Volume Group:"
-msgstr ""
+msgstr "ভলিউম দল (_V):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:32
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "_Modify..."
-msgstr ""
+msgstr "পৰিবৰ্তন কৰক (_M)..."
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:33
 msgctxt "GUI|Custom Partitioning|Configure"
 msgid "RA_ID Level:"
-msgstr ""
+msgstr "RAID স্তৰ (_I):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:34
 msgid "_Update Settings"
-msgstr ""
+msgstr "সংহতিসমূহ আপডেইট কৰক (_U)"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:35
 msgid ""
 "Note:  The settings you make on this screen will not be applied until you "
 "click on the main menu's 'Begin Installation' button."
 msgstr ""
+"মন কৰিব:  আপুনি এই পৰ্দাত কৰা সংহতিসমূহ প্ৰয়োগ কৰা নহব যেতিয়ালৈকে\n"
+"আপুনি মূখ্য মেনু 'ইনস্টলেষণ আৰম্ভ কৰক' বুটাম ক্লিক নকৰে।"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:36
 msgid ""
 "This device is encrypted and cannot be read without a valid passphrase. You "
 "may unlock it below."
 msgstr ""
+"এই ডিভাইচ ইনক্ৰিপ্টেড আৰু এটা বৈধ পাচফ্ৰেইছ নহোৱাকৈ পঢ়িব নোৱাৰি। আপুনি ইয়াক তলত "
+"আনলক কৰিব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:37
 msgctxt "GUI|Custom Partitioning|Encrypted"
 msgid "_Passphrase:"
-msgstr ""
+msgstr "পাচফ্ৰেইছ (_P):"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:38
 msgctxt "GUI|Custom Partitioning|Encrypted"
 msgid "_Unlock"
-msgstr ""
+msgstr "আনলক কৰক (_U)"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:39
 msgid ""
 "This device cannot be edited directly. You can remove it or select a "
 "different device."
 msgstr ""
+"এই ডিভাইচক প্ৰত্যক্ষভাৱে সম্পাদন কৰিব নোৱাৰি। আপুনি ইয়াক আতৰাব পাৰিব অথবা এটা অন্য "
+"ডিভাইচ বাছিব পাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:40
 msgid "AVAILABLE SPACE"
-msgstr ""
+msgstr "উপলব্ধ স্থান"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:41
 msgid "TOTAL SPACE"
-msgstr ""
+msgstr "সৰ্বমুঠ স্থান"
 
 #: pyanaconda/ui/gui/spokes/custom.glade.h:42
 msgctxt "GUI|Custom Partitioning"
 msgid "_Reset All"
-msgstr ""
+msgstr "সকলো পুনৰ সংহতি কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:1
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:2
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:3
 msgid "ADD DASD STORAGE TARGET"
-msgstr ""
+msgstr "DASD সংৰক্ষণ লক্ষ্য যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:4
 msgid "To use DASD disks, you must provide the device number."
-msgstr ""
+msgstr "DASD ডিস্কসমূহ ব্যৱহাৰ কৰিবলে, আপুনি ডিভাইচ সংখ্যা প্ৰদান কৰিব লাগিব।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:5
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_Device number:"
-msgstr ""
+msgstr "ডিভাইচৰ সংখ্যা (_D): "
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:6
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_Start Discovery"
-msgstr ""
+msgstr "খোজ আৰম্ভ কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:7
 msgid "Discovering DASD devices.  This may take a moment..."
-msgstr ""
+msgstr "DASD ডিভাইচসমূহ খোজ কৰা হৈছে।  ই কিছু সময় লব পাৰে..."
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:8
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:7
 msgid "Device discovery failed."
-msgstr ""
+msgstr "ডিভাইচৰ খোজ ব্যৰ্থ হল।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:9
 msgid ""
 "The following error occurred discovering DASD devices.  Please double check "
 "your configuration information and try again."
 msgstr ""
+"DASD ডিভাইচসমূহ খোজ কৰোতে নিম্নলিখিত ত্ৰুটি দেখা দিলে।  অনুগ্ৰহ কৰি আপোনাৰ "
+"প্ৰমাণীকৰণ তথ্য আকৌ নিৰীক্ষণ কৰক আৰু পুনৰ চেষ্টা কৰক।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:10
 msgctxt "GUI|Advanced Storage|DASD|Configure"
 msgid "_Retry Discovery"
-msgstr ""
+msgstr "খোজ পুনৰ চেষ্টা কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/dasd.glade.h:11
 msgid "Device discovery succeeded."
@@ -4971,149 +5303,157 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:1
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:2
 msgid ""
 "Please select the network interface which is connected to your FCoE switch."
-msgstr ""
+msgstr "অনুগ্ৰহ কৰি আপোনাৰ FCoE চুইচৰ সৈতে প্ৰসংগ নেটৱৰ্ক আন্তঃপৃষ্ঠ বাছক।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:3
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "_NIC:"
-msgstr ""
+msgstr "NIC (_N):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:4
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "Use _DCB"
-msgstr ""
+msgstr "DCB ব্যৱহাৰ কৰক (_D)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:5
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "Use auto _VLAN"
-msgstr ""
+msgstr "স্বচালিত VLAN ব্যৱহাৰ কৰক (_V)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:6
 msgctxt "GUI|Advanced Storage|FCoE"
 msgid "_Add FCoE Disk(s)"
-msgstr ""
+msgstr "FCoE ডিস্ক(সমূহ) যোগ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:7
 msgid "Error adding FCoE SAN."
-msgstr ""
+msgstr "FCoE SAN যোগ কৰোতে ত্ৰুটি।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/fcoe.glade.h:8
 msgid ""
 "The following error occurred while attempting to add an FCoE SAN.  Please "
 "check your configuration and try again"
 msgstr ""
+"এটা FCoE SAN যোগ কৰোতে নিম্নলিখিত ত্ৰুটি দেখা দিলে।  অনুগ্ৰহ কৰি আপোনাৰ সংৰূপ "
+"পৰিক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:1
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:2
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:3
 msgid "ADD iSCSI STORAGE TARGET"
-msgstr ""
+msgstr "iSCSI সংৰক্ষণ লক্ষ্য যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:4
 msgid ""
 "To use iSCSI disks, you must provide the address of your iSCSI target and "
 "the iSCSI initiator name you've configured for your host."
 msgstr ""
+"iSCSI ডিস্কসমূহ ব্যৱহাৰ কৰিবলে, আপুনি আপোনাৰ iSCSI লক্ষ্যৰ ঠিকনা আৰু আপোনাৰ হস্টৰ "
+"বাবে সংৰূপিত iSCSI initiator ৰ নাম প্ৰদান কৰিব লাগিব।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:5
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_Target IP Address:"
-msgstr ""
+msgstr "লক্ষ্য IP ঠিকনা (_T):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:6
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "iSCSI _Initiator Name:"
-msgstr ""
+msgstr "iSCSI Initiator ৰ নাম (_I):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:7
 msgid "No credentials (discovery authentication disabled)"
-msgstr ""
+msgstr "কোনো তথ্য নাই (খোজ প্ৰমাণীকৰণ অসামৰ্থবান কৰা আছে)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:8
 msgid "CHAP pair"
-msgstr ""
+msgstr "CHAP যোৰ"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:9
 msgid "CHAP pair and a reverse pair"
-msgstr ""
+msgstr "CHAP যোৰ আৰু এটা উলোটা যোৰ"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:10
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "_Discovery Authentication Type:"
-msgstr ""
+msgstr "খোজ প্ৰমাণীকৰণ ধৰণ (_D):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:11
 msgid ""
 "<span size=\"small\"><b>Example:</b> iqn.2012-09.com.example:diskarrays-sn-"
 "a8675309</span>"
 msgstr ""
+"<span size=\"small\"><b>উদাহৰণ:</b> iqn.2012-09.com.example:diskarrays-sn-"
+"a8675309</span>"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:12
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|CHAP"
 msgid "CHAP _User name:"
-msgstr ""
+msgstr "CHAP ব্যৱহাৰকাৰী নাম (_U):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:13
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|CHAP"
 msgid "CHAP _Password:"
-msgstr ""
+msgstr "CHAP পাছৱৰ্ড (_P):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:14
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Reverse CHAP"
 msgid "CHAP _User name:"
-msgstr ""
+msgstr "CHAP ব্যৱহাৰকাৰী নাম (_U):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:15
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Reverse CHAP"
 msgid "CHAP _Password:"
-msgstr ""
+msgstr "CHAP পাছৱৰ্ড (_P):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:16
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Reverse CHAP"
 msgid "Reverse CHAP User _name:"
-msgstr ""
+msgstr "উলোটা CHAP ব্যৱহাৰকাৰী নাম (_n):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:17
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Reverse CHAP"
 msgid "Reverse CHAP Pass_word:"
-msgstr ""
+msgstr "উলোটা CHAP পাছৱৰ্ড (_w):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:18
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Start"
 msgid "_Start Discovery"
-msgstr ""
+msgstr "খোজ আৰম্ভ কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:19
 msgid "Discovering iSCSI targets.  This may take a moment..."
-msgstr ""
+msgstr "iSCSI লক্ষ্যবোৰ খোজ কৰা হৈছে।  ই কিছু সময় ল'ব পাৰে..."
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:20
 msgid "Discovery login rejected."
-msgstr ""
+msgstr "খোজ লগিন নাকচ কৰা হৈছে।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:21
 msgid ""
 "The following error occurred discovering iSCSI targets.  Please double check "
 "your authorization information and try again."
 msgstr ""
+"iSCSI লক্ষ্যবোৰ খোজ কৰোতে নিম্নলিখিত ত্ৰুটি দেখা দিলে।  অনুগ্ৰহ কৰি আপোনাৰ "
+"প্ৰমাণীকৰণ তথ্য আকৌ নিৰীক্ষণ কৰক আৰু পুনৰ চেষ্টা কৰক।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:22
 msgctxt "GUI|Advanced Storage|iSCSI|Configure|Retry"
 msgid "_Retry Discovery"
-msgstr ""
+msgstr "খোজ পুনৰ চেষ্টা কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:23
 msgctxt "GUI|Advanced Storage|iSCSI|Configure"
@@ -5122,11 +5462,11 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:24
 msgid "Node Name"
-msgstr ""
+msgstr "ন'ডৰ নাম"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:25
 msgid "Interface"
-msgstr ""
+msgstr "আন্তঃপৃষ্ঠ"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:26
 msgid "Portal"
@@ -5135,275 +5475,292 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:27
 msgctxt "GUI|Advanced Storage|iSCSI|Login"
 msgid "_Node Login Authentication Type:"
-msgstr ""
+msgstr "ন'ড লগিন প্ৰমাণীকৰণ ধৰণ (_N):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:28
 msgid "Use the credentials from discovery"
-msgstr ""
+msgstr "খোজৰ পৰা তথ্য ব্যৱহাৰ কৰক"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:29
 msgctxt "GUI|Advanced Storage|iSCSI|Login|CHAP"
 msgid "CHAP _User name:"
-msgstr ""
+msgstr "CHAP ব্যৱহাৰকাৰী নাম (_U):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:30
 msgctxt "GUI|Advanced Storage|iSCSI|Login|CHAP"
 msgid "CHAP _Password:"
-msgstr ""
+msgstr "CHAP পাছৱৰ্ড (_P):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:31
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Reverse CHAP"
 msgid "CHAP _User name:"
-msgstr ""
+msgstr "CHAP ব্যৱহাৰকাৰী নাম (_U):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:32
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Reverse CHAP"
 msgid "CHAP _Password:"
-msgstr ""
+msgstr "CHAP পাছৱৰ্ড (_P):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:33
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Reverse CHAP"
 msgid "_Reverse CHAP User name:"
-msgstr ""
+msgstr "উলোটা CHAP ব্যৱহাৰকাৰী নাম (_R):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:34
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Reverse CHAP"
 msgid "Reverse CHAP Pass_word:"
-msgstr ""
+msgstr "উলোটা CHAP পাছৱৰ্ড (_w):"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:35
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
 msgid "_Log In"
-msgstr ""
+msgstr "লগ ইন কৰক (_L)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:36
 msgid "Node login failed."
-msgstr ""
+msgstr "ন'ড লগিন ব্যৰ্থ হল।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:37
 msgid ""
 "The following error occurred logging into the selected iSCSI node.  Please "
 "double check your authorization information and try again"
 msgstr ""
+"নিৰ্বাচিত iSCSI ন'ডত লগিন কৰোতে নিম্নলিখিত ত্ৰুটি দেখা দিলে।  অনুগ্ৰহ কৰি আপোনাৰ "
+"প্ৰমাণীকৰণ তথ্য আকৌ নিৰীক্ষণ কৰক আৰু পুনৰ চেষ্টা কৰক।"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.glade.h:38
 msgctxt "GUI|Advanced Storage|iSCSI|Login|Retry"
 msgid "Retry _Log In"
-msgstr ""
+msgstr "লগ ইন কৰাৰ পুনৰ চেষ্টা কৰক (_L)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:1
 msgid "ADD zFCP STORAGE TARGET"
-msgstr ""
+msgstr "zFCP সংৰক্ষণৰ লক্ষ্য যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:2
 msgid ""
 "To use zFCP disks, you must provide the device number, WWPN, and LUN "
 "configured for the device."
 msgstr ""
+"zFCP ডিস্কসমূহ ব্যৱহাৰ কৰিবলে, আপুনি ডিভাইচ নম্বৰ, WWPN, আৰু ডিভাইচৰ বাবে সংৰূপিত "
+"LUN প্ৰদান কৰিব লাগিব।"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:3
 msgctxt "GUI|Advanced Storage|zFCP|Device Number"
 msgid "_Device number:"
-msgstr ""
+msgstr "ডিভাইচৰ সংখ্যা (_D): "
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:4
 msgid "WWPN:"
-msgstr ""
+msgstr "WWPN:"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:5
 msgctxt "GUI|Advanced Storage|zFCP|Start Discovery"
 msgid "_Start Discovery"
-msgstr ""
+msgstr "খোজ আৰম্ভ কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:6
 msgid "Discovering zFCP devices.  This may take a moment..."
-msgstr ""
+msgstr "zFCP ডিভাইচসমূহ খোজ কৰা হৈছে। ই অলপ সময় লব পাৰে..."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:8
 msgid ""
 "The following error occurred discovering zFCP devices.  Please double check "
 "your configuration information and try again."
 msgstr ""
+"zFCP ডিভাইচবোৰ খোজ কৰোতে নিম্নলিখিত ত্ৰুটি দেখা দিলে।  অনুগ্ৰহ কৰি আপোনাৰ "
+"প্ৰমাণীকৰণ তথ্য আকৌ নিৰীক্ষণ কৰক আৰু পুনৰ চেষ্টা কৰক।"
 
+# translation auto-copied from project anaconda, version f23-branch, document
+# po/anaconda
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:9
 msgctxt "GUI|Advanced Storage|zFCP|Retry Discovery"
 msgid "_Retry Discovery"
-msgstr ""
+msgstr "খোজ পুনৰ চেষ্টা কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade.h:10
 msgid "LUN:"
-msgstr ""
+msgstr "LUN:"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:1
 msgid "SELECTED DISKS"
-msgstr ""
+msgstr "নিৰ্বাচিত ডিস্কসমূহ"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:2
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Close"
-msgstr ""
+msgstr "বন্ধ কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:3
 msgid "Boot"
-msgstr ""
+msgstr "বুট কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:4
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:7
 msgid "Description"
-msgstr ""
+msgstr "বিৱৰণ"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "মুক্ত"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
 msgid "_Remove"
-msgstr ""
+msgstr "আতৰাওক (_R)"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:10
 msgid "Disk summary goes here"
-msgstr ""
+msgstr "ডিস্কৰ সাৰাংশ ইয়াত আহিব"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:1
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:2
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Delete It"
-msgstr ""
+msgstr "ইয়াক মচি পেলাওক (_D)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:3
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:4
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Select"
-msgstr ""
+msgstr "বাছক (_S)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:5
 msgid "CONFIGURE MOUNT POINT"
-msgstr ""
+msgstr "মাউণ্ট বিন্দু সংৰূপণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:6
 msgid "Select one or more disks this device may reside on."
-msgstr ""
+msgstr "এই ডিস্ক থকা এটা বা অধিক ডিস্ক বাছক।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:11
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:12
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Add mount point"
-msgstr ""
+msgstr "মাউণ্ট বিন্দু যোগ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:13
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Desired Capacity:"
-msgstr ""
+msgstr "প্ৰত্যাশিত ক্ষমতা (_D):"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:14
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "Mount _Point:"
-msgstr ""
+msgstr "মাউণ্ট বিন্দু (_P):"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:15
 msgid "ADD A NEW MOUNT POINT"
-msgstr ""
+msgstr "এটা নতুন মাউণ্ট বিন্দু যোগ কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:16
 msgid ""
 "More customization options are available\n"
 "after creating the mount point below."
 msgstr ""
+"তলত মাউণ্ট বিন্দু সৃষ্টি কৰাৰ পিছত\n"
+"অতিৰিক্ত স্বনিৰ্বাচন বিকল্পসমূহ উপলব্ধ।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:18
 msgid ""
 "That mount point is already in\n"
 "use.  Try something else?"
 msgstr ""
+"সেই মাউণ্ট বিন্দু ইতিমধ্যে ব্যৱহৃত।\n"
+"অন্য কিবা চেষ্টা কৰিব?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:20
 msgid "eg: \"20 GB\", \"500mb\" (minus the quotation marks)"
-msgstr ""
+msgstr "উদাহৰণ: \"20 GB\", \"500mb\" (কৌটেষণ চিহ্নসমূহ বাদ দি)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:22
 msgid "Single <span foreground=\"grey\">(No Redundancy, No Striping)</span>"
-msgstr ""
+msgstr "এটা <span foreground=\"grey\">(অতিৰিক্ত নহয়, আতৰোৱা নহয়)</span>"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:29
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:30
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Save"
-msgstr ""
+msgstr "সংৰক্ষণ কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:31
 msgid "CONFIGURE CONTAINER"
-msgstr ""
+msgstr "কনটেইনাৰ সংৰূপণ কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:32
 msgid ""
 "Please create a name for this container and select at least one disk below."
 msgstr ""
+"অনুগ্ৰহ কৰি এই কনটেইনাৰৰ বাবে এটা নাম সৃষ্টি কৰক আৰু তলত অন্তত এটা ডিস্ক বাছক।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:33
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Name:"
-msgstr ""
+msgstr "নাম (_N):"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:34
 msgid "RAID Level:"
-msgstr ""
+msgstr "RAID ৰ স্তৰ:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:35
 msgid "Encrypt"
-msgstr ""
+msgstr "ইনক্ৰিপ্ট কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:36
 msgid "Please enter a valid name."
-msgstr ""
+msgstr "অনুগ্ৰহ কৰি এটা বৈধ নাম সুমুৱাওক।"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:37
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "Si_ze policy:"
-msgstr ""
+msgstr "আকাৰ নীতি (_z):"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:38
 msgid "Automatic"
-msgstr ""
+msgstr "স্বচালিত"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:39
 msgid "As large as possible"
-msgstr ""
+msgstr "যিমান সম্ভৱ ডাঙৰ"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:40
 msgid "Fixed"
-msgstr ""
+msgstr "নিৰ্দিষ্ট"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:1
 msgid "UNFORMATTED DASDS"
-msgstr ""
+msgstr "ফৰমেট নকৰা DASDs"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:2
 msgctxt "GUI|DASD Format Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:3
 msgctxt "GUI|DASD Format Dialog"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:4
 msgid ""
@@ -5414,28 +5771,32 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:5
 msgid "Unformatted DASDs Detected"
-msgstr ""
+msgstr "ফৰমেট নকৰা DASDs চিনাক্ত কৰা হৈছে"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:6
 msgid ""
 "<b>Warning</b>: All storage changes made using the installer will be lost "
 "when you choose to format."
 msgstr ""
+"<b>সতৰ্কবাৰ্তা:</b> ইনস্টলাৰ ব্যৱহাৰ কৰি কৰা সকলো সংৰক্ষণ পৰিবৰ্তন হেৰাই যাব যদি "
+"আপুনি ফৰমেট কৰে।"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:7
 msgctxt "GUI|DASD Format Dialog"
 msgid "_Format with dasdfmt"
-msgstr ""
+msgstr "dasdfmt ৰ সৈতে ফৰমেট কৰক (_F)"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:8
 msgid ""
 "You may <a href=\"\">go back to the main menu</a> to complete other\n"
 "installation options while formatting completes."
 msgstr ""
+"যেতিয়ালৈকে ফৰমেটিং সম্পূৰ্ণ হয় আপুনি অন্য ইনস্টলেষণ বিকল্পসমূহ সম্পূৰ্ণ কৰিবলে\n"
+"<a href=\"\">মূখ্য মেনুত উভতি যাব পাৰে</a>।"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:10
 msgid "Disk formatting complete."
-msgstr ""
+msgstr "ডিস্ক ফৰমেটিং সম্পূৰ্ণ।"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade.h:11
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:11
@@ -5443,10 +5804,12 @@ msgid ""
 "Pressing 'OK' below will take you to the disk selection screen where you "
 "will need to re-select your disks."
 msgstr ""
+"'ঠিক আছে' টিপিলে আপোনাক ডিস্ক নিৰ্বাচন পৰ্দাত লৈ যোৱা হব যত আপুনি আপোনাৰ ডিস্কসমূহ "
+"পুনৰ-নিৰ্বাচন কৰিব লাগিব।"
 
 #: pyanaconda/ui/gui/spokes/lib/detailederror.glade.h:1
 msgid "An unknown error occurred during installation.  Details are below."
-msgstr ""
+msgstr "ইনস্টলেষণৰ সময়ত এটা অজ্ঞাত ত্ৰুটি দেখা দিলে।   বিৱৰণ তলত দিয়া আছে।"
 
 #: pyanaconda/ui/gui/spokes/lib/entropy_dialog.glade.h:1
 msgid ""
@@ -5462,16 +5825,16 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:1
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:2
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Save Passphrase"
-msgstr ""
+msgstr "পাচফ্ৰেইছ সংৰক্ষণ কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:3
 msgid "DISK ENCRYPTION PASSPHRASE"
-msgstr ""
+msgstr "ডিস্ক ইনক্ৰিপষণ পাচফ্ৰেইছ"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:4
 msgid ""
@@ -5479,137 +5842,150 @@ msgid ""
 "passphrase that you will use to access your data when you start your "
 "computer."
 msgstr ""
+"আপুনি আপোনাৰ কিছুমান তথ্য ইনক্ৰিপ্ট কৰিবলে নিৰ্বাচন কৰিছে। আপুনি এটা পাচফ্ৰেইছ সৃষ্টি "
+"কৰিব লাগিব যাক আপুনি আপোনাৰ তথ্য অভিগম কৰিবলে ব্যৱহাৰ কৰিব যেতিয়া আপুনি আপোনাৰ "
+"কমপিউটাৰ আৰম্ভ কৰে।"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:5
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Passphrase:"
-msgstr ""
+msgstr "পাচফ্ৰেইছ (_P):"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:6
 msgctxt "GUI|Passphrase Dialog"
 msgid "Con_firm:"
-msgstr ""
+msgstr "সুনিশ্চিত কৰক (_f):"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade.h:8
 msgid ""
 "Warning: You won't be able to switch between keyboard layouts (from the "
 "default one) when you decrypt your disks after install."
 msgstr ""
+"সতৰ্কবাৰ্তা: আপুনি ইনস্টলৰ পিছত আপোনাৰ ডিস্কসমূহ ডিক্ৰিপ্ট কৰোতে কিবৰ্ড বিন্যাসসমূহ "
+"(অবিকল্পিতৰ পৰা) পৰিবৰ্তন কৰিব নোৱাৰিব।"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:1
 msgid "RESCAN DISKS"
-msgstr ""
+msgstr "ডিস্কসমূহ পুনৰস্কেন কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:2
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:3
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_OK"
-msgstr ""
+msgstr "ঠিক আছে (_O)"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:4
 msgid ""
 "You can remove or insert additional disks at this time and press 'Rescan "
 "Disks' below for the changes to take effect."
 msgstr ""
+"আপুনি এই সময়ত অতিৰিক্ত ডিস্কসমূহ আতৰাব অথবা সুমুৱাব পাৰে আৰু পৰিবৰ্তনসমূহ প্ৰভাৱশালী "
+"হবলে 'ডিস্কসমূহ পুনৰস্কেন কৰক' টিপিব পাৰে।"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:5
 msgid ""
 "<b>Warning:</b> All storage changes made using the installer will be lost "
 "when you press 'Rescan Disks'."
 msgstr ""
+"<b>সতৰ্কবাৰ্তা:</b> ইনস্টলাৰ ব্যৱহাৰ কৰি কৰা সকলো সংৰক্ষণ পৰিবৰ্তন হেৰাই যাব "
+"যেতিয়া আপুনি 'ডিস্কসমূহ পুনৰস্কেন কৰক' টিপিব।"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:6
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_Rescan Disks"
-msgstr ""
+msgstr "ডিস্কসমূহ পুনৰ স্কেন কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:7
 msgid "Scanning disks.  This may take a moment..."
-msgstr ""
+msgstr "ডিস্কসমূহ স্কেন কৰা হৈছে।   ই কিছু সময় লব পাৰে..."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:8
 msgid ""
 "You may <a href=\"\">go back to the main menu</a> to complete other\n"
 "installation options while this scan completes."
 msgstr ""
+"যেতিয়ালৈকে এই স্কেন সম্পূৰ্ণ হয় আপুনি অন্য ইনস্টলেষণ বিকল্পসমূহ সম্পূৰ্ণ কৰিবলে\n"
+"<a href=\"\">মূখ্য মেনুত উভতি যাব পাৰে</a>।"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade.h:10
 msgid "Disk rescan complete."
-msgstr ""
+msgstr "ডিস্ক পুনৰস্কেন সম্পূৰ্ণ।"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:1
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "বাতিল কৰক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:2
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Reclaim space"
-msgstr ""
+msgstr "স্থান পুনৰুদ্ধাৰ কৰক (_R)"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:3
 msgid "RECLAIM DISK SPACE"
-msgstr ""
+msgstr "ডিস্ক স্থান পুনৰুদ্ধাৰ কৰক"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:4
 msgid "Description goes here."
-msgstr ""
+msgstr "বিৱৰণ ইয়াত যাব"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:7
 msgid "File System"
-msgstr ""
+msgstr "ফাইল চিস্টেম"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:8
 msgid "Reclaimable Space"
-msgstr ""
+msgstr "পুনৰুদ্ধাৰ কৰিব পৰা ঠাই"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:9
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:6
 msgid "Action"
-msgstr ""
+msgstr "কাৰ্য্য"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:10
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Preserve"
-msgstr ""
+msgstr "সংৰক্ষণ কৰক (_P)"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:11
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Delete"
-msgstr ""
+msgstr "মচি পেলাওক (_D)"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade.h:12
 msgctxt "GUI|Reclaim Dialog"
 msgid "_Shrink"
-msgstr ""
+msgstr "সংকোচন কৰক (_S)"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:1
 msgid "SUMMARY OF CHANGES"
-msgstr ""
+msgstr "পৰিবৰ্তনসমূহৰ সাৰাংশ"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:2
 msgctxt "GUI|Summary Dialog"
 msgid "_Cancel & Return to Custom Partitioning"
-msgstr ""
+msgstr "বাতিল কৰক আৰু স্বনিৰ্বাচিত বিভাজন প্ৰক্ৰিয়ালৈ উভতি যাওক (_C)"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:3
 msgctxt "GUI|Summary Dialog"
 msgid "_Accept Changes"
-msgstr ""
+msgstr "পৰিবৰ্তনসমূহ গ্ৰহণ কৰক (_A)"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:4
 msgid ""
 "Your customizations will result in the following changes taking effect after "
 "you return to the main menu and begin installation:"
 msgstr ""
+"আপোনাৰ স্বনিৰ্বাচনসমূহে নিম্নলিখিত পৰিবৰ্তনসমূহ প্ৰভাৱশালী কৰিব যেতিয়া আপুনি মূখ্য "
+"মেনুলৈ উভতি গৈ ইনস্টলেষণ আৰম্ভ কৰে:"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:5
 msgid "Order"
-msgstr ""
+msgstr "ক্ৰম"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:8
 msgid "Device Name"
@@ -5617,84 +5993,87 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade.h:9
 msgid "Mount point"
-msgstr ""
+msgstr "মাউণ্ট বিন্দু"
 
 #: pyanaconda/ui/gui/main.glade.h:3
 msgctxt "GUI|Main"
 msgid "_No"
-msgstr ""
+msgstr "নহয় (_N)"
 
 #: pyanaconda/ui/gui/main.glade.h:4
 msgctxt "GUI|Main"
 msgid "_Yes"
-msgstr ""
+msgstr "হয় (_Y)"
 
 #: pyanaconda/ui/gui/main.glade.h:5
 msgid ""
 "Are you sure you wish to quit the\n"
 "installation process?"
 msgstr ""
+"আপুনি ইনস্টলেষণ প্ৰক্ৰিয়া প্ৰস্থান কৰিবলে\n"
+"নিশ্চিত নে?"
 
 #: pyanaconda/ui/gui/main.glade.h:7
 msgid "Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:1
 msgid "INSTALLATION SUMMARY"
-msgstr ""
+msgstr "ইনস্টলেষণৰ সাৰাংশ"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:2
 msgctxt "GUI|Summary"
 msgid "_Quit"
-msgstr ""
+msgstr "প্ৰস্থান কৰক (_Q)"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:3
 msgctxt "GUI|Summary"
 msgid "_Begin Installation"
-msgstr ""
+msgstr "ইনস্টলেষণ আৰম্ভ কৰক (_B)"
 
 #: pyanaconda/ui/gui/hubs/summary.glade.h:4
 msgid "We won't touch your disks until you click 'Begin Installation'."
 msgstr ""
+"যেতিয়ালৈকে আপুনি 'ইণ্টলেষণ আৰম্ভ কৰক' ক্লিক নকৰে আমি আপোনাৰ ডিস্কসমূহ স্পৰ্শ নকৰো।"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:1
 msgid "CONFIGURATION"
-msgstr ""
+msgstr "সংৰূপ"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "ইনস্টলৰ প্ৰস্তুতি"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
 msgid "_Finish configuration"
-msgstr ""
+msgstr "সংৰূপ সম্পূৰ্ণ কৰক (_F)"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:4
 msgctxt "GUI|Progress"
 msgid "_Reboot"
-msgstr ""
+msgstr "পুনৰাম্ভ কৰক (_R)"
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "হাৰ্ড ড্ৰাইভত ইনস্টল কৰক"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "ইনস্টল"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "লাইভ CD ক আপোনাৰ হাৰ্ড ডিষ্কত ইনস্টল কৰক"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
-msgstr ""
+msgstr "হাৰ্ড ড্ৰাইভলে ইনস্টল আৰম্ভ কৰা হৈছে "
 
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
 msgid "Welcome to Fedora"
-msgstr ""
+msgstr "Fedora লৈ স্বাগতম"
 
 #: anaconda:478
 #, python-format
@@ -5702,6 +6081,8 @@ msgid ""
 "%(product_name)s requires %(needed_ram)s MB of memory to install, but you "
 "only have %(total_ram)s MB on this machine.\n"
 msgstr ""
+"%(product_name)s ক ইনস্টল হ'বলৈ %(needed_ram)s MB মেমৰিৰ প্ৰয়োজন, কিন্তু আপোনাৰ "
+"এই মেচিনত কেৱল %(total_ram)s MB মেমৰি আছে। \n"
 
 #: anaconda:480
 #, python-format
@@ -5710,16 +6091,21 @@ msgid ""
 "memory, but you only have %(total_ram)s MB\n"
 "."
 msgstr ""
+"%(product_name)s গ্ৰাফিকেল ইনস্টলাৰৰ %(needed_ram)s MB মেমৰিৰ প্ৰয়োজন, কিন্তু "
+"আপোনাৰ কেৱল %(total_ram)s MB মেমৰি আছে\n"
+"।"
 
 #: anaconda:483
 msgid ""
 "\n"
 "Press <return> to reboot your system.\n"
 msgstr ""
+"\n"
+"আপোনাৰ চিস্টেম পুনৰাম্ভ কৰিবলৈ <return> টিপক।\n"
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "পৰ্যাপ্ত RAM নাই"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +6115,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+" লিখনি অৱস্থা ইনস্টল চেষ্টা কৰক চলাই:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+" এটা ৰুট টাৰ্মিনেলৰ পৰা।"
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr "লিখনি অৱস্থা আৰম্ভ কৰা হৈছে।"
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +6131,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "DISPLAY চলকৰ মান নিৰ্ধাৰণ কৰা নহয়। টেক্সট অৱস্থাত আৰম্ভ কৰা হৈছে।"
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "চিত্ৰাঙ্কিত ইনস্টল ব্যৱস্থা উপস্থিত নাই। টেক্সট অৱস্থা আৰম্ভ কৰা হৈছে।"
 
 #: anaconda:660
 msgid ""
@@ -5752,19 +6143,22 @@ msgid ""
 "custom partitioning for full control over the disk layout. Would you like to "
 "use VNC mode instead?"
 msgstr ""
+"লিখনি অৱস্থায় এটা সীমিত ইনস্টল বিকল্পসমূহৰ সংহতি দেখুৱায়। ই ডিস্ক বিন্যাসৰ বাবে "
+"সম্পূৰ্ণ নিয়ন্ত্ৰণৰ কাৰণে স্বনিৰ্বাচিত বিভাজন প্ৰক্ৰিয়া প্ৰদান নকৰে। ইয়াৰ পৰিৱৰ্তে আপুনি "
+"VNC অৱস্থা ব্যৱহাৰ কৰিব বিচাৰে নেকি?"
 
 #: anaconda:756
 #, python-format
 msgid "Please ssh install@%s to begin the install."
-msgstr ""
+msgstr "ইনস্টল আৰম্ভ কৰিবলে অনুগ্ৰহ কৰি ssh install@%s কৰক।"
 
 #: anaconda:758
 msgid "Please ssh install@<host> to continue installation."
-msgstr ""
+msgstr "ইনস্টলেষণ চলাই থাকিবলে অনুগ্ৰহ কৰি ssh install@<host>।"
 
 #: data/liveinst/gnome/fedora-welcome:94
 msgid "Try Fedora"
-msgstr ""
+msgstr "Fedora ব্যৱহাৰ কৰি চাওক"
 
 #: data/liveinst/gnome/fedora-welcome:110
 msgid ""
@@ -5772,13 +6166,18 @@ msgid ""
 "You can install Fedora now, or choose \"Install to Hard Drive\" in the "
 "Activities Overview at any later time."
 msgstr ""
+"আপুনি বৰ্তমানে Fedora ক জীৱন্ত মাধ্যমৰ পৰা ব্যৱহাৰ কৰি আছে।\n"
+"আপুনি Fedora ক এতিয়া ইনস্টল কৰিব পাৰে, অথবা পিছত যিকোনো সময়ত কাৰ্য্যসমূহ অভাৰভিউত "
+"\"হাৰ্ড ড্ৰাইভলে ইনস্টল কৰক\" নিৰ্বাচন কৰিব পাৰে।"
 
 #: data/liveinst/gnome/fedora-welcome:128
 msgid ""
 "You can choose \"Install to Hard Drive\"\n"
 "in the Activities Overview at any later time."
 msgstr ""
+"আপুনি পিছত যিকোনো সময় কাৰ্য্যসমূহ অভাৰভিউত\n"
+"\"হাৰ্ড ড্ৰাইভলে ইনস্টল কৰক\" নিৰ্বাচন কৰিব পাৰে।"
 
 #: data/liveinst/gnome/fedora-welcome:131
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ কৰক"

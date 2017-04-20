@@ -1,22 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Red Hat, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Abbas Izad <abbasizad@hotmail.com>, 2003-2004
+# adib rastegarnia <adib.rastegar.ir@gmail.com>, 2011
+# Amir Farsi <amir1368@gmail.com>, 2013
+# Daniyal Yousefi <da.yousefi@gmail.com>, 2011
+# dcantrel <dcantrell@redhat.com>, 2011
+# Dimitris Glezos <glezos@transifex.com>, 2011
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2006
+# Hamed Malek <hamed@farsiweb.info>, 2005
+# Hedayat Vatankhah <hedavat@mail15.com>, 2004
+# Meelad Zakaria <meelad@farsiweb.info>, 2005-2006
+# Noori <nanopqr@gmail.com>, 2011
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2005-2006
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 21.48.22.93\n"
+"Project-Id-Version: anaconda 21.48.22.91\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-09-26 15:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-23 01:17-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Persian (http://www.transifex.com/projects/p/anaconda/"
+"language/fa/)\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: pyanaconda/bootloader.py:253
 msgid "/boot file system"
@@ -123,11 +136,11 @@ msgstr ""
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
-msgstr ""
+msgstr "آغاز VNC"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr ""
+msgstr "استفاده از حالت متنی"
 
 #: pyanaconda/constants.py:139
 msgid "The password is empty."
@@ -225,7 +238,7 @@ msgstr ""
 
 #: pyanaconda/errors.py:133 pyanaconda/ui/gui/main.glade.h:1
 msgid "_Exit Installer"
-msgstr ""
+msgstr "_خروج از نصب کننده"
 
 #: pyanaconda/errors.py:133
 msgid "_Retry"
@@ -448,7 +461,7 @@ msgstr ""
 
 #: pyanaconda/install.py:199 pyanaconda/kickstart.py:2198
 msgid "Running pre-installation scripts"
-msgstr ""
+msgstr "اجرای اسکریپ های پیش-نصب"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
@@ -488,6 +501,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"خطای زیر هنگام دانلود گواهی نامه رخ داد:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:247
 #, python-format
@@ -815,7 +831,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:306
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:61
 msgid "Unknown"
-msgstr ""
+msgstr "ناشناخته"
 
 #: pyanaconda/network.py:1436
 msgid "Connecting..."
@@ -891,7 +907,7 @@ msgstr ""
 #: pyanaconda/rescue.py:67
 #, python-format
 msgid "Run %s to unmount the system when you are finished."
-msgstr ""
+msgstr "%s را برای از مانت بیرون کردن سیستم وقتی شما تمام کردید اجرا کنید."
 
 #: pyanaconda/rescue.py:70
 msgid "When finished, please exit from the shell and your system will reboot."
@@ -903,11 +919,11 @@ msgstr ""
 
 #: pyanaconda/rescue.py:120
 msgid "Rescue"
-msgstr ""
+msgstr "نجات"
 
 #: pyanaconda/rescue.py:132
 msgid "Continue"
-msgstr ""
+msgstr "ادامه"
 
 #: pyanaconda/rescue.py:132
 msgid "Read-only mount"
@@ -1003,7 +1019,7 @@ msgstr ""
 
 #: pyanaconda/rescue.py:403
 msgid "You don't have any Linux partitions.  Rebooting.\n"
-msgstr ""
+msgstr "شما هیچ پارتیشن لینوکسی ندارید. در حال بارگذاری مجدد.\n"
 
 #: pyanaconda/rescue.py:410
 msgid "The system will reboot automatically when you exit from the shell.\n"
@@ -1052,18 +1068,24 @@ msgid ""
 "The 'swap' area on your computer is used by the operating\n"
 "system when running low on memory."
 msgstr ""
+"فضای 'swap' روی رایانه شما توسط سیستم عامل\n"
+"زمانی که روی حافظه اصلی به کندی اجرا میشود استفاده شده است."
 
 #: pyanaconda/storage_utils.py:71
 msgid ""
 "The 'boot' area on your computer is where files needed\n"
 "to start the operating system are stored."
 msgstr ""
+"فضای 'boot' روی رایانه شما جایی است که پرونده‌های مورد نیاز\n"
+"برای آغاز بکار سیستم عامل ذخیره شده‌اند."
 
 #: pyanaconda/storage_utils.py:73
 msgid ""
 "The 'root' area on your computer is where core system\n"
 "files and applications are stored."
 msgstr ""
+"فضای 'root' روی رایانه شما جایی است که پرونده‌های\n"
+"هسته سیستم و برنامه‌های کاربردی ذخیره شده‌اند."
 
 #: pyanaconda/storage_utils.py:75
 msgid ""
@@ -1191,32 +1213,31 @@ msgstr ""
 #: pyanaconda/vnc.py:74
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
-msgstr ""
+msgstr "نصب %(productName)s %(productVersion)s"
 
 #: pyanaconda/vnc.py:137
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s  نصب  در میزبان %(name)s"
 
 #: pyanaconda/vnc.py:156
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
-msgstr ""
+msgstr "در حال تلاش برای وصل شدن به کارگیر vnc در میزبان %s..."
 
 #: pyanaconda/vnc.py:170
 msgid "Connected!"
-msgstr ""
+msgstr "وصل شد!"
 
 #: pyanaconda/vnc.py:173
 msgid "Will try to connect again in 15 seconds..."
-msgstr ""
+msgstr "۱۵ ثانیهٔ دیگر باز برای اتصال تلاش خواهد شد..."
 
 #: pyanaconda/vnc.py:180
-#, python-format
+#, fuzzy, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "بعد از %d بار تلاش برای وصل شدن از این کار چشم پوشی شد!\n"
 
 #: pyanaconda/vnc.py:188
 msgid "Attempting to start vncconfig"
@@ -1225,7 +1246,7 @@ msgstr ""
 #: pyanaconda/vnc.py:201
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
-msgstr ""
+msgstr "برای شروع نصب، لطفاً کارگیر vnc خود را دستی به %s متصل کنید."
 
 #: pyanaconda/vnc.py:203
 #, python-format
@@ -1237,11 +1258,11 @@ msgstr ""
 
 #: pyanaconda/vnc.py:208
 msgid "Starting VNC..."
-msgstr ""
+msgstr "در حال آغاز VNC..."
 
 #: pyanaconda/vnc.py:245
 msgid "The VNC server is now running."
-msgstr ""
+msgstr "کارگزار VNC در حال اجرا است."
 
 #: pyanaconda/vnc.py:249
 msgid ""
@@ -1253,6 +1274,13 @@ msgid ""
 "to the vncviewer is unsuccessful\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"شما انتخاب کرده اید به یک گوشدهنده ی vncviewer متصل شوید.\n"
+"این نیاز به تنطیم کلمه عبور ندارد. اگر شما \n"
+"کلمه ی عبوری تنظیم کردید، هنگام اتصال استفاده خواهد شد \n"
+"برای vncviewer که ناموفق نیست\n"
+"\n"
 
 #: pyanaconda/vnc.py:254
 msgid ""
@@ -1263,6 +1291,11 @@ msgid ""
 "if you would like to secure the server.\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"اخطار!!! کارگزار VNC دارد بدون گذرواژه اجرا می‌شود!\n"
+"اگر مایل به امن کردن کارگزار هستید، می‌توانید از گزینهٔ راه‌اندازی\n"
+"‏‪vncpassword=<گذرواژه>‬ استفاده کنید.\n"
 
 #: pyanaconda/vnc.py:258
 msgid ""
@@ -1271,6 +1304,9 @@ msgid ""
 "You chose to execute vnc with a password. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"شما باید اجرای وی‌ان‌سی با کلمه عبور انتخاب کنید\n"
 
 #: pyanaconda/vnc.py:260
 msgid ""
@@ -1279,6 +1315,10 @@ msgid ""
 "Unknown Error.  Aborting. \n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"خطای نامعلوم\n"
+"\n"
 
 #: pyanaconda/vnc.py:282
 msgid ""
@@ -1320,15 +1360,15 @@ msgstr ""
 
 #: pyanaconda/packaging/yumpayload.py:1426
 msgid "Starting package installation process"
-msgstr ""
+msgstr "در حال آغاز فرآیند نصب بسته"
 
 #: pyanaconda/packaging/yumpayload.py:1461
 msgid "Preparing transaction from installation source"
-msgstr ""
+msgstr "آماده سازی اجرا از منبع نصب"
 
 #: pyanaconda/packaging/yumpayload.py:1462
 msgid "Installing"
-msgstr ""
+msgstr "در حال نصب"
 
 #: pyanaconda/packaging/rpmostreepayload.py:158
 #, python-format
@@ -1368,7 +1408,7 @@ msgstr ""
 
 #: pyanaconda/ui/categories/software.py:31
 msgid "SOFTWARE"
-msgstr ""
+msgstr "نرم افزار"
 
 #: pyanaconda/ui/categories/system.py:32
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:166
@@ -1413,7 +1453,6 @@ msgstr ""
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/lib/entropy.py:102
 #, python-format
@@ -1441,7 +1480,6 @@ msgid_plural ""
 "unselected disks %(unselected)s. You must select or de-select these disks as "
 "a set."
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/tui/hubs/summary.py:35
 msgid "Installation"
@@ -1516,7 +1554,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/tuiobject.py:30 pyanaconda/ui/gui/main.glade.h:2
 msgid "Error"
-msgstr ""
+msgstr "خطا"
 
 #: pyanaconda/ui/tui/tuiobject.py:51
 msgid "Press enter to exit."
@@ -1609,7 +1647,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:154
 msgid "The password must be at least six characters long."
-msgstr ""
+msgstr "طول گذرواژه باید حداقل شش نویسه باشد."
 
 #: pyanaconda/ui/tui/spokes/askvnc.py:158
 msgid "The password cannot be more than eight characters long."
@@ -2312,21 +2350,22 @@ msgstr ""
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_No"
-msgstr ""
+msgstr "_خیر"
 
 #: pyanaconda/ui/gui/__init__.py:878
 msgid "_Yes"
-msgstr ""
+msgstr "_بله"
 
 #: pyanaconda/ui/gui/hubs/__init__.py:242
 msgid ""
 "Please complete items marked with this icon before continuing to the next "
 "step."
 msgstr ""
+"لطفاً اقلام علامت زده شده با این شمایل را قبل از رفتن به مرحله بعد تکمیل کنید."
 
 #: pyanaconda/ui/gui/hubs/progress.py:112
 msgid "Complete!"
-msgstr ""
+msgstr "تمام!"
 
 #: pyanaconda/ui/gui/hubs/progress.py:140
 #, python-format
@@ -2383,7 +2422,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/custom.py:139
 #: pyanaconda/ui/gui/spokes/custom.glade.h:12
 msgid "MANUAL PARTITIONING"
-msgstr ""
+msgstr "پارتیشن بندی دستی"
 
 #: pyanaconda/ui/gui/spokes/custom.py:356
 #, python-format
@@ -2391,7 +2430,6 @@ msgctxt "GUI|Custom Partitioning"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:508
 #, python-format
@@ -2449,7 +2487,6 @@ msgctxt "GUI|Custom Partitioning|Devices"
 msgid " and %d other"
 msgid_plural " and %d others"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/custom.py:1450
 msgid "The container is encrypted."
@@ -2604,7 +2641,6 @@ msgctxt "GUI|Installation Destination|Filter"
 msgid "%d _storage device selected"
 msgid_plural "%d _storage devices selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:48
 #, python-format
@@ -2724,12 +2760,12 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/network.py:895
 #: pyanaconda/ui/gui/spokes/network.glade.h:16
 msgid "IPv4 Address"
-msgstr ""
+msgstr "آدرس IPv4"
 
 #: pyanaconda/ui/gui/spokes/network.py:896
 #: pyanaconda/ui/gui/spokes/network.glade.h:15
 msgid "IPv6 Address"
-msgstr ""
+msgstr "آدرس IPv6"
 
 #: pyanaconda/ui/gui/spokes/network.py:898
 #: pyanaconda/ui/gui/spokes/network.py:900
@@ -3083,7 +3119,6 @@ msgstr ""
 msgid "%(count)d disk selected; %(capacity)s capacity; %(free)s free"
 msgid_plural "%(count)d disks selected; %(capacity)s capacity; %(free)s free"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/storage.py:797
 msgid ""
@@ -3211,7 +3246,6 @@ msgid_plural ""
 "<b>%(count)d disks; %(size)s capacity; %(free)s free space</b> "
 "(unpartitioned and in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.py:191
 msgctxt "GUI|Selected Disks Dialog"
@@ -3380,7 +3414,6 @@ msgid "<b>%(count)s disk; %(size)s reclaimable space</b> (in file systems)"
 msgid_plural ""
 "<b>%(count)s disks; %(size)s reclaimable space</b> (in file systems)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:238
 #, python-format
@@ -3433,7 +3466,7 @@ msgstr ""
 
 #: widgets/src/StandaloneWindow.c:50
 msgid "_Continue"
-msgstr ""
+msgstr "...ادامه"
 
 #: widgets/src/LayoutIndicator.c:33
 #, c-format
@@ -3682,7 +3715,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:6
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:9
 msgid "Capacity"
-msgstr ""
+msgstr "ظرفیت"
 
 #: pyanaconda/ui/gui/spokes/filter.glade.h:14
 msgid "Interconnect"
@@ -4661,7 +4694,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:10
 msgid "What language would you like to use during the installation process?"
-msgstr ""
+msgstr "در طی روند نصب می‌خواهید از چه زبانی استفاده کنید؟"
 
 #: pyanaconda/ui/gui/spokes/welcome.glade.h:14
 msgid "Languages"
@@ -5255,7 +5288,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:7
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade.h:10
 msgid "Free"
-msgstr ""
+msgstr "آزاد"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade.h:9
 msgctxt "GUI|Selected Disks Dialog"
@@ -5663,7 +5696,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:2
 msgid "Preparing to install"
-msgstr ""
+msgstr "آماده ی نصب"
 
 #: pyanaconda/ui/gui/hubs/progress.glade.h:3
 msgctxt "GUI|Progress"
@@ -5677,19 +5710,19 @@ msgstr ""
 
 #: data/liveinst/liveinst.desktop.in.h:1
 msgid "Install to Hard Drive"
-msgstr ""
+msgstr "نصب بر روی درایو هارد"
 
 #: data/liveinst/liveinst.desktop.in.h:2
 msgid "Install"
-msgstr ""
+msgstr "نصب"
 
 #: data/liveinst/liveinst.desktop.in.h:3
 msgid "Install the live CD to your hard disk"
-msgstr ""
+msgstr "نصب سی‌دی زنده بر روی هارد دیسک"
 
 #: /home/sbueno/scm/anaconda/data/liveinst/console.apps/liveinst:5
 msgid "Starting Install to Hard Drive"
-msgstr ""
+msgstr "آغاز نصب بر روی هارد دیسک"
 
 #: data/liveinst/gnome/fedora-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fedora-welcome:65
@@ -5719,7 +5752,7 @@ msgstr ""
 
 #: anaconda:485
 msgid "Not enough RAM"
-msgstr ""
+msgstr "فضای کافی بر روی رم وجود ندارد"
 
 #: anaconda:486
 msgid ""
@@ -5729,10 +5762,15 @@ msgid ""
 "\n"
 " from a root terminal."
 msgstr ""
+"نصب‌کننده حالت متنی را با اجرای:\n"
+"\n"
+"'/usr/bin/liveinst -T'\n"
+"\n"
+"از راه یک پایانه ریشه امتحان کنید."
 
 #: anaconda:489
 msgid " Starting text mode."
-msgstr ""
+msgstr "شروع حالت متنی "
 
 #: anaconda:525
 msgid "The installation cannot continue and the system will be rebooted"
@@ -5740,11 +5778,11 @@ msgstr ""
 
 #: anaconda:644
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr ""
+msgstr "متغیر نمایشگر تنظیم نشده است. آغاز مدل متنی"
 
 #: anaconda:652
 msgid "Graphical installation is not available. Starting text mode."
-msgstr ""
+msgstr "نصب گرافیکی ممکن نیست..حالت متنی آغاز می‌شود."
 
 #: anaconda:660
 msgid ""
