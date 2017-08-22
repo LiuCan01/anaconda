@@ -24,9 +24,9 @@ from blivet.devicelibs import swap
 from blivet.size import Size
 
 class ESBaseInstallClass(BaseInstallClass):
-    name = "ESCore Linux"
+    name = "EasyStack Cloud Linux"
     sortPriority = 30001
-    if not productName.startswith("ESCore"):
+    if not productName.startswith("EasyStack Cloud Linux"):
         hidden = True
     defaultFS = "xfs"
 
@@ -41,7 +41,7 @@ class ESBaseInstallClass(BaseInstallClass):
     efi_dir = "escore"
 
     help_placeholder = "ESCorePlaceholder.html"
-    help_placeholder_with_links = "ESCorePlaceholder.html"
+    help_placeholder_with_links = "ESCorePlaceholderWithLinks.html"
 
     def configure(self, anaconda):
         BaseInstallClass.configure(self, anaconda)
